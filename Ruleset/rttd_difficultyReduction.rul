@@ -1,6 +1,6 @@
 # general difficulty reduction:
 
-difficulty:
+
 difficultyCoefficient: [0, 1, 2, 3, 4] #was: [0, 1, 2, 4, 6]
 aimAndArmorMultipliers: [0.2, 0.4, 0.6, 0.8, 1.0] #was: [0.4, 0.7, 1.0, 1.1, 1.2]
 statGrowthMultipliers:
@@ -18,9 +18,9 @@ statGrowthMultipliers:
 turnAIUseGrenade: 3 #was: 2
 turnAIUseBlaster: 3 #was: 2
 constants:
-  - damageRange: 50 #was: 50
-  - explosiveDamageRange: 50 #was: 50
-  - fireDamageRange: [5, 10]
+  damageRange: 50 #was: 50
+  explosiveDamageRange: 50 #was: 50
+  fireDamageRange: [5, 10]
 
 #less cannons, more pistols
 
@@ -260,7 +260,7 @@ armors:
       - 1.6 #was: 1.6
       - 1.5 #was: 1.5
       - 1.0 #was: 1.0
-    loftemps: 2
+    loftempsSet: [ 2 ]
     drawingRoutine: 15
 
   - type: GILLMAN_ARMOR0

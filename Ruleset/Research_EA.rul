@@ -55,7 +55,7 @@ research:
     dependencies:
       - STR_ION_PISTOL
 
-  - name: STR_LASER_PISTOL
+  - name: STR_ZRBITE_LASER_PISTOL
     cost: 300
     points: 25
     dependencies:
