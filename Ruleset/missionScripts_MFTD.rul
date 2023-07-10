@@ -1,0 +1,71 @@
+missionScripts: 
+
+# [=] Delete default Mission Scripts [=]
+  - delete: shipTerror
+  - delete: recurringTerror
+  - delete: artifacts
+
+
+# [=] Artifact Site [=]
+  - type: artifacts
+    label: 1
+    missionWeights:
+      0:
+        STR_ALIEN_ARTIFACT: 100
+    regionWeights:
+      0:
+        ARTIFACT_SITES: 100
+    avoidRepeats: 12
+    maxRuns: 12
+    varName: artifacts
+    useTable: false
+    firstMonth: 6
+    executionOdds: 50
+    startDelay: 0
+
+
+# [=] Cruise Ship & Cargo Ship [=] (Terror Mission)
+  - type: shipTerror
+    conditionals: [-1]
+    label: 2
+    missionWeights:
+      0:
+        STR_ALIEN_SHIP_ATTACK: 50
+        STR_MFTD_ALIEN_TERROR_MISSION_WAREHOUSE: 50 # Warehouse (Arms & Volatile)
+        STR_MFTD_ALIEN_TERROR_MISSION_OTHER_SHIPS: 50 # Warship & Oil Tanker
+        STR_MFTD_ALIEN_TERROR_MISSION_SURFACE_BASE: 50 # Surface Base + (Ocean Labs / Small Ocean Lab / Underwater Base)
+        STR_MFTD_ALIEN_TERROR_MISSION_TRENCHUPPERBASE: 50 # Trench Base + (Ocean Labs / Small Ocean Lab / Underwater Base)
+        STR_MFTD_ALIEN_TERROR_MISSION_OFFSHORE_RIG: 50 # Offshore Rig
+    regionWeights:
+      0:
+#        SHIPPING_LANES: 100
+        MFTD_SHIPPING_LANES_WIDE: 100
+    avoidRepeats: 5
+    varName: shippingLanes
+    useTable: false
+    firstMonth: 3
+    executionOdds: 60
+    startDelay: 0
+
+
+# [=] Island & Port Terror Mission [=]
+  - type: recurringTerror
+    conditionals: [-1, -2]
+    missionWeights:
+      0:
+        STR_ALIEN_SURFACE_ATTACK: 50
+    regionWeights:
+      0:
+        STR_NORTH_ATLANTIC: 10
+        STR_SOUTH_ATLANTIC: 10
+        STR_NORTH_PACIFIC: 10
+        STR_SOUTH_PACIFIC: 10
+        STR_MEDITERRANEAN: 10
+        STR_SOUTH_CHINA_SEA: 10
+        STR_INDIAN_OCEAN: 10
+        STR_THE_EAST_SEA: 10
+        STR_NORTH_SEA: 10
+        STR_CARRIBEAN: 10
+    useTable: false
+    startDelay: 150
+

@@ -1,0 +1,910 @@
+terrains: #done
+
+#Unused, eventually to have modified nodes
+  - name: COLDISLE
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - COLDISLEA1
+      - COLDISLEA2
+      - SEA
+      - COLDISLEB1
+      - COLDISLEB2
+    ambience: 67
+    ambientVolume: 0.25
+    mapBlocks:
+      - name: COLDISLE00A
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: COLDISLE01A
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: COLDISLE02A
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: COLDISLE03A
+        width: 10
+        length: 10
+      - name: COLDISLE04A
+        width: 10
+        length: 10
+      - name: COLDISLE05A
+        width: 10
+        length: 10
+      - name: COLDISLE06A
+        width: 10
+        length: 10
+      - name: COLDISLE07A
+        width: 10
+        length: 10
+      - name: COLDISLE08A
+        width: 10
+        length: 10
+      - name: COLDISLE09A
+        width: 10
+        length: 10
+      - name: COLDISLE10A
+        width: 10
+        length: 10
+      - name: COLDISLE11A
+        width: 10
+        length: 10
+      - name: COLDISLE12A
+        width: 20
+        length: 20
+      - name: COLDISLE13A
+        width: 20
+        length: 20
+      - name: COLDISLE14A
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE15A
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE16A
+        width: 10
+        length: 10
+        groups: 3
+
+#Polar Research station
+  - name: COLDISLE_TERROR
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - COLDISLEA1
+      - COLDISLEA2
+      - SEA
+      - COLDISLEB1
+      - COLDISLEB2
+    civilianTypes:
+      - DOCKER_CIVILIAN
+      - SCIENTIST_CIVILIAN
+    ambience: 67
+    ambientVolume: 0.25
+    mapBlocks:
+      - name: COLDISLE00
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE01
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE02
+        width: 10
+        length: 10
+        groups: [1, 2]
+      - name: COLDISLE03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE04
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE05
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE06
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE07
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE08
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE09
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE10
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE11
+        width: 10
+        length: 10
+        groups: 2
+      - name: COLDISLE12
+        width: 20
+        length: 20
+      - name: COLDISLE27
+        width: 20
+        length: 20
+      - name: COLDISLE14
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE16
+        width: 10
+        length: 10
+        groups: 3
+      - name: COLDISLE17
+        width: 10
+        length: 10
+      - name: COLDISLE18
+        width: 10
+        length: 10
+      - name: COLDISLE19
+        width: 10
+        length: 10
+      - name: COLDISLE20
+        width: 10
+        length: 10
+      - name: COLDISLE21
+        width: 10
+        length: 10
+      - name: COLDISLE22
+        width: 10
+        length: 10
+      - name: COLDISLE23
+        width: 10
+        length: 10
+      - name: COLDISLE24
+        width: 10
+        length: 10
+      - name: COLDISLE25
+        width: 10
+        length: 10
+      - name: COLDISLE26
+        width: 10
+        length: 10
+      - name: COLDISLE28
+        width: 20
+        length: 20
+      - name: COLDISLE30
+        width: 20
+        length: 20
+        groups: 4
+  - name: COMRCURBAN 
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - COMROADS
+      - COMBITS
+      - COMMERCE
+      - COMFRN
+      - COMDECOR
+    civilianTypes: &CIVILIANS_SET_BEACH
+      - FEMALE_CIVILIAN
+      - MALE_CIVILIAN
+      - CIVILIAN_GREY_SUIT
+      - CIVILIAN_WHITE_SUIT
+      - CIVILIAN_STRONG_WOMAN
+      - MFTD_CIV_MILITARY_MALE
+      - MFTD_CIV_MILITARY_FEMALE
+    script: COMRCURBAN
+    ambience: 67
+    ambientVolume: 0.25
+    mapBlocks:
+      - name: COMRCURBAN00
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN01
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN02
+        width: 10
+        length: 10
+        groups: 4
+      - name: COMRCURBAN03
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN04
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN05
+        width: 20
+        length: 20
+      - name: COMRCURBAN06
+        width: 20
+        length: 20
+      - name: COMRCURBAN07
+        width: 20
+        length: 20
+      - name: COMRCURBAN08
+        width: 20
+        length: 20
+      - name: COMRCURBAN09
+        width: 20
+        length: 20
+      - name: COMRCURBAN10
+        width: 20
+        length: 20
+      - name: COMRCURBAN11
+        width: 20
+        length: 20
+      - name: COMRCURBAN12
+        width: 20
+        length: 20
+      - name: COMRCURBAN13
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN14
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN15
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN16
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN17
+        width: 10
+        length: 10
+        groups: 3
+      - name: COMRCURBAN18
+        width: 10
+        length: 10
+        groups: 2
+      - name: COMRCURBAN19
+        width: 10
+        length: 10
+        groups: 1
+      - name: COMRCURBAN20
+        width: 10
+        length: 10
+        groups: 4
+
+  - name: URBAN_DRY
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - NROADS
+      - NURBITS2
+      - NURBAN
+      - NFRNITURE
+      - BEACHBITS
+    civilianTypes: *CIVILIANS_SET_BEACH
+    script: URBAN
+    ambience: 67
+    ambientVolume: 0.25
+    mapBlocks:
+      - name: URBEACH01
+        width: 10
+        length: 10
+        groups: 5
+      - name: URBEACH02
+        width: 10
+        length: 10
+        groups: 5
+      - name: URBEACH03
+        width: 10
+        length: 10
+        groups: 5
+      - name: URBAN00c
+        width: 10
+        length: 10
+        groups: 2
+      - name: URBAN02a
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN02b
+        width: 10
+        length: 10
+        groups: 4
+      - name: URBAN03
+        width: 10
+        length: 10
+        groups: [0, 1]
+#      - name: URBAN05
+#        width: 20
+#        length: 20
+#      - name: URBAN05b
+#        width: 20
+#        length: 20
+#      - name: URBAN05c
+#        width: 20
+#        length: 20
+      - name: URBAN06
+        width: 20
+        length: 20
+      - name: URBAN06a
+        width: 20
+        length: 20
+      - name: URBAN06b
+        width: 20
+        length: 20
+      - name: URBAN06c
+        width: 20
+        length: 20
+      - name: URBAN07
+        width: 20
+        length: 20
+      - name: URBAN07a
+        width: 20
+        length: 20
+      - name: URBAN08
+        width: 20
+        length: 20
+      - name: URBAN08a
+        width: 20
+        length: 20
+      - name: URBAN08b
+        width: 20
+        length: 20
+      - name: URBAN08d
+        width: 20
+        length: 20
+      - name: URBAN08e
+        width: 20
+        length: 20
+      - name: URBAN09
+        width: 20
+        length: 20
+      - name: URBAN09b
+        width: 20
+        length: 20
+      - name: URBAN14
+        width: 10
+        length: 10
+      - name: URBAN14a
+        width: 10
+        length: 10
+      - name: URBAN14b
+        width: 10
+        length: 10
+      - name: URBAN15
+        width: 10
+        length: 10
+      - name: URBAN15b
+        width: 10
+        length: 10
+      - name: URBAN15c
+        width: 10
+        length: 10
+#      - name: URBAN17
+#        width: 10
+#        length: 10
+      - name: URBAN18
+        width: 10
+        length: 10
+      - name: URBAN18b
+        width: 10
+        length: 10
+
+  - name: SEAMOUNT
+    music:
+      - GMTACWET
+
+    mapDataSets:
+      - BLANKS
+      - SANDMOUNT
+      - SEADESERT
+    depth: [1, 2]
+    ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: DESERTMOUNT17
+        width: 10
+        length: 10
+
+  - name: ISLAND
+    civilianTypes: *CIVILIANS_SET_BEACH
+
+  - name: PORT
+    civilianTypes: *CIVILIANS_SET_BEACH
+
+  - name: CORAL
+    mapBlocks:
+      - name: CORAL00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CORAL01
+        width: 10
+        length: 10
+      - name: CORAL02
+        width: 10
+        length: 10
+      - name: CORAL03
+        width: 10
+        length: 10
+      - name: CORAL04
+        width: 10
+        length: 10
+      - name: CORAL05
+        width: 10
+        length: 10
+      - name: CORAL06
+        width: 10
+        length: 10
+      - name: CORAL07
+        width: 10
+        length: 10
+      - name: CORAL08
+        width: 10
+        length: 10
+      - name: CORAL09
+        width: 20
+        length: 20
+      - name: CORAL10
+        width: 20
+        length: 20
+      - name: CORAL11
+        width: 20
+        length: 20
+      - name: CORAL12
+        width: 20
+        length: 20
+      - name: CORAL13bl
+        width: 10
+        length: 10
+      - name: CORAL14bl
+        width: 10
+        length: 10
+      - name: CORAL15bl
+        width: 10
+        length: 10
+      - name: CORAL16bl
+        width: 10
+        length: 10
+      - name: CORAL17bl
+        width: 10
+        length: 10
+
+#New Artefact Sites
+  - name: MU_ARTIF
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - MU
+      - UFOBITS
+      - PYRAMID
+    depth: [1, 2]
+    ambience: 67
+    mapBlocks:
+      - name: MU00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MU01
+        width: 10
+        length: 10
+      - name: MU02
+        width: 10
+        length: 10
+      - name: MU03
+        width: 10
+        length: 10
+      - name: MU04
+        width: 10
+        length: 10
+      - name: MU05
+        width: 10
+        length: 10
+      - name: MU06
+        width: 10
+        length: 10
+      - name: MU07
+        width: 10
+        length: 10
+      - name: MU08
+        width: 10
+        length: 10
+      - name: MU09
+        width: 20
+        length: 20
+      - name: MU10
+        width: 20
+        length: 20
+      - name: MU11
+        width: 20
+        length: 20
+      - name: nMU09
+        width: 20
+        length: 20
+        groups: 6
+      - name: nMU10
+        width: 20
+        length: 20
+        groups: 6
+      - name: nMU11
+        width: 20
+        length: 20
+        groups: 6
+  - name: AT_ARTIF
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND
+      - ATLANTIS
+      - UFOBITS
+      - PYRAMID
+    depth: [1, 2]
+    ambience: 67
+    mapBlocks:
+      - name: ATLAN00
+        width: 10
+        length: 10
+        groups: 1
+      - name: ATLAN01
+        width: 10
+        length: 10
+      - name: ATLAN02
+        width: 10
+        length: 10
+      - name: ATLAN03
+        width: 10
+        length: 10
+      - name: ATLAN04
+        width: 10
+        length: 10
+      - name: ATLAN05
+        width: 10
+        length: 10
+      - name: ATLAN06
+        width: 10
+        length: 10
+      - name: ATLAN07
+        width: 10
+        length: 10
+      - name: ATLAN08
+        width: 10
+        length: 10
+      - name: ATLAN09
+        width: 10
+        length: 10
+      - name: ATLAN10
+        width: 20
+        length: 20
+      - name: ATLAN11
+        width: 20
+        length: 20
+      - name: nATLAN10
+        width: 20
+        length: 20
+        groups: 6
+      - name: nATLAN11
+        width: 20
+        length: 20
+        groups: 6
+      - name: ATLAN12
+        width: 20
+        length: 20
+      - name: ATLAN13bl
+        width: 10
+        length: 10
+      - name: ATLAN14bl
+        width: 10
+        length: 10
+
+#Alien Hive Conversion
+  - name: A_BASE
+    script: ALIEN_COLONY_P2
+
+  - name: ALIENHIVE
+    music:
+      - GMTACWET
+    depth: [1, 1]
+    ambience: 67
+    mapDataSets:
+      - BLANKS
+      - HIVETFTDA
+      - HIVETFTDB
+      - HIVETFTDC
+      - PSYNOM
+    script: ALIENHIVE
+    mapBlocks:
+      - name: HIVE00
+        width: 10
+        length: 10
+      - name: HIVE01
+        width: 10
+        length: 10
+      - name: HIVE02
+        width: 10
+        length: 10
+      - name: HIVE03
+        width: 10
+        length: 10
+      - name: HIVE04
+        width: 10
+        length: 10
+      - name: HIVE05
+        width: 10
+        length: 10
+      - name: HIVE06
+        width: 10
+        length: 10
+      - name: HIVE07
+        width: 10
+        length: 10
+      - name: HIVE08
+        width: 10
+        length: 10
+      - name: HIVE09
+        width: 10
+        length: 10
+      - name: HIVE10
+        width: 20
+        length: 20
+      - name: HIVE11
+        width: 20
+        length: 20
+      - name: HIVE12
+        width: 20
+        length: 20
+      - name: HIVE14
+        width: 20
+        length: 20
+      - name: HIVEBL00
+        width: 20
+        length: 20
+        groups: 2
+      - name: HIVEBL01
+        width: 10
+        length: 10
+        groups: 1
+
+#Industrial Urban conversion back to tftd
+  - name: INDUSTRIALPORT
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - PORT01
+      - PORT02
+      - NROADS
+      - NURBITS
+      - SEA
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+    ambience: 67
+    ambientVolume: 0.25
+    script: PORT_TERROR
+    mapBlocks:
+      - name: INDUSTRIALURBAN00
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN12
+        width: 10
+        length: 10
+      - name: INDUSTRIALCOAST00
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST01
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST02
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST03
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST04
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST05
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST06
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALCOAST05
+        width: 10
+        length: 10
+        groups: 3
+      - name: INDUSTRIALURBAN02
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN03
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN04
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN05
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN06
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN07
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN08
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN09
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN10
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN11
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN01
+        width: 20
+        length: 20
+      - name: INDUSTRIALURBAN13
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN14
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN15
+        width: 10
+        length: 10
+      - name: INDUSTRIALURBAN16
+        width: 10
+        length: 10
+        groups: 1
+      - name: INDUSTRIALURBAN17
+        width: 10
+        length: 10
+        groups: 1
+
+#Cruise ship variants
+  - name: LINERT2
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+    mapBlocks:
+      - name: LINERT00
+        width: 30
+        length: 20
+      - name: LINERT02
+        width: 30
+        length: 50
+
+  - name: LINERT4
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+    mapBlocks:
+      - name: LINERT00
+        width: 30
+        length: 20
+      - name: LINERT04
+        width: 30
+        length: 50
+
+  - name: LINERT5
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - DECKC
+      - LINERA
+      - LINERB
+      - LINERC
+      - LINERD
+    mapBlocks:
+      - name: LINERT00
+        width: 30
+        length: 20
+      - name: LINERT05
+        width: 30
+        length: 50

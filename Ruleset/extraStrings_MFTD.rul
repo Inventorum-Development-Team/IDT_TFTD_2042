@@ -1,0 +1,470 @@
+extraStrings:
+  - type: en-US
+    strings:
+
+
+# [=] Ocean Region [=]
+
+      MFTD_SHIPPING_LANES_WIDE: "Shipping Lanes"
+
+# [=] Units [=]
+      MFTD_CIV_DIVER: "Civilian Diver"
+      MFTD_CIV_DIVER_ARMED: "Civilian Diver"
+      MFTD_CIV_MILITARY_MALE: "Soldier"
+      MFTD_CIV_MILITARY_FEMALE: "Soldier"
+
+
+# [=] Items [=]
+
+# Civilian Pistol
+      STR_MFTD_CIV_PISTOL: "Pistol"
+      STR_MFTD_CIV_PISTOL_CLIP: "Pistol Clip"
+
+# Civilian Rifle
+      STR_MFTD_CIV_RIFLE: "Rifle"
+      STR_MFTD_CIV_RIFLE_CLIP: "Rifle Clip"
+
+# Civilian Diving Drill
+      STR_MFTD_DIVING_DRILL: "Diving Drill"
+
+
+# [=] Mission Briefings [=]
+
+# Terror Mission: "Oil Tanker" "Warship"
+      STR_MFTD_OTHER_SHIPS_BRIEFING: "Eliminate all Alien units on the ship, and preserve the lives of any civilians onboard. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+# Terror Mission: Warehouse (Arms & Volatile)
+      STR_MFTD_ALIENS_ATTACK_WAREHOUSE: "ALIENS ATTACK{NEWLINE}WAREHOUSE"
+      STR_MFTD_WAREHOUSE_PROTECTION: "WAREHOUSE PROTECTION MISSION"
+      STR_MFTD_WAREHOUSE_BRIEFING: "Landing will take place on the warehouse roof. Eliminate all Alien units assaulting the building, and preserve the lives of any civilians in the area. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+# Terror Mission: Offshore Rig
+      STR_MFTD_ALIENS_ATTACK_OFFSHORE_RIG: "ALIENS ATTACK{NEWLINE}OFFSHORE RIG"
+      STR_MFTD_OFFSHORE_RIG_PROTECTION: "OFFSHORE RIG PROTECTION MISSION"
+      STR_MFTD_OFFSHORE_RIG_BRIEFING: "Eliminate all Alien units assaulting the offshore oil rig, and preserve the lives of any civilians on the structure. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+# Terror Mission: Surface Base
+      STR_MFTD_ALIENS_ATTACK_SURFACE_BASE: "ALIENS ATTACK{NEWLINE}OFFSHORE LABORATORIES"
+      STR_MFTD_SURFACE_BASE_PROTECTION: "SURFACE BASE PROTECTION MISSION"
+      STR_MFTD_SURFACE_BASE_BRIEFING_ALT: "This mission is a bug hunt, eliminate all Alien units assaulting the surface base, and preserve the lives of any civilians onboard. The Aliens are dispersed between the surface structure and the ocean floor, secure the above water buildings before using the base's lift to descend to the undersea complex below."
+      STR_MFTD_SURFACE_BASE_BRIEFING: "Eliminate all Alien units assaulting the offshore base, and preserve the lives of any civilians onboard. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon. "
+
+
+
+# Terror Mission: Underwater Base
+      STR_MFTD_UNDERWATER_PROTECTION: "UNDERWATER BASE PROTECTION MISSION"
+      STR_MFTD_UNDERWATER_BRIEFING: "X-Com soldiers will use the base's lift to descend to the ocean floor and eliminate the remaining Alien units assaulting the underwater base, and preserve the lives of any civilian divers. To quit, return aquanauts to the lift and click on the 'Abort Mission' icon."
+
+
+# Terror Mission: Ocean Trench Base
+      STR_MFTD_ALIENS_ATTACK_UNDERWATER_BASE: "ALIENS ATTACK{NEWLINE}UNDERWATER LABORATORIES"
+      STR_MFTD_TRENCHUPPERBASE_PROTECTION: "UNDERWATER BASE PROTECTION MISSION"
+      STR_MFTD_TRENCHUPPERBASE_BRIEFING: "This mission is a bug hunt, eliminate all Alien units assaulting the ocean trench base, and preserve the lives of any civilian divers onboard. The Aliens are dispersed between this base on the edge of the trench and a second facility located deep inside the trench, secure the above buildings before using the base's lift to descend to the other undersea complex below. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+
+
+
+
+
+
+
+
+
+
+# [=] Deployment names [=]
+
+# Civilian, Hellrazor and Luke83
+      MAP_URBAN: "City"
+
+# New_Civilian
+      MAP_LINERT2: "Cruise Ship P1 Layout 2"
+      MAP_LINERT4: "Cruise Ship P1 Layout 3"
+      MAP_LINERT5: "Cruise Ship P1 Layout 4"
+      MAP_LINERVARIANT: "Cruise Ship P2 Layout 2"
+      MAP_CARGO2: "Cargo Ship Layout 2"
+      MAP_LPIPES: "Abandoned Research Facility"
+
+
+# Murkhach@centrum.cz
+      STR_MFTD_HOCUS: "Hocus"
+      STR_MFTD_AMOEBA: "Amoeba"
+
+
+# Wolwerin
+      STR_MFTD_WORM: "Worm"
+      STR_MFTD_TERROR: "Terror"
+      STR_MFTD_DREADNOUGHT_W: "Dreadnought-W"
+      STR_MFTD_SCOUT: "Scout"
+      STR_MFTD_SHIP_DESTROYER: "Ship Destroyer"
+      STR_MFTD_DOUBLE_SCOUT: "Double Scout"
+      STR_MFTD_DOUBLE_HUNTER: "Double Hunter"
+      STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT: "Intimidation Of The Government"
+      STR_MFTD_COMBAT_INTERCEPTOR: "Combat Interceptor"
+
+
+# Blank
+      STR_MFTD_BOMBER: "Bomber"
+      STR_MFTD_CORVETTE: "Corvette"
+      STR_MFTD_PATROL: "Patrol"
+      STR_MFTD_CARRACK: "Carrack"
+      STR_MFTD_FRIGATE: "Frigate"
+      STR_MFTD_DESTROYER: "Destroyer"
+      STR_MFTD_BLOCKADE_RUNNER: "Blockade Runner"
+      STR_MFTD_GUNBOAT: "Gunboat"
+      STR_MFTD_HVY_DESTROYER: "Heavy Destroyer"
+      STR_MFTD_RAIDER: "Raider"
+      STR_MFTD_IRONCLAD: "Ironclad"
+      STR_MFTD_BATTLECRUISER: "Battlecruiser"
+      STR_MFTD_BATTLESTAR: "Battlestar"
+
+
+# The Martian
+      STR_MFTD_BANDIT: "Bandit"
+      STR_MFTD_CARP: "Carp"
+      STR_MFTD_CLAM: "Clam"
+      STR_MFTD_CLAW: "Claw"
+      STR_MFTD_DARTS: "Darts"
+      STR_MFTD_FERRY: "Ferry"
+      STR_MFTD_HERMIT: "Hermit"
+      STR_MFTD_HYDROFOIL: "Hydrofoil"
+      STR_MFTD_OBSERVER: "Observer"
+      STR_MFTD_SEARCHER: "Searcher"
+      STR_MFTD_SHRIMP: "Shrimp"
+      STR_MFTD_SQUID: "Squid"
+      STR_MFTD_TOWER: "Tower"
+      STR_MFTD_TURTLE: "Turtle"
+      STR_MFTD_WAVE_RAIDER: "Wave Raider"
+      STR_MFTD_WHIRLIGIG: "Whirligig"
+      STR_MFTD_URCHIN: "Urchin"
+      STR_MFTD_TADPOLE: "Tadpole"
+      STR_MFTD_JELLYFISH: "Jellyfish"
+      STR_MFTD_PUFFERFISH: "Pufferfish"
+      STR_MFTD_PIRANHA: "Piranha"
+      STR_MFTD_DREDGE: "Dredge"
+      STR_MFTD_MORAY: "Moray"
+      STR_MFTD_SHARK: "Shark"
+      STR_MFTD_LANTERN: "Lantern"
+      STR_MFTD_CONCH: "Conch"
+      STR_MFTD_WHALE: "Whale"
+      STR_MFTD_ALTAR: "Altar"
+      STR_MFTD_HONEYCOMB: "Honeycomb"
+      STR_MFTD_OUBLIETTE: "Oubliette"
+      STR_MFTD_WHIRLPOOL: "Whirlpool"
+      STR_MFTD_BLADE: "Blade"
+      STR_MFTD_EEL: "Eel"
+      STR_MFTD_MANTA: "Manta"
+      STR_MFTD_COLLECTOR: "Collector"
+      STR_MFTD_NAUTILUS: "Nautilus"
+
+      STR_MFTD_SURFACEBASE: "Surface Base"
+      STR_MFTD_OCEANLABS: "Underwater Labs"
+      MAP_MFTD_OCEANLABSMALL: "Small Ocean Lab"
+      MAP_MFTD_OCEANRESEARCH: "Ocean Research"
+      MAP_MFTD_UNDERWATERBASE: "Underwater Base"
+      STR_MFTD_OFFSHORE: "Offshore Rig"
+      STR_MFTD_OTHER_SHIPS_TERROR: "Surface Ship Terror Mission"
+      MAP_MFTD_OILTANKER: "Oil Tanker"
+      MAP_MFTD_WARSHIP: "Warship"
+      STR_MFTD_WAREHOUSE: "Warehouse"
+      MAP_MFTD_ARMSWAREHOUSE: "Arms Warehouse"
+      MAP_MFTD_VOLATILEWAREHOUSE: "Volatile Warehouse"
+      STR_MFTD_TRENCHUPPERBASE: "Ocean Trench Base"
+      MAP_MFTD_TRENCHUPPERBASE: "Trench Base"
+      MAP_MFTD_TRENCHUPPERBASEBURIED: "Buried Trench Base"
+
+
+# [=] Mission Names [=]
+      STR_MFTD_ALIEN_TERROR_MISSION_SURFACE_BASE: "Offshore Base Attack"
+      STR_MFTD_ALIEN_TERROR_MISSION_OFFSHORE_RIG: "Offshore Resource Raid"
+      STR_MFTD_ALIEN_TERROR_MISSION_OTHER_SHIPS: "Surface Vessel Attack"
+      STR_MFTD_ALIEN_TERROR_MISSION_WAREHOUSE: "Surface Warehouse Raid"
+      STR_MFTD_ALIEN_TERROR_MISSION_TRENCHUPPERBASE: "Underwater Base Attack"
+      STR_MFTD_EXCAVATION: "Deep Sea Excavation"
+      STR_MFTD_HARVESTING: "Harvesting Marine Life"
+      STR_MFTD_SPREADING_HAVOC: "Spreading Havoc"
+
+
+
+
+# [=] ufopaedia [=] [=] ufopaedia [=] [=] ufopaedia [=] [=] ufopaedia [=] [=] ufopaedia [=]
+
+      STR_MFTD_CIVILIAN_WEAPONS: "Civilian Weapons"
+
+      STR_MFTD_CIVILIAN_WEAPONS_UFOPAEDIA: "X-Com soldiers may encounter armed civilian or military personnel in the field. X-Com's own equipment provides greater firepower than these nonspecialized weapons however if used in an emergency situation they may be found to be comparable with our dart weapons.{NEWLINE}{NEWLINE}X-Com will not recover this equipment and will instead return it to its owner at the end of a mission."
+
+
+      STR_MFTD_EXCAVATION_UFOPEDIA: "The Aliens conduct excavation missions to unearth structures that have been buried by time. The ancient nature of these facilities suggests that these Aliens have been active on Earth long before we previously speculated.{NEWLINE}{NEWLINE}Once a building is excavated it is not restored to working order, instead the contents are extracted and moved to another location. It is unclear what the Aliens are obtaining from these sites or the location that these objects are then being taken to."
+
+
+      STR_MFTD_HARVESTING_UFOPEDIA: "Marine life is harvested by the Aliens on a scale well beyond what humanity can currently achieve. During these operations the Aliens may make repeated landings on the ocean floor which present a vulnerability that can be exploited by X-Com to capture their craft intact"
+
+
+      STR_MFTD_SPREADING_HAVOC_UFOPEDIA: "The Aliens use their crafts to cause massive explosions in the ocean depths. The effects of this can be observed throughout entire regions of the ocean resulting in shockwaves that can destroy surface ships and create tsunamis that threaten coastal cities.{NEWLINE}{NEWLINE}After each detonation Alien craft are likely to spend extended periods of time on the ocean floor observing the results.{NEWLINE}{NEWLINE}Once detected stopping this activity should be a high priority for{NEWLINE}X-Com to prevent panic in the effected governments."
+
+
+      STR_MFTD_UNDERWATER_LABORATORY_ATTACK: "Underwater Laboratory Attack"
+
+      STR_MFTD_UNDERWATER_LABORATORY_ATTACK_UFOPEDIA: "The Aliens jealousy guard their secrets and will destroy trespassers who would disrupt their own experiments or perhaps glean some information about their aquatic activities. The Alien's procedure when launching this type of attack is to deploy soldiers and hunt down all human life on site before destroying the structure itself.{NEWLINE}{NEWLINE}The brief period of time the Aliens spend sweeping the area with their infantry may provide X-Com a chance to rescue any survivors.{NEWLINE}{NEWLINE}In the event X-Com is called to defend an underwater laboratory any related surface structures may also need to be secured before civilians can be extracted from the site and taken to a safe location."
+
+
+      STR_MFTD_OIL_RAID: "Oil Supply Attack"
+
+      STR_MFTD_OIL_RAID_UFOPEDIA: "The Aliens are not just sinking Oil Tankers and destroying Oil Rigs, instead they first send their soldiers to secure the site and then move the stored chemicals onto their own craft before destroying the ship or offshore platform.{NEWLINE}{NEWLINE}Altough it was initially believed the destruction of these ships and structures was solely to deny humanity the resources it appears the Aliens also have some as yet unknown use for them."
+
+
+
+
+
+# [=] Murkhach@centrum.cz's Ufopaedia [=] [=] Murkhach@centrum.cz's Ufopaedia [=]
+
+
+# [=] Alien Craft [=]----------------
+
+
+# [=] Hocus [=]
+      STR_MFTD_HOCUS_UFOPEDIA: "Hocus is fast armored all-round ship equipped with decent{NEWLINE}MC-shield. The additional Zrbite onboard supplies are protected by timed self-destruct mechanism."
+
+# [=] Amoeba [=]
+      STR_MFTD_AMOEBA_UFOPEDIA: "Amoeba are gigantic ships dedicated for colecting resources in magnetic nets that are dragged through the oceans. Although they seem as bulky and slow target, they are lethal at close range. In order to increase they endurance they are equipped with powerfull MC shield."
+
+
+# [=] Blank's Ufopaedia [=] [=] Blank's Ufopaedia [=] [=] Blank's Ufopaedia [=] [=] Blank's Ufopaedia [=]
+
+# [=] Alien Craft [=]----------------
+
+# [=] Battlestar [=]
+      STR_MFTD_BATTLESTAR_UFOPEDIA: "The battlestar is an alien warship of ancient design. Disturbingly, untold numbers may lie dormant beneath the silty seabed"
+
+
+# [=] Battlecruiser [=]
+      STR_MFTD_BATTLECRUISER_UFOPEDIA: "The battlecruiser is one of the more dangerous warships the aliens possess but is lacking in the ability to opperate independantly. As such, battlecruisers sighted are almost always part of a larger alien fleet"
+
+
+# [=] Blockade Runner [=]
+      STR_MFTD_BLOCKADE_RUNNER_UFOPEDIA: "A fast and stealthy cargo runner. Responsible for carrying off many human captives before they're even noticed"
+
+
+# [=] Bomber [=]
+      STR_MFTD_BOMBER_UFOPEDIA: "A small submarine that's easy to go unnoticed yet carries some of the more insidious weapons in the alien's arsenal. A single bomber allowed to run unhindered can potentially cause untold numbers of civilian deaths"
+
+
+# [=] Gunboat [=]
+      STR_MFTD_GUNBOAT_UFOPEDIA: "The most powerful alien vessel of its size class. It's small and versatile enough to support the aliens in their ground missions"
+
+
+# [=] Heavy Destroyer [=]
+      STR_MFTD_HVY_DESTROYER_UFOPEDIA: "A fast yet dangerous vessels which epitomises the alien strategy of lightning raids on the surface"
+
+
+# [=] Ironclad [=]
+      STR_MFTD_IRONCLAD_UFOPEDIA: "The Ironclad is a heavily armored submarine which was first thought to be built for war but is in fact used by the aliens to trawl the most dangerous undersea currents in search of ancient alien artefacts to reclaim"
+
+
+# [=] Raider [=]
+      STR_MFTD_RAIDER_UFOPEDIA: "This alien vessel prowls the oceans undetected by the conventional navies of the world. It attacks and leaves without being seen, leaving only empty ghost ships and mysterious unexplained phenomenon."
+
+
+# [=] Frigate [=]
+      STR_MFTD_FRIGATE_UFOPEDIA: "Small alien ship of unknown purpose"
+
+
+# [=] Destroyer [=]
+      STR_MFTD_DESTROYER_UFOPEDIA: "This small alien submarine carries a small crew"
+
+
+# [=] Corvette [=]
+      STR_MFTD_CORVETTE_UFOPEDIA: "A small alien vessel that is of little threat on its own but is always part of a larger alien plan"
+
+
+# [=] Carrack [=] 
+      STR_MFTD_CARRACK_UFOPEDIA: "An alien flying sub that is hard to track"
+
+
+# [=] Patrol [=]
+      STR_MFTD_PATROL_UFOPEDIA: "A small alien submarine on a routine patrol around earth's oceans. It reports back what it sees to its overlords."
+
+
+
+
+# [=] The Martian's Craft [=] [=] The Martian's Craft [=] [=] The Martian's Craft [=] [=] The Martian's Craft [=]
+
+
+# [=] Altar [=]
+      STR_MFTD_ALTAR_UFOPEDIA: "This strangely shaped large alien craft is encased in a protective shield that augments its otherwise brittle construction. The significance of the stonelike sections of the ship to the aliens remains unknown."
+
+
+# [=] Bandit [=]
+      STR_MFTD_BANDIT_UFOPEDIA: "A series of narrow catwalks connect what could otherwise be two small fully functional separate crafts. Fortunately this redundancy does little to add to the crafts overall survivability."
+
+
+# [=] Blade [=]
+      STR_MFTD_BLADE_UFOPEDIA: "Disturbingly fast in spite of its very large size this alien craft quickly slices through the ocean with the majority of its primary control systems located on a bridge that is suspended between two massive ultrathin wings."
+
+
+# [=] Carp [=]
+      STR_MFTD_CARP_UFOPEDIA: "This small craft is neither well armored or excessively fast for its size, but it makes up for this with its long range weapon system."
+
+
+#  [=] Clam [=]
+      STR_MFTD_CLAM_UFOPEDIA: "This small slow moving armored craft can easily take twice the hammering that other similarly sized alien ships can withstand."
+
+
+# [=] Claw [=]
+      STR_MFTD_CLAW_UFOPEDIA: "A very large alien ship with a massive weapons array in its two hook like lower sections. This ship is used to quickly cut apart surface vessels that have been brought to the ocean floor and siphon any fuel or resources into its own holding bays."
+
+
+# [=] Collector [=]
+      STR_MFTD_COLLECTOR_UFOPEDIA: "This very large alien craft is used to harvest specific organs from both human and animal victims with the unwanted remains often being ejected from the ship on the spot. The speed at which this craft's facilities can butcher captured organisms is truly terrifying."
+
+
+# [=] Conch [=]
+      STR_MFTD_CONCH_UFOPEDIA: "A well armored medium sized ship in the alien fleet. With most of this craft's vital components safely situated in its central areas a considerable amount of firepower must be brought to bear to sink it."
+
+
+# [=] Darts [=]
+      STR_MFTD_DARTS_UFOPEDIA: "These three fragile small craft have both a high speed and excellent maneuverability that makes them difficult to keep up with let alone hit during combat. This combined with a weak but very long range weapon make them an irritating foe. The ships linked guidance system will cause all three craft to crash if one is shot down."
+
+
+# [=] Dredge [=]
+      STR_MFTD_DREDGE_UFOPEDIA: "This medium sized alien craft is designed to scrape across the ocean floor and sift the contents of anything it scoops into its holding bay. Although often employed to comb the sea for resources if a surface vessel is detected it can swiftly make its own debris to sweep up."
+
+# [=] Eel [=]
+      STR_MFTD_EEL_UFOPEDIA: "X-Com pilots are being trained to identify this dangerous very large alien craft from its deceptively small front profile. This long craft is often used by the aliens to attack surface vessels and capture their crews along with any cargo deemed useful."
+
+
+# [=] Ferry [=]
+      STR_MFTD_FERRY_UFOPEDIA: "A small craft used by the aliens to haul various equipment on an external cargo platform. Although not the fastest ship it is somewhat durable in design and moderately armed."
+
+
+# [=] Hermit [=]
+      STR_MFTD_HERMIT_UFOPEDIA: "A very small but also very well armored craft for its size."
+
+
+# [=] Honeycomb [=]
+      STR_MFTD_HONEYCOMB_UFOPEDIA: "This large craft is often used by the aliens when they are seeking to seize supplies from a surface target."
+
+
+# [=] Hydrofoil [=]
+      STR_MFTD_HYDROFOIL_UFOPEDIA: "When it surfaces this speedy small craft throws up huges plumes of water behind it while quickly closing with its target. Both sailors and airline pilots have learned to fear such sightings as this alien ship is almost exclusively deployed to hunt them down. The alien craft itself is fragile and relies on its speed to protect it."
+
+
+# [=] Jellyfish [=]
+      STR_MFTD_JELLYFISH_UFOPEDIA: "A small alien craft who's stiltlike construction grants it its name. This ship is often deployed when the aliens are hunting for surface vessels to pillage."
+
+
+# [=] Lantern [=]
+      STR_MFTD_LANTERN_UFOPEDIA: "Far to often sailors report sighting the glowing lights of this medium sized alien craft beneath the waves right before contact is lost with their vessel."
+
+
+# [=] Manta [=]
+      STR_MFTD_MANTA_UFOPEDIA: "A very large alien craft designed to allow its crew to quickly board humanity's offshore structures. At times it is also fielded when the aliens have excavated something from the ocean floor that they consider of high importance and want transported immediately to a safer location."
+
+
+# [=] Moray [=]
+      STR_MFTD_MORAY_UFOPEDIA: "A medium sized alien craft that is often deployed in preparation for an assault against one of humanities underwater laboratories."
+
+
+# [=] Nautilus [=]
+      STR_MFTD_NAUTILUS_UFOPEDIA: "A very large and heavily armored craft that is usually tasked with missions that focus its activities around the ocean floor."
+
+
+# [=] Observer [=]
+      STR_MFTD_OBSERVER_UFOPEDIA: "A small alien craft filled with various sensors that allow it to quickly chart ocean regions and monitor all marine life and surface vessel traffic in the area."
+
+
+# [=] Oubliette [=]
+      STR_MFTD_OUBLIETTE_UFOPEDIA: "When not being used to harvest marine life this large alien craft is sent to neutralize any armed forces in an area before an alien strike force is deployed against a specific offshore target."
+
+
+# [=] Piranha [=]
+      STR_MFTD_PIRANHA_UFOPEDIA: "A small alien scout with a quick firing weapon system. This craft is often sent to gather reconnaissance data when the aliens detect a underwater structure of human origin."
+
+
+# [=] Pufferfish [=]
+      STR_MFTD_PUFFERFISH_UFOPEDIA: "This small alien craft is used to recon areas in preparation for an attack against a surface structure. It is well armored for its size."
+
+
+# [=] Searcher [=]
+      STR_MFTD_SEARCHER_UFOPEDIA: "When the aliens want to track a specific target this small craft is deployed. Its array of sensors easily allow it to hunt down and trace the movements of the largest human vessel or smallest ocean dwelling fish."
+
+
+# [=] Shark [=]
+      STR_MFTD_SHARK_UFOPEDIA: "The twin fins of this medium sized alien craft are often spotted breaking the ocean surface while circling an offshore oil rig hours before the structure is destroyed. This well armed craft makes short work of any vessels leaving or approaching its target while other alien craft prepare to assault the rig directly."
+
+
+# [=] Shrimp [=]
+      STR_MFTD_SHRIMP_UFOPEDIA: "This very small alien craft quickly moves about the ocean and is often tasked with locating objects of interest on the ocean floor or with tracking down X-Com's floating bases."
+
+
+# [=] Squid [=]
+      STR_MFTD_SQUID_UFOPEDIA: "This large alien ship is filled with medical devices that are used to conduct experiments and at times also to brainwash captured humans to work against their country and convince others to stop resisting the aliens. This craft is a high value target for X-Com and should be destroyed whenever possible."
+
+
+# [=] Tadpole [=]
+      STR_MFTD_TADPOLE_UFOPEDIA: "One of the smallest alien ships in their fleet. This craft is tasked with patrolling the ocean in search of offshore structures that contain resources the aliens find desirable. Its presence in a region always signals the alien's intent to launch a raid against humanity in the immediate future."
+
+
+# [=] Tower [=]
+      STR_MFTD_TOWER_UFOPEDIA: "More than just a craft this ship plays a crucial role when the aliens are building new underwater structures. Composed of the various sections of the alien colony the Tower is quickly dismantled when it arrives at its destination and the parts are then reconfigured rapidly into a new fully functional alien base."
+
+
+# [=] Urchin [=]
+      STR_MFTD_URCHIN_UFOPEDIA: "A very small alien craft used to scout for targets worth attacking. Although weak in power its weapon system possesses a notably high range."
+
+
+# [=] Wave Raider [=]
+      STR_MFTD_WAVE_RAIDER_UFOPEDIA: "A key component of the alien's resource raiding strategy, this well armored medium sized alien craft is able to transport secured supplies safely to desired locations with little to fear from the majority of humanities military forces."
+
+
+# [=] Whale [=]
+      STR_MFTD_WHALE_UFOPEDIA: "This large submersible alien tanker is used to transport various liquid chemicals. Powerful energy fields are used to both process the liquids into desired states and also to prevent them from mixing with or dissipating into the surrounding water."
+
+
+# [=] Whirligig [=]
+      STR_MFTD_WHIRLIGIG_UFOPEDIA: "This small craft is often used to transport the alien's large organic monstrosities such as the Hallucinoid or Xarquid. X-Com soldiers can expect to face several of the alien's dangerous creatures along with the ships crew when trying to secure it."
+
+
+# [=] Whirlpool [=]
+      STR_MFTD_WHIRLPOOL_UFOPEDIA: "This large craft is able to create powerful currents that are capable of pulling large surface ships straight to the bottom of the ocean. It is often used by the aliens to scour loose material from sections of the ocean floor in hopes of revealing more valuable resources for them to excavate."
+
+
+# [=] Turtle [=]
+      STR_MFTD_TURTLE_UFOPEDIA: "Once landed this very large alien craft begins transferring the contents of the ocean floor into a large holding tank inside the ship where it is sifted for usable resources."
+
+
+
+# <--- For Wolwerin's Craft
+
+# [=] Worm [=] (Small) GT0000
+      STR_MFTD_WORM_UFOPEDIA: "A small alien craft that is usually assigned the task of securing areas for later operations."
+
+
+# [=] Terror [=] (Large) GT0001
+      STR_MFTD_TERROR_UFOPEDIA: "When not being used for Excavation this large fortress of a craft is deployed to provide countries that are offering resistance with a display of overwhelming force. This ultimatum is usually followed up by a seemingly more agreeable offer that would result in that country severing their ties with X-Com."
+
+
+# [=] Dreadnought-W [=] (Very Large) GT0002
+      STR_MFTD_DREADNOUGHT_W_UFOPEDIA: "This very large craft represents an even more heavily armored version of the alien's Dreadnought design. Although it lacks some of the speed and weapon power of its counterpart the increased survivability and firing rate may make this an even more fearsome opponent."
+
+
+# [=] Scout [=] (Average/Medium) GT0003
+      STR_MFTD_SCOUT_UFOPEDIA: "A medium sized craft designed primarily for reconnaissance."
+
+
+# [=] Ship Destroyer [=] (Very Large) GT0004
+      STR_MFTD_SHIP_DESTROYER_UFOPEDIA: "As its name suggests this very large alien craft is specifically equipped with devices that allow it to quickly locate and destroy humanity's naval forces."
+
+
+# [=] Double Scout [=] (Average/Medium) GT0005
+      STR_MFTD_DOUBLE_SCOUT_UFOPEDIA: "Although technically two distinct craft their shared guidance system causes them to behave more like a single unified ship. This also offers a vulnerability as if either is shot down both will be sent hurtling towards the ocean floor."
+
+
+# [=] Double Hunter [=] (Large) GT0006
+      STR_MFTD_DOUBLE_HUNTER_UFOPEDIA: "Two craft which only deploy in tandem and exclusively when the aliens are conducting a resource raid mission. Neither ship has all of the equipment onboard it requires to stay operational instead a constant stream of communication between their systems allows both to function. Because of this they cannot stray very far from each other and if this link is disrupted both craft will quickly crash."
+
+      
+# [=] Intimidation Of The Government [=] (Large) GT0007
+      STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT_UFOPEDIA: "The appearance of this large craft usually marks the completion of alien infiltration in a country. Leading members of the target government are covertly brought on board and offered knowledge, technology and promises of untold power if they cease all resistance and withdraw their support from X-Com. Once detected the destruction of this craft is the highest priority."
+
+
+# [=] The Combat Interceptor [=] (Large) GT0008
+      STR_MFTD_COMBAT_INTERCEPTOR_UFOPEDIA: "This large predatory alien craft is designed to use its speed and fast firing weapons to actively hunt down humanity's military vessels."

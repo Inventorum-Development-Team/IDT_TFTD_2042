@@ -1,0 +1,39 @@
+ufopaedia:
+#SHARKQUANAUT
+  - id: STR_SHARK_SUIT
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires: 
+    - STR_SHARKQUANAUTS
+    text: STR_SHARKQUANAUT_UFOPAEDIA
+    image_id: SHARKQUANAUT
+#COMBAT VEST
+  - id: STR_SHARK_VEST
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires: 
+    - STR_SHARKVEST
+    text: STR_SHARKVEST_UFOPAEDIA
+    image_id: SHARKVEST
+#HEAVY ARMOUR
+  - id: STR_SHARK_ARMOUR
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires: 
+    - STR_SHARK_ARMOUR
+    text: STR_SHARK_ARMOUR_UFOPAEDIA
+    image_id: SHARKARMOUR
+#POWERED ARMOUR
+  - id: STR_POWERSHARK
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires: 
+    - STR_POWERSHARK
+    text: STR_POWERSHARK_UFOPAEDIA
+    image_id: POWERSHARK
+#UNLOCK
+  - id: STR_SHARK_UNLOCK
+    type_id: 10
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_SHARK_UNLOCK_UFOPAEDIA
+    image_id: UNLOCK

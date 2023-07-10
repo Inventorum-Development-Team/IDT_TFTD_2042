@@ -1,0 +1,503 @@
+# general difficulty reduction:
+
+difficulty:
+difficultyCoefficient: [0, 1, 2, 3, 4] #was: [0, 1, 2, 4, 6]
+aimAndArmorMultipliers: [0.2, 0.4, 0.6, 0.8, 1.0] #was: [0.4, 0.7, 1.0, 1.1, 1.2]
+statGrowthMultipliers:
+  tu: 4 #was: 8
+  stamina: 4 #was: 8
+  health: 0
+  bravery: 0
+  reactions: 6
+  firing: 6
+  throwing: 0
+  strength: 2 #was: 4
+  psiStrength: 4
+  psiSkill: 4
+  melee: 4 #was: 8
+turnAIUseGrenade: 3 #was: 2
+turnAIUseBlaster: 3 #was: 2
+constants:
+  - damageRange: 50 #was: 50
+  - explosiveDamageRange: 50 #was: 50
+  - fireDamageRange: [5, 10]
+
+#less cannons, more pistols
+
+alienItemLevels:
+  - [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+  - [0, 0, 0, 0, 0, 0, 0, 1, 1, 1]
+  - [0, 0, 0, 0, 0, 1, 1, 1, 1, 2]
+  - [0, 0, 1, 1, 1, 1, 1, 1, 2, 2]
+  - [0, 1, 1, 1, 1, 1, 1, 2, 2, 2]
+  - [0, 1, 1, 1, 1, 1, 2, 2, 2, 2]
+  - [0, 1, 1, 1, 1, 2, 2, 2, 2, 2]
+  - [0, 1, 1, 1, 2, 2, 2, 2, 2, 2]
+  - [0, 1, 1, 2, 2, 2, 2, 2, 2, 2]
+  - [0, 1, 2, 2, 2, 2, 2, 2, 2, 2]
+
+# skill reduction for Aquatoid Soldier and Gillman Soldier to give player more time to build up:
+
+units:
+  - type: STR_AQUATOID_SOLDIER
+    stats:
+      reactions: 40 #was: 63
+      firing: 40 #was: 52
+      throwing: 20 #was: 58
+
+  - type: STR_GILLMAN_SOLDIER
+    stats:
+      reactions: 35 #was: 45
+      firing: 35 #was: 45
+      throwing: 25 #was: 50
+
+# Calcinite becomes slower, but more spongey
+
+  - type: STR_CALCINITE_TERRORIST
+    stats:
+      tu: 25 #was: 68
+      health: 150 #was: 55
+      bravery: 120 #was: 90
+      melee: 30 #was: 85
+    aggression: 5 #was: 2
+    livingWeapon: true
+
+# value reduction for civilians to reduce terror mission penalties:
+
+  - type: MALE_CIVILIAN
+    value: 20 #was: 30
+
+  - type: SAILOR_CIVILIAN
+    value: 20 #was: 30
+
+  - type: DOCKER_CIVILIAN
+    value: 20 #was: 30
+
+  - type: FEMALE_CIVILIAN
+    value: 20 #was: 30
+
+# reduction of Aliens weapons power and increasement of XCOM's
+
+items:
+  - type: STR_CANNON_POWER_CLIP
+    power: 110 #was: 130
+
+  - type: STR_BLASTA_POWER_CLIP
+    power: 80 #was: 95
+ 
+  - type: STR_PISTOL_POWER_CLIP
+    power: 60 #was: 80
+
+  - type: DEEP_ONE_WEAPON
+    power: 60 #was: 100
+
+  - type: STR_MAGNA_BLAST_GRENADE
+    power: 80 #was: 50
+
+  - type: STR_SMALL_TORPEDO
+    power: 100 #was: 80
+
+  - type: STR_LARGE_TORPEDO
+    power: 130 #was: 90
+
+  - type: STR_MAGNA_PACK_EXPLOSIVE
+    power: 200
+    damageType: 3
+    blastRadius: 1
+
+  - type: ALIEN_PSI_WEAPON
+    hitSound: 43
+    battleType: 9
+    tuUse: 25
+    flatRate: false # was: true
+    LOSRequired: true # was: false
+
+  - type: TENTACULAT_WEAPON
+    bigSprite: 71
+    meleeSound: 42
+    accuracyMelee: 50
+    tuMelee: 50
+    flatRate: false
+
+armors:
+  - type: STR_NONE_UC 
+    frontArmor: 40 #was: 12
+    sideArmor: 20 #was: 8
+    rearArmor: 20 #was: 5
+    underArmor: 10 #was: 2
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.6
+      - 1.0 #was: 1.5
+      - 1.0 #was: 1.0
+
+  - type: STR_PLASTIC_AQUA_ARMOR_UC
+    frontArmor: 80 #was: 60
+    sideArmor: 60 #was: 35
+    rearArmor: 60 #was: 30
+    underArmor: 50 #was: 25
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 0.9 #was: 0.9
+      - 0.8 #was: 0.8
+      - 1.0 #was: 1.0
+      - 0.8 #was: 0.8
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.2
+      - 1.0 #was: 1.1
+      - 1.0 #was: 1.0
+
+  - type: STR_ION_ARMOR_UC
+    frontArmor: 120 #was: 132
+    sideArmor: 100 #was: 70
+    rearArmor: 100 #was: 100
+    underArmor: 80 #was: 55
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 0.8 #was: 0.8
+      - 0.0 #was: 0.0
+      - 0.8 #was: 0.8
+      - 0.7 #was: 0.7
+      - 0.9 #was: 0.9
+      - 0.5 #was: 1.0
+      - 0.8 #was: 1.1
+      - 1.0 #was: 1.0
+      - 0.0 #was: 0.0
+
+  - type: STR_MAGNETIC_ION_ARMOR_UC
+    frontArmor: 120 #was: 142
+    sideArmor: 100 #was: 80
+    rearArmor: 100 #was: 110
+    underArmor: 80 #was: 65
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 0.8 #was: 0.8
+      - 0.0 #was: 0.0
+      - 0.8 #was: 0.8
+      - 0.7 #was: 0.7
+      - 0.9 #was: 0.9
+      - 0.5 #was: 1.0
+      - 0.8 #was: 1.1
+      - 1.0 #was: 1.0
+      - 0.0 #was: 0.0
+
+#increase civilians survivability
+  - type: BIKINI_GIRL_ARMOR
+    damageModifier:
+      - 0.2 #was: 1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.6
+      - 0.2 #was:1.5
+      - 0.2 #was:1.0
+
+  - type: SAILOR_ARMOR
+    damageModifier:
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.6
+      - 0.2 #was:1.5
+      - 0.2 #was:1.0
+
+  - type: SURFER_ARMOR
+    damageModifier:
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.6
+      - 0.2 #was:1.5
+      - 0.2 #was:1.0
+
+  - type: DOCKER_ARMOR
+    damageModifier:
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.0
+      - 0.2 #was:1.6
+      - 0.2 #was:1.5
+      - 0.2 #was:1.0
+
+#--------------------------------------------------------------------------
+#how about no cheating, aliens?
+
+  - type: AQUATOID_ARMOR0
+    frontArmor: 4 #was: 4
+    sideArmor: 3 #was: 3
+    rearArmor: 2 #was: 2
+    underArmor: 2 #was: 2
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.6 #was: 1.6
+      - 1.5 #was: 1.5
+      - 1.0 #was: 1.0
+    loftemps: 2
+    drawingRoutine: 15
+
+  - type: GILLMAN_ARMOR0
+    frontArmor: 15 #was: 15
+    sideArmor: 12 #was: 12
+    rearArmor: 14 #was: 14
+    underArmor: 12 #was: 12
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.1 #was: 1.1
+      - 1.0 #was: 1.0
+      - 1.2 #was: 1.2
+      - 1.0 #was: 0.0
+      - 1.0 #was: 1.0
+
+  - type: TASOTH_ARMOR0
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.8
+      - 1.0 #was: 0.4
+      - 1.0 #was: 0.9
+      - 1.0 #was: 0.7
+      - 1.2 #was: 1.2
+      - 1.1 #was: 1.1
+      - 1.0 #was: 0.9
+      - 0.3 #was: 0.0
+      - 1.1 #was: 1.1
+
+  - type: LOBSTERMAN_ARMOR0
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 15
+    underArmor: 10
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.2
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.5
+      - 1.0 #was: 1.1
+      - 1.0 #was: 2.0
+      - 1.0 #was: 0.0
+      - 1.0 #was: 1.1
+
+  - type: LOBSTERMAN_ARMOR1
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 18
+    underArmor: 10
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.2
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.5
+      - 1.0 #was: 1.1
+      - 1.0 #was: 2.0
+      - 1.0 #was: 0.0
+      - 1.0 #was: 1.1
+
+  - type: LOBSTERMAN_ARMOR2
+    frontArmor: 22
+    sideArmor: 22
+    rearArmor: 20
+    underArmor: 12
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.2
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.3
+      - 1.0 #was: 0.5
+      - 1.0 #was: 1.1
+      - 1.0 #was: 2.0
+      - 1.0 #was: 0.0
+      - 1.0 #was: 1.1
+
+  - type: DEEP_ONE_ARMOR0
+    spriteSheet: DEEPONE.PCK
+    allowInv: false
+    corpseItem: STR_DEEP_ONE_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 12
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.9
+      - 1.0 #was: 0.9
+      - 1.0 #was: 0.8
+      - 1.0 #was: 0.9
+      - 1.1 #was: 1.1
+      - 1.0 #was: 1.0
+      - 1.2 #was: 1.2
+      - 0.3 #was: 0.0
+      - 1.0 #was: 1.0
+    loftemps: 3
+    drawingRoutine: 14
+    drawBubbles: true
+
+  - type: CALCINITE_ARMOR0
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 10
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 2.0 #was: 0.9 - burn, baby, burn
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.9
+      - 1.1 #was: 1.1
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.8
+      - 0.0 #was: 0.0
+      - 1.0 #was: 1.0
+
+  - type: BIODRONE_ARMOR0
+    frontArmor: 25
+    sideArmor: 15
+    rearArmor: 10
+    underArmor: 5
+    movementType: 1
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.6
+      - 2.0 #was: 0.6 - you want boom? i give you boom
+      - 1.0 #was: 0.7
+      - 1.0 #was: 0.9
+      - 1.0 #was: 0.9
+      - 1.5 #was: 1.45
+      - 0.3 #was: 0.0
+      - 1.0 #was: 0.9
+
+  - type: XARQUID_ARMOR0
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 5
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.6
+      - 1.0 #was: 0.6
+      - 1.0 #was: 0.7
+      - 1.0 #was: 0.9
+      - 1.0 #was: 0.9
+      - 1.5 #was: 1.45
+      - 0.3 #was: 0.0
+      - 1.0 #was: 0.9
+
+  - type: TENTACULAT_ARMOR0
+    frontArmor: 0 #was: 45 Where is your god now, sonovabitch
+    sideArmor: 0 #was: 25
+    rearArmor: 0 #was: 15
+    underArmor: 0 #was: 5
+    movementType: 1
+    damageModifier:
+      -  1.0 #was: 1.0
+      -  1.0 #was: 0.8
+      -  2.0 #was: 1.0 - burn, baby, burn
+      -  1.5 #was: 1.5
+      -  1.0 #was: 0.9
+      -  1.1 #was: 1.1
+      -  1.1 #was: 1.1
+      -  1.1 #was: 1.1
+      -  0.5 #was: 0.0
+      -  1.1 #was: 1.1
+
+  - type: HALLUCINOID_ARMOR0
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 25
+    size: 2
+    movementType: 1
+    damageModifier:
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.6
+      - 1.0 #was: 1.7
+      - 1.0 #was: 0.7
+      - 1.0 #was: 0.8
+      - 1.0 #was: 1.0
+      - 1.0 #was: 1.0
+      - 1.0 #was: 0.6
+      - 1.0 #was: 0.0
+      - 1.0 #was: 1.0
+
+# boost of recruit skills:
+
+soldiers:
+  - type: STR_SOLDIER
+    minStats:
+      tu: 50
+      health: 45 #was: 25
+      bravery: 20 #was: 10
+      reactions: 40 #was: 40
+      firing: 50 #was: 40
+    maxStats:
+      tu: 70 #was: 60
+      health: 60 #was: 40
+      bravery: 60 #was: 60
+      reactions: 60 #was: 60
+      firing: 70 #was: 70
+    statCaps:
+      tu: 120 #was: 80
+      health: 120 #was: 60
+      reactions: 120 #was: 100
+      firing: 120 #was: 120
+      strength: 100 #was: 70
+
+#lighter Zrbite
+
+items:
+  - type: STR_ZRBITE
+    size: 0.25 #was: 0.1
+
+#lower penalties for abandoning terror missions
+alienDeployments:
+  - type: STR_PORT_TERROR
+    despawnPenalty: 320 #was: 1000
+  - type: STR_ISLAND_TERROR
+    despawnPenalty: 320 #was: 1000
+  - type: STR_CARGO_SHIP_P1
+    despawnPenalty: 320 #was: 1000
+  - type: STR_CRUISE_SHIP_P1
+    despawnPenalty: 320 #was: 1000

@@ -1,0 +1,160 @@
+items: 
+#corpses
+#SHARKCORPSE
+  - type: STR_CORPSE_SHARK
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 129
+    floorSprite: 129
+    invWidth: 2
+    invHeight: 3
+    armor: 10
+    battleType: 11
+    recover: false
+
+#VESTSHARKCORPSE
+  - type: STR_CORPSE_SHARK_VEST
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 130
+    floorSprite: 130
+    invWidth: 2
+    invHeight: 3
+    armor: 10
+    battleType: 11
+    recover: false    
+
+#ARMOURSHARKCORPSE
+  - type: STR_CORPSE_SHARK_ARMOUR
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 131
+    floorSprite: 131
+    invWidth: 2
+    invHeight: 3
+    armor: 10
+    battleType: 11
+    recover: false    
+
+#POWERSHARKCORPSE
+  - type: STR_CORPSE_POWERSHARK
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 132
+    floorSprite: 132
+    invWidth: 2
+    invHeight: 3
+    armor: 10
+    battleType: 11
+    recover: false   
+
+#STOREITEMS
+  - type: STR_SHARKVEST
+    categories: [STR_ARMOR_SUITS]
+    size: 0.8
+    costSell: 15000
+
+  - type: STR_SHARK_ARMOUR
+    categories: [STR_ARMOR_SUITS]
+    size: 0.8
+    costSell: 30000
+
+  - type: STR_POWERSHARK
+    categories: [STR_ARMOR_SUITS]
+    size: 0.8
+    costSell: 30000
+
+#POWERARMOUR FIST
+  - type: STR_POWERFIST
+    specialUseEmptyHand: false
+    weight: 0
+    bigSprite: 1
+    meleeSound: 441
+    meleeHitSound: 440
+    meleeMissSound: 441
+    meleeAnimation: 0
+    power: 50
+    damageType: 7
+    damageBonus:
+      strength: 1.5
+      melee: 1.5
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 1.0
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialIconSprite: 1
+
+#TEST
+  - type: STR_HARDSHIELD
+    weight: 0
+    bigSprite: 100
+    meleeSound: 441
+    meleeHitSound: 442
+    meleeMissSound: 441
+    meleeAnimation: 0
+    power: 50
+    damageType: 6
+    damageBonus:
+      strength: 1.5
+      melee: 1.5
+    accuracyMelee: 100
+    meleeMultiplier:
+      melee: 1.0
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 3
+    fixedWeapon: true
+    recover: false  
+    fixedWeaponShow: false
+    defaultInventorySlot: STR_LEFT_HAND
+
+  - type: STR_GAS_CANNON_SHARK
+    bulletSprite: 4
+    fireSound: 23
+    accuracyAuto: 5
+    maxRange: 50
+    autoRange: 20
+    costAuto:
+      energy: 60
+      time: 10
+    flatAuto:
+      time: false
+      energy: false
+    tuThrow: -1
+    battleType: 1
+    arcingShot: true
+    autoShots: 8
+    hitSound: 0
+    hitAnimation: 8
+    power: 80
+    damageType: 3
+    clipSize: -1
+    specialIconSprite: 1
+
+  - type: STR_REACTORPACK
+    weight: 0
+    bigSprite: 110
+    invWidth: 3
+    invHeight: 3
+    fixedWeapon: true
+    recover: false  
+    fixedWeaponShow: false
+    defaultInventorySlot: STR_BACK_PACK

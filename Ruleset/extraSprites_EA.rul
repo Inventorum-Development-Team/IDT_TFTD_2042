@@ -1,0 +1,320 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      187: Resources/BigObs/BCANNON.png
+      188: Resources/BigObs/BRIFLE.png
+      189: Resources/BigObs/BPISTOL.png
+      192: Resources/BigObs/BRifle_Clip.png
+      193: Resources/BigObs/BPistol_Clip.png
+      194: Resources/BigObs/CKnife.png
+      195: Resources/BigObs/CSpear.png
+      196: Resources/BigObs/Minigun.png
+      197: Resources/BigObs/Recoil.png
+      198: Resources/BigObs/Minigun_Clip.png
+      199: Resources/BigObs/Recoil_Clip.png
+      200: Resources/BigObs/Volley.png
+      201: Resources/BigObs/Volley_Clip.png
+      202: Resources/BigObs/Accel.png
+      203: Resources/BigObs/Accel_Clip.png
+      204: Resources/BigObs/Displacer_Armor_Bigob.png
+      205: Resources/BigObs/Ion_Cannon.png
+      206: Resources/BigObs/Ion_Cannon_Clip.png
+      207: Resources/BigObs/Ion_Pistol.png
+      208: Resources/BigObs/Ion_Pistol_Clip.png
+      209: Resources/BigObs/Laser_Pistol.png
+      210: Resources/BigObs/Laser_Carbine.png
+      211: Resources/BigObs/Heavy_Laser.png
+      212: Resources/BigObs/BigOb_ZrbiteFlare.gif
+      290: Resources/BigObs/BC_Clip_AP.png
+      291: Resources/BigObs/BC_Clip_HE.png
+      387: Resources/BigObs/SNC_CANNON.png
+      388: Resources/BigObs/SNC_RIFLE.png
+      389: Resources/BigObs/SNC_PISTOL.png
+      390: Resources/BigObs/Grenade.png
+      391: Resources/BigObs/Cannon_Clip.png
+      392: Resources/BigObs/Rifle_Clip.png
+      393: Resources/BigObs/Pistol_Clip.png
+  - type: FLOOROB.PCK
+    files:
+      200: Resources/FloorObs/BCANNON_Floor.png
+      201: Resources/FloorObs/BRifle_Floor.png
+      202: Resources/FloorObs/BPistol_Floor.png
+      203: Resources/FloorObs/BPistol_Clip_Floor.png
+      204: Resources/FloorObs/BRifle_Clip_Floor.png
+      205: Resources/FloorObs/BC_AP_Floor.png
+      206: Resources/FloorObs/BC_HE_Floor.png
+      207: Resources/FloorObs/CKnife_Floor.png
+      208: Resources/FloorObs/CSpear_Floor.png
+      209: Resources/FloorObs/Minigun_Floor.png
+      210: Resources/FloorObs/Minigun_Clip_Floor.png
+      211: Resources/FloorObs/Recoil_Floor.png
+      212: Resources/FloorObs/Recoil_Clip_Floor.png
+      213: Resources/FloorObs/Volley_Floor.png
+      214: Resources/FloorObs/Accel_Floor.png
+      215: Resources/FloorObs/Volley_Clip_Floor.png
+      216: Resources/FloorObs/Accel_Clip_Floor.png
+      217: Resources/FloorObs/Displacer_Armor_Floor.png
+      218: Resources/FloorObs/Ion_Cannon_Floor.png
+      219: Resources/FloorObs/Ion_Cannon_Clip_Floor.png
+      220: Resources/FloorObs/Ion_Pistol_Floor.png
+      221: Resources/FloorObs/Ion_Pistol_Clip_Floor.png
+      222: Resources/FloorObs/Laser_Pistol_Floor.png
+      223: Resources/FloorObs/Laser_Carbine_Floor.png
+      224: Resources/FloorObs/Heavy_Laser_Floor.png
+      225: Resources/FloorObs/FloorOb_ZrbiteFlare.gif
+      300: Resources/FloorObs/Cannon.png
+      301: Resources/FloorObs/Rifle.png
+      302: Resources/FloorObs/Pistol.png
+      303: Resources/FloorObs/Pistol_Clip_Floor.png
+      304: Resources/FloorObs/Rifle_Clip_Floor.png
+      305: Resources/FloorObs/Cannon_Clip_Floor.png
+      306: Resources/FloorObs/Grenade_Floor.png
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      600: Resources/HandObs/BCannon_Hand.png
+      608: Resources/HandObs/BRifle_Hand.png
+      616: Resources/HandObs/BPistol_Hand.png
+      624: Resources/HandObs/BC_CLIP_AP_Hand.png
+      632: Resources/HandObs/BRifle_Clip_Hand.png
+      640: Resources/HandObs/BPistol_Clip_Hand.png
+      648: Resources/HandObs/BC_CLIP_HE_Hand.png
+      656: Resources/HandObs/CKnife_Hand.png
+      664: Resources/HandObs/CSpear_Hand.png
+      672: Resources/HandObs/Minigun_Hand.png
+      680: Resources/HandObs/Minigun_Clip_Hand.png
+      688: Resources/HandObs/Recoil_Hand.png
+      696: Resources/HandObs/Recoil_Clip_Hand.png
+      704: Resources/HandObs/Volley_Hand.png
+      712: Resources/HandObs/Accel_Hand.png
+      720: Resources/HandObs/Volley_Clip_Hand.png
+      728: Resources/HandObs/Accel_Clip_Hand.png
+      736: Resources/HandObs/Ion_Cannon_Hand.png
+      744: Resources/HandObs/Ion_Cannon_Clip_Hand.png
+      752: Resources/HandObs/Ion_Pistol_Hand.png
+      760: Resources/HandObs/Ion_Pistol_Clip_Hand.png
+      768: Resources/HandObs/Laser_Pistol_hand.png
+      776: Resources/HandObs/Laser_Carbine_hand.png
+      784: Resources/HandObs/Heavy_Laser_hand.png
+      792: Resources/HandObs/HandOb_ZrbiteFlare.gif
+      800: Resources/HandObs/SNC_CN_XCOM_HND.png
+      808: Resources/HandObs/SNC_RFL_XCOM_HND.png
+      816: Resources/HandObs/SNC_PSTL_XCOM_HND.png
+      824: Resources/HandObs/Cannon_Clip_Hand.png
+      832: Resources/HandObs/Rifle_Clip_Hand.png
+      840: Resources/HandObs/Pistol_Clip_Hand.png
+      848: Resources/HandObs/Grenade_Hand.png
+  - type: DISPLACER.SPK
+    singleImage: true
+    files:
+      0: Resources/Inventory/Displacer_Armor_INV.png
+  - type: DISPLACER_ARMOR.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/Displacer_armor.png
+  - type: X1.PCK
+    width: 1024
+    height: 128
+    subX: 128
+    subY: 64
+    files:
+      16: Resources/Hits/test2.png
+  - type: HIT.PCK
+    width: 128
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      104: Resources/Hits/melee1.gif
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      600: Resources/Hits/ion_pistol_hit.gif
+      610: Resources/Hits/LaserRifle_Hit.png
+  - type: Projectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/ion_test.png
+      420: Resources/Projectiles/Projectiles_Laser_Beam.png
+  - type: UnderwaterProjectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      385: Resources/Projectiles/ion_test.png
+      420: Resources/Projectiles/Projectiles_Laser_Beam.png
+  - type: UFOpaedia_BCannon.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BCannon.png
+  - type: UFOpaedia_BRifle.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BRifle.png
+  - type: UFOpaedia_BPistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BPistol.png
+  - type: UFOpaedia_CKnife.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/CKnife.png
+  - type: UFOpaedia_CSpear.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/CSpear.png
+  - type: UFOpaedia_Minigun.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Minigun.png
+  - type: UFOpaedia_Recoil.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Recoil.png
+  - type: UFOpaedia_Volley.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Volley.png
+  - type: UFOpaedia_Volley_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Volley_Clip.png
+  - type: UFOpaedia_Accel.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Accel.png
+  - type: UFOpaedia_Accel_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Accel_Clip.png
+  - type: UFOpaedia_Displacer_Armor.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Displacer_Armor_UFO.png
+  - type: UFOpaedia_Ion_Cannon.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Cannon_UFO.png
+  - type: UFOpaedia_Ion_Pistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Pistol_UFO.png
+  - type: UFOpaedia_Ion_Cannon_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Cannon_Clip_UFO.png
+  - type: UFOpaedia_Ion_Pistol_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Ion_Pistol_Clip_UFO.png
+  - type: UFOpaedia_Laser_Pistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Laser_Pistol_UFO.png
+  - type: UFOpaedia_Laser_Carbine.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Laser_Carbine_UFO.png
+  - type: UFOpaedia_Heavy_Laser.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/Heavy_Laser_UFO.png
+  - type: UFOpaedia_Zrbite_Flare.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UFOPAEDIA_ZrbiteFlare.gif
+  - type: UFOpaedia_HSonic_Cannon.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Cannon.png
+  - type: UFOpaedia_HSonic_Rifle.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Rifle.png
+  - type: UFOpaedia_HSonic_Pistol.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Pistol.png
+  - type: UFOpaedia_HSonic_Pistol_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Pistol_Clip.png
+  - type: UFOpaedia_HSonic_Rifle_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Rifle_Clip.png
+  - type: UFOpaedia_HSonic_Cannon_Clip.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Cannon_Clip.png
+  - type: UFOpaedia_HSonic_Grenade.png
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      1000: Resources/UFOPAEDIA/Grenade.png

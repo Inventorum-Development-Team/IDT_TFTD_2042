@@ -1,0 +1,145 @@
+enableUnitResponseSounds: true
+armors: 
+    #StandardShark
+  - type: STR_SHARK_SUIT
+    spriteSheet: SHARK.PCK
+    spriteInv: CSHARK_0
+    corpseBattle:
+      - STR_CORPSE_SHARK
+    storeItem: STR_NONE
+    frontArmor: 8
+    sideArmor: 8
+    rearArmor: 6
+    underArmor: 8
+    visibilityAtDark: 12
+    forcedTorso: 1
+    loftempsSet: [ 2 ]
+    # stats:
+    damageModifier:
+      - 1.0
+      - 1.0 # AP
+      - 1.0 # Fire
+      - 1.0 # HE
+      - 1.0 # Gauss
+      - 1.0 # Sonic
+      - 1.0 # Stun
+      - 1.0 # Melee
+      - 1.0 # Acid
+      - 1.0 # Smoke
+      - 1.0 # laser
+    drawingRoutine: 13
+    movementType: 3
+    deathMale: 255
+    customArmorPreviewIndex: 0
+    meleeDodge:
+     reactions: 0.85
+
+    #SharkVest
+  - type: STR_SHARK_VEST
+    requires: STR_SHARKVEST
+    spriteSheet: SHARKVEST.PCK
+    spriteInv: CVEST_0
+    corpseBattle:
+      - STR_CORPSE_SHARK_VEST
+    storeItem: STR_SHARKVEST
+    frontArmor: 20
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 10
+    visibilityAtDark: 12
+    forcedTorso: 1
+    loftempsSet: [ 2 ]
+    # stats:
+    damageModifier:
+      - 1.0
+      - 0.9 # AP
+      - 1.0 # Fire
+      - 1.0 # HE
+      - 1.0 # Gauss
+      - 1.0 # Sonic
+      - 1.0 # Stun
+      - 0.9 # Melee
+      - 1.0 # Acid
+      - 1.0 # Smoke
+      - 1.0 # laser
+    drawingRoutine: 13
+    movementType: 3
+    deathMale: 255
+    customArmorPreviewIndex: 1
+
+#SHARK ARMOUR
+  - type: STR_SHARK_ARMOUR
+    requires: STR_SHARK_ARMOUR
+    spriteSheet: SHARKARMOUR.PCK
+    spriteInv: CARMOUR_0
+    corpseBattle:
+      - STR_CORPSE_SHARK_ARMOUR
+    storeItem: STR_SHARK_ARMOUR
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 40
+    visibilityAtDark: 12
+    forcedTorso: 1
+    loftempsSet: [ 2 ]
+    # stats:
+    damageModifier:
+      - 1.0
+      - 0.8 # AP
+      - 0.8 # Fire
+      - 0.7 # HE
+      - 0.9 # Gauss
+      - 0.9 # Sonic
+      - 1.0 # Stun
+      - 0.7 # Melee
+      - 0.9 # Acid
+      - 0.3 # Smoke
+      - 0.8 # laser
+    stats:
+      tu: -10
+      reactions: -5
+    drawingRoutine: 13
+    movementType: 0
+    deathMale: 255
+    customArmorPreviewIndex: 2
+
+#POWERSHARK
+  - type: STR_POWERSHARK
+    requires: STR_POWERSHARK
+    spriteSheet: POWERSHARK.PCK
+    spriteInv: CPOWER_0
+    corpseBattle:
+      - STR_CORPSE_POWERSHARK
+    storeItem: STR_POWERSHARK
+    frontArmor: 160
+    sideArmor: 110
+    rearArmor: 120
+    underArmor: 80
+    visibilityAtDark: 15
+    forcedTorso: 1
+    loftempsSet: [ 2 ]
+    # stats:
+    damageModifier:
+      - 1.0
+      - 0.6 # AP
+      - 0.3 # Fire
+      - 0.6 # HE
+      - 0.7 # Gauss
+      - 0.8 # Sonic
+      - 0.8 # Stun
+      - 0.6 # Melee
+      - 0.9 # Acid
+      - 0.0 # Smoke
+      - 0.7 # laser
+    stats:
+      tu: -5
+      strength: 20      
+    drawingRoutine: 13
+    movementType: 0
+    moveSound: 256
+    deathMale: 255
+    customArmorPreviewIndex: 3
+    specialWeapon: STR_POWERFIST
+    builtInWeapons:
+     - STR_HARDSHIELD
+     - STR_REACTORPACK

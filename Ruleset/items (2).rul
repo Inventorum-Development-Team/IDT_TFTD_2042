@@ -1,0 +1,16 @@
+items:
+  - type: STR_LUNG_I
+    size: 0.4
+    costBuy: 2000
+    costSell: 1900
+    listOrder: 1679
+  - type: STR_CORPSE_LUNG
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 128
+    floorSprite: 129
+    invWidth: 2
+    invHeight: 3
+    armor: 10
+    recover: false 
+    battleType: 11

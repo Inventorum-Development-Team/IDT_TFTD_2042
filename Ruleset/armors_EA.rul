@@ -1,0 +1,46 @@
+armors:
+
+  - type: STR_DISPLACER_ARMOR_UC
+    spriteSheet: DISPLACER_ARMOR.PCK
+    spriteInv: DISPLACER.SPK
+    corpseBattle: 
+     - STR_DISPLACER_ARMOR_CORPSE
+    corpseGeo: STR_WRECKED_DISPLACER_ARMOR
+    storeItem: STR_DISPLACER_ARMOR
+    frontArmor: 140
+    sideArmor: 100
+    rearArmor: 100
+    underArmor: 75
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.7
+      - 0.7
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+    loftemps: 3
+    drawingRoutine: 13
+    drawBubbles: true
+    forcedTorso: 1
+    spriteFaceGroup: 0
+    spriteHairGroup: 0
+
+  - type: STR_PLASTIC_AQUA_ARMOR_UC
+    corpseBattle:
+     - STR_CORPSE_ARMOR
+    corpseGeo: STR_WRECKED_PLASTIC_ARMOR
+    
+  - type: STR_ION_ARMOR_UC
+    corpseBattle:
+     - STR_CORPSE_ION
+    corpseGeo: STR_WRECKED_ION_ARMOR
+
+  - type: STR_MAGNETIC_ION_ARMOR_UC
+    corpseBattle:
+     - STR_CORPSE_ION
+    corpseGeo: STR_WRECKED_MAG_ARMOR

@@ -1,0 +1,10 @@
+craftWeapons: #done
+  - type: STR_AJAX
+    range: 50 #was: 32
+    ammoMax: 8 #was: 6
+  - type: STR_DUP_HEAD
+    range: 40 #was: 50
+    ammoMax: 2 #was: 3
+  - type: STR_CRAFT_GAS_CANNON_UC
+    range: 20 #was: 8
+    accuracy: 35 #was: 25

@@ -1,0 +1,17 @@
+armors:
+
+
+  - type: STR_NONE_UC
+    customArmorPreviewIndex: 0
+
+
+  - type: STR_PLASTIC_AQUA_ARMOR_UC
+    customArmorPreviewIndex: 1
+
+
+  - type: STR_ION_ARMOR_UC
+    customArmorPreviewIndex: 2
+
+
+  - type: STR_MAGNETIC_ION_ARMOR_UC
+    customArmorPreviewIndex: 3

@@ -1,0 +1,531 @@
+units:
+  - type: STR_COELACANTH_UN
+    race: STR_COELACANTH_UN
+    stats:
+      tu: 70
+      stamina: 100
+      health: 90
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 60
+      psiStrength: 100
+      psiSkill: 0
+    armor: COELACANTHUN_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 20
+    deathSound: 23
+    moveSound: 12
+    energyRecovery: 50
+armors:
+  - type: COELACANTHUN_ARMOR
+    spriteSheet: COELACANTHUN.PCK
+    allowInv: false
+    corpseGeo: STR_COELACANTH_CORPSE_UN
+    corpseBattle:
+      - COELACANTH_CORPSE_UN1
+      - COELACANTH_CORPSE_UN2
+      - COELACANTH_CORPSE_UN3
+      - COELACANTH_CORPSE_UN4
+    frontArmor: 100
+    sideArmor: 85
+    rearArmor: 70
+    underArmor: 70
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+items:
+  - type: STR_COELACANTH_UN
+    size: 6
+    costSell: 340000
+    transferTime: 96
+    weight: 1
+    bigSprite: 40
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 24
+    compatibleAmmo:
+      - STR_HWP_SOLID_HARPOON_BOLTS
+    accuracySnap: 60
+    accuracyAimed: 90
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 0
+    listOrder: 1250
+  - type: STR_HWP_SOLID_HARPOON_BOLTS
+    size: 0.1
+    costBuy: 200
+    costSell: 100
+    transferTime: 48
+    weight: 1
+    hitSound: 21
+    hitAnimation: 26
+    power: 60
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    invWidth: 2
+    invHeight: 1
+    vaporColor: 0
+    vaporDensity: 15
+  - type: STR_UN_CONTRACT
+    size: 0.1
+    costBuy: 16000
+    costSell: 0
+    transferTime: 1
+  - type: STR_COELACANTH_CORPSE_UN
+    floorSprite: 82
+    invWidth: 0
+    invHeight: 0
+    recover: false    
+  - type: COELACANTH_CORPSE_UN1
+    floorSprite: 82
+    invWidth: 0
+    invHeight: 0
+    recover: false 
+    battleType: 11
+  - type: COELACANTH_CORPSE_UN2
+    floorSprite: 83
+    invWidth: 0
+    invHeight: 0
+    recover: false 
+    battleType: 11
+  - type: COELACANTH_CORPSE_UN3
+    floorSprite: 84
+    invWidth: 0
+    invHeight: 0
+    recover: false
+    battleType: 11
+  - type: COELACANTH_CORPSE_UN4
+    floorSprite: 85
+    invWidth: 0
+    invHeight: 0
+    recover: false 
+    battleType: 11
+terrains:
+  - name: XBASES
+    mapDataSets:
+      - BLANKS
+      - XBASES01
+      - XBASES02
+      - XBASES03
+      - XBASES04
+      - XBASES05
+      - XBITS
+    mapBlocks:
+      - name: XBASES00
+        width: 10
+        length: 10
+      - name: XBASES01
+        width: 10
+        length: 10
+      - name: XBASES02
+        width: 10
+        length: 10
+      - name: XBASES03
+        width: 10
+        length: 10
+      - name: XBASES04
+        width: 10
+        length: 10
+      - name: XBASES05
+        width: 10
+        length: 10
+      - name: XBASES06
+        width: 10
+        length: 10
+      - name: XBASES07
+        width: 10
+        length: 10
+      - name: XBASES08
+        width: 10
+        length: 10
+      - name: XBASES09
+        width: 10
+        length: 10
+      - name: XBASES10
+        width: 10
+        length: 10
+      - name: XBASES11
+        width: 10
+        length: 10
+      - name: XBASES12
+        width: 10
+        length: 10
+      - name: XBASES13
+        width: 10
+        length: 10
+      - name: XBASES14
+        width: 10
+        length: 10
+      - name: XBASES15
+        width: 10
+        length: 10
+      - name: XBASES16
+        width: 10
+        length: 10
+      - name: XBASES17
+        width: 10
+        length: 10
+      - name: XBASES18
+        width: 10
+        length: 10
+      - name: XBASES19
+        width: 10
+        length: 10
+      - name: XBASES20
+        width: 10
+        length: 10
+        groups: 1
+      - name: XBASES21
+        width: 10
+        length: 10
+      - name: XBASES22
+        width: 10
+        length: 10
+      - name: XBASES23
+        width: 10
+        length: 10
+      - name: XBASES24
+        width: 10
+        length: 10
+facilities: 
+  - type: STR_UN_HEADQUARTERS
+    requires:
+      - STR_UN_CONTRACT
+    spriteShape: 309
+    spriteFacility: 309
+    size: 2
+    buildCost: 3000000
+    buildTime: 50
+    monthlyCost: 300000
+    workshops: 600
+    mapName: XBASES21
+crafts:
+  - type: STR_LOCKHEED
+    sprite: 22
+    fuelMax: 1400
+    damageMax: 960
+    speedMax: 1600
+    accel: 6
+    weapons: 0
+    soldiers: 21
+    vehicles: 3
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 500
+    maxDepth: 3
+    listOrder: 159
+    battlescapeTerrainData:
+      name: L
+      mapDataSets:
+        - BLANKS
+        - L
+      mapBlocks:
+        - name: L
+          width: 10
+          length: 20
+    deployment:
+      - [4, 4, 1, 4]
+      - [5, 4, 1, 4]
+      - [2, 5, 1, 4]
+      - [3, 5, 1, 4]
+      - [2, 4, 1, 4]
+      - [3, 4, 1, 4]
+      - [4, 5, 1, 4]
+      - [5, 5, 1, 4]
+      - [2, 6, 1, 4]
+      - [2, 7, 1, 4]
+      - [2, 8, 1, 4]
+      - [2, 9, 1, 4]
+      - [5, 6, 1, 4]
+      - [5, 7, 1, 4]
+      - [5, 8, 1, 4]
+      - [5, 9, 1, 4]
+      - [5, 7, 1, 4]
+      - [3, 9, 1, 4]
+      - [3, 8, 1, 4]
+      - [4, 8, 1, 4]
+      - [4, 9, 1, 4]
+      - [4, 10, 1, 4]
+  - type: STR_LOCKHEED2
+    sprite: 23
+    fuelMax: 1400
+    damageMax: 3000
+    speedMax: 2000
+    accel: 6
+    weapons: 2 
+    soldiers: 30
+    vehicles: 5
+    refuelItem: STR_ZRBITE
+    refuelRate: 5
+    score: 700
+    maxDepth: 3
+    listOrder: 160
+    battlescapeTerrainData:
+      name: LEV
+      mapDataSets:
+        - BLANKS
+        - LEV
+      mapBlocks:
+        - name: LEV
+          width: 10
+          length: 20
+    deployment:
+      - [4, 4, 1, 4]
+      - [5, 4, 1, 4]
+      - [2, 5, 1, 4]
+      - [3, 5, 1, 4]
+      - [2, 4, 1, 4]
+      - [3, 4, 1, 4]
+      - [4, 5, 1, 4]
+      - [5, 5, 1, 4]
+      - [2, 6, 1, 4]
+      - [2, 7, 1, 4] #
+      - [2, 8, 1, 4]
+      - [2, 9, 1, 4]
+      - [5, 6, 1, 4]
+      - [5, 7, 1, 4]
+      - [5, 8, 1, 4]
+      - [5, 9, 1, 4]
+      - [5, 7, 1, 4]
+      - [3, 9, 1, 4]
+      - [3, 8, 1, 4]
+      - [4, 8, 1, 4] #
+      - [4, 9, 1, 4]	  
+      - [4, 10, 1, 4] 
+      - [4, 5, 1, 4]
+      - [3, 5, 2, 4]
+      - [4, 5, 2, 4]
+      - [4, 4, 2, 4]
+      - [3, 4, 2, 4]
+      - [4, 9, 2, 4]    
+      - [4, 8, 2, 4]
+      - [3, 8, 2, 4]
+      - [3, 3, 2, 4]
+      - [4, 3, 2, 4]
+research:
+  - name: STR_LOCKHEED_TRANSPORTER
+    cost: 400 #
+    points: 25
+    listOrder: 159 #
+    dependencies:
+      - STR_UN_HQ
+      - STR_AQUA_PLASTICS
+      - STR_MAGNETIC_NAVIGATION
+  - name: STR_UN_HQ
+    cost: 400 #
+    points: 25
+    listOrder: 161 #
+    dependencies:
+      - STR_AQUA_PLASTICS
+      - STR_UN_CONTRACT
+  - name: STR_UN_CONTRACT
+    cost: 300 #
+    points: 25
+    listOrder: 162 #
+    needItem: true
+  - name: STR_LOCKHEED_V2
+    cost: 500 #
+    points: 25
+    listOrder: 163 #
+    dependencies:
+      - STR_LOCKHEED_TRANSPORTER
+      - STR_BOMBARDMENT_SHIELD
+  - name: STR_COELACANTH_R
+    cost: 350 #
+    points: 25
+    listOrder: 164 #
+    dependencies:
+      - STR_AQUA_PLASTICS
+      - STR_UN_CONTRACT
+manufacture:
+  - name: STR_LOCKHEED 
+    category: STR_CRAFT
+    requires:
+      - STR_LOCKHEED_TRANSPORTER
+    space: 500 
+    time: 10000 
+    cost: 500000 
+    listOrder: 1591 #
+    requiredItems:
+      STR_AQUA_PLASTICS: 200
+      STR_MAGNETIC_NAVIGATION: 5
+  - name: STR_COELACANTH_UN 
+    category: STR_HEAVY_WEAPONS_PLATFORM
+    requires:
+      - STR_COELACANTH_R
+    space: 25 
+    time: 1200 
+    cost: 300000 
+    listOrder: 1592 #
+    requiredItems:
+      STR_AQUA_PLASTICS: 50
+  - name: STR_LOCKHEED2 
+    category: STR_CRAFT
+    requires:
+      - STR_LOCKHEED_V2
+    space: 500 
+    time: 20000 
+    cost: 900000 
+    listOrder: 1593 #
+    requiredItems:
+      STR_AQUA_PLASTICS: 500
+      STR_MAGNETIC_NAVIGATION: 10
+ufopaedia:
+  - id: STR_LOCKHEED
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: LOCKHEED
+    text: STR_LOCKHEED_UFOPEDIA
+    listOrder: 408
+    requires:
+      - STR_LOCKHEED_TRANSPORTER
+  - id: STR_UN_HEADQUARTERS
+    type_id: 16
+    section: STR_BASE_FACILITIES
+    image_id: HEADQUARTERS
+    text: STR_UN_HEADQUARTERS_UFOPEDIA
+    listOrder: 409 #
+    requires:
+      - STR_UN_HQ
+  - id: STR_COELACANTH_UN
+    type_id: 13
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_COELACANTH_UN_UFOPEDIA
+    weapon: STR_DAMAGE_ARMOR_PIERCING
+    image_id: COELACANTHUN
+    listOrder: 410 #
+    requires:
+      - STR_COELACANTH_R
+  - id: STR_LOCKHEED2
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: LOCKHEED2
+    text: STR_LOCKHEED2_UFOPEDIA
+    listOrder: 411 #
+    requires:
+      - STR_LOCKHEED_V2 
+  - id: STR_UN_CONTRACT
+    type_id: 10
+    section: STR_UFO_COMPONENTS
+    text: STR_CONTRACT_UFOPEDIA
+    image_id: CONTRACT
+    listOrder: 412 #
+    requires:
+      - STR_UN_CONTRACT
+extraStrings:
+  - type: en-US
+    strings:
+      STR_UN_CONTRACT: U.N. Contract
+      STR_CONTRACT_UFOPEDIA: The Contract was signed between United Nations and X-com , a more direct exchange of new and old technology between mankind defense branches will allow a superior focus in research and development 
+      STR_COELACANTH_R: Coelacanth blueprints
+      STR_COELACANTH_UN: Coelacanth UN
+      STR_COELACANTH_UN_UFOPEDIA: After the contract was signed, the U.N. provied us the coelacanth blueprints, we then applied the new aqua plastics materials resulting in a new addition to xcom arsenal 
+      STR_COELACANTH_CORPSE_UN: coelacanth un
+      STR_LOCKHEED: LOCKHEED SEA LIGHT
+      STR_LOCKHEED_TRANSPORTER: Military U.N. Subs technology
+      STR_LOCKHEED_UFOPEDIA: A test result to an U.N. old military model using new alien technology resulted in a new submarine addition to the fleet, the new IX-600 surpassed the expectations and allow us to carry 21 aquanauts to the deep.
+      STR_LOCKHEED2: LOCKHEED SEA SHADOW
+      STR_LOCKHEED_V2: Mankind Last effort
+      STR_LOCKHEED2_UFOPEDIA: The world facing the brink of destruction, all effort were combined between U.N and X-com to create the large sub model IX-700. This is Mankind resulution in order to achieve advantage upon the unleashed terror.
+      STR_UN_HQ: U.N. headquarters
+      STR_UN_HEADQUARTERS: U.N. headquarters
+      STR_UN_HEADQUARTERS_UFOPEDIA: The building of a U.N headquarters in a x-com base will create a new logistic platform that will allow a grand outsourcing of x-com manufacture. This procedure will boost our manufacture capability, allowing to create larger subs and also leverage old sub models
+  - type: en-GB
+    strings:
+      STR_UN_CONTRACT: U.N. Contract
+      STR_CONTRACT_UFOPEDIA: The Contract was signed between United Nations and X-com , a more direct exchange of new and old technology between mankind defense branches will allow a superior focus in research and development 
+      STR_COELACANTH_R: Coelacanth blueprints
+      STR_COELACANTH_UN: Coelacanth UN
+      STR_COELACANTH_UN_UFOPEDIA: After the contract was signed, the U.N. provied us the coelacanth blueprints, we then applied the new aqua plastics materials resulting in a new addition to xcom arsenal 
+      STR_COELACANTH_CORPSE_UN: coelacanth un
+      STR_LOCKHEED: LOCKHEED SEA LIGHT
+      STR_LOCKHEED_TRANSPORTER: Military U.N. Subs technology
+      STR_LOCKHEED_UFOPEDIA: A test result to an U.N. old military model using new alien technology resulted in a new submarine addition to the fleet, the new IX-600 surpassed the expectations and allow us to carry 21 aquanauts to the deep.
+      STR_LOCKHEED2: LOCKHEED SEA SHADOW
+      STR_LOCKHEED_V2: Mankind Last effort
+      STR_LOCKHEED2_UFOPEDIA: The world facing the brink of destruction, all effort were combined between U.N and X-com to create the large sub model IX-700. This is Mankind resulution in order to achieve advantage upon the unleashed terror.
+      STR_UN_HQ: U.N. headquarters
+      STR_UN_HEADQUARTERS: U.N. headquarters
+      STR_UN_HEADQUARTERS_UFOPEDIA: The building of a U.N headquarters in a x-com base will create a new logistic platform that will allow a grand outsourcing of x-com manufacture. This procedure will boost our manufacture capability, allowing to create larger subs and also leverage old sub models
+extraSprites:
+  - type: LOCKHEED
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Lockheed/Ufopedia/LOCKHEED_UP.gif
+  - type: HEADQUARTERS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UN/Ufopedia/UN_UP.png
+  - type: BASEBITS.PCK
+    files:
+      55: Resources/Lockheed/Basebits/Lockheed.gif
+      56: Resources/Lockheed/Basebits/Lockheed2.gif 
+      309: Resources/UN/Basebits/UNH1.png
+      310: Resources/UN/Basebits/UNH2.png
+      311: Resources/UN/Basebits/UNH3.png
+      312: Resources/UN/Basebits/UNH4.png
+      313: Resources/UN/Basebits/UNB1.png
+      314: Resources/UN/Basebits/UNB2.png
+      315: Resources/UN/Basebits/UNB3.png
+      316: Resources/UN/Basebits/UNB4.png
+  - type: INTICON.PCK
+    files:
+      22: Resources/Lockheed/Inticon/LockheedMinimized.gif
+      23: Resources/Lockheed/Inticon/Lockheed2Minimized.gif
+      33: Resources/Lockheed/Inticon/LockheedDogfight.gif
+      34: Resources/Lockheed/Inticon/Lockheed2Dogfight.gif
+  - type: COELACANTHUN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 2320
+    files:
+      0: Resources/Coelacanth/Coelacanthtemplate.png
+  - type: FLOOROB.PCK
+    files:
+      82: Resources/Coelacanth/floorob_82.gif       
+      83: Resources/Coelacanth/floorob_83.gif       
+      84: Resources/Coelacanth/floorob_84.gif           
+      85: Resources/Coelacanth/floorob_85.gif
+  - type: COELACANTHUN
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Coelacanth/Ufopedia/COELACANTH_UP.gif   
+  - type: CONTRACT
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UN/Ufopedia/CONTRACT_UP.png
+  - type: LOCKHEED2  
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Lockheed/Ufopedia/LOCKHEED2_UP.gif   

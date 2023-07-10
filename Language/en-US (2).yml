@@ -1,0 +1,29 @@
+en-US:
+STR_SHARKQUANAUT: Sharkquanaut
+#RESEARCH/UFOPAEDIA
+STR_SHARK_UNLOCK: Project Pistris
+STR_SHARK_UNLOCK_UFOPAEDIA: After the first war many private companies rushed in to use the aliens genetic and bionic mastery to make projects of their own. Most of these companies failed and were shut down but we might be able to find and contact someone if we keep looking...
+STR_SHARKQUANAUTS: Contact TW-Bionics
+STR_SHARKQUANAUT_UFOPAEDIA: TW-Bionics newest combat mutant. These 'Sharkquanauts' are fast and nimble and excell at melee combat.
+STR_SHARKVEST: SHARK COMBAT VEST
+STR_SHARKVEST_UFOPAEDIA: This soft combat vest offers decent protection without sacrificing mobility. 
+STR_SHARK_ARMOUR_UFOPAEDIA: Heavy, bulky but very durable. This suit of armor provides decent protection at the cost of mobility. Should only be used by heavy breaching units.
+STR_POWERSHARK_UFOPAEDIA: The pinnacle of armor development. This suit of powered armor provides excellent protection while increasing the strengh of the user. Comes equipped with an ultradense combat shield and a wrist mounted blade to increase the CQC capabilities of this unit to the maximum.
+#ARMOUR
+STR_SHARK_SUIT: Sharkquanaut
+STR_SHARK_VEST: SHARK COMBAT VEST
+STR_SHARK_ARMOUR: HEAVY SHARK COMBAT ARMOR
+STR_POWERSHARK: POWERED SHARK COMBAT ARMOR
+#RANKS
+STR_BABYSHARK: Baby Shark
+STR_SHARK: Shark
+STR_GREATER_SHARK: Veteran Shark
+STR_MEGALODON: Megalodon
+#MANUFACTURE
+STR_SHARKVEST_M: SHARK COMBAT VEST
+STR_SHARK_ARMOUR_M: HEAVY SHARK COMBAT ARMOR
+STR_POWERSHARK_M: POWERED SHARK COMBAT ARMOR
+STR_POWERFIST: Powerfist
+STR_PUNCH: STAB
+STR_HARDSHIELD: Hardshield 
+STR_REACTORPACK: Reactorpack

@@ -1,0 +1,637 @@
+research:
+
+
+# [=] Add new missions to Live alien research [=] <Tasoth - Squad Leader>
+  - name: STR_TASOTH_SQUAD_LEADER
+    getOneFree:
+      - STR_ALIEN_PROBE_MISSION
+      - STR_ALIEN_INTERDICTION
+      - STR_ALIEN_RESOURCE_RAID
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_SURFACE_ATTACK
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_MFTD_EXCAVATION
+      - STR_MFTD_HARVESTING
+      - STR_MFTD_SPREADING_HAVOC
+      - STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+      - STR_MFTD_OIL_RAID
+
+
+# [=] Add new missions to Live alien research [=] <Lobster - Squad Leader>
+  - name: STR_LOBSTERMAN_SQUAD_LEADER
+    getOneFree:
+      - STR_ALIEN_PROBE_MISSION
+      - STR_ALIEN_INTERDICTION
+      - STR_ALIEN_RESOURCE_RAID
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_SURFACE_ATTACK
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_MFTD_EXCAVATION
+      - STR_MFTD_HARVESTING
+      - STR_MFTD_SPREADING_HAVOC
+      - STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+
+
+# [=] Add new missions to Live alien research [=] <Gillman - Squad Leader>
+  - name: STR_GILLMAN_SQUAD_LEADER
+    getOneFree:
+      - STR_ALIEN_PROBE_MISSION
+      - STR_ALIEN_INTERDICTION
+      - STR_ALIEN_RESOURCE_RAID
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_SURFACE_ATTACK
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_MFTD_EXCAVATION
+      - STR_MFTD_HARVESTING
+      - STR_MFTD_SPREADING_HAVOC
+      - STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+      - STR_MFTD_OIL_RAID
+
+
+# [=] Add new missions to Live alien research [=] <Aquatoid - Squad Leader>
+  - name: STR_AQUATOID_SQUAD_LEADER
+    getOneFree:
+      - STR_ALIEN_PROBE_MISSION
+      - STR_ALIEN_INTERDICTION
+      - STR_ALIEN_RESOURCE_RAID
+      - STR_ALIEN_INFILTRATION
+      - STR_ALIEN_BASE
+      - STR_ALIEN_SURFACE_ATTACK
+      - STR_ALIEN_RETALIATION
+      - STR_ALIEN_SUPPLY
+      - STR_MFTD_EXCAVATION
+      - STR_MFTD_HARVESTING
+      - STR_MFTD_SPREADING_HAVOC
+      - STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+      - STR_MFTD_OIL_RAID
+
+
+# [=] Add new craft to Live alien research [=] <Aquatoid - Technician>
+  - name: STR_AQUATOID_TECHNICIAN
+    getOneFree:
+      - STR_SURVEY_SHIP
+      - STR_ESCORT
+      - STR_CRUISER
+      - STR_HEAVY_CRUISER
+      - STR_HUNTER
+      - STR_BATTLESHIP
+      - STR_DREADNOUGHT
+      - STR_FLEET_SUPPLY_CRUISER
+      - STR_MFTD_WORM
+      - STR_MFTD_TERROR
+      - STR_MFTD_DREADNOUGHT_W
+      - STR_MFTD_SCOUT
+      - STR_MFTD_SHIP_DESTROYER
+      - STR_MFTD_DOUBLE_SCOUT
+      - STR_MFTD_DOUBLE_HUNTER
+      - STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT
+      - STR_MFTD_COMBAT_INTERCEPTOR
+      - STR_MFTD_ALTAR
+      - STR_MFTD_BANDIT
+      - STR_MFTD_BLADE
+      - STR_MFTD_CARP
+      - STR_MFTD_CLAM
+      - STR_MFTD_CLAW
+      - STR_MFTD_COLLECTOR
+      - STR_MFTD_CONCH
+      - STR_MFTD_DARTS
+      - STR_MFTD_DREDGE
+      - STR_MFTD_EEL
+      - STR_MFTD_FERRY
+      - STR_MFTD_HERMIT
+      - STR_MFTD_HONEYCOMB
+      - STR_MFTD_HYDROFOIL
+      - STR_MFTD_JELLYFISH
+      - STR_MFTD_LANTERN
+      - STR_MFTD_MANTA
+      - STR_MFTD_MORAY
+      - STR_MFTD_NAUTILUS
+      - STR_MFTD_OBSERVER
+      - STR_MFTD_OUBLIETTE
+      - STR_MFTD_PIRANHA
+      - STR_MFTD_PUFFERFISH
+      - STR_MFTD_SEARCHER
+      - STR_MFTD_SHARK
+      - STR_MFTD_SHRIMP
+      - STR_MFTD_SQUID
+      - STR_MFTD_TADPOLE
+      - STR_MFTD_TOWER
+      - STR_MFTD_URCHIN
+      - STR_MFTD_WAVE_RAIDER
+      - STR_MFTD_WHALE
+      - STR_MFTD_WHIRLIGIG
+      - STR_MFTD_WHIRLPOOL
+      - STR_MFTD_TURTLE
+      - STR_MFTD_HOCUS
+      - STR_MFTD_AMOEBA
+      - STR_MFTD_BATTLECRUISER
+      - STR_MFTD_BATTLESTAR
+      - STR_MFTD_BLOCKADE_RUNNER
+      - STR_MFTD_BOMBER
+      - STR_MFTD_GUNBOAT
+      - STR_MFTD_HVY_DESTROYER
+      - STR_MFTD_IRONCLAD
+      - STR_MFTD_RAIDER
+      - STR_MFTD_CORVETTE
+      - STR_MFTD_PATROL
+      - STR_MFTD_CARRACK
+      - STR_MFTD_FRIGATE
+      - STR_MFTD_DESTROYER
+
+
+# [=] Add new craft to Live alien research [=] <Gillman - Technician>
+  - name: STR_GILLMAN_TECHNICIAN
+    getOneFree:
+      - STR_SURVEY_SHIP
+      - STR_ESCORT
+      - STR_CRUISER
+      - STR_HEAVY_CRUISER
+      - STR_HUNTER
+      - STR_BATTLESHIP
+      - STR_DREADNOUGHT
+      - STR_FLEET_SUPPLY_CRUISER
+      - STR_MFTD_WORM
+      - STR_MFTD_TERROR
+      - STR_MFTD_DREADNOUGHT_W
+      - STR_MFTD_SCOUT
+      - STR_MFTD_SHIP_DESTROYER
+      - STR_MFTD_DOUBLE_SCOUT
+      - STR_MFTD_DOUBLE_HUNTER
+      - STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT
+      - STR_MFTD_COMBAT_INTERCEPTOR
+      - STR_MFTD_ALTAR
+      - STR_MFTD_BANDIT
+      - STR_MFTD_BLADE
+      - STR_MFTD_CARP
+      - STR_MFTD_CLAM
+      - STR_MFTD_CLAW
+      - STR_MFTD_COLLECTOR
+      - STR_MFTD_CONCH
+      - STR_MFTD_DARTS
+      - STR_MFTD_DREDGE
+      - STR_MFTD_EEL
+      - STR_MFTD_FERRY
+      - STR_MFTD_HERMIT
+      - STR_MFTD_HONEYCOMB
+      - STR_MFTD_HYDROFOIL
+      - STR_MFTD_JELLYFISH
+      - STR_MFTD_LANTERN
+      - STR_MFTD_MANTA
+      - STR_MFTD_MORAY
+      - STR_MFTD_NAUTILUS
+      - STR_MFTD_OBSERVER
+      - STR_MFTD_OUBLIETTE
+      - STR_MFTD_PIRANHA
+      - STR_MFTD_PUFFERFISH
+      - STR_MFTD_SEARCHER
+      - STR_MFTD_SHARK
+      - STR_MFTD_SHRIMP
+      - STR_MFTD_SQUID
+      - STR_MFTD_TADPOLE
+      - STR_MFTD_TOWER
+      - STR_MFTD_URCHIN
+      - STR_MFTD_WAVE_RAIDER
+      - STR_MFTD_WHALE
+      - STR_MFTD_WHIRLIGIG
+      - STR_MFTD_WHIRLPOOL
+      - STR_MFTD_TURTLE
+      - STR_MFTD_HOCUS
+      - STR_MFTD_AMOEBA
+      - STR_MFTD_BATTLECRUISER
+      - STR_MFTD_BATTLESTAR
+      - STR_MFTD_BLOCKADE_RUNNER
+      - STR_MFTD_BOMBER
+      - STR_MFTD_GUNBOAT
+      - STR_MFTD_HVY_DESTROYER
+      - STR_MFTD_IRONCLAD
+      - STR_MFTD_RAIDER
+      - STR_MFTD_CORVETTE
+      - STR_MFTD_PATROL
+      - STR_MFTD_CARRACK
+      - STR_MFTD_FRIGATE
+      - STR_MFTD_DESTROYER
+
+
+# [=] Add new craft to Live alien research [=] <Lobster - Technician>
+  - name: STR_LOBSTERMAN_TECHNICIAN
+    getOneFree:
+      - STR_SURVEY_SHIP
+      - STR_ESCORT
+      - STR_CRUISER
+      - STR_HEAVY_CRUISER
+      - STR_HUNTER
+      - STR_BATTLESHIP
+      - STR_DREADNOUGHT
+      - STR_FLEET_SUPPLY_CRUISER
+      - STR_MFTD_WORM
+      - STR_MFTD_TERROR
+      - STR_MFTD_DREADNOUGHT_W
+      - STR_MFTD_SCOUT
+      - STR_MFTD_SHIP_DESTROYER
+      - STR_MFTD_DOUBLE_SCOUT
+      - STR_MFTD_DOUBLE_HUNTER
+      - STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT
+      - STR_MFTD_COMBAT_INTERCEPTOR
+      - STR_MFTD_ALTAR
+      - STR_MFTD_BANDIT
+      - STR_MFTD_BLADE
+      - STR_MFTD_CARP
+      - STR_MFTD_CLAM
+      - STR_MFTD_CLAW
+      - STR_MFTD_COLLECTOR
+      - STR_MFTD_CONCH
+      - STR_MFTD_DARTS
+      - STR_MFTD_DREDGE
+      - STR_MFTD_EEL
+      - STR_MFTD_FERRY
+      - STR_MFTD_HERMIT
+      - STR_MFTD_HONEYCOMB
+      - STR_MFTD_HYDROFOIL
+      - STR_MFTD_JELLYFISH
+      - STR_MFTD_LANTERN
+      - STR_MFTD_MANTA
+      - STR_MFTD_MORAY
+      - STR_MFTD_NAUTILUS
+      - STR_MFTD_OBSERVER
+      - STR_MFTD_OUBLIETTE
+      - STR_MFTD_PIRANHA
+      - STR_MFTD_PUFFERFISH
+      - STR_MFTD_SEARCHER
+      - STR_MFTD_SHARK
+      - STR_MFTD_SHRIMP
+      - STR_MFTD_SQUID
+      - STR_MFTD_TADPOLE
+      - STR_MFTD_TOWER
+      - STR_MFTD_URCHIN
+      - STR_MFTD_WAVE_RAIDER
+      - STR_MFTD_WHALE
+      - STR_MFTD_WHIRLIGIG
+      - STR_MFTD_WHIRLPOOL
+      - STR_MFTD_TURTLE
+      - STR_MFTD_HOCUS
+      - STR_MFTD_AMOEBA
+      - STR_MFTD_BATTLECRUISER
+      - STR_MFTD_BATTLESTAR
+      - STR_MFTD_BLOCKADE_RUNNER
+      - STR_MFTD_BOMBER
+      - STR_MFTD_GUNBOAT
+      - STR_MFTD_HVY_DESTROYER
+      - STR_MFTD_IRONCLAD
+      - STR_MFTD_RAIDER
+      - STR_MFTD_CORVETTE
+      - STR_MFTD_PATROL
+      - STR_MFTD_CARRACK
+      - STR_MFTD_FRIGATE
+      - STR_MFTD_DESTROYER
+
+
+
+
+
+
+# [=] Alien Missions [=]
+  - name: STR_MFTD_EXCAVATION
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_HARVESTING
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SPREADING_HAVOC
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_OIL_RAID
+    cost: 0
+    points: 50
+    needItem: true
+
+
+
+
+# [=] Alien Craft [=]
+
+# [=] Wolwerin's Craft [=]------------------------------------------------------------------------------------
+
+  - name: STR_MFTD_WORM
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_TERROR
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_DREADNOUGHT_W
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SCOUT
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SHIP_DESTROYER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_DOUBLE_SCOUT
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_DOUBLE_HUNTER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_COMBAT_INTERCEPTOR
+    cost: 0
+    points: 50
+    needItem: true
+
+
+# [=] The Martian's Craft [=]---------------------------------------------------------------------------------
+
+  - name: STR_MFTD_ALTAR
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_BANDIT
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_BLADE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_CARP
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_CLAM
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_CLAW
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_COLLECTOR
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_CONCH
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_DARTS
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_DREDGE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_EEL
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_FERRY
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_HERMIT
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_HONEYCOMB
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_HYDROFOIL
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_JELLYFISH
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_LANTERN
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_MANTA
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_MORAY
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_NAUTILUS
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_OBSERVER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_OUBLIETTE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_PIRANHA
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_PUFFERFISH
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SEARCHER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SHARK
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SHRIMP
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_SQUID
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_TADPOLE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_TOWER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_URCHIN
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_WAVE_RAIDER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_WHALE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_WHIRLIGIG
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_WHIRLPOOL
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_TURTLE
+    cost: 0
+    points: 50
+    needItem: true
+
+# [=] Murkhach@centrum.cz's Craft [=]----------------------------------------------------------------------------
+
+  - name: STR_MFTD_HOCUS
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_AMOEBA
+    cost: 0
+    points: 50
+    needItem: true
+
+# [=] Blank's Craft [=]------------------------------------------------------------------------------------------
+
+  - name: STR_MFTD_BATTLECRUISER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_BATTLESTAR
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_BLOCKADE_RUNNER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_BOMBER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_GUNBOAT
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_HVY_DESTROYER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_IRONCLAD
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_RAIDER
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_CORVETTE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_PATROL
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_CARRACK
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_FRIGATE
+    cost: 0
+    points: 50
+    needItem: true
+
+  - name: STR_MFTD_DESTROYER
+    cost: 0
+    points: 50
+    needItem: true
+

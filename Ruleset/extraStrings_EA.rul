@@ -1,0 +1,121 @@
+extraStrings:
+  - type: en-US
+    strings:
+
+      STR_DAMAGE_11: "LASER"
+
+# [=] Item Names [=]
+      STR_TFTD_BCANNON: "Heavy Surface Cannon"
+      STR_TFTD_BRIFLE: "Prototype Assault Rifle"
+      STR_TFTD_BPISTOL: "Operator Pistol"
+      STR_TFTD_BCANNON_CLIP_AP: "H.S.C. Clip AP"
+      STR_TFTD_BCANNON_CLIP_HE: "H.S.C. Clip HE"
+      STR_TFTD_BRIFLE_CLIP: "PAR Rifle Clip"
+      STR_TFTD_BPISTOL_CLIP: "Operator Pistol Clip"
+      STR_TFTD_CKNIFE: "Alloy Combat Knife"
+      STR_TFTD_CSPEAR: "Alloy Combat Spear"
+      STR_TFTD_MINIGUN: "Rockwell Minigun"
+      STR_TFTD_MINIGUN_CLIP: "Minigun Clip"
+      STR_TFTD_RECOIL: "Recoilless Rifle"
+      STR_TFTD_RECOIL_CLIP: "R.R. AP Rocket"
+      STR_TFTD_VOLLEY: "Gauss Volley Gun"
+      STR_TFTD_VOLLEY_CLIP: "Gauss Volley Gun Clip"
+      STR_TFTD_ACCEL: "Gauss Accelerator"
+      STR_TFTD_ACCEL_CLIP: "Gauss Ferro-Slug"
+      STR_DISPLACER_ARMOR: "Displacer Armor"
+      STR_DISPLACER_ARMOR_CORPSE: "Corpse"
+      STR_WRECKED_DISPLACER_ARMOR: "Displacer Armor (Damaged)"
+      STR_DISPLACER_ARMOR_UC: "DISPLACER ARMOR"
+      STR_DISPLACER_ARMOR_REPAIR: "Displacer Armor (Repair)"
+      STR_ION_CANNON: "Ion Cannon"
+      STR_ION_CANNON_CLIP: "Ion Cannon Clip"
+      STR_ION_PISTOL: "Ion Pistol"
+      STR_ION_PISTOL_CLIP: "Ion Pistol Clip"
+      STR_HEAVY_LASER: "Zrbite Heavy Laser"
+      STR_LASER_CARBINE: "Zrbite Laser Carbine"
+      STR_LASER_PISTOL: "Zrbite Laser Pistol"
+      STR_WRECKED_PLASTIC_ARMOR: "Aqua Plastic Armor (Damaged)"
+      STR_WRECKED_ION_ARMOR: "Ion Armor (Damaged)"
+      STR_WRECKED_MAG_ARMOR: "Magnetic Ion Armor (Damaged)"
+      STR_PLASTIC_AQUA_ARMOR_REPAIR: "Aqua Plastic Armor (Repair)"
+      STR_ION_ARMOR_REPAIR: "Ion Armor (Repair)"
+      STR_MAGNETIC_ION_ARMOR_REPAIR: "Magnetic Ion Armor (Repair)"
+      STR_PRIME_FLARE: "Prime Flare"
+      STR_ZRBITE_FLARE: "Zrbite-Flare"
+      STR_TFTD_HSONIC_CANNON: "Human Sonic Cannon"
+      STR_TFTD_HSONIC_RIFLE: "Human Sonic Rifle"
+      STR_TFTD_HSONIC_PISTOL: "Human Sonic Pistol"
+      STR_TFTD_HSONIC_CANNON_CLIP: "Human Sonic Cannon Clip"
+      STR_TFTD_HSONIC_RIFLE_CLIP: "Human Sonic Rifle Clip"
+      STR_TFTD_HSONIC_PISTOL_CLIP: "Human Sonic Pistol Clip"
+      STR_TFTD_HSONIC_GRENADE: "Zrbite Pulse Grenade"
+      STR_UFO_HSONIC_CANNON: "Human Sonic Cannon"
+      STR_UFO_HSONIC_RIFLE: "Human Sonic Rifle"
+      STR_UFO_HSONIC_PISTOL: "Human Sonic Pistol"
+      STR_UFO_HSONIC_GRENADE: "Zrbite Pulse Grenade"
+      STR_TFTD_HSONIC_CANNON_CLIP_CONV: "Convert S. Cannon Clip"
+      STR_TFTD_HSONIC_RIFLE_CLIP_CONV: "Convert S. Rifle Clip"
+      STR_TFTD_HSONIC_PISTOL_CLIP_CONV: "Convert S. Pistol Clip"
+      STR_RSH_HSONIC_CANNON: "Human Sonic Cannon"
+      STR_RSH_HSONIC_RIFLE: "Human Sonic Rifle"
+      STR_RSH_HSONIC_PISTOL: "Human Sonic Pistol"
+      STR_RSH_HSONIC_GRENADE: "Zrbite Pulse Grenade"
+
+
+
+
+# [=] UFOpaedia Text - Heavy Surface Cannon [=]
+      STR_TFTD_BCANNON_TEXT: "The Modern VF-R12 Heavy Surface Cannon, built using alloys from the first alien war, is the current standard in payload deployal for the current stand PMC Armies. Its Rifled design alongside specially designed shells allow for long range volley fire."
+# [=] UFOpaedia Text - Prototype Assault Rifle [=]
+      STR_TFTD_BRIFLE_TEXT: "The Fed Korean made AR-26 Prototype Assault Rifle is the top-of-the-line combat rifle for the last 5 years in proxy wars. Using the modern 30-09 Mass Reactive cartridge with proprietary powder mix allows for the fastest bullet speeds on the planet."
+# [=] UFOpaedia Text - Operator Pistol [=]
+      STR_TFTD_BPISTOL_TEXT: "The German Syndicate Survival pistol, now named the Operator Pistol, is the most common hand gun in the EU Bloc. Based on antique designs dating back to the old wars before the invasion, it fits snuggly in the hand, and allows for quick shots."
+# [=] UFOpaedia Text - Combat Knife [=]  
+      STR_TFTD_CKNIFE_TEXT: "Specifically R&D’d by the science team and bankrolled by the benefactors of X-COM, This dual-use combat knife utilizes alien alloys to keep a near atom-sized edge."
+# [=] UFOpaedia Text - Combat Spear [=]    
+      STR_TFTD_CSPEAR_TEXT: "A Spear design of the Combat knife, as we are unaware of the extent of the enemy, having a tool ready to prod into coral reefs and caves should prove invaluable."
+# [=] UFOpaedia Text - Minigun [=]    
+      STR_TFTD_MINIGUN_TEXT: "The American made C45 Rockwell minigun is the world's standard of volume of fire, designed for use with the exo suits used in the succession wars, this weapon provides the firepower of an aircraft in the palm of your hand."
+# [=] UFOpaedia Text - Recoilless Rifle [=]    
+      STR_TFTD_RECOIL_TEXT: "While its age is showing, the British Nottingham Recoilless Rifle was and still is the go-to for low profile and mobile anti-armor squads. While the payloads are not nearly as large as its competitors, the ease of use allows for more accurate and quicker shots."
+# [=] UFOpaedia Text - Volley Gun [=]  
+      STR_TFTD_VOLLEY_TEXT: "A gauss weapon of unique design, it uses a range finding system to configure the exact velocity and power output to reach any given point at the required velocity. This in practice allows for a gauss projectile to launch in an arc instead of straight."
+# [=] UFOpaedia Text - Volley Gun Clip [=]      
+      STR_TFTD_VOLLEY_CLIP_TEXT: "Simple Conductive alloy slugs in a clip, these slugs are larger than the average gauss slug due to the requirement of needing to gain velocity on the downward portion of its trajectory."
+# [=] UFOpaedia Text - Accel [=]  
+      STR_TFTD_ACCEL_TEXT: "Utilizing the Magnetic Navigation systems found in alien subs, we have been able to create a weapon that can bend the trajectory of the projectile through the water at the users will."
+# [=] UFOpaedia Text - Accel Clip [=]  
+      STR_TFTD_ACCEL_CLIP_TEXT: "A large solid slug of alloy with Superconducting coils wrapped around it. The accelerator can propel this object at such speeds it causes a small explosion around the impact, mainly concussive, it can demolish buildings and armor."
+# [=] UFOpaedia Text - Displacer Armor[=]  
+      STR_DISPLACER_ARMOR_TEXT: "The ultimate synthesis of Alien Technology in a man-portable armor suit. With near immunity to all forms of damage, and the full integration of ion displacers, this armor allows for both land and sea domination. This armor is able to fly on land and is able to Magnetic Navigation to float underwater."
+# [=] UFOpaedia Text - Ion Pistol [=]  
+      STR_ION_PISTOL_TEXT: "Our first attempt and Miniaturizing the Ion Beam Acceleration technology. SImilar to  the displacer technology, we had to use a special form of the Aqua Plastics to accommodate the tolerances. By refining Zrbite into its purest form, we are able to create a weapon with the power of the Sonic Rifle in the size of a pistol. This design of course, begs to be scaled up, and our team is practically salivating for approval."
+# [=] UFOpaedia Text - Ion Pistol Clip [=]  
+      STR_ION_PISTOL_CLIP_TEXT: "By refining Zrbite into its purest form, compacting the powder created, the Zrbite archives a green glow. Unfortunately, the power output is very specialized, as well as high. The amount of energy is limited due to the nature of Ion Displacement, but its power is immense."
+# [=] UFOpaedia Text - Ion Cannon [=]  
+      STR_ION_CANNON_TEXT: "After numerous failed attempts, we have achieved a stable reaction chamber as well as a sturdy focusing frame. The design, again, utilizes a special variant of Aqua Plastics and borrows from the design of deep sea crustaceans. Some of our soldiers find the gun more alien than the alien weapons, but it allows for stable displacement reactions."
+# [=] UFOpaedia Text - Ion Cannon Clip [=]  
+      STR_ION_CANNON_CLIP_TEXT: "An Upscaled version of the Ion Pistol Clip, it contains triple the amount of the Zrbite, but it has nearly half the shots of the pistol, due to the immensity of the discharge of the cannon."
+# [=] UFOpaedia Text - Laser Pistol [=]
+      STR_LASER_PISTOL_TEXT: "By utilizing Zrbite instead of Elerium power sources, we have created a laser pistol without the need for Elerium or Deuterium sources. Unfortunately, after numerous tests, we have not been able to get any sort of laser weapon to work underwater. But the Zrbite seems to have more powerful output than the Elerium variants, and will be useful for surface engagements."
+# [=] UFOpaedia Text - Laser Carbine [=]
+      STR_LASER_CARBINE_TEXT: "A variant of the Zrbite laser system, it has a slightly larger reaction chamber and focusing lens’. Its auto fire has less laser pulses, but it is slightly more accurate."
+# [=] UFOpaedia Text - Heavy Laser [=]
+      STR_HEAVY_LASER_TEXT: "Using a lens reflection chamber with a double-stacked Zrbite power source, we have created a marksman rifle and cannon in one. With a power laser beam and dead accurate rangefinding parameters, this weapon is a dead-shot."
+# [=] UFOpaedia Text - Zrbite Flare [=]
+      STR_ZRBITE_FLARE_UFOPEDIA: "We found that when Zrbite was exposed to certain sound frequencies that it would emit a pure blue, almost ultra-violet light.  Luckily, we can easily reproduce that frequency using the primer found in Sonic Pulsers."
+# [=] UFOpaedia Text - Human Sonic Pistol [=]
+      STR_TFTD_HSONIC_PISTOL_UFOPAEDIA_TEXT: "Our first successful attempt at modifying and adapting the alien sonic weaponry for our uses. With the lockout devices removed, and human usable ergonomics implemented, our first, low-powered, human-usable sonic weapon is available, but this only opens new possibilities for new weapory."
+# [=] UFOpaedia Text - Human Sonic Rifle [=]
+      STR_TFTD_HSONIC_RIFLE_UFOPAEDIA_TEXT: "By using the same basic blueprint as the pistol, and creating a miniture zrbite reaction chamber, we have been able to match the power ourput of alien “Blasta” Rifle, as our Aquanauts termed it, and in a similar size. The new chamber blueprint is designed to be scaled up, and we are eager to attempt to do so."
+# [=] UFOpaedia Text - Human Sonic Cannon [=]
+      STR_TFTD_HSONIC_CANNON_UFOPAEDIA_TEXT: "By making a larger reaction chamber, we ran into in-stability issues in the framing, and had to look at the alien sonic cannon for guidance, by copying the shape and form of their device, we have been able to keep the sonic frequencies of the output from rattling the gun apart, or violently exploding. This is the largest human-capable sonic weapon we can design."
+# [=] UFOpaedia Text - Human Sonic Grenade [=]
+      STR_TFTD_HSONIC_GRENADE_UFOPAEDIA_TEXT: "After Disassembling the alien sonic pulser, we found the reaction mechanism very simple to replicate, much easier than decoding the control mechanism the aliens use. We can easily convert the ones we have into human usable versions, but at a cost."
+# [=] UFOpaedia Text - Human Sonic Pistol Clip [=]    
+      STR_TFTD_HSONIC_PCLIP_UFOPAEDIA_TEXT: "A simple conversion of alien pistol power cell, a small amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+# [=] UFOpaedia Text - Human Sonic Rifle Clip [=]    
+      STR_TFTD_HSONIC_RCLIP_UFOPAEDIA_TEXT: "A simple conversion of alien rifle power cell, a decent amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+# [=] UFOpaedia Text - Human Sonic Cannon Clip [=]    
+      STR_TFTD_HSONIC_CCLIP_UFOPAEDIA_TEXT: "A simple conversion of alien cannon power cell, a large amount of zrbite contained in a housing that allows the sonic-oscillation reaction to occur."
+      

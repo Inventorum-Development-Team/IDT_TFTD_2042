@@ -1,0 +1,326 @@
+# data for new gear:
+
+items:
+  - type: STR_LASER_PISTOL
+    size: 0.1
+    costBuy: 10000
+    costSell: 7000
+    weight: 7
+    bigSprite: 202
+    floorSprite: 202
+    handSprite: 251
+    bulletSprite: 25
+    fireSound: 201
+    hitSound: 202
+    hitAnimation: 76
+    power: 46
+    damageType: 11
+    accuracyAuto: 28
+    accuracySnap: 40
+    accuracyAimed: 68
+    tuAuto: 25
+    tuSnap: 20
+    tuAimed: 55
+    compatibleAmmo:
+      - STR_LASER_PISTOL_CLIP
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    landOnly: true 
+    listOrder: 3515
+
+  - type: STR_LASER_PISTOL_CLIP
+    size: 0.2
+    costBuy: 400
+    costSell: 250
+    weight: 2
+    bigSprite: 204
+    floorSprite: 204
+    bulletSprite: 25
+    fireSound: 201
+    hitSound: 202
+    hitAnimation: 76
+    power: 45
+    damageType: 11
+    clipSize: 36
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 5
+    listOrder: 3516
+
+  - type: STR_LASER_RIFLE
+    size: 0.2
+    costBuy: 40000
+    costSell: 30000
+    weight: 8
+    bigSprite: 201
+    floorSprite: 201
+    handSprite: 241
+    bulletSprite: 25
+    fireSound: 201
+    hitSound: 202
+    hitAnimation: 76
+    power: 60
+    damageType: 11
+    blastRadius: 0
+    accuracyAuto: 46
+    accuracySnap: 65
+    accuracyAimed: 100
+    tuAuto: 34
+    tuSnap: 25
+    tuAimed: 50
+    compatibleAmmo:
+      - STR_LASER_RIFLE_CLIP
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    landOnly: true 
+    listOrder: 3517
+
+  - type: STR_LASER_RIFLE_CLIP
+    size: 0.2
+    costBuy: 800
+    costSell: 600
+    weight: 3
+    bigSprite: 203
+    floorSprite: 203
+    bulletSprite: 25
+    fireSound: 201
+    hitSound: 202
+    hitAnimation: 76
+    power: 60
+    damageType: 11
+    clipSize: 24
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 10 
+    listOrder: 3518
+
+  - type: STR_MEDI_KIT
+    size: 0.1
+    costBuy: 40000
+    costSell: 30000
+
+  - type: STR_PARTICLE_DISTURBANCE_SENSOR
+    size: 0.1
+    costBuy: 40000
+    costSell: 30000
+
+research:
+  - delete: STR_MEDI_KIT
+  - delete: STR_PARTICLE_DISTURBANCE_SENSOR
+
+manufacture:
+  - delete: STR_MEDI_KIT
+  - delete: STR_PARTICLE_DISTURBANCE_SENSOR
+
+# media (visuals and sound) for new gear:
+
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      201: Resources/Sprites/LaserRifle_BigOb.png
+      202: Resources/Sprites/LaserPistol_BigOb.png
+      203: Resources/Sprites/LaserRifleClip_BigOb.png
+      204: Resources/Sprites/LaserPistolClip_BigOb.png
+
+  - type: FLOOROB.PCK
+    files:
+      201: Resources/Sprites/LaserRifle_FloorOb.png
+      202: Resources/Sprites/LaserPistol_FloorOb.png
+      203: Resources/Sprites/LaserRifleClip_FloorOb.png
+      204: Resources/Sprites/LaserPistolClip_FloorOb.png
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      241: Resources/Sprites/LaserRifle_HandOb.png
+      251: Resources/Sprites/LaserPistol_HandOb.png
+
+  - type: Projectiles
+    height: 3
+    width: 105
+    subX: 3
+    subY: 3
+    files:
+      875: Resources/Sprites/LaserRifle_Bullet.png
+
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      76: Resources/Sprites/LaserRifle_Hit.png
+
+  - type: LASER_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/Laser_Ufopedia.png
+
+  - type: DIVING_ARMOR_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/DivingSuit_Ufopedia.png
+
+  - type: ALIEN_ALLOYS_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/AlienAlloys_Ufopedia.png
+
+  - type: ELERIUM_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/Elerium_Ufopedia.png
+
+  - type: PLASMA_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/Plasma_Ufopedia.png
+
+  - type: POWER_SUIT_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/PowerSuit_Ufopedia.png
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      201: Resources/Sounds/LaserRifle_Shot.wav
+      202: Resources/Sounds/LaserRifle_Hit.wav
+  
+ufopaedia:
+  - id: STR_LASER_WEAPONRY
+    type_id: 10
+    image_id: LASER_UFOPEDIA.SPK
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_LASER_UFOPEDIA
+
+  - id: STR_ALIEN_ALLOYS
+    type_id: 10
+    image_id: ALIEN_ALLOYS_UFOPEDIA.SPK
+    section: STR_UFO_COMPONENTS
+    text: STR_ALIEN_ALLOYS_UFOPEDIA
+
+  - id: STR_ELERIUM
+    type_id: 10
+    image_id: ELERIUM_UFOPEDIA.SPK
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_ELERIUM_UFOPEDIA
+
+  - id: STR_PLASMA_WEAPONS
+    type_id: 10
+    image_id: PLASMA_UFOPEDIA.SPK
+    section: STR_ALIEN_ARTIFACTS
+    text: STR_PLASMA_UFOPEDIA
+
+  - id: STR_POWER_SUIT
+    type_id: 10
+    image_id: POWER_SUIT_UFOPEDIA.SPK
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_POWER_SUIT_UFOPEDIA
+
+  - id: STR_FIRST_WAR
+    type_id: 10
+    image_id: UP105.BDY
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_FIRST_WAR_UFOPEDIA
+    text_width: 308	
+
+  - id: STR_ELERIUM_CRISIS
+    type_id: 10
+    image_id: UP105.BDY
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_ELERIUM_CRISIS_UFOPEDIA
+    text_width: 308	
+
+  - id: STR_DUMMY_DIVING_ARMOR
+    listOrder: 1
+    type_id: 15
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_DIVING_ARMOR_UFOPEDIA
+    image_id: DIVING_ARMOR_UFOPEDIA.SPK
+
+  - id: STR_MEDI_KIT
+    requires:
+      []
+
+  - id: STR_PARTICLE_DISTURBANCE_SENSOR
+    requires:
+      []
+
+armors:
+
+    #this armor exist only for Ufopedia article:
+  - type: STR_DUMMY_DIVING_ARMOR 
+    spriteSheet: TDXCOM_0.PCK
+    spriteInv: MAN_0
+    corpseItem: STR_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftemps: 3
+    drawingRoutine: 13
+    drawBubbles: true
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_DIVING_ARMOR_UFOPEDIA: "Each X-COM recruit is equipped with the top-quality depth suit, reinforced with additional layers of armor, based on the technology of alien alloys known from the First War."
+      STR_DUMMY_DIVING_ARMOR: DIVING ARMOR
+      STR_LASER_RIFLE: Laser Service Rifle
+      STR_LASER_PISTOL: Laser Police Pistol
+      STR_LASER_RIFLE_CLIP: Laser Rifle Battery
+      STR_LASER_PISTOL_CLIP: Laser Pistol Battery
+      STR_LASER_WEAPONRY: Laser Weaponry
+      STR_LASER_UFOPEDIA: "The laser weapons invented during the First Alien War by X-COM quickly gained immense popularity due to its high firepower and low ammo consumption. Despite high manufacture price, today it serves as basic military and police equipment in many countries of the world. However, X-COM operatives must be careful and keep in mind that laser weapons do not work underwater."
+      STR_ALIEN_ALLOYS: "Martian Alloys"
+      STR_ALIEN_ALLOYS_UFOPEDIA: "The basic building material used by the aliens during the First War. Recovered by X-COM and successfully reverse engineered, it was later used in the construction of weapons and air fleet, which allowed the scales of victory to be tipped to the Earth side. After the war, the recipe was handed over to the member states of the Council and, despite the high price, it is widely used in everyday production, incl. Barracuda class flying submarines and personal diving armor."
+      STR_ELERIUM: Elerium-115
+      STR_ELERIUM_UFOPEDIA: "Extraterrestrial element and main fuel used by aliens during the First War. Adapted by X-COM and then used to power weapons, combat suits and stratospheric fleet. After the war, when it became clear that the substance is the only potential path to space exploration, and at the same time it is not available in any way in our solar system - all resources were taken over by the Council states. An event described in the media as the 'Elerium Crisis' ended the era of plasma weapons and power armors for good."
+      STR_PLASMA_WEAPONS: "Plasma Weaponry"
+      STR_PLASMA_UFOPEDIA: "The main alien armament of the First War based an artificial particle acceleration. Effectively reverse engineered by X-COM. After the Elerium Crisis in the early 2000s and the confiscation of every ounce of priceless fuel by the Council, plasma technology became unavailable, as did many of the technological advances of that period. Perhaps using a replacement for Elerium would make it possible to recreate it, or design something equally powerful in the future."
+      STR_POWER_SUIT: "Power Suit"
+      STR_POWER_SUIT_UFOPEDIA: "Multifunctional, heavily armored, Elerium-powered combat suit designed by X-COM during the First War, based on materials obtained from reverse engineering of the alien spacecraft. Pinnacle of engineering. Equipped with its own life support system, it not only protected against fire and gas, but even made it possible to survive in outer space. Later versions also allowed free levitation.{NEWLINE}Currently completely decommissioned due to the unavailability of Elerium."
+      STR_FIRST_WAR: "First Alien War"
+      STR_FIRST_WAR_UFOPEDIA: "The first armed conflict between the united states of the Earth and the forces of extraterrestrial origin, occurring in 1999-2002.{NEWLINE}When it became clear that the cause of numerous cases of human kidnappings, plane disappearances or communication disruptions were extraterrestrial and after failed attempts to establish peaceful contact, the UN Security Council in Geneva found the international Extraterrestrial Combat Unit to investigate and contain the threat. Over the next months, X-COM resisted the invaders and, after successfully reverse engineering alien technology, managed to take the lead and eventually find and destroy the enemy command center located on Mars.{NEWLINE}The war opened the door to many new fields of study and reflection. Laser weapons and metal alloys stronger than steel have become commonplace. Star travel was no longer a sci-fi fantasy, but a fact. Telepathy and mind control have been proven and even recreated on the battlefield. But most of all, it became clear that we are not alone in space and the extraterrestrial threat is more real than previously thought."
+      STR_ELERIUM_CRISIS: "Elerium Crisis"
+      STR_ELERIUM_CRISIS_UFOPEDIA: "The idea of united Earth was lost in the moment of sharing the spoils of war. Elerium was the key to tremendous power, but in a finite amount. The member states of the Council expected all reserves (including power armor cores and remaining ammunition) to be handed over to them, while X-COM command proposed to keep the fuel and allocate it to the expansion of the space frontier. Some countries were willing to agree to such a solution, but many were reluctant to step down, and tensions grew. Mutual accusations and threats between individual countries began. X-COM found itself in quicksand - the more it tried to smooth the situation, the more it was labeled as an 'independent paramilitary organization with dubious intentions'. The global conflict has escalated, culminating when the US government announced an increase in DEFCON readiness. Ultimately, it was agreed to transfer all reserves to the Council states and close the topic. And although the official rationale was research for interstellar travel and the search for more fuel deposits, much of Elerium simply disappeared, possibly absorbed by the arms industry or individual needs of states."

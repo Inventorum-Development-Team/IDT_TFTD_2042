@@ -1,0 +1,50 @@
+extraSprites:
+  - type: oxceLinks
+    width: 32
+    height: 16
+    singleImage: true
+    files:
+      0: resources/Extended/oxceLinks.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/ui.png
+  - type: DETBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/DETBORD.png
+  - type: MEDIBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/MEDIBORD.png
+  - type: SCANBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/SCANBORD.png
+  - type: UNIBORD.PCK
+    singleImage: true
+    files:
+      0: resources/ui/battlescape/UNIBORD.png
+  - type: GEOBORD.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/ui/geograph/GEOBORD.png
+  - type: INTERWIN.DAT
+    width: 160
+    height: 96
+    singleImage: true
+    files:
+      0: resources/ui/geograph/INTERWIN.png
+  - type: TRISCEN.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: resources/unit/TriscenewSh.png

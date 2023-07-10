@@ -1,0 +1,83 @@
+research:
+
+#Aquaplastics and Zrbite require nothing
+  - name: STR_AQUA_PLASTICS 
+    dependencies:
+      []
+  - name: STR_DEEP_ONE_CORPSE
+    unlocks:
+      []
+
+#Aquaplastic Armor requires aquaplastics only
+#Ion Armor requires Aquaplastic Armor and Ion Accelerators
+
+  - name: STR_ION_ARMOR
+    dependencies:
+      - STR_ION_BEAM_ACCELERATORS
+      - STR_PLASTIC_AQUA_ARMOR
+
+#And accelerators require Zrbite
+  - name: STR_ION_BEAM_ACCELERATORS
+    dependencies:
+      - STR_ZRBITE
+
+#Magnetic Ion Armor requires Ion Armor and Magnetic Navigation
+#And Navigation requires any living navigator
+
+  - name: STR_MAGNETIC_NAVIGATION
+    dependencies:
+      - STR_AQUATOID_NAVIGATOR
+      - STR_LOBSTERMAN_NAVIGATOR
+
+  - name: STR_AQUATOID_NAVIGATOR
+    unlocks:
+      - STR_ALIEN_ORIGINS
+      - STR_MAGNETIC_NAVIGATION
+
+  - name: STR_LOBSTERMAN_NAVIGATOR
+    unlocks:
+      - STR_LEADER_PLUS
+      - STR_ALIEN_ORIGINS
+      - STR_MAGNETIC_NAVIGATION
+
+#So to get Megnetic Ion Armor you will need to get and research: Aquaplastics, Zrbite, Accelerators, Navigation and living Navigator
+#---------------------------------------------------------------------
+
+#Drill weapons require nothing
+  - name: STR_VIBRO_BLADE
+    needItem: true
+    dependencies:
+      []
+  - name: STR_THERMIC_LANCE
+    dependencies:
+      - STR_VIBRO_BLADE
+  - name: STR_HEAVY_THERMIC_LANCE
+    dependencies:
+      - STR_THERMIC_LANCE
+
+#---------------------------------------------------------------------
+
+#New sub requires Aquaplastics, Zrbite, Accelerators, Navigation and living Navigator just as Magnetic Armor, but doesn't requires armor itself.
+  - name: STR_NEW_FIGHTER_FLYING_SUB
+    cost: 600
+    points: 30
+    dependencies:
+      - STR_ALIEN_SUB_CONSTRUCTION
+      - STR_ZRBITE
+      - STR_ION_BEAM_ACCELERATORS
+      - STR_MAGNETIC_NAVIGATION
+      - STR_AQUA_PLASTICS
+
+#-----------------------------------------------------------------------
+ 
+#All alien techs must be researched before assaulting T'leth, because why not. 
+
+research: 
+  - name: STR_TLETH_ALIEN_CITY
+    dependencies:
+      - STR_COMMANDER_PLUS
+      - STR_ALIEN_CRYOGENICS
+      - STR_ALIEN_CLONING
+      - STR_ALIEN_LEARNING_ARRAYS
+      - STR_ALIEN_IMPLANTER
+      - STR_EXAMINATION_ROOM

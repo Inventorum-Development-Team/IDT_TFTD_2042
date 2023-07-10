@@ -1,0 +1,373 @@
+units:
+  - type: STR_AQUATOID_SQUAD_LEADER
+    armor: AQUATOID_ARMOR_SQD
+  - type: STR_AQUATOID_TECHNICIAN
+    armor: AQUATOID_ARMOR_TEC
+  - type: STR_AQUATOID_MEDIC
+    armor: AQUATOID_ARMOR_MED
+  - type: STR_AQUATOID_COMMANDER
+    armor: AQUATOID_ARMOR_CMD
+  - type: STR_AQUATOID_NAVIGATOR
+    armor: AQUATOID_ARMOR_NAV
+
+  - type: STR_TASOTH_SQUAD_LEADER
+    armor: TASOTH_ARMOR_SQD
+
+  - type: STR_GILLMAN_SQUAD_LEADER
+    armor: GILLMAN_ARMOR_SQD
+  - type: STR_GILLMAN_TECHNICIAN
+    armor: GILLMAN_ARMOR_TEC
+  - type: STR_GILLMAN_MEDIC
+    armor: GILLMAN_ARMOR_MED
+  - type: STR_GILLMAN_COMMANDER
+    armor: GILLMAN_ARMOR_CMD
+  - type: STR_GILLMAN_NAVIGATOR
+    armor: GILLMAN_ARMOR_NAV
+
+  - type: STR_LOBSTERMAN_SQUAD_LEADER
+    armor: LOBSTERMAN_ARMOR_SQD
+  - type: STR_LOBSTERMAN_TECHNICIAN
+    armor: LOBSTERMAN_ARMOR_TEC
+  - type: STR_LOBSTERMAN_MEDIC
+    armor: LOBSTERMAN_ARMOR_MDC
+  - type: STR_LOBSTERMAN_COMMANDER
+    armor: LOBSTERMAN_ARMOR_CMD
+  - type: STR_LOBSTERMAN_NAVIGATOR
+    armor: LOBSTERMAN_ARMOR_NAV
+
+
+armors:
+ - type: AQUATOID_ARMOR_NAV
+   spriteSheet: AQUA_NAV.PCK
+   corpseItem: STR_AQUATOID_CORPSE
+   frontArmor: 4
+   sideArmor: 3
+   rearArmor: 2
+   underArmor: 2
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.6
+     - 1.5
+     - 1.0
+   loftemps: 2
+   drawingRoutine: 15
+ - type: AQUATOID_ARMOR_CMD
+   spriteSheet: AQUA_CMD.PCK
+   corpseItem: STR_AQUATOID_CORPSE
+   frontArmor: 4
+   sideArmor: 3
+   rearArmor: 2
+   underArmor: 2
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.6
+     - 1.5
+     - 1.0
+   loftemps: 2
+   drawingRoutine: 15
+ - type: AQUATOID_ARMOR_SQD
+   spriteSheet: AQUA_SQD.PCK
+   corpseItem: STR_AQUATOID_CORPSE
+   frontArmor: 4
+   sideArmor: 3
+   rearArmor: 2
+   underArmor: 2
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.6
+     - 1.5
+     - 1.0
+   loftemps: 2
+   drawingRoutine: 15
+ - type: AQUATOID_ARMOR_MED
+   spriteSheet: AQUA_MED.PCK
+   corpseItem: STR_AQUATOID_CORPSE
+   frontArmor: 4
+   sideArmor: 3
+   rearArmor: 2
+   underArmor: 2
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.6
+     - 1.5
+     - 1.0
+   loftemps: 2
+   drawingRoutine: 15
+ - type: AQUATOID_ARMOR_TEC
+   spriteSheet: AQUA_TEC.PCK
+   corpseItem: STR_AQUATOID_CORPSE
+   frontArmor: 4
+   sideArmor: 3
+   rearArmor: 2
+   underArmor: 2
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.6
+     - 1.5
+     - 1.0
+   loftemps: 2
+   drawingRoutine: 15     
+
+ - type: TASOTH_ARMOR_SQD
+   spriteSheet: TASOTH_SQD.PCK
+   corpseItem: STR_TASOTH_CORPSE
+   frontArmor: 20
+   sideArmor: 20
+   rearArmor: 20
+   underArmor: 10
+   damageModifier:
+     - 1.0
+     - 0.8
+     - 0.4
+     - 0.9
+     - 0.7
+     - 1.2
+     - 1.1
+     - 0.9
+     - 0.0
+     - 1.1
+   loftemps: 3
+   drawingRoutine: 14
+   drawBubbles: true
+
+ - type: GILLMAN_ARMOR_NAV
+   spriteSheet: GILLMAN_NAV.PCK
+   corpseItem: STR_GILLMAN_CORPSE
+   frontArmor: 15
+   sideArmor: 12
+   rearArmor: 14
+   underArmor: 12
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.1
+     - 1.0
+     - 1.2
+     - 0.0
+     - 1.0
+   loftemps: 3
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: GILLMAN_ARMOR_CMD
+   spriteSheet: GILLMAN_CMD.PCK
+   corpseItem: STR_GILLMAN_CORPSE
+   frontArmor: 15
+   sideArmor: 12
+   rearArmor: 14
+   underArmor: 12
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.1
+     - 1.0
+     - 1.2
+     - 0.0
+     - 1.0
+   loftemps: 3
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: GILLMAN_ARMOR_SQD
+   spriteSheet: GILLMAN_SQD.PCK
+   corpseItem: STR_GILLMAN_CORPSE
+   frontArmor: 15
+   sideArmor: 12
+   rearArmor: 14
+   underArmor: 12
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.1
+     - 1.0
+     - 1.2
+     - 0.0
+     - 1.0
+   loftemps: 3
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: GILLMAN_ARMOR_MED
+   spriteSheet: GILLMAN_MED.PCK
+   corpseItem: STR_GILLMAN_CORPSE
+   frontArmor: 15
+   sideArmor: 12
+   rearArmor: 14
+   underArmor: 12
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.1
+     - 1.0
+     - 1.2
+     - 0.0
+     - 1.0
+   loftemps: 3
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: GILLMAN_ARMOR_TEC
+   spriteSheet: GILLMAN_TEC.PCK
+   corpseItem: STR_GILLMAN_CORPSE
+   frontArmor: 15
+   sideArmor: 12
+   rearArmor: 14
+   underArmor: 12
+   damageModifier:
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.0
+     - 1.1
+     - 1.0
+     - 1.2
+     - 0.0
+     - 1.0
+   loftemps: 3
+   drawingRoutine: 14
+   drawBubbles: true
+
+ - type: LOBSTERMAN_ARMOR_NAV
+   spriteSheet: Lobsterman_NAV.PCK
+   corpseItem: STR_LOBSTERMAN_CORPSE
+   frontArmor: 20
+   sideArmor: 20
+   rearArmor: 15
+   underArmor: 10
+   damageModifier:
+     - 1.0
+     - 0.2
+     - 0.3
+     - 0.3
+     - 0.3
+     - 0.5
+     - 1.1
+     - 2.0
+     - 0.0
+     - 1.1
+   loftemps: 4
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: LOBSTERMAN_ARMOR_TEC
+   spriteSheet: Lobsterman_TEC.PCK
+   corpseItem: STR_LOBSTERMAN_CORPSE
+   frontArmor: 20
+   sideArmor: 20
+   rearArmor: 15
+   underArmor: 10
+   damageModifier:
+     - 1.0
+     - 0.2
+     - 0.3
+     - 0.3
+     - 0.3
+     - 0.5
+     - 1.1
+     - 2.0
+     - 0.0
+     - 1.1
+   loftemps: 4
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: LOBSTERMAN_ARMOR_SQD
+   spriteSheet: Lobsterman_SQD.PCK
+   corpseItem: STR_LOBSTERMAN_CORPSE
+   frontArmor: 20
+   sideArmor: 20
+   rearArmor: 15
+   underArmor: 10
+   damageModifier:
+     - 1.0
+     - 0.2
+     - 0.3
+     - 0.3
+     - 0.3
+     - 0.5
+     - 1.1
+     - 2.0
+     - 0.0
+     - 1.1
+   loftemps: 4
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: LOBSTERMAN_ARMOR_CMD
+   spriteSheet: Lobsterman_CMD.PCK
+   corpseItem: STR_LOBSTERMAN_CORPSE
+   frontArmor: 20
+   sideArmor: 20
+   rearArmor: 15
+   underArmor: 10
+   damageModifier:
+     - 1.0
+     - 0.2
+     - 0.3
+     - 0.3
+     - 0.3
+     - 0.5
+     - 1.1
+     - 2.0
+     - 0.0
+     - 1.1
+   loftemps: 4
+   drawingRoutine: 14
+   drawBubbles: true
+ - type: LOBSTERMAN_ARMOR_MDC
+   spriteSheet: Lobsterman_MDC.PCK
+   corpseItem: STR_LOBSTERMAN_CORPSE
+   frontArmor: 20
+   sideArmor: 20
+   rearArmor: 15
+   underArmor: 10
+   damageModifier:
+     - 1.0
+     - 0.2
+     - 0.3
+     - 0.3
+     - 0.3
+     - 0.5
+     - 1.1
+     - 2.0
+     - 0.0
+     - 1.1
+   loftemps: 4
+   drawingRoutine: 14
+   drawBubbles: true

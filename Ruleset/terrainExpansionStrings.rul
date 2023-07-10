@@ -1,0 +1,53 @@
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SEAFRONT_TERROR: ALIENS LAUNCH SEAFRONT ATTACK
+      STR_ALIENS_LAUNCH_SEAFRONT_TERROR: ALIENS LAUNCH SEAFRONT ATTACK ON
+      STR_SEAFRONT_TERROR_BRIEFING: Aliens have launched an attack against surface sites. The city's seafront and its civilian population have been put at risk. Your squad must eliminate all Aliens and protect the innocent bystanders from this Alien incursion. To quit, place aquanauts into the fying sub and click on the 'Abort Mission' icon.
+      STR_POLAR_ISLAND_TERROR: ALIENS ATTACK RESEARCH STATION
+      STR_ALIENS_LAUNCH_POLAR_ISLAND_TERROR: ALIENS LAUNCH RESEARCH STATION ATTACK ON
+      STR_POLAR_ISLAND_TERROR_BRIEFING: Aliens have launched an attack against surface sites. The research station and its civilian crew have been put at risk. Your squad must eliminate all Aliens and protect our valuable research from this Alien incursion. To quit, place aquanauts into the fying sub and click on the 'Abort Mission' icon.
+      MAP_SEAMOUNT: Seabed Mountain
+      MAP_MU_ARTIF: Mayan Artifact
+      MAP_AT_ARTIF: Atlantis Artifact
+      MAP_INDUSTRIALPORT: Industrial Port
+      MAP_COLDISLE_TERROR: Polar Research Station
+      MAP_COMRCURBAN: Commercial
+      MAP_URBAN_DRY: Urban Beach
+      MAP_ALIENHIVE: Alien Hive
+      STR_POLAR_ISLAND_ARTIFACT: POLAR CONTACT SITE PART 1
+      STR_POLAR_ISLAND_ARTIFACT_BRIEFING: Scientists have accidentally activated an Alien communications site. There are unlikely to be any survivors. The mission is to shut the Alien device down. There are 2 levels to this site, the research base and the recently uncovered Alien complex. Get all the aquanauts to the entrance of the complex and click on the 'Abort Mission' icon to proceed. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon.
+   #Country and place names
+      STR_FED_KOREA: FED KOREA 
+      STR_NEW_MEXICO: AZTLAN 
+      STR_EURO_SYNDICATE: EURO FEDERATION
+      STR_PAN_PACIFICA: PAN PACIFICA
+      STR_KINGSPORT: Kingsport
+      STR_CHARLESTON: Charleston
+      STR_NUUK: Nuuk
+      STR_CASABLANCA: Casablanca
+      STR_CAPE_VERDE: Cape Verde
+      STR_CORNER_ISLANDS: Corner Islands
+      STR_AMPERE: Ampere
+      STR_STEPHENVILLE: Stephenville
+      STR_SERMILIK: Sermilik
+      STR_VESTMANNAEYJAR: Vestmannaeyjar
+      STR_SEVERNAYA: Severnaya
+      STR_ALERT: Alert
+      STR_SPITSBERGEN: Spitsbergen
+      STR_DYER_STATION: Dyer Station
+      STR_LAZEREV_STATION: Lazerev Station
+      STR_SOUTH_ORKNEY: South Orkney
+      STR_BOUVET_ISLAND: Bouvet Island
+      STR_CROZET_ISLANDS: Crozet Islands
+      STR_BATTERY_ISLANDS: Battery Islands
+      STR_SCOTT_ISLANDS: Scott Island
+      STR_TUNIS: Tunis
+      STR_VENICE: Venice
+      STR_ISTANBUL: Istanbul
+      STR_BEIRUT: Beirut
+      STR_ABU_DHABI: Abu Dhabi
+      STR_JEDDAH: Jeddah
+      STR_RIO_DE_JANEIRO: Rio de Janeiro
+      STR_BUENOS_AIRES: Buenos Aires
+      STR_LIMA: Lima

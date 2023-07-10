@@ -1,0 +1,142 @@
+startingBase:
+  facilities:
+    - type: STR_AIR_LOCK
+      x: 2
+      y: 3
+    - type: STR_SUB_PEN
+      x: 0
+      y: 4
+    - type: STR_SUB_PEN
+      x: 2
+      y: 4
+    - type: STR_SUB_PEN
+      x: 4
+      y: 4
+    - type: STR_LIVING_QUARTERS
+      x: 2
+      y: 2
+    - type: STR_GENERAL_STORES
+      x: 1
+      y: 2
+    - type: STR_GENERAL_STORES
+      x: 3
+      y: 2
+    - type: STR_LABORATORY
+      x: 3
+      y: 1
+    - type: STR_WORKSHOP
+      x: 2
+      y: 1
+    - type: STR_STANDARD_SONAR
+      x: 1
+      y: 1
+    - type: STR_WIDE_ARRAY_SONAR
+      x: 4
+      y: 1
+    - type: STR_ALIEN_CONTAINMENT
+      x: 4
+      y: 2
+  randomSoldiers: 10
+  crafts:
+    - lon: 0.0
+      lat: 0.0
+      speedLon: 0
+      speedLat: 0
+      speedRadian: 0
+      speed: 0
+      type: STR_TRITON
+      id: 1
+      fuel: 1400
+      damage: 0
+      weapons:
+        []
+      items:
+        STR_MAGNA_BLAST_GRENADE: 10
+        STR_JET_HARPOON: 10
+        STR_HARPOON_POD: 20
+        STR_CHEMICAL_FLARE: 10
+        STR_MAGNA_BLAST_GRENADE: 10
+        STR_DYE_GRENADE: 10
+        STR_MEDI_KIT: 5
+        STR_PARTICLE_DISTURBANCE_SENSOR: 5
+      vehicles:
+        []
+      status: STR_READY
+      lowFuel: false
+      inBattlescape: false
+      inDogfight: false
+      interceptionOrder: 0
+    - lon: 0.0
+      lat: 0.0
+      speedLon: 0
+      speedLat: 0
+      speedRadian: 0
+      speed: 0
+      type: STR_BARRACUDA
+      id: 1
+      fuel: 800
+      damage: 0
+      weapons:
+        - type: STR_AJAX
+          ammo: 8
+          rearming: false
+        - type: STR_CRAFT_GAS_CANNON_UC
+          ammo: 200
+          rearming: false
+      items:
+        {}
+      vehicles:
+        []
+      status: STR_READY
+      lowFuel: false
+      inBattlescape: false
+      inDogfight: false
+      interceptionOrder: 0
+    - lon: 0.0
+      lat: 0.0
+      speedLon: 0
+      speedLat: 0
+      speedRadian: 0
+      speed: 0
+      type: STR_BARRACUDA
+      id: 2
+      fuel: 800
+      damage: 0
+      weapons:
+        - type: STR_AJAX
+          ammo: 8
+          rearming: false
+        - type: STR_CRAFT_GAS_CANNON_UC
+          ammo: 200
+          rearming: false
+      items:
+        {}
+      vehicles:
+        []
+      status: STR_READY
+      lowFuel: false
+      inBattlescape: false
+      inDogfight: false
+      interceptionOrder: 0
+  items:
+    STR_DUP_HEAD_LAUNCHER: 2
+    STR_DUP_HEAD_TORPEDOES: 12
+    STR_CRAFT_GAS_CANNON: 2
+    STR_CRAFT_GAS_CANNON_ROUNDS_X50: 4
+    STR_AJAX_LAUNCHER: 2
+    STR_AJAX_TORPEDOES: 30
+    STR_MAGNA_BLAST_GRENADE: 10
+    STR_JET_HARPOON: 8
+    STR_HARPOON_POD: 24
+    STR_TORPEDO_LAUNCHER: 2
+    STR_SMALL_TORPEDO: 4
+    STR_DYE_GRENADE: 10
+    STR_LASER_RIFLE: 4
+    STR_LASER_RIFLE_CLIP: 12
+    STR_LASER_PISTOL: 4
+    STR_LASER_PISTOL_CLIP: 12
+
+#debug section:
+#
+  scientists: 10
+  engineers: 10

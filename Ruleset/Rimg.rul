@@ -1,0 +1,247 @@
+extraSprites:
+  - type: BACK06.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/ui/geograph/BACK06.png
+  - type: BACK07.SCR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/ui/geograph/BACK07.png
+  - type: UP001.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP001.png
+  - type: UP002.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP002.png
+  - type: UP003.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP003.png
+  - type: UP004.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP004.png
+  - type: UP005.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP005.png
+  - type: UP006.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP006.png
+  - type: UP007.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP007.png
+  - type: UP008.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP008.png
+  - type: UP009.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP009.png
+  - type: UP010.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP010.png
+  - type: UP011.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP011.png
+  - type: UP012.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP012.png
+  - type: UP013.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP013.png
+  - type: UP014.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP014.png
+  - type: UP015.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP015.png
+  - type: UP016.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP016.png
+  - type: UP017.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP017.png
+  - type: UP018.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP018.png
+  - type: UP019.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP019.png
+  - type: UP020.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP020.png
+  - type: UP021.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP021.png
+  - type: UP022.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP022.png
+  - type: UP023.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP023.png
+  - type: UP024.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP024.png
+  - type: UP025.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP025.png
+  - type: UP026.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP026.png
+  - type: UP027.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP027.png
+  - type: UP028.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP028.png
+  - type: UP029.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP029.png
+  - type: UP053.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP053.png
+  - type: UP057.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP057.png
+  - type: UP058.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP058.png
+  - type: UP068.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP068.png
+  - type: UP070.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP070.png
+  - type: UP071.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP071.png
+  - type: UP076.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP076.png
+  - type: UP079.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP079.png
+  - type: UP083.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP083.png
+  - type: UP105.BDY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: resources/research/UP105.png

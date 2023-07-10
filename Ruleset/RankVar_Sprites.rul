@@ -1,0 +1,119 @@
+extraSprites:
+  - type: AQUA_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/aquatoid/NAV_AQUATOID.png
+  - type: AQUA_MED.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/aquatoid/MED_AQUATOID.png
+  - type: AQUA_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/aquatoid/TEC_AQUATOID.png
+  - type: AQUA_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/aquatoid/SQD_AQUATOID.png
+  - type: AQUA_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/aquatoid/CMD_AQUATOID.png
+
+  - type: TASOTH_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/tasoth/SQD_TASOTH.png
+
+  - type: GILLMAN_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Gillman/CMD_GILLMAN.png
+  - type: GILLMAN_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Gillman/SQD_GILLMAN.png
+  - type: GILLMAN_MED.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Gillman/MED_GILLMAN.png
+  - type: GILLMAN_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Gillman/NAV_GILLMAN.png
+  - type: GILLMAN_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Gillman/TEC_GILLMAN.png
+
+  - type: Lobsterman_TEC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Lobsterman/TEC_LOBSTER.png
+  - type: Lobsterman_NAV.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Lobsterman/NAV_LOBSTER.png
+  - type: Lobsterman_MDC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Lobsterman/MDC_LOBSTER.png
+  - type: Lobsterman_SQD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Lobsterman/SQD_LOBSTER.png
+  - type: Lobsterman_CMD.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1320
+    files:
+      0: Resources/Lobsterman/CMD_LOBSTER.png
+
+
+ 

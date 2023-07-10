@@ -1,0 +1,114 @@
+armors:
+
+# [=] CIV Diver [=]
+  - type: STR_MFTD_CIV_DIVER_ARMOR
+    spriteSheet: MFTD_CIV_DIVER.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    spriteInv: MFTD_CIV_DIVER_INVENTORY.SPK
+    corpseBattle:
+      - STR_MFTD_CIV_DIVER_CORPSE
+    overKill: 100000.0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+
+
+
+# [=] CIV Military Male [=]
+  - type: STR_MFTD_CIV_MILITARY_MALE_ARMOR
+    spriteSheet: MFTD_CIV_MILITARY.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    corpseBattle:
+      - STR_MFTD_CIV_MILITARY_CORPSE
+    overKill: 100000.0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+    builtInWeaponSets:
+      - - STR_MFTD_CIV_RIFLE
+        - STR_MFTD_CIV_RIFLE_CLIP
+        - STR_MFTD_CIV_RIFLE_CLIP
+      - - STR_MFTD_CIV_RIFLE
+        - STR_MFTD_CIV_RIFLE_CLIP
+        - STR_MFTD_CIV_RIFLE_CLIP
+      - - STR_MFTD_CIV_PISTOL
+        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_MFTD_CIV_PISTOL_CLIP
+
+
+
+# [=] CIV Military Female [=]
+  - type: STR_MFTD_CIV_MILITARY_FEMALE_ARMOR
+    spriteSheet: MFTD_CIV_MILITARY.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    corpseBattle:
+      - STR_MFTD_CIV_MILITARY_CORPSE
+    overKill: 100000.0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 2 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+    builtInWeaponSets:
+      - - STR_MFTD_CIV_RIFLE
+        - STR_MFTD_CIV_RIFLE_CLIP
+        - STR_MFTD_CIV_RIFLE_CLIP
+      - - STR_MFTD_CIV_PISTOL
+        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_MFTD_CIV_PISTOL_CLIP
+      - - STR_MFTD_CIV_PISTOL
+        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_MFTD_CIV_PISTOL_CLIP
+

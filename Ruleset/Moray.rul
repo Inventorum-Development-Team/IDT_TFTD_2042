@@ -1,0 +1,67 @@
+crafts:
+  - type: STR_MORAY
+    sprite: 22
+    fuelMax: 1200
+    damageMax: 180
+    speedMax: 3400
+    accel: 5
+    weapons: 2
+    refuelRate: 60
+    transferTime: 96
+    score: 250
+    maxDepth: 3
+    listOrder: 205
+manufacture:
+  - name: STR_MORAY 
+    category: STR_CRAFT
+    requires:
+     - STR_MORAY_SUB
+    space: 24 
+    time: 10000 
+    cost: 300000 
+    listOrder: 3750
+    requiredItems:
+      STR_AQUA_PLASTICS: 50
+      STR_MAGNETIC_NAVIGATION: 1
+research:
+  - name: STR_MORAY_SUB
+    cost: 400
+    points: 25
+    listOrder: 4450
+    dependencies:
+      - STR_AQUA_PLASTICS
+      - STR_MAGNETIC_NAVIGATION	
+ufopaedia:
+  - id: STR_MORAY
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: UFOIMAGE
+    text: STR_MORAY_UFOPEDIA
+    listOrder: 405
+    requires:
+      - STR_MORAY_SUB
+extraStrings:
+  - type: en-US
+    strings:
+      STR_MORAY: MORAY
+      STR_MORAY_SUB: Moray Fighter Flying Sub
+      STR_MORAY_UFOPEDIA: THE MORAY DESIGN IS AS OLD AS BARRACUDA'S, BUT ONLY THE RESILIENCE OF AQUA PLASTICS HAVE ENABLED US TO OVERCOME THE HYDRODYNAMIC STRESSES THAT THIS SUPERB FLYING SUB CAN REACH. 
+  - type: en-GB
+    strings:
+      STR_MORAY: MORAY
+      STR_MORAY_SUB: Moray Fighter Flying Sub
+      STR_MORAY_UFOPEDIA: THE MORAY DESIGN IS AS OLD AS BARRACUDA'S, BUT ONLY THE RESILIENCE OF AQUA PLASTICS HAVE ENABLED US TO OVERCOME THE HYDRODYNAMIC STRESSES THAT THIS SUPERB FLYING SUB CAN REACH. 
+extraSprites:
+  - type: UFOIMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Moray/Ufopedia/Moray_UP.gif
+  - type: BASEBITS.PCK
+    files:
+      55: Resources/Moray/Basebits/Moray.gif
+  - type: INTICON.PCK
+    files:
+      22: Resources/Moray/Inticon/MorayMinimized.gif
+      33: Resources/Moray/Inticon/MorayDogfight.gif

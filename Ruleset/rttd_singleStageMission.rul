@@ -1,0 +1,27 @@
+alienDeployments:
+  - type: STR_CARGO_SHIP_P1
+    nextStage: ""
+  - type: STR_CRUISE_SHIP_P1
+    nextStage: ""
+
+  - type: STR_CARGO_SHIP_P2
+    shade: 8
+    alert: STR_ALIENS_ATTACK_SHIPPING_ROUTE
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
+
+globe:
+  textures:
+    - id: -4
+      deployments:
+        STR_CARGO_SHIP_P1: 40
+        STR_CARGO_SHIP_P2: 30		
+        STR_CRUISE_SHIP_P1: 30
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_SHIP_RESCUE_P1_BRIEFING: "This mission is a bug hunt, eliminate all Alien units on the ship, and preserve the lives of any civilians onboard. To quit, place aquanauts into the flying sub and click on the 'Abort Mission' icon."
+      STR_SHIP_RESCUE_P2_BRIEFING: "The aliens have fortified themselves on lower decks and cut the power. Your squad must eliminate all Aliens on this level to complete the mission. To abort place all aquanauts on the lift start point and click on 'Abort Mission' icon."

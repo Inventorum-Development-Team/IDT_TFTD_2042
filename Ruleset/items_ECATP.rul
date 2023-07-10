@@ -1,0 +1,21 @@
+items:
+
+
+  - type: STR_COELACANTH_GAS_CANNON
+    customItemPreviewIndex: 0
+
+
+  - type: STR_COELACANTH_AQUA_JET
+    customItemPreviewIndex: 0
+
+
+  - type: STR_COELACANTH_GAUSS
+    customItemPreviewIndex: 0
+
+
+  - type: STR_DISPLACER_SONIC
+    customItemPreviewIndex: 1
+
+
+  - type: STR_DISPLACER_PWT
+    customItemPreviewIndex: 1

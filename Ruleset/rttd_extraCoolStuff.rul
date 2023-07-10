@@ -1,0 +1,187 @@
+extraSprites:
+  - type: HIT.PCK
+    height: 40
+    width: 128
+    subX: 32
+    subY: 40
+    files:
+      5: Resources/Sprites/clawSlash.png
+      10: Resources/Sprites/lobsterHit.png
+
+  - type: EXPERIMENT_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/Experiment_Ufopedia.png
+
+items:
+  - type: CALCINITE_WEAPON
+    tuMelee: 25
+    fixedWeapon: false
+    meleeAnimation: 5
+
+  - type: STR_LOBSTERMAN_MELEE_WEAPON
+    tuMelee: 25
+    fixedWeapon: false
+    meleeAnimation: 10
+
+#  - type: STR_VIBRO_BLADE
+#    meleeAnimation: 10
+
+research:
+  - name: STR_AQUATOID_MEDIC
+    getOneFree:
+      - STR_CALCINITE
+      - STR_HALLUCINOID
+      - STR_GILLMAN
+      - STR_DEEP_ONE
+      - STR_XARQUID
+      - STR_TASOTH
+      - STR_TENTACULAT
+      - STR_BIODRONE
+      - STR_TRISCENE
+      - STR_LOBSTERMAN
+      - STR_CALCINITE_AUTOPSY
+      - STR_HALLUCINOID_AUTOPSY
+      - STR_DEEP_ONE_AUTOPSY
+      - STR_XARQUID_AUTOPSY
+      - STR_TASOTH_AUTOPSY
+      - STR_TENTACULAT_AUTOPSY
+      - STR_BIODRONE_AUTOPSY
+      - STR_TRISCENE_AUTOPSY
+      - STR_LOBSTERMAN_AUTOPSY
+      - STR_EXPERIMENT1
+      - STR_EXPERIMENT2	  
+      - STR_EXPERIMENT3
+      - STR_EXPERIMENT4
+
+  - name: STR_EXPERIMENT1
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_EXPERIMENT2
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_EXPERIMENT3
+    cost: 0
+    points: 50
+    needItem: true
+  - name: STR_EXPERIMENT4
+    cost: 0
+    points: 50
+    needItem: true
+
+ufopaedia:
+  - id: STR_EXPERIMENT1
+    type_id: 10
+    image_id: EXPERIMENT_UFOPEDIA.SPK
+    section: STR_ALIEN_LIFE_FORMS
+    text: STR_EXPERIMENT1_UFOPEDIA
+    requires:
+      - STR_EXPERIMENT1
+
+  - id: STR_EXPERIMENT2
+    type_id: 10
+    image_id: EXPERIMENT_UFOPEDIA.SPK
+    section: STR_ALIEN_LIFE_FORMS
+    text: STR_EXPERIMENT2_UFOPEDIA
+    requires:
+      - STR_EXPERIMENT2
+
+  - id: STR_EXPERIMENT3
+    type_id: 10
+    image_id: EXPERIMENT_UFOPEDIA.SPK
+    section: STR_ALIEN_LIFE_FORMS
+    text: STR_EXPERIMENT3_UFOPEDIA
+    requires:
+      - STR_EXPERIMENT3
+
+  - id: STR_EXPERIMENT4
+    type_id: 10
+    image_id: EXPERIMENT_UFOPEDIA.SPK
+    section: STR_ALIEN_LIFE_FORMS
+    text: STR_EXPERIMENT4_UFOPEDIA
+    requires:
+      - STR_EXPERIMENT4
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_INNSMOUTH: "Innsmouth"
+
+      STR_EXPERIMENT1: "Alien Medical Archives: Case #88"
+      STR_EXPERIMENT1_UFOPEDIA: "This is one of the older experiments, dating back at least a thousand years. The idea was apparently simple. The aliens planned to breed an unprecedented size giant squid (architeuthis dux) and use it as a living weapon. However, after the first prototype was released near the Strait of Gibraltar, it quickly turned out that the creature required too much resources to maintain and was too difficult to control compared to the small threat posed by the Earth's fleet of the time."
+
+      STR_EXPERIMENT2: "Alien Medical Archives: Case #104"
+      STR_EXPERIMENT2_UFOPEDIA: "One of the first functional attempts to link human biology with an alien was a grotesque chimera that allegedly had the upper part of the human body and the lower part of an unknown large fish. The human vocal cords were equipped with an mechanism that enables mind control using sound waves, laying the groundwork for later research of sonic weapons and psionics. However, due to high intelligence and natural human curiosity, creatures were too little obedient to their creators, and eventually the project was discontinued."
+
+      STR_EXPERIMENT3: "Alien Medical Archives: Case #143"
+      STR_EXPERIMENT3_UFOPEDIA: "It appears that at some point in the XIX century, the aliens were testing a new reconnaissance submarine, loosely modeled after a sperm whale (physeter macrocephalus). It is not known whether this was due to the exceptionally large size or the unnaturally white color, but it quickly became the focus of local whalers. The Aliens' attention was especially drawn by the fact that they had repeatedly recognized an identical-looking man as captain. This gave the idea that the they should start cloning their own officers as well."
+
+      STR_EXPERIMENT4: "Alien Medical Archives: Case #225"
+      STR_EXPERIMENT4_UFOPEDIA: "This data is relatively new and comes from the beginning of XX century. Apparently, an experiment was being conducted near American City of Boston to develop hybrids based on natural interspecies mating between humans and creatures from the deep. It is also an interesting case of using mind control on a large scale resulting in the emergence of a local occult movement, as human sacrifices was willingly made in exchange for promises of fertility and wealth."
+
+
+regions:
+  - type: STR_NORTH_ATLANTIC
+    missionZones:  # lonMin lonMax latMin latMax
+      -
+        - [300, 301, -58, -57]
+        - [306, 307, -53, -52]
+        - [320, 321, -58, -57]
+        - [347, 347.5, -40, -39]
+        - [347, 348, -59, -58]
+        - [318, 318.5, -45, -43.25]
+        - [347, 349.75, -30, -28.875]
+        - [305, 306.25, -32, -31.125]
+        - [325, 326.75, -25, -23.625]
+        - [340, 340.875, -55, -53.75]
+      -
+        - [265.75, 266.25, -62, -61.5]
+        - [281, 281.75, -66, -65.25]
+        - [282, 283.5, -63, -61.25]
+        - [288, 289.5, -37, -35.875]
+        - [337, 338.625, -62, -59.5]
+        - [298, 299.5, -48, -46.125]
+        - [313, 314.5, -54, -51.5]
+        - [310, 310.875, -33, -31.125]
+        - [331, 332.5, -31, -28]
+        - [345, 346.25, -40, -39.375]
+      -
+        - [274.5, 277.625, -57.5, -54]
+        - [283, 283.25, -30, -29.375]
+        - [297, 298, -37, -35.125]
+        - [325, 330.25, -44, -37]
+        - [331, 333.75, -53, -50.375]
+        - [335, 336.75, -65, -63.625]
+        - [322, 324.75, -40, -38.875]
+        - [320, 321.5, -55.625, -54.875]
+      -
+        - [336, 336, -37, -37, -2, STR_AZORES]
+        - [337, 337, -61.25, -61.25, -1, STR_REYKJAVIK]
+        - [295.125, 295.125, -34.5, -34.5, -2, STR_BERMUDA]
+        - [286.875, 286.875, -38.25, -38.25, -1, STR_NEW_YORK]
+        - [290.25, 290.25, -41.25, -41.25, -1, STR_BOSTON]
+        - [292, 292, -42, -42, -1, STR_INNSMOUTH]
+        - [271.25, 271.25, -50.875, -50.875, -1, STR_FORT_SEVERN]
+      -
+        - [281.5, 282.375, -57, -55.125]
+        - [323, 327.25, -51, -44.125]
+        - [282, 283.5, -63, -61.25]
+        - [288, 289.5, -37, -35.875]
+        - [337, 338.625, -62, -59.5]
+        - [298, 299.5, -48, -46.125]
+        - [325, 326.75, -25, -23.625]
+        - [347, 349.75, -30, -28.875]
+      -
+        - [303, 304, -66, -65]
+        - [347, 348, 53.5, 54.5]
+        - [354, 355.5, -64, -59.625]
+        - [79.5, 81.5, -16, -13.625]
+        - [330, 333.5, 33, 35.25]
+        - [350, 352.375, -70, -68.5]
+        - [70, 71.125, -70, -68.125]
+        - [4, 5.5, -38, -35.5]
+        - [273, 274.5, -23, -21.25]

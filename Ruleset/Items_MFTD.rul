@@ -1,0 +1,174 @@
+items:
+
+# [=] Weapon - CIV Rifle [=] <Civilian only weapon>(Although X-Com could pick it up and fight with it, it won't be recovered)
+  - type: STR_MFTD_CIV_RIFLE
+    size: 0.2
+    costBuy: 0
+    costSell: 2250
+    weight: 8
+    bigSprite: 68
+    floorSprite: 84
+    handSprite: 456
+    bulletSprite: 2
+    fireSound: 4
+    compatibleAmmo:
+      - STR_MFTD_CIV_RIFLE_CLIP
+    accuracyAuto: 35
+    accuracySnap: 60
+    accuracyAimed: 110
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+# [=] Weapon - CIV Rifle Ammo [=] <Civilian only weapon>
+  - type: STR_MFTD_CIV_RIFLE_CLIP
+    size: 0.1
+    costBuy: 0
+    costSell: 150
+    weight: 3
+    bigSprite: 69
+    floorSprite: 85
+    handSprite: 464
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    recover: false # DO NOT RECOVER THIS ITEM
+
+# [=] Weapon - CIV Pistol [=] <Civilian only weapon>(Although X-Com could pick it up and fight with it, it won't be recovered)
+  - type: STR_MFTD_CIV_PISTOL
+    size: 0.1
+    costBuy: 0
+    costSell: 600
+    weight: 5
+    bigSprite: 66
+    floorSprite: 82
+    handSprite: 440
+    bulletSprite: 1
+    fireSound: 4
+    compatibleAmmo:
+      - STR_MFTD_CIV_PISTOL_CLIP
+    accuracySnap: 60
+    accuracyAimed: 78
+    tuSnap: 18
+    tuAimed: 30
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    recover: false # DO NOT RECOVER THIS ITEM
+# [=] Weapon - CIV Pistol Ammo [=] <Civilian only weapon>
+  - type: STR_MFTD_CIV_PISTOL_CLIP
+    size: 0.1
+    costBuy: 0
+    costSell: 52
+    weight: 3
+    bigSprite: 67
+    floorSprite: 83
+    handSprite: 448
+    hitSound: 22
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    clipSize: 12
+    battleType: 2
+    armor: 12
+    recover: false # DO NOT RECOVER THIS ITEM
+
+
+
+
+# [=] Civilian Military Corpse [=]
+  - type: STR_MFTD_CIV_MILITARY_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 71
+    floorSprite: 86
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false # DO NOT RECOVER THIS ITEM
+
+# [=] Civilian Diver Corpse [=]
+  - type: STR_MFTD_CIV_DIVER_CORPSE
+    name: STR_CORPSE
+    weight: 50
+    bigSprite: 72
+    floorSprite: 87
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false # DO NOT RECOVER THIS ITEM
+
+
+# [=] Fake Civilian Corpses [=]
+  - type: CIVM_CORPSE_FAKE
+    name: STR_CORPSE
+    weight: 30
+    floorSprite: 50
+    invWidth: 0
+    invHeight: 0
+    armor: 12
+    battleType: 10 # Was 11 <Fake corpse stops crash>
+    recover: false
+  - type: CIVF_CORPSE_FAKE
+    name: STR_CORPSE
+    weight: 50
+    floorSprite: 51
+    invWidth: 0
+    invHeight: 0
+    armor: 12
+    battleType: 10 # Was 11 <Fake corpse stops crash>
+    recover: false
+
+
+# [=] Civilian Diving Drill [=]
+  - type: STR_MFTD_DIVING_DRILL
+    size: 0.3
+    costSell: 10
+    transferTime: 48
+    weight: 5
+    bigSprite: 73
+    floorSprite: 88
+    handSprite: 472
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 16
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+
+
+# [=] Civilian Diving Drill [=] (For UFOpaedia Article) <Rifle, Pistol, Drill>
+  - type: STR_MFTD_CIVILIAN_WEAPONS
+    size: 0.3
+    costSell: 10
+    transferTime: 48
+    weight: 5
+    bigSprite: 73
+    floorSprite: 88
+    handSprite: 472
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 16
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+    hidePower: true

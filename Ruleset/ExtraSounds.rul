@@ -1,0 +1,20 @@
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      255: Resources/Sounds/Ded.wav
+      256: Resources/Sounds/Step2.wav
+      257: Resources/Sounds/Ded1.wav
+
+      440: Resources/Sounds/MeleeHit.wav
+      441: Resources/Sounds/MeleeMiss.wav
+      442: Resources/Sounds/Donk.wav
+
+  - type: BATTLE2.CAT
+    files:
+      255: Resources/Sounds/Ded.wav
+      256: Resources/Sounds/Step2.wav
+      257: Resources/Sounds/Ded1.wav
+
+      440: Resources/Sounds/MeleeHit.wav
+      441: Resources/Sounds/MeleeMiss.wav
+      442: Resources/Sounds/Donk.wav

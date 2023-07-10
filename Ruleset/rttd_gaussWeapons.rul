@@ -1,0 +1,205 @@
+research:
+  - name: STR_GAUSS_TECH
+    dependencies:
+      - STR_ZRBITE #Now requires Zrbite
+
+  - delete: STR_GAUSS_PISTOL_CLIP #No ammo anymore
+  - delete: STR_GAUSS_RIFLE
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS  
+  - delete: STR_HEAVY_GAUSS_CLIP
+  - delete: STR_GAUSS_PISTOL
+
+  - name: STR_GAUSS_PISTOL
+    dependencies:
+      - STR_GAUSS_TECH
+      - STR_SONIC_PISTOL
+      - STR_PISTOL_POWER_CLIP
+
+  - name: STR_GAUSS_RIFLE
+    dependencies:
+      - STR_GAUSS_TECH
+      - STR_SONIC_BLASTA_RIFLE
+      - STR_BLASTA_POWER_CLIP
+
+  - name: STR_HEAVY_GAUSS
+    dependencies:
+      - STR_GAUSS_TECH
+      - STR_SONIC_CANNON
+      - STR_CANNON_POWER_CLIP
+
+  - name: STR_GAUSS_CANNON
+    dependencies:
+      - STR_HEAVY_GAUSS
+
+extraSprites:
+  - type: GAUSS_UFOPEDIA.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files: 
+      0: Resources/Sprites/Gauss_Ufopedia.png
+
+ufopaedia:
+  - delete: STR_GAUSS_PISTOL_CLIP #No ammo anymore
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS_CLIP
+  
+  - id: STR_GAUSS_TECH
+    type_id: 10
+    image_id: GAUSS_UFOPEDIA.SPK
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_GAUSS_UFOPEDIA
+    requires:
+      - STR_GAUSS_TECH
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GAUSS_UFOPEDIA: "While alien weapons during the First War were powered by the currently unavailable Elerium, the new enemy uses Zrbite for this purpose. If we can reverse engineer the weapons currently in use by the invaders, we should be able to develop our own Zrbite-powered counterparts based on known laser and plasma technologies."
+
+manufacture:
+  - delete: STR_GAUSS_PISTOL_CLIP #No ammo anymore
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS_CLIP
+  - delete: STR_GAUSS_CANNON_AMMO
+  
+items:
+  - delete: STR_GAUSS_PISTOL_CLIP #No ammo anymore
+  - delete: STR_GAUSS_RIFLE_CLIP
+  - delete: STR_HEAVY_GAUSS_CLIP
+  - delete: STR_GAUSS_CANNON_AMMO
+  - type: STR_GAUSS_PISTOL
+    size: 0.1
+    costSell: 20000
+    weight: 7
+    bigSprite: 5
+    floorSprite: 5
+    handSprite: 128
+    bulletSprite: 5
+    fireSound: 35
+    accuracyAuto: 30
+    accuracySnap: 40
+    accuracyAimed: 70
+    tuAuto: 30
+    tuSnap: 25
+    tuAimed: 50
+    compatibleAmmo:
+      []
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    hitSound: 31
+    hitAnimation: 46
+    power: 45 #was: 45
+    damageType: 4
+    clipSize: -1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 5
+
+  - type: STR_GAUSS_RIFLE
+    size: 0.2
+    costSell: 36900
+    weight: 8
+    bigSprite: 0
+    floorSprite: 0
+    handSprite: 8
+    bulletSprite: 6
+    fireSound: 34
+    accuracyAuto: 50
+    accuracySnap: 65
+    accuracyAimed: 100
+    tuAuto: 40
+    tuSnap: 30
+    tuAimed: 60
+    compatibleAmmo:
+      []
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    hitSound: 31
+    hitAnimation: 46
+    power: 60 #was: 60
+    damageType: 4
+    clipSize: -1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 10
+
+  - type: STR_HEAVY_GAUSS
+    size: 0.3
+    costSell: 61000
+    weight: 18
+    bigSprite: 6
+    floorSprite: 6
+    handSprite: 16
+    bulletSprite: 7
+    fireSound: 33
+    accuracySnap: 50
+    accuracyAimed: 90
+    tuSnap: 40
+    tuAimed: 80
+    compatibleAmmo:
+      []
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    hitSound: 31
+    hitAnimation: 46
+    power: 80 #was: 75
+    damageType: 4
+    clipSize: -1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 15
+
+  - type: STR_COELACANTH_GAUSS
+    size: 6
+    costSell: 594000
+    transferTime: 96
+    bigSprite: 40
+    fireSound: 34
+    accuracySnap: 50
+    accuracyAimed: 85
+    tuSnap: 33
+    tuAimed: 75
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    turretType: 2
+    battleType: 1
+    # special behaviour here: for a HWP with compatible ammo, setting a clipSize
+    # defines the max ammo for the HWP, and the clipSize on the weapon dictates
+    # how many rounds it adds.
+    compatibleAmmo:
+      []
+    clipSize: -1 #was: 50
+    battleType: 2
+    bulletSprite: 6
+    hitSound: 31
+    hitAnimation: 46
+    power: 110
+    damageType: 4
+    vaporColor: 2
+    vaporDensity: 10
+
+craftWeapons:
+  - type: STR_GAUSS_CANNON_UC
+    sprite: 4
+    sound: 10
+    damage: 90
+    range: 50
+    accuracy: 35
+    reloadCautious: 24
+    reloadStandard: 18
+    reloadAggressive: 12
+    ammoMax: 50
+    rearmRate: 50
+    launcher: STR_GAUSS_CANNON
+    clip: ""
+    projectileType: 2
+    projectileSpeed: 8
+    underwaterOnly: true

@@ -1,0 +1,125 @@
+armors:
+  - type: AQUATOID_ARMOR0
+    spriteInv: AL_AQ
+  - type: DEEP_ONE_ARMOR0
+    spriteInv: AL_DP
+  - type: GILLMAN_ARMOR0
+    spriteInv: AL_GM
+  - type: TASOTH_ARMOR0
+    spriteInv: AL_TA
+  - type: CALCINITE_ARMOR0
+    spriteInv: AL_CAL
+  - type: TENTACULAT_ARMOR0
+    spriteInv: AL_TEN
+  - type: LOBSTERMAN_ARMOR0
+    spriteInv: AL_LOB
+  - type: LOBSTERMAN_ARMOR1
+    spriteInv: AL_LOB
+  - type: LOBSTERMAN_ARMOR2
+    spriteInv: AL_LOB
+  - type: XARQUID_ARMOR0
+    spriteInv: AL_XR
+  - type: BIODRONE_ARMOR0
+    spriteInv: AL_BIO
+  - type: HALLUCINOID_ARMOR0
+    spriteInv: AL_HAL
+  - type: TRISCENE_ARMOR0
+    spriteSheet: TRISCEN.PCK
+    spriteInv: AL_TRI
+  - type: COELACANTH_ARMOR
+    spriteInv: XC_CGC
+  - type: DISPLACER_ARMOR
+    spriteInv: XC_DPW
+  - type: COELACANTH_ARMOR1
+    spriteSheet: TANK01.PCK
+    spriteInv: XC_CAJ
+    allowInv: false
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+  - type: COELACANTH_ARMOR2
+    spriteSheet: TANK01.PCK
+    spriteInv: XC_CGU
+    allowInv: false
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+  - type: DISPLACER_ARMOR1
+    spriteSheet: TANK01.PCK
+    spriteInv: XC_DS
+    allowInv: false
+    corpseBattle:
+      - DISPLACER_CORPSE_1
+      - DISPLACER_CORPSE_2
+      - DISPLACER_CORPSE_3
+      - DISPLACER_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    constantAnimation: true
+  - type: ZOMBIE_ARMOR
+    spriteInv: AL_ZOM
+  - type: DOCKER_ARMOR
+    spriteInv: NE_CIVC
+  - type: SAILOR_ARMOR
+    spriteInv: NE_CIVS
+  - type: BIKINI_GIRL_ARMOR
+    spriteInv: NE_CIVB
+  - type: SURFER_ARMOR
+    spriteInv: NE_CIVBM

@@ -1,0 +1,23 @@
+research:
+  - name: STR_SHARKQUANAUTS
+    cost: 50
+    points: 5
+#VEST
+  - name: STR_SHARKVEST
+    cost: 150
+    points: 10
+    dependencies:
+      - STR_AQUA_PLASTICS
+      - STR_SHARKQUANAUTS
+#ARMOUR
+  - name: STR_SHARK_ARMOUR
+    cost: 200
+    points: 10
+    dependencies:
+      - STR_SHARKVEST
+#POWERED
+  - name: STR_POWERSHARK
+    cost: 350
+    points: 25
+    dependencies:
+      - STR_SHARK_ARMOUR

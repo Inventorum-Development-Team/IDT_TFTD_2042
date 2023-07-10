@@ -1,0 +1,704 @@
+ufopaedia:
+
+
+
+# [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=]
+# [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=]
+# [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=] [=] New Items [=]
+
+# [=] Civilian Weapons [=] <Drill, Rifle, Pistol>
+  - id: STR_MFTD_CIVILIAN_WEAPONS
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MFTD_CIVILIAN_WEAPONS_UFOPAEDIA
+    image_id: UFOpaedia_Civilian_Weapons.png
+    listOrder: 1950
+
+# [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=]
+# [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=]
+# [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=]
+
+# [=] Excavation [=]
+  - id: STR_MFTD_EXCAVATION
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MFTD_EXCAVATION
+    text: STR_MFTD_EXCAVATION_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 11205
+
+# [=] Harvesting [=]
+  - id: STR_MFTD_HARVESTING
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MFTD_HARVESTING
+    text: STR_MFTD_HARVESTING_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 11206
+
+
+# [=] Spreading Havoc [=]
+  - id: STR_MFTD_SPREADING_HAVOC
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MFTD_SPREADING_HAVOC
+    text: STR_MFTD_SPREADING_HAVOC_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 11207
+
+
+# [=] Underwater Laboratory Attack [=]
+  - id: STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MFTD_UNDERWATER_LABORATORY_ATTACK
+    text: STR_MFTD_UNDERWATER_LABORATORY_ATTACK_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 11208
+
+
+# [=] Oil Supply Attack [=]
+  - id: STR_MFTD_OIL_RAID
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MFTD_OIL_RAID
+    text: STR_MFTD_OIL_RAID_UFOPEDIA
+    image_id: UP105.BDY
+    text_width: 308
+    listOrder: 11209
+
+
+# [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=]
+# [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=]
+# [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=] [=] Alien Craft [=]
+
+
+# [=] Wolwerin's Craft [=]----------------------------------------------------
+
+
+# [=] GT0000 [=] <Worm>
+  - id: STR_MFTD_WORM
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_WORM
+    text: STR_MFTD_WORM_UFOPEDIA
+    image_id: GT0000_UFOpaedia.png
+
+
+# [=] GT0001 [=] <Terror>
+  - id: STR_MFTD_TERROR
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_TERROR
+    text: STR_MFTD_TERROR_UFOPEDIA
+    image_id: GT0001_UFOpaedia.png
+
+
+# [=] GT0002 [=] < Dreadnought-W>
+  - id: STR_MFTD_DREADNOUGHT_W
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_DREADNOUGHT_W
+    text: STR_MFTD_DREADNOUGHT_W_UFOPEDIA
+    image_id: GT0002_UFOpaedia.png
+
+
+# [=] GT0003 [=] <Scout>
+  - id: STR_MFTD_SCOUT
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_SCOUT
+    text: STR_MFTD_SCOUT_UFOPEDIA
+    image_id: GT0003_UFOpaedia.png
+
+
+# [=] GT0004 [=] <Ship Destroyer>
+  - id: STR_MFTD_SHIP_DESTROYER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_SHIP_DESTROYER
+    text: STR_MFTD_SHIP_DESTROYER_UFOPEDIA
+    image_id: GT0004_UFOpaedia.png
+
+
+# [=] GT0005 [=] <Double Scout>
+  - id: STR_MFTD_DOUBLE_SCOUT
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_DOUBLE_SCOUT
+    text: STR_MFTD_DOUBLE_SCOUT_UFOPEDIA
+    image_id: GT0005_UFOpaedia.png
+
+
+# [=] GT0006 [=] <Double Hunter>
+  - id: STR_MFTD_DOUBLE_HUNTER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_DOUBLE_HUNTER
+    text: STR_MFTD_DOUBLE_HUNTER_UFOPEDIA
+    image_id: GT0006_UFOpaedia.png
+
+
+# [=] GT0007 [=] <Intimidation Of The Government>
+  - id: STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT
+    text: STR_MFTD_INTIMIDATION_OF_THE_GOVERNMENT_UFOPEDIA
+    image_id: GT0007_UFOpaedia.png
+
+
+# [=] GT0008 [=] <The Combat Interceptor>
+  - id: STR_MFTD_COMBAT_INTERCEPTOR
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_COMBAT_INTERCEPTOR
+    text: STR_MFTD_COMBAT_INTERCEPTOR_UFOPEDIA
+    image_id: GT0008_UFOpaedia.png
+
+
+# [=] The Martian's Craft [=]---------------------------------------------------------------------------------
+
+
+# [=] Altar [=]
+  - id: STR_MFTD_ALTAR
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_ALTAR
+    text: STR_MFTD_ALTAR_UFOPEDIA
+    image_id: Altar_UFOpaedia.png
+
+
+# [=] Bandit [=]
+  - id: STR_MFTD_BANDIT
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_BANDIT
+    text: STR_MFTD_BANDIT_UFOPEDIA
+    image_id: Bandit_UFOpaedia.png
+
+
+# [=] Blade [=]
+  - id: STR_MFTD_BLADE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_BLADE
+    text: STR_MFTD_BLADE_UFOPEDIA
+    image_id: Blade_UFOpaedia.png
+
+
+# [=] Carp [=]
+  - id: STR_MFTD_CARP
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_CARP
+    text: STR_MFTD_CARP_UFOPEDIA
+    image_id: Carp_UFOpaedia.png
+
+
+# [=] Clam [=]
+  - id: STR_MFTD_CLAM
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_CLAM
+    text: STR_MFTD_CLAM_UFOPEDIA
+    image_id: Clam_UFOpaedia.png
+
+
+# [=] Claw [=]
+  - id: STR_MFTD_CLAW
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_CLAW
+    text: STR_MFTD_CLAW_UFOPEDIA
+    image_id: Claw_UFOpaedia.png
+
+
+# [=] Collector [=]
+  - id: STR_MFTD_COLLECTOR
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_COLLECTOR
+    text: STR_MFTD_COLLECTOR_UFOPEDIA
+    image_id: Collector_UFOpaedia.png
+
+
+# [=] Conch [=]
+  - id: STR_MFTD_CONCH
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_CONCH
+    text: STR_MFTD_CONCH_UFOPEDIA
+    image_id: Conch_UFOpaedia.png
+
+
+# [=] Darts [=]
+  - id: STR_MFTD_DARTS
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_DARTS
+    text: STR_MFTD_DARTS_UFOPEDIA
+    image_id: Darts_UFOpaedia.png
+
+
+# [=] Dredge [=]
+  - id: STR_MFTD_DREDGE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_DREDGE
+    text: STR_MFTD_DREDGE_UFOPEDIA
+    image_id: Dredge_UFOpaedia.png
+
+
+# [=] Eel [=]
+  - id: STR_MFTD_EEL
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_EEL
+    text: STR_MFTD_EEL_UFOPEDIA
+    image_id: Eel_UFOpaedia.png
+
+
+# [=] Ferry [=]
+  - id: STR_MFTD_FERRY
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_FERRY
+    text: STR_MFTD_FERRY_UFOPEDIA
+    image_id: Ferry_UFOpaedia.png
+
+
+# [=] Hermit [=]
+  - id: STR_MFTD_HERMIT
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_HERMIT
+    text: STR_MFTD_HERMIT_UFOPEDIA
+    image_id: Hermit_UFOpaedia.png
+
+
+# [=] Honeycomb [=]
+  - id: STR_MFTD_HONEYCOMB
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_HONEYCOMB
+    text: STR_MFTD_HONEYCOMB_UFOPEDIA
+    image_id: Honeycomb_UFOpaedia.png
+
+
+# [=] Hydrofoil [=]
+  - id: STR_MFTD_HYDROFOIL
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_HYDROFOIL
+    text: STR_MFTD_HYDROFOIL_UFOPEDIA
+    image_id: Hydrofoil_UFOpaedia.png
+
+
+# [=] Jellyfish [=]
+  - id: STR_MFTD_JELLYFISH
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_JELLYFISH
+    text: STR_MFTD_JELLYFISH_UFOPEDIA
+    image_id: Jellyfish_UFOpaedia.png
+
+
+# [=] Lantern [=]
+  - id: STR_MFTD_LANTERN
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_LANTERN
+    text: STR_MFTD_LANTERN_UFOPEDIA
+    image_id: Lantern_UFOpaedia.png
+
+
+# [=] Manta [=]
+  - id: STR_MFTD_MANTA
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_MANTA
+    text: STR_MFTD_MANTA_UFOPEDIA
+    image_id: Manta_UFOpaedia.png
+
+
+# [=] Moray [=]
+  - id: STR_MFTD_MORAY
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_MORAY
+    text: STR_MFTD_MORAY_UFOPEDIA
+    image_id: Moray_UFOpaedia.png
+
+
+# [=] Nautilus [=]
+  - id: STR_MFTD_NAUTILUS
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_NAUTILUS
+    text: STR_MFTD_NAUTILUS_UFOPEDIA
+    image_id: Nautilus_UFOpaedia.png
+
+
+# [=] Observer [=]
+  - id: STR_MFTD_OBSERVER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_OBSERVER
+    text: STR_MFTD_OBSERVER_UFOPEDIA
+    image_id: Observer_UFOpaedia.png
+
+
+# [=] Oubliette [=]
+  - id: STR_MFTD_OUBLIETTE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_OUBLIETTE
+    text: STR_MFTD_OUBLIETTE_UFOPEDIA
+    image_id: Oubliette_UFOpaedia.png
+
+
+# [=] Piranha [=]
+  - id: STR_MFTD_PIRANHA
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_PIRANHA
+    text: STR_MFTD_PIRANHA_UFOPEDIA
+    image_id: Piranha_UFOpaedia.png
+
+
+# [=] Pufferfish [=]
+  - id: STR_MFTD_PUFFERFISH
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_PUFFERFISH
+    text: STR_MFTD_PUFFERFISH_UFOPEDIA
+    image_id: Pufferfish_UFOpaedia.png
+
+
+# [=] Searcher [=]
+  - id: STR_MFTD_SEARCHER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_SEARCHER
+    text: STR_MFTD_SEARCHER_UFOPEDIA
+    image_id: Searcher_UFOpaedia.png
+
+
+# [=] Shark [=]
+  - id: STR_MFTD_SHARK
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_SHARK
+    text: STR_MFTD_SHARK_UFOPEDIA
+    image_id: Shark_UFOpaedia.png
+
+
+# [=] Shrimp [=]
+  - id: STR_MFTD_SHRIMP
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_SHRIMP
+    text: STR_MFTD_SHRIMP_UFOPEDIA
+    image_id: Shrimp_UFOpaedia.png
+
+
+# [=] Squid [=]
+  - id: STR_MFTD_SQUID
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_SQUID
+    text: STR_MFTD_SQUID_UFOPEDIA
+    image_id: Squid_UFOpaedia.png
+
+
+# [=] Tadpole [=]
+  - id: STR_MFTD_TADPOLE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_TADPOLE
+    text: STR_MFTD_TADPOLE_UFOPEDIA
+    image_id: Tadpole_UFOpaedia.png
+
+
+# [=] Tower [=]
+  - id: STR_MFTD_TOWER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_TOWER
+    text: STR_MFTD_TOWER_UFOPEDIA
+    image_id: Tower_UFOpaedia.png
+
+
+# [=] Urchin [=]
+  - id: STR_MFTD_URCHIN
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_URCHIN
+    text: STR_MFTD_URCHIN_UFOPEDIA
+    image_id: Urchin_UFOpaedia.png
+
+
+# [=] Wave Raider [=]
+  - id: STR_MFTD_WAVE_RAIDER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_WAVE_RAIDER
+    text: STR_MFTD_WAVE_RAIDER_UFOPEDIA
+    image_id: Wave_Raider_UFOpaedia.png
+
+
+# [=] Whale [=]
+  - id: STR_MFTD_WHALE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_WHALE
+    text: STR_MFTD_WHALE_UFOPEDIA
+    image_id: Whale_UFOpaedia.png
+
+
+# [=] Whirligig [=]
+  - id: STR_MFTD_WHIRLIGIG
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_WHIRLIGIG
+    text: STR_MFTD_WHIRLIGIG_UFOPEDIA
+    image_id: Whirligig_UFOpaedia.png
+
+
+# [=] Whirlpool [=]
+  - id: STR_MFTD_WHIRLPOOL
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_WHIRLPOOL
+    text: STR_MFTD_WHIRLPOOL_UFOPEDIA
+    image_id: Whirlpool_UFOpaedia.png
+
+
+
+# [=] Turtle [=]
+  - id: STR_MFTD_TURTLE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_TURTLE
+    text: STR_MFTD_TURTLE_UFOPEDIA
+    image_id: Turtle_UFOpaedia.png
+
+
+
+
+# [=] Murkhach@centrum.cz's Craft [=]----------------------------------------------------------------------------
+
+
+# [=] Hocus [=]
+  - id: STR_MFTD_HOCUS
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_HOCUS
+    text: STR_MFTD_HOCUS_UFOPEDIA
+    image_id: UP_USO_HOCUS.png
+
+
+# [=] Amoeba [=]
+  - id: STR_MFTD_AMOEBA
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_AMOEBA
+    text: STR_MFTD_AMOEBA_UFOPEDIA
+    image_id: UP_USO_AMOEBA.png
+
+
+
+# [=] Blank's Craft [=]------------------------------------------------------------------------------------------
+
+
+# [=] Battlecruiser [=]
+  - id: STR_MFTD_BATTLECRUISER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_BATTLECRUISER
+    text: STR_MFTD_BATTLECRUISER_UFOPEDIA
+    image_id: UP_USO_Battlecruiser.png
+
+
+# [=] Battlestar [=]
+  - id: STR_MFTD_BATTLESTAR
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_BATTLESTAR
+    text: STR_MFTD_BATTLESTAR_UFOPEDIA
+    image_id: UP_USO_Battlestar.png
+
+
+# [=] Blockade Runner [=]
+  - id: STR_MFTD_BLOCKADE_RUNNER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_BLOCKADE_RUNNER
+    text: STR_MFTD_BLOCKADE_RUNNER_UFOPEDIA
+    image_id: UP_USO_Blockade_Runner.png
+
+
+# [=] Bomber [=]
+  - id: STR_MFTD_BOMBER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_BOMBER
+    text: STR_MFTD_BOMBER_UFOPEDIA
+    image_id: UP_USO_Bomber.png
+
+
+# [=] Gunboat [=]
+  - id: STR_MFTD_GUNBOAT
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_GUNBOAT
+    text: STR_MFTD_GUNBOAT_UFOPEDIA
+    image_id: UP_USO_Gunboat.png
+
+
+# [=] Heavy Destroyer [=]
+  - id: STR_MFTD_HVY_DESTROYER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_HVY_DESTROYER
+    text: STR_MFTD_HVY_DESTROYER_UFOPEDIA
+    image_id: UP_USO_Heavy_Destroyer.png
+
+
+# [=] Ironclad [=]
+  - id: STR_MFTD_IRONCLAD
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_IRONCLAD
+    text: STR_MFTD_IRONCLAD_UFOPEDIA
+    image_id: UP_USO_Ironclad.png
+
+
+# [=] Raider [=]
+  - id: STR_MFTD_RAIDER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_RAIDER
+    text: STR_MFTD_RAIDER_UFOPEDIA
+    image_id: UP_USO_Raider.png
+
+
+# [=] Corvette [=]
+  - id: STR_MFTD_CORVETTE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_CORVETTE
+    text: STR_MFTD_CORVETTE_UFOPEDIA
+    image_id: UP_USO_Small1.png
+
+
+# [=] Patrol [=]
+  - id: STR_MFTD_PATROL
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_PATROL
+    text: STR_MFTD_PATROL_UFOPEDIA
+    image_id: UP_USO_Small2.png
+
+
+# [=] Carrack [=]
+  - id: STR_MFTD_CARRACK
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_CARRACK
+    text: STR_MFTD_CARRACK_UFOPEDIA
+    image_id: UP_USO_Small3.png
+
+
+# [=] Frigate [=]
+  - id: STR_MFTD_FRIGATE
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_FRIGATE
+    text: STR_MFTD_FRIGATE_UFOPEDIA
+    image_id: UP_USO_Small4.png
+
+
+# [=] Destroyer [=]
+  - id: STR_MFTD_DESTROYER
+    type_id: 17
+    section: STR_UFOS
+    requires:
+      - STR_MFTD_DESTROYER
+    text: STR_MFTD_DESTROYER_UFOPEDIA
+    image_id: UP_USO_Small5.png
+
+
+
+
+
+

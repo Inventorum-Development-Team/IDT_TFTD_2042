@@ -1,0 +1,204 @@
+armors:
+  - type: CIVILIAN_SCIENTIST_ARMOR
+    spriteSheet: CIVILIAN_SCIENTIST.PCK
+    corpseItem: CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    spriteFaceGroup: 10
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160]
+    spriteHairGroup: 1
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64]
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 2
+  - type: CIVILIAN_GREY_SUIT_ARMOR
+    spriteSheet: CIVILIAN_GREY_SUIT.PCK
+    corpseItem: CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    spriteFaceGroup: 7
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160]
+    spriteHairGroup: 0
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64]
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 2
+  - type: CIVILIAN_WHITE_SUIT_ARMOR
+    spriteSheet: CIVILIAN_WHITE_SUIT.PCK
+    corpseItem: CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    spriteFaceGroup: 7
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160]
+    spriteHairGroup: 0
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64]
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 2
+#Need female death sounds
+  - type: CIVILIAN_STRONG_WOMAN_ARMOR
+    spriteSheet: CIVILIAN_STRONG_WOMAN.PCK
+    corpseItem: CIVF_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    spriteFaceGroup: 7
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160]
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 2
+
+units:
+  - type: SCIENTIST_CIVILIAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_SCIENTIST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+  - type: CIVILIAN_GREY_SUIT
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_GREY_SUIT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+  - type: CIVILIAN_WHITE_SUIT
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_WHITE_SUIT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+  - type: CIVILIAN_STRONG_WOMAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_STRONG_WOMAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+
+extraSprites:
+  - type: CIVILIAN_SCIENTIST.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Civilians/CIVILIAN_SCIENTIST.png
+  - type: CIVILIAN_GREY_SUIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Civilians/HUMAN_SUIT_GREY_3.PNG
+  - type: CIVILIAN_WHITE_SUIT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Civilians/HUMAN_SUIT_WHITE.PNG
+  - type: CIVILIAN_STRONG_WOMAN.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Civilians/FEMALE_CIVILIAN6.PNG

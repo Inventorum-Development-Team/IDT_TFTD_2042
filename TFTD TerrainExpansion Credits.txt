@@ -1,0 +1,13 @@
+Polar-Mountain - Base used for Polar Island Terror
+Desert-Mountain - Converted to sea mountain
+Commercial Urban - Hobbes?
+Alien Hive - Hobbes, MCD converted with TFTD bits
+Scientist Civilian, strong female civilian: X-Piratez
+
+Hobbes - Many terrains created and compiled for Area51/Terrain Pack
+Robin - Human suit civilians, adapted by Hobbes
+Bagirov - Industrial terrain design (originally developed for UFO2000 via Area51/Terrain pack)
+New_Civilian - Adaptation of Urban, Mu and Atlantis artefact sites, Additional liner maps.
+Solaris Scorch - additional maps and tile images for Commercial terrain
+Dioxine - tile images for Commercial terrain and civilian sprites
+Tentacular- tile images for Commercial terrain taken designed for other mods

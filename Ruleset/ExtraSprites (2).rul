@@ -1,0 +1,525 @@
+extraSprites:
+#INVENTORY SHARK
+  - type: SHARKSUIT.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuit.png
+#SHEET SHARK
+  - type: SHARK.PCK
+    width: 256
+    height: 1520
+    subX: 32                     
+    subY: 40      
+    files:
+      0: Resources/Armor/Shark1.png 
+#INVENTORY SHARK VEST
+  - type: SHARKVEST.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVest.png
+#SHEET SHARK VEST
+  - type: SHARKVEST.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files: 
+      0: Resources/Armor/Shark2.png
+#INVENTORY SHARK ARMOUR
+  - type: SHARKARMOUR.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour.png
+#SHEET SHARK ARMOUR
+  - type: SHARKARMOUR.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files: 
+      0: Resources/Armor/Shark3.png     
+#INVENTORY POWERSHARK
+  - type: POWERSHARK.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/Powershark.png
+#SHEET POWERSHARK
+  - type: POWERSHARK.PCK
+    width: 256
+    height: 1520
+    subX: 32
+    subY: 40
+    files: 
+      0: Resources/Armor/Shark4.png 
+#CORPSE STANDARD SHARK    
+  - type: FLOOROB.PCK
+    files:
+      129: Resources/Armor/Floorob_Shark.png
+    width: 32
+    height: 40
+#COPRSE ITEM SHARK
+  - type: BIGOBS.PCK
+    files: 
+      129: Resources/Armor/bigob_Shark.png
+    width: 32
+    height: 48
+#CORPSE VEST SHARK
+  - type: FLOOROB.PCK
+    files:
+      130: Resources/Armor/Floorob_Shark2.png
+    width: 32
+    height: 40
+#CORPSE ITEM VEST SHARK
+  - type: BIGOBS.PCK
+    files: 
+      130: Resources/Armor/bigob_Shark2.png
+    width: 32
+    height: 48
+#CORPSE ARMOUR SHARK
+  - type: FLOOROB.PCK
+    files:
+      131: Resources/Armor/Floorob_Shark3.png
+    width: 32
+    height: 40
+#CORPSE ITEM ARMOUR SHARK
+  - type: BIGOBS.PCK
+    files: 
+      131: Resources/Armor/bigob_Shark3.png
+    width: 32
+    height: 48
+#CORPSE POWERSHARK
+  - type: FLOOROB.PCK
+    files:
+      132: Resources/Armor/Floorob_Shark4.png
+    width: 32
+    height: 40
+#CORPSE ITEM POWERSHARK
+  - type: BIGOBS.PCK
+    files: 
+      132: Resources/Armor/bigob_Shark4.png
+    width: 32
+    height: 48    
+#UFOPAEDIA SHARK
+  - type: SHARKQUANAUT
+    files:
+      0: Resources/Ufopaedia/SHARKQUANAUT.png
+    singleImage: true
+    width: 320
+    height: 200
+  - type: SHARKVEST
+    files:
+      0: Resources/Ufopaedia/SHARKVEST.png
+    singleImage: true
+    width: 320
+    height: 200  
+  - type: SHARKARMOUR
+    files:
+      0: Resources/Ufopaedia/SHARKARMOUR.png
+    singleImage: true
+    width: 320
+    height: 200
+  - type: POWERSHARK
+    files:
+      0: Resources/Ufopaedia/POWERSHARK.png
+    singleImage: true
+    width: 320
+    height: 200
+  - type: UNLOCK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Unlock.png
+#RANK
+  - type: BASEBITS.PCK
+    files:
+      255: Resources/Ranks/Rank1b.gif
+      256: Resources/Ranks/Rank2b.gif
+      257: Resources/Ranks/Rank3b.gif
+      258: Resources/Ranks/Rank4b.gif
+  - type: SMOKE.PCK
+    files:
+      255: Resources/Ranks/Rank1.gif
+      256: Resources/Ranks/Rank2.gif
+      257: Resources/Ranks/Rank3.gif
+      258: Resources/Ranks/Rank4.gif
+#BASEBITS
+  - type: CustomArmorPreviews
+    width: 192
+    height: 20
+    subX: 12
+    subY: 20
+    files:
+      0: Resources/basebits/BaseSharks.png
+
+  - type: SPICONS.DAT
+    files:
+      1: Resources/Special/Blade.png
+#ITEMS
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      100: Resources/Special/Shield.png
+      110: Resources/Special/ReactorItem.png
+
+#ColourSharkos
+
+
+
+  - type: CSHARK_0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/Armor/SharkSuits/Suit_M0.png 
+
+  - type: CSHARK_0M0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M0.png
+
+  - type: CSHARK_0M1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M1.png
+
+  - type: CSHARK_0M2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M2.png
+
+  - type: CSHARK_0M3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M3.png
+
+  - type: CSHARK_0M4.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M4.png
+
+  - type: CSHARK_0M5.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M5.png
+
+  - type: CSHARK_0M6.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M6.png
+
+  - type: CSHARK_0M7.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M7.png
+
+  - type: CSHARK_0M8.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M8.png
+
+  - type: CSHARK_0M9.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M9.png
+
+  - type: CSHARK_0M10.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M10.png
+
+  - type: CSHARK_0M11.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkSuits/Suit_M11.png
+
+#ColourVests
+
+  - type: CVEST_0M0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M0.png
+
+  - type: CVEST_0M1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M1.png
+
+  - type: CVEST_0M2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M2.png
+
+  - type: CVEST_0M3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M3.png
+
+  - type: CVEST_0M4.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M4.png
+
+  - type: CVEST_0M5.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M5.png
+
+  - type: CVEST_0M6.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M6.png
+
+  - type: CVEST_0M7.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M7.png
+
+  - type: CVEST_0M8.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M8.png
+
+  - type: CVEST_0M9.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M9.png
+
+  - type: CVEST_0M10.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M10.png
+
+  - type: CVEST_0M11.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkVests/Vest_M11.png
+
+#ColourArmour
+
+  - type: CARMOUR_0M0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M0.png
+
+  - type: CARMOUR_0M1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M1.png
+
+  - type: CARMOUR_0M2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M2.png
+
+  - type: CARMOUR_0M3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M3.png
+
+  - type: CARMOUR_0M4.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M4.png
+
+  - type: CARMOUR_0M5.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M5.png
+
+  - type: CARMOUR_0M6.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M6.png
+
+  - type: CARMOUR_0M7.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M7.png
+
+  - type: CARMOUR_0M8.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M8.png
+
+  - type: CARMOUR_0M9.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M9.png
+
+  - type: CARMOUR_0M10.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M10.png
+
+  - type: CARMOUR_0M11.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkArmour/Armour_M11.png
+
+#CPower
+
+  - type: CPOWER_0M0.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M0.png
+
+  - type: CPOWER_0M1.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M1.png
+
+  - type: CPOWER_0M2.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M2.png
+
+  - type: CPOWER_0M3.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M3.png
+
+  - type: CPOWER_0M4.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M4.png
+
+  - type: CPOWER_0M5.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M5.png
+
+  - type: CPOWER_0M6.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M6.png
+
+  - type: CPOWER_0M7.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M7.png
+
+  - type: CPOWER_0M8.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M8.png
+
+  - type: CPOWER_0M9.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M9.png
+
+  - type: CPOWER_0M10.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M10.png
+
+  - type: CPOWER_0M11.SPK
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+       0: Resources/Armor/SharkPower/Power_M11.png
