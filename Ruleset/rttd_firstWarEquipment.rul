@@ -6,9 +6,9 @@ items:
     costBuy: 10000
     costSell: 7000
     weight: 7
-    bigSprite: 202
-    floorSprite: 202
-    handSprite: 251
+    bigSprite: 402
+    floorSprite: 402
+    handSprite: 451
     bulletSprite: 25
     fireSound: 201
     hitSound: 202
@@ -34,8 +34,8 @@ items:
     costBuy: 400
     costSell: 250
     weight: 2
-    bigSprite: 204
-    floorSprite: 204
+    bigSprite: 404
+    floorSprite: 404
     bulletSprite: 25
     fireSound: 201
     hitSound: 202
@@ -56,9 +56,9 @@ items:
     costBuy: 40000
     costSell: 30000
     weight: 8
-    bigSprite: 201
-    floorSprite: 201
-    handSprite: 241
+    bigSprite: 401
+    floorSprite: 401
+    handSprite: 441
     bulletSprite: 25
     fireSound: 201
     hitSound: 202
@@ -86,8 +86,8 @@ items:
     costBuy: 800
     costSell: 600
     weight: 3
-    bigSprite: 203
-    floorSprite: 203
+    bigSprite: 403
+    floorSprite: 403
     bulletSprite: 25
     fireSound: 201
     hitSound: 202
@@ -126,17 +126,17 @@ manufacture:
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      201: Resources/Sprites/LaserRifle_BigOb.png
-      202: Resources/Sprites/LaserPistol_BigOb.png
-      203: Resources/Sprites/LaserRifleClip_BigOb.png
-      204: Resources/Sprites/LaserPistolClip_BigOb.png
+      401: Resources/Sprites/LaserRifle_BigOb.png
+      402: Resources/Sprites/LaserPistol_BigOb.png
+      403: Resources/Sprites/LaserRifleClip_BigOb.png
+      404: Resources/Sprites/LaserPistolClip_BigOb.png
 
   - type: FLOOROB.PCK
     files:
-      201: Resources/Sprites/LaserRifle_FloorOb.png
-      202: Resources/Sprites/LaserPistol_FloorOb.png
-      203: Resources/Sprites/LaserRifleClip_FloorOb.png
-      204: Resources/Sprites/LaserPistolClip_FloorOb.png
+      401: Resources/Sprites/LaserRifle_FloorOb.png
+      402: Resources/Sprites/LaserPistol_FloorOb.png
+      403: Resources/Sprites/LaserRifleClip_FloorOb.png
+      404: Resources/Sprites/LaserPistolClip_FloorOb.png
 
   - type: HANDOB.PCK
     width: 256
@@ -144,8 +144,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      241: Resources/Sprites/LaserRifle_HandOb.png
-      251: Resources/Sprites/LaserPistol_HandOb.png
+      441: Resources/Sprites/LaserRifle_HandOb.png
+      451: Resources/Sprites/LaserPistol_HandOb.png
 
   - type: Projectiles
     height: 3
@@ -277,7 +277,7 @@ armors:
   - type: STR_DUMMY_DIVING_ARMOR 
     spriteSheet: TDXCOM_0.PCK
     spriteInv: MAN_0
-    corpseItem: STR_CORPSE
+    corpseGeo: STR_CORPSE
     frontArmor: 40
     sideArmor: 20
     rearArmor: 20
@@ -293,7 +293,8 @@ armors:
       - 1.0
       - 1.0
       - 1.0
-    loftemps: 3
+    loftempsSet: [ 3 ]
+    
     drawingRoutine: 13
     drawBubbles: true
     spriteFaceGroup: 14

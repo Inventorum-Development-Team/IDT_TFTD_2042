@@ -471,7 +471,7 @@ items:
       - STR_ION_PISTOL_CLIP
     size: 0.1
     costSell: 4440
-    weight: 4.5
+    weight: 4
     bigSprite: 208
     floorSprite: 221
     handSprite: 760
@@ -545,7 +545,7 @@ items:
     damageAlter:
       RandomType: 2
 
-  - type: STR_LASER_PISTOL
+  - type: STR_ZRBITE_LASER_PISTOL
     size: 0.2
     costSell: 16900
     weight: 4
