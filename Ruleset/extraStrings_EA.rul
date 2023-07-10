@@ -33,7 +33,7 @@ extraStrings:
       STR_ION_PISTOL_CLIP: "Ion Pistol Clip"
       STR_HEAVY_LASER: "Zrbite Heavy Laser"
       STR_LASER_CARBINE: "Zrbite Laser Carbine"
-      STR_LASER_PISTOL: "Zrbite Laser Pistol"
+      STR_ZRBITE_LASER_PISTOL: "Zrbite Laser Pistol"
       STR_WRECKED_PLASTIC_ARMOR: "Aqua Plastic Armor (Damaged)"
       STR_WRECKED_ION_ARMOR: "Ion Armor (Damaged)"
       STR_WRECKED_MAG_ARMOR: "Magnetic Ion Armor (Damaged)"

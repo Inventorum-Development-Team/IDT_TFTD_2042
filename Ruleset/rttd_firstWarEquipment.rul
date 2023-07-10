@@ -8,7 +8,7 @@ items:
     weight: 7
     bigSprite: 402
     floorSprite: 402
-    handSprite: 451
+    handSprite: 551
     bulletSprite: 25
     fireSound: 201
     hitSound: 202
@@ -58,7 +58,7 @@ items:
     weight: 8
     bigSprite: 401
     floorSprite: 401
-    handSprite: 441
+    handSprite: 541
     bulletSprite: 25
     fireSound: 201
     hitSound: 202
@@ -144,8 +144,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      441: Resources/Sprites/LaserRifle_HandOb.png
-      451: Resources/Sprites/LaserPistol_HandOb.png
+      541: Resources/Sprites/LaserRifle_HandOb.png
+      551: Resources/Sprites/LaserPistol_HandOb.png
 
   - type: Projectiles
     height: 3

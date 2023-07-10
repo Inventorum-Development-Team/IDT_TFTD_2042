@@ -1,7 +1,8 @@
 armors:
   - type: CIVILIAN_SCIENTIST_ARMOR
     spriteSheet: CIVILIAN_SCIENTIST.PCK
-    corpseItem: CIVM_CORPSE
+    corpseBattle:
+      - CIVM_CORPSE
     frontArmor: 0
     sideArmor: 0
     rearArmor: 0
@@ -21,10 +22,11 @@ armors:
       - 1.6
       - 1.5
       - 1.0
-    loftemps: 2
+    loftempsSet: [ 2 ]
   - type: CIVILIAN_GREY_SUIT_ARMOR
     spriteSheet: CIVILIAN_GREY_SUIT.PCK
-    corpseItem: CIVM_CORPSE
+    corpseBattle:
+      - CIVM_CORPSE
     frontArmor: 0
     sideArmor: 0
     rearArmor: 0
@@ -44,10 +46,11 @@ armors:
       - 1.6
       - 1.5
       - 1.0
-    loftemps: 2
+    loftempsSet: [ 2 ]
   - type: CIVILIAN_WHITE_SUIT_ARMOR
     spriteSheet: CIVILIAN_WHITE_SUIT.PCK
-    corpseItem: CIVM_CORPSE
+    corpseBattle:
+      - CIVM_CORPSE
     frontArmor: 0
     sideArmor: 0
     rearArmor: 0
@@ -67,11 +70,12 @@ armors:
       - 1.6
       - 1.5
       - 1.0
-    loftemps: 2
+    loftempsSet: [ 2 ]
 #Need female death sounds
   - type: CIVILIAN_STRONG_WOMAN_ARMOR
     spriteSheet: CIVILIAN_STRONG_WOMAN.PCK
-    corpseItem: CIVF_CORPSE
+    corpseBattle:
+      - CIVF_CORPSE
     frontArmor: 0
     sideArmor: 0
     rearArmor: 0
@@ -89,7 +93,7 @@ armors:
       - 1.6
       - 1.5
       - 1.0
-    loftemps: 2
+    loftempsSet: [ 2 ]
 
 units:
   - type: SCIENTIST_CIVILIAN

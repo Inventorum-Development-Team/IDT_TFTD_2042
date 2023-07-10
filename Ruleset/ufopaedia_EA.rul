@@ -185,14 +185,14 @@ ufopaedia:
       - STR_LASER_CARBINE 
 
 # [=] Weapon - Laser Pistol [=]
-  - id: STR_LASER_PISTOL
+  - id: STR_ZRBITE_LASER_PISTOL
     type_id: 14
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_PISTOL_TEXT
     image_id: UFOpaedia_Laser_Pistol.png
     listOrder: 4104
     requires:
-      - STR_LASER_PISTOL 
+      - STR_ZRBITE_LASER_PISTOL 
 
 # [=] Weapon - Zrbite Flare [=]
   - id: STR_ZRBITE_FLARE

@@ -60,16 +60,7 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     forcedTorso: 1 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
-    builtInWeaponSets:
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+
 
 
 
@@ -101,14 +92,5 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
     forcedTorso: 2 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
-    builtInWeaponSets:
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+
 
