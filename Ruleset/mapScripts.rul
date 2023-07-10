@@ -160,7 +160,7 @@ mapScripts: #done
       blocks: [0, 1, 2, 3, 4, 13, 14, 15, 16, 17, 18, 19, 20]
       freqs: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 
-  - type: URBAN
+  - type: URBAN_UFO
     commands:
     - type: addBlock
       groups: 5

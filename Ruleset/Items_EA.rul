@@ -330,7 +330,7 @@ items:
     size: 0.1
     costBuy: 2600
     costSell: 1250
-    weight: 2.5
+    weight: 2
     bigSprite: 194
     floorSprite: 207
     handSprite: 656
@@ -351,7 +351,7 @@ items:
     size: 0.1
     costBuy: 3650
     costSell: 1950
-    weight: 2.5
+    weight: 2
     bigSprite: 195
     floorSprite: 208
     handSprite: 664
@@ -433,10 +433,10 @@ items:
     recoveryPoints: 1
     armor: 50
     attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
+    vaporColor: 3
     vaporDensity: 30
     vaporProbability: 100
-    vaporColorSurface: { mod: xcom2, index: 3 }
+    vaporColorSurface: 3
     vaporDensitySurface: 30
     vaporProbabilitySurface: 100
     listOrder: 4194
@@ -615,7 +615,6 @@ items:
     handSprite: 792
     power: 23
     battleType: 10
-    armor: 60
     costPrime:
       time: 15
     primeActionName: STR_PRIME_FLARE
@@ -672,7 +671,7 @@ items:
     recoveryPoints: 1
     armor: 50
     attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
+    vaporColor: 3
     vaporDensity: 30
     listOrder: 4182
 
@@ -720,7 +719,7 @@ items:
     recoveryPoints: 1
     armor: 50
     attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
+    vaporColor: 3
     vaporDensity: 30 
     listOrder: 4184
 
@@ -768,7 +767,7 @@ items:
     recoveryPoints: 1
     armor: 50
     attraction: 1
-    vaporColor: { mod: xcom2, index: 3 }
+    vaporColor: 3
     vaporDensity: 30 
     listOrder: 4186
 
