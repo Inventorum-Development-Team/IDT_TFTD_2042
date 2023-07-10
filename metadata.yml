@@ -5,3 +5,4 @@ description: "TFTD Megamod, mix and match several small mods I enjoy plus a coup
 id: "2042"
 master: xcom2
 resourceConfig: transparency.rul
+reservedSpace: 6

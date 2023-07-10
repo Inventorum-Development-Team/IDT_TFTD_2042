@@ -23,7 +23,7 @@ armors:
       - 1.0
       - 1.0
       - 0.0
-    loftemps: 3
+    loftempsSet: [ 3 ]
     drawingRoutine: 13
     drawBubbles: true
     forcedTorso: 1

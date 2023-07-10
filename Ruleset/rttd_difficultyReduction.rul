@@ -79,6 +79,11 @@ units:
 # reduction of Aliens weapons power and increasement of XCOM's
 
 items:
+
+#lighter Zrbite
+  - type: STR_ZRBITE
+    size: 0.25 #was: 0.1
+
   - type: STR_CANNON_POWER_CLIP
     power: 110 #was: 130
 
@@ -351,7 +356,8 @@ armors:
   - type: DEEP_ONE_ARMOR0
     spriteSheet: DEEPONE.PCK
     allowInv: false
-    corpseItem: STR_DEEP_ONE_CORPSE
+    corpseBattle:
+      - STR_DEEP_ONE_CORPSE
     frontArmor: 8
     sideArmor: 6
     rearArmor: 4
@@ -485,11 +491,6 @@ soldiers:
       firing: 120 #was: 120
       strength: 100 #was: 70
 
-#lighter Zrbite
-
-items:
-  - type: STR_ZRBITE
-    size: 0.25 #was: 0.1
 
 #lower penalties for abandoning terror missions
 alienDeployments:

@@ -158,10 +158,10 @@ manufacture:
       STR_AQUA_PLASTICS: 5
       STR_ZRBITE: 15
 
-  - name: STR_LASER_PISTOL
+  - name: STR_ZRBITE_LASER_PISTOL
     category: STR_WEAPON
     requires:
-     - STR_LASER_PISTOL
+     - STR_ZRBITE_LASER_PISTOL
     space: 1
     time: 200
     cost: 10000

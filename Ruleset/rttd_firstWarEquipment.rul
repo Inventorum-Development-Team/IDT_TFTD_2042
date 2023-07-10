@@ -278,6 +278,8 @@ armors:
     spriteSheet: TDXCOM_0.PCK
     spriteInv: MAN_0
     corpseGeo: STR_CORPSE
+    corpseBattle: 
+     - STR_MFTD_CIV_DIVER_CORPSE
     frontArmor: 40
     sideArmor: 20
     rearArmor: 20
@@ -305,6 +307,7 @@ armors:
 extraStrings:
   - type: en-US
     strings:
+      STR_OPENXCOM: "TFTD 2042"
       STR_DIVING_ARMOR_UFOPEDIA: "Each X-COM recruit is equipped with the top-quality depth suit, reinforced with additional layers of armor, based on the technology of alien alloys known from the First War."
       STR_DUMMY_DIVING_ARMOR: DIVING ARMOR
       STR_LASER_RIFLE: Laser Service Rifle
