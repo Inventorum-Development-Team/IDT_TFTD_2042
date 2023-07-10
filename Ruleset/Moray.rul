@@ -1,6 +1,6 @@
 crafts:
   - type: STR_MORAY
-    sprite: 22
+    sprite: 24
     fuelMax: 1200
     damageMax: 180
     speedMax: 3400
@@ -60,8 +60,8 @@ extraSprites:
       0: Resources/Moray/Ufopedia/Moray_UP.gif
   - type: BASEBITS.PCK
     files:
-      55: Resources/Moray/Basebits/Moray.gif
+      57: Resources/Moray/Basebits/Moray.gif
   - type: INTICON.PCK
     files:
-      22: Resources/Moray/Inticon/MorayMinimized.gif
-      33: Resources/Moray/Inticon/MorayDogfight.gif
+      24: Resources/Moray/Inticon/MorayMinimized.gif
+      35: Resources/Moray/Inticon/MorayDogfight.gif

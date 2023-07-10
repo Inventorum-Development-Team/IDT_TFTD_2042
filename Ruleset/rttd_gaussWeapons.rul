@@ -177,7 +177,7 @@ items:
     compatibleAmmo:
       []
     clipSize: -1 #was: 50
-    battleType: 2
+    #battleType: 2
     bulletSprite: 6
     hitSound: 31
     hitAnimation: 46
