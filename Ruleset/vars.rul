@@ -212,18 +212,18 @@ baseNamesFirst:
   - Zulu
 baseNamesLast:
   - Stronghold
-  - Camp
-  - Site
-  - Garrison
+  - Port
+  - Post
+  - Bay
   - Station
-  - Keep
+  - Seaside
   - Bastion
-  - Citadel
+  - Naval Base
   - Base
-  - Forward Base
-  - Firebase
+  - Aqua Base
+  - Landing
   - Ops Centre
   - Headquarters
-  - Castle
+  - Oceanic
   - Outpost
-  - Fortress
+  - Sea Fortress
