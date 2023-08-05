@@ -118,8 +118,9 @@ operationNamesFirst:
   - Fall
   - Father
   - Fear
-  - Fog
-  - Future
+  - Fog 
+  - Fulcrum
+  - Future 
   - Grave
   - God
   - Hammer
@@ -165,10 +166,14 @@ operationNamesFirst:
   - Star
   - Strike
   - Stroke
-  - Storm
+  - Storm 
+  - Stormbreaker 
+  - Stone
   - Snow
   - Summer
-  - Sword
+  - Sword 
+  - Swordbreaker
+  - Sword and Shield
   - Tears
   - Thorn
   - Throne
@@ -181,7 +186,8 @@ operationNamesFirst:
   - Vengeance
   - Whisper
   - Wrath
-  - Zeus
+  - Zeus 
+  - Zeta
 
 baseNamesFirst:
   - Alpha
