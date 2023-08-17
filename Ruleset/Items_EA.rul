@@ -510,7 +510,7 @@ items:
     listOrder: 4192
 
   - type: STR_HEAVY_LASER
-    categories: [STR_ION, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SNI]
+    categories: [STR_ION, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SNIPER_RIFLES]
     size: 0.2
     costSell: 46900
     weight: 8
@@ -538,6 +538,7 @@ items:
       RandomType: 2
 
   - type: STR_LASER_CARBINE
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
     size: 0.2
     costSell: 26900
     weight: 6
@@ -568,6 +569,7 @@ items:
       RandomType: 2
 
   - type: STR_ZRBITE_LASER_PISTOL
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.2
     costSell: 16900
     weight: 4
@@ -629,6 +631,7 @@ items:
     recover: true
     
   - type: STR_ZRBITE_FLARE
+    categories: [STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_MISC]
     size: 0.1
     costSell: 40
     weight: 4
@@ -649,6 +652,7 @@ items:
     listOrder: 5001
 
   - type: STR_TFTD_HSONIC_PISTOL
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS]
     requires:
       - STR_RSH_HSONIC_PISTOL
     size: 0.1
@@ -675,6 +679,7 @@ items:
     listOrder: 4181
 
   - type: STR_TFTD_HSONIC_PISTOL_CLIP
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO]
     requires:
       - STR_PISTOL_POWER_CLIP
     size: 0.1
@@ -698,6 +703,7 @@ items:
     listOrder: 4182
 
   - type: STR_TFTD_HSONIC_RIFLE
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES]
     requires:
       - STR_RSH_HSONIC_RIFLE
     size: 0.2
@@ -724,6 +730,7 @@ items:
     listOrder: 4183
 
   - type: STR_TFTD_HSONIC_RIFLE_CLIP
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
     requires:
       - STR_RSH_HSONIC_RIFLE
     size: 0.1
@@ -746,6 +753,7 @@ items:
     listOrder: 4184
 
   - type: STR_TFTD_HSONIC_CANNON
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS]
     requires:
       - STR_RSH_HSONIC_CANNON
     size: 0.2
@@ -772,6 +780,7 @@ items:
     listOrder: 4185
 
   - type: STR_TFTD_HSONIC_CANNON_CLIP
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO]
     requires:
       - STR_RSH_HSONIC_CANNON
     size: 0.3
@@ -794,6 +803,7 @@ items:
     listOrder: 4186
 
   - type: STR_TFTD_HSONIC_GRENADE
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_EXPLOSIVES]
     requires:
       - STR_RSH_HSONIC_GRENADE
     size: 0.1
@@ -814,36 +824,43 @@ items:
   
 # [=] Add Dependicies for Sonic + Nerf [=]
   - type: STR_SONIC_CANNON
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS]
     requires:
      - STR_ALIENS_ONLY
     costSell: 85800  
 
   - type: STR_CANNON_POWER_CLIP
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO]
     requires:
      - STR_ALIENS_ONLY
     costSell: 4795
 
   - type: STR_SONIC_BLASTA_RIFLE
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES]
     requires:
      - STR_ALIENS_ONLY
     costSell: 63250
 
   - type: STR_BLASTA_POWER_CLIP
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
     requires:
      - STR_ALIENS_ONLY
     costSell: 3145  
 
   - type: STR_SONIC_PISTOL
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS]
     requires:
        - STR_ALIENS_ONLY     
     costSell: 42000 
 
   - type: STR_PISTOL_POWER_CLIP
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS]
     requires:
      - STR_ALIENS_ONLY 
     costSell: 2250
 
   - type: STR_SONIC_PULSER
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_EXPLOSIVES]
     requires:
      - STR_ALIENS_ONLY 
     costSell: 7425
