@@ -199,3 +199,8 @@ missionRatings:
   -99999: STR_MT_RATING_ABOMINABLE
 defeatScore: -1600
 defeatFunds: -1000000
+
+enviroEffects:
+  - type: STR_SURFACE_ENVIRO
+    armorTransformations: 
+      STR_NONE_UC: STR_PERSONAL_ARMOR_BROWN_UC
