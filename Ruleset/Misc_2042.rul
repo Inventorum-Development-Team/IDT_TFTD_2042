@@ -204,3 +204,10 @@ enviroEffects:
   - type: STR_SURFACE_ENVIRO
     armorTransformations: 
       STR_NONE_UC: STR_PERSONAL_ARMOR_BROWN_UC
+
+startingConditions:
+  - type: STR_SURFACE_CONDITION
+    #craftTransformations:
+     # STR_SPARROW: STR_SPARROW_SURFACE
+    allowedItemCategories:
+      - STR_SURFACE_ONLY
