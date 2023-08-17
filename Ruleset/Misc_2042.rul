@@ -3,26 +3,30 @@
 # spellchecker:words trooplander nofeed TACTICBACK
 itemCategories:
 
+  - type: STR_MELEE
+    listOrder: 13
   - type: STR_KINETIC
-    listOrder: 15
+    listOrder: 14
   - type: STR_LASER
-    listOrder: 16
+    listOrder: 15
   - type: STR_PLASMA
     listOrder: 16
   - type: STR_GAUSS
-    listOrder: 18
-  - type: STR_SONIC
     listOrder: 17
-  - type: STR_HUMAN_TECH
+  - type: STR_SONIC
     listOrder: 18
-  - type: STR_ALIEN_TECH
+  - type: STR_ION
     listOrder: 19
-  - type: STR_SURFACE_ONLY
+  - type: STR_HUMAN_TECH
     listOrder: 20
-  - type: STR_UNDERWATER_ONLY
+  - type: STR_ALIEN_TECH
     listOrder: 21
-  - type: STR_AMPHIBIOUS_EQUIPMENT
+  - type: STR_SURFACE_ONLY
     listOrder: 22
+  - type: STR_UNDERWATER_ONLY
+    listOrder: 23
+  - type: STR_AMPHIBIOUS_EQUIPMENT
+    listOrder: 24
   - type: STR_AMMO
     listOrder: 30
   - type: STR_SIDEARMS
@@ -37,8 +41,6 @@ itemCategories:
     listOrder: 120
   - type: STR_MACHINE_GUNS
     listOrder: 130
-  - type: STR_MELEE
-    listOrder: 140
   - type: STR_HEAVY_WEAPONS
     listOrder: 150
   - type: STR_MEDICAL
