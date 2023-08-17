@@ -78,22 +78,34 @@ items:
     handSprite: 128
     bulletSprite: 5
     fireSound: 35
-    accuracyAuto: 30
     accuracySnap: 40
     accuracyAimed: 70
     tuAuto: 30
     tuSnap: 25
     tuAimed: 50
     compatibleAmmo:
-      []
+      - STR_GAUSS_PISTOL_CLIP
     battleType: 1
     invWidth: 1
     invHeight: 2
     hitSound: 31
     hitAnimation: 46
-    power: 45 #was: 45
+    armor: 70
+  - type: STR_GAUSS_PISTOL_CLIP
+    size: 0.2
+    costSell: 1050
+    weight: 2
+    bigSprite: 57
+    floorSprite: 78
+    handSprite: 216
+    hitSound: 31
+    hitAnimation: 46
+    power: 45
     damageType: 4
-    clipSize: -1
+    clipSize: 20
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
     armor: 70
     vaporColor: 2
     vaporDensity: 5
@@ -114,16 +126,30 @@ items:
     tuSnap: 30
     tuAimed: 60
     compatibleAmmo:
-      []
+      STR_GAUSS_RIFLE_CLIP
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
     hitSound: 31
     hitAnimation: 46
-    power: 60 #was: 60
+    armor: 70
+    
+  - type: STR_GAUSS_RIFLE_CLIP
+    size: 0.2
+    costSell: 1950
+    weight: 3
+    bigSprite: 61
+    floorSprite: 78
+    handSprite: 224
+    hitSound: 31
+    hitAnimation: 46
+    power: 60
     damageType: 4
-    clipSize: -1
+    clipSize: 15
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
     armor: 70
     vaporColor: 2
     vaporDensity: 10
@@ -142,7 +168,7 @@ items:
     tuSnap: 40
     tuAimed: 80
     compatibleAmmo:
-      []
+      STR_HEAVY_GAUSS_CLIP
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -150,8 +176,22 @@ items:
     hitSound: 31
     hitAnimation: 46
     power: 80 #was: 75
+    
+  - type: STR_HEAVY_GAUSS_CLIP
+    size: 0.2
+    costSell: 3220
+    weight: 4
+    bigSprite: 62
+    floorSprite: 78
+    handSprite: 232
+    hitSound: 31
+    hitAnimation: 46
+    power: 75
     damageType: 4
-    clipSize: -1
+    clipSize: 10
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
     armor: 70
     vaporColor: 2
     vaporDensity: 15
