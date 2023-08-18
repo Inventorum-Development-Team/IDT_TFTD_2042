@@ -6,6 +6,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TFTD_BCANNON_TEXT
     image_id: UFOpaedia_BCannon.png
+    requires:
+      - STR_AFRICAN_MARKET
     listOrder: 3503
   - id: STR_TFTD_BCANNON_CLIP_AP
     type_id: 14
@@ -20,6 +22,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TFTD_BRIFLE_TEXT
     image_id: UFOpaedia_BRifle.png
+    requires:
+      - STR_ASIAN_MARKET
     listOrder: 3502
   - id: STR_TFTD_BRIFLE_CLIP
     type_id: 14
@@ -31,6 +35,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TFTD_BPISTOL_TEXT
     image_id: UFOpaedia_BPistol.png
+    requires:
+      - STR_EUROPEAN_MARKET
     listOrder: 3501
   - id: STR_TFTD_BPISTOL_CLIP
     type_id: 14
@@ -42,6 +48,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TFTD_RECOIL_TEXT
     image_id: UFOpaedia_Recoil.png
+    requires:
+      - STR_EUROPEAN_MARKET
     listOrder: 3505  
   - id: STR_TFTD_RECOIL_CLIP
     type_id: 14
@@ -53,6 +61,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TFTD_MINIGUN_TEXT
     image_id: UFOpaedia_Minigun.png
+    requires:
+      - STR_NORTH_AMERICAN_MARKET
     listOrder: 3504   
   - id: STR_TFTD_MINIGUN_CLIP
     type_id: 14
