@@ -41,9 +41,6 @@ extraSprites:
       0: Resources/Sprites/Gauss_Ufopedia.png
 
 ufopaedia:
-  - delete: STR_GAUSS_PISTOL_CLIP #No ammo anymore
-  - delete: STR_GAUSS_RIFLE_CLIP
-  - delete: STR_HEAVY_GAUSS_CLIP
   
   - id: STR_GAUSS_TECH
     type_id: 10
@@ -69,18 +66,20 @@ items:
   - delete: STR_GAUSS_RIFLE_CLIP
   - delete: STR_HEAVY_GAUSS_CLIP
   - delete: STR_GAUSS_CANNON_AMMO
+
   - type: STR_GAUSS_PISTOL
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS]
     size: 0.1
     costSell: 20000
     weight: 7
     bigSprite: 5
     floorSprite: 5
     handSprite: 128
-    bulletSprite: 5
-    fireSound: 35
+    bulletSprite: 19
+    fireSound: [121, 122, 123]
+    reloadSound: 124
     accuracySnap: 40
     accuracyAimed: 70
-    tuAuto: 30
     tuSnap: 25
     tuAimed: 50
     compatibleAmmo:
@@ -88,18 +87,17 @@ items:
     battleType: 1
     invWidth: 1
     invHeight: 2
-    hitSound: 31
-    hitAnimation: 46
     armor: 70
   - type: STR_GAUSS_PISTOL_CLIP
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO]
     size: 0.2
     costSell: 1050
     weight: 2
     bigSprite: 57
     floorSprite: 78
     handSprite: 216
-    hitSound: 31
-    hitAnimation: 46
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 660
     power: 45
     damageType: 4
     clipSize: 20
@@ -111,18 +109,18 @@ items:
     vaporDensity: 5
 
   - type: STR_GAUSS_RIFLE
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES]
     size: 0.2
     costSell: 36900
     weight: 8
     bigSprite: 0
     floorSprite: 0
     handSprite: 8
-    bulletSprite: 6
-    fireSound: 34
-    accuracyAuto: 50
+    bulletSprite: 19
+    fireSound: [121, 122, 123]
+    reloadSound: 124
     accuracySnap: 65
     accuracyAimed: 100
-    tuAuto: 40
     tuSnap: 30
     tuAimed: 60
     compatibleAmmo:
@@ -131,19 +129,17 @@ items:
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    hitSound: 31
-    hitAnimation: 46
     armor: 70
-    
   - type: STR_GAUSS_RIFLE_CLIP
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
     size: 0.2
     costSell: 1950
     weight: 3
     bigSprite: 61
     floorSprite: 78
     handSprite: 224
-    hitSound: 31
-    hitAnimation: 46
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 660
     power: 60
     damageType: 4
     clipSize: 15
@@ -155,14 +151,16 @@ items:
     vaporDensity: 10
 
   - type: STR_HEAVY_GAUSS
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_HEAVY_WEAPONS, STR_SNIPER_RIFLES]
     size: 0.3
     costSell: 61000
     weight: 18
     bigSprite: 6
     floorSprite: 6
     handSprite: 16
-    bulletSprite: 7
-    fireSound: 33
+    bulletSprite: 19
+    fireSound: [121, 122, 123]
+    reloadSound: 124
     accuracySnap: 50
     accuracyAimed: 90
     tuSnap: 40
@@ -173,20 +171,17 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    hitSound: 31
-    hitAnimation: 46
-    power: 80 #was: 75
-    
   - type: STR_HEAVY_GAUSS_CLIP
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_HEAVY_WEAPONS, STR_SNIPER_RIFLES, STR_AMMO]
     size: 0.2
     costSell: 3220
     weight: 4
     bigSprite: 62
     floorSprite: 78
     handSprite: 232
-    hitSound: 31
-    hitAnimation: 46
-    power: 75
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 660
+    power: 80
     damageType: 4
     clipSize: 10
     battleType: 2
@@ -220,7 +215,7 @@ items:
     #battleType: 2
     bulletSprite: 6
     hitSound: 31
-    hitAnimation: 46
+    hitAnimation: 660
     power: 110
     damageType: 4
     vaporColor: 2
