@@ -53,12 +53,12 @@ ufopaedia:
 extraStrings:
   - type: en-US
     strings:
-      STR_GAUSS_UFOPEDIA: "While alien weapons during the First War were powered by the currently unavailable Elerium, the new enemy uses Zrbite for this purpose. If we can reverse engineer the weapons currently in use by the invaders, we should be able to develop our own Zrbite-powered counterparts based on known laser and plasma technologies."
+      STR_GAUSS_UFOPEDIA: "While alien weapons during the First War were powered by the currently unavailable Elerium, the new enemy uses Zrbite for this purpose. If we can reverse engineer the weapons currently in use by the invaders, we should be able to develop our own Zrbite-powered counterparts based on known laser and plasma technologies. The hyper-accelerated ferromagnetic projectiles inflict such extensive kinetic damage that we have assigned it a new damage category."
       
       STR_GAUSS_CANNON_UFOPEDIA: "THE GAUSS WEAPON IS NEWLY DEVELOPED X-COM TECHNOLOGY. THIS SYSTEM'S MASS ACCELERATOR IS POWERED BY A COMPACT, LIQUID NITROGEN COOLED, FUSION REACTOR."
       
-      STR_GAUSS_PISTOL_UFOPEDIA: "The Gauss pistol uses magnetic acceleration technology, a new development in modern weaponry. It is fast, accurate and functions above and below water, albeit bulky and heavy. "
-      STR_GAUSS_PISTOL_CLIP_UFOPEDIA: "Removable magazine loaded with ferromagnetic slugs. Gauss technology is a development of the Plasma technologies learned from the previous war."
+      STR_GAUSS_PISTOL_UFOPEDIA: "The Gauss pistol uses magnetic acceleration technology, a new development in modern weaponry. It is accurate and functions above and below water, albeit bulky and heavy. "
+      STR_GAUSS_PISTOL_CLIP_UFOPEDIA: "Removable magazine loaded with ferromagnetic slugs, able to break through armor with ease. Gauss technology is a development of the Plasma mass acceleration technologies learned from the previous war."
       STR_GAUSS_RIFLE_UFOPEDIA: "A step beyond the Gauss pistol, the rifle packs a real punch, with its twin magnetic accelerators. The extra room for conductive coils allows for more power efficiency."
       STR_GAUSS_RIFLE_CLIP_UFOPEDIA: "The compact Zrbite-powered twin accelerators generates a powerful electric current along the barrel, impulsing a heavy tungsten ferromagnetic slug to tremendous speeds."
       STR_HEAVY_GAUSS_UFOPEDIA: "The scoped Heavy Gauss is cumbersome, but extremely effective. It operates with 3 mass accelerators and is virtually unstoppable, functioning as long-range anti-materiel support weapon."
