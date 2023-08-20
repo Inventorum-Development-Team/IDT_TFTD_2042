@@ -1,0 +1,5 @@
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      76: Resources/Items/Fire_Extinguisher/Sounds/FlameThrower.wav

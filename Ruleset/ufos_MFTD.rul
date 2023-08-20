@@ -619,6 +619,7 @@ ufos:
         - UINT1
         - UINT2
         - UINT3
+        - UINT1_FLOOR_WALLS
       mapBlocks:
         - name: WOLWERIN_GT0004
           width: 20
@@ -748,6 +749,7 @@ ufos:
         - UINT1
         - UINT2
         - UINT3
+        - UINT1_FLOOR_WALLS
       mapBlocks:
         - name: WOLWERIN_GT0008
           width: 20

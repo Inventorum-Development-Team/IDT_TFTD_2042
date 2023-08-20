@@ -95,6 +95,18 @@ items:
     battleType: 11
     recover: false # DO NOT RECOVER THIS ITEM
 
+# [=] Civilian Military Corpse [=]
+  - type: STR_MFTD_CIV_HEAVY_MILITARY_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 74
+    floorSprite: 89
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false # DO NOT RECOVER THIS ITEM
+
 # [=] Civilian Diver Corpse [=]
   - type: STR_MFTD_CIV_DIVER_CORPSE
     name: STR_CORPSE
@@ -172,3 +184,138 @@ items:
     invHeight: 3
     recover: false # DO NOT RECOVER THIS ITEM
     hidePower: true
+
+# [=] Civilian Fire Extinguisher [=]
+  - type: STR_FIRE_EXT
+    size: 0.2
+    costBuy: 0
+    costSell: 420
+    weight: 9
+    bigSprite: 85
+    floorSprite: 95
+    handSprite: 480
+    bulletSprite: 1
+    fireSound: 76
+    explosionHitSound: 76
+    hitAnimation: 96
+    power: 40
+    accuracyAimed: 100
+    tuAimed: 64
+    damageType: 9
+    damageAlter:
+      RandomType: 4
+      FixRadius: 3
+    battleType: 1
+    clipSize: 3
+    isFireExtinguisher: true
+    arcingShot: true
+    maxRange: 6
+    invWidth: 2
+    invHeight: 2
+    bulletSpeed: 80
+    recover: false # DO NOT RECOVER THIS ITEM
+    #listOrder: 4601
+
+# [=] Civilian Fireman Axe [=]
+  - type: STR_FIRE_AXE
+    size: 0.1
+    costBuy: 0
+    costSell: 945
+    weight: 6
+    bigSprite: 86
+    floorSprite: 96
+    handSprite: 488
+    meleeSound: 60
+    power: 80
+    damageType: 6
+    accuracyMelee: 100
+    skillApplied: false
+    tuMelee: 40
+    battleType: 3
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    recover: false # DO NOT RECOVER THIS ITEM
+
+# [=] Civilian Firefighter Items [=] (For UFOpaedia Article) <Fire Extinguisher, Fire Axe>
+  - type: STR_MFTD_EMERGENCY_ITEMS
+    size: 0.3
+    costSell: 10
+    transferTime: 48
+    weight: 5
+    bigSprite: 73
+    floorSprite: 88
+    handSprite: 472
+    meleeSound: 60
+    hitAnimation: 0
+    accuracyMelee: 150
+    tuMelee: 10
+    power: 16
+    damageType: 7
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    recover: false # DO NOT RECOVER THIS ITEM
+    hidePower: true
+
+# [=] Civilian Policeman Corpse [=]
+  - type: STR_POLICE_MALE_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 80
+    floorSprite: 90
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+# [=] Civilian Policewoman Corpse [=]
+  - type: STR_POLICE_FEMALE_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 81
+    floorSprite: 91
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+# [=] Civilian SWAT Corpse [=]
+  - type: STR_HUMAN_SOLDIER_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 82
+    floorSprite: 92
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+# [=] Civilian Paramedic Corpse [=]
+  - type: STR_PARAMEDIC_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 83
+    floorSprite: 93
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false
+
+# [=] Civilian Firefighter Corpse [=]
+  - type: STR_FIREFIGHTER_CORPSE
+    name: STR_CORPSE
+    weight: 30
+    bigSprite: 84
+    floorSprite: 94
+    invWidth: 2
+    invHeight: 3
+    armor: 12
+    battleType: 11
+    recover: false

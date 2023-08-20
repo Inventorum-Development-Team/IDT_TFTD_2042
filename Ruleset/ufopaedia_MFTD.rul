@@ -14,6 +14,14 @@ ufopaedia:
     image_id: UFOpaedia_Civilian_Weapons.png
     listOrder: 1950
 
+# [=] Emergency Items [=] <Fire Extinguisher, Fire Axe>
+  - id: STR_MFTD_EMERGENCY_ITEMS
+    type_id: 14
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_MFTD_EMERGENCY_ITEMS_UFOPAEDIA
+    image_id: UFOpaedia_Emergency_Items.png
+    listOrder: 1951
+
 # [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=]
 # [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=]
 # [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=] [=] New Missions [=]

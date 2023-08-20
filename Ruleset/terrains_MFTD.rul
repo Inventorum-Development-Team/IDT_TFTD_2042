@@ -87,6 +87,8 @@
     civilianTypes:
       - MFTD_CIV_MILITARY_MALE
       - MFTD_CIV_MILITARY_FEMALE
+      - MFTD_CIV_HEAVY_MILITARY_MALE
+      - MFTD_CIV_HEAVY_MILITARY_FEMALE
     mapBlocks:
       - name: MARTIAN_ARMSWAREHOUSE
         width: 30
@@ -296,15 +298,44 @@
       - XBASES01_NO_XCOM
       - XBASES02_NO_XCOM
     civilianTypes:
+      - SAILOR_CIVILIAN
       - MFTD_CIV_MILITARY_MALE
       - MFTD_CIV_MILITARY_FEMALE
+      - MFTD_CIV_HEAVY_MILITARY_MALE
+      - MFTD_CIV_HEAVY_MILITARY_FEMALE
     mapBlocks:
       - name: MARTIAN_WARSHIP
         width: 30
         length: 70
         height: 4
 
-
+# [=] Aircraft Carrier [=] (Terror Mission)
+  - name: MFTD_AIRCRAFT_CARRIER
+    music:
+      - GMTACDRY
+    ambience: 67
+    ambientVolume: 0.25
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - CARGO1_ARMORED
+      - CARGO2_ARMORED
+      - XBITS
+      - CARGO3_ARMORED
+      - XBASES01_NO_XCOM
+      - XBASES02_NO_XCOM_LITE
+      - BD_PLANE_TFTD_LITE
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - MFTD_CIV_MILITARY_MALE
+      - MFTD_CIV_MILITARY_FEMALE
+      - MFTD_CIV_HEAVY_MILITARY_MALE
+      - MFTD_CIV_HEAVY_MILITARY_FEMALE
+    mapBlocks:
+      - name: IDT_AIRCRAFT_CARRIER
+        width: 30
+        length: 70
+        height: 7
 
 
 # [=] Cruise Ship Variants [=] (Terror Mission)
@@ -427,7 +458,25 @@
         width: 20
         length: 20
 
-
+# [=] Vanilla Port Terror Terrain [=] (Terror Mission)
+  - name: PORT
+    music:
+      - GMTACDRY
+    mapDataSets:
+      - BLANKS
+      - SEA
+      - PORT01
+      - PORT02
+    ambience: 67
+    ambientVolume: 0.25
+    civilianTypes:
+      - SAILOR_CIVILIAN
+      - DOCKER_CIVILIAN
+      - STR_POLICE_MALE
+      - STR_POLICE_FEMALE
+      - STR_HUMAN_SOLDIER
+      - STR_PARAMEDIC
+      - STR_FIREFIGHTER
 
 # [=] XCOM-UFO City Terror Terrain [=] (Terror Mission)
   - name: URBAN
@@ -438,10 +487,13 @@
       - nURBAN
       - nFRNITURE
     civilianTypes:
-      - SAILOR_CIVILIAN
-      - DOCKER_CIVILIAN
 #      - CIV_M
 #      - CIV_F
+      - STR_POLICE_MALE
+      - STR_POLICE_FEMALE
+      - STR_HUMAN_SOLDIER
+      - STR_PARAMEDIC
+      - STR_FIREFIGHTER
     music:
       - GMTACDRY
     ambience: 67
@@ -672,3 +724,133 @@
       - name: NEW_CIVILIAN_LINERB03c
         width: 30
         length: 20
+
+
+# [=] Seabed Muddy Variant [=]
+
+  - name: SEABED2
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SAND2
+      - ROCKS
+      - WEEDS
+      - DEBRIS2
+      - UFOBITS
+    depth: [1, 2]
+    ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: SEABED00
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED01
+        width: 10
+        length: 10
+        groups: 1
+      - name: SEABED02
+        width: 10
+        length: 10
+      - name: SEABED03
+        width: 10
+        length: 10
+      - name: SEABED04
+        width: 10
+        length: 10
+      - name: SEABED05
+        width: 10
+        length: 10
+      - name: SEABED06
+        width: 10
+        length: 10
+      - name: SEABED07
+        width: 10
+        length: 10
+      - name: SEABED08
+        width: 10
+        length: 10
+      - name: SEABED09
+        width: 10
+        length: 10
+      - name: SEABED10
+        width: 20
+        length: 20
+      - name: SEABED11
+        width: 20
+        length: 20
+      - name: SEABED12
+        width: 20
+        length: 20
+
+# [=] Seabed Mountain Variant [=]
+
+  - name: SEAMOUNT
+    music:
+      - GMTACWET
+    mapDataSets:
+      - BLANKS
+      - SANDMOUNT
+      - SEADESERT
+    depth: [1, 2]
+    ambience: 67
+    script: THREEBIG
+    mapBlocks:
+      - name: NEW_CIVILIAN_DESERTMOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_DESERTMOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_DESERTMOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: NEW_CIVILIAN_DESERTMOUNT03
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT04
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT05
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT06
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT07
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT08
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT09
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT10
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT11
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT12
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT13
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT14
+        width: 20
+        length: 20
+      - name: NEW_CIVILIAN_DESERTMOUNT15
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT16
+        width: 10
+        length: 10
+      - name: NEW_CIVILIAN_DESERTMOUNT17
+        width: 10
+        length: 10

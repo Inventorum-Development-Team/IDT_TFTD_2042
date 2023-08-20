@@ -1,10 +1,13 @@
 alienDeployments:
   - type: STR_CARGO_SHIP_P1
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
     nextStage: ""
   - type: STR_CRUISE_SHIP_P1
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     nextStage: ""
 
   - type: STR_CARGO_SHIP_P2
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
     shade: 8
     alert: STR_ALIENS_ATTACK_SHIPPING_ROUTE
     alertBackground: BACK03.SCR

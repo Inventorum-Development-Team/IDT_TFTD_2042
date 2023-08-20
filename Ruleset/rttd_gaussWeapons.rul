@@ -143,7 +143,7 @@ items:
     tuSnap: 30
     tuAimed: 60
     compatibleAmmo:
-      STR_GAUSS_RIFLE_CLIP
+      - STR_GAUSS_RIFLE_CLIP
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -185,7 +185,7 @@ items:
     tuSnap: 40
     tuAimed: 80
     compatibleAmmo:
-      STR_HEAVY_GAUSS_CLIP
+      - STR_HEAVY_GAUSS_CLIP
     battleType: 1
     twoHanded: true
     invWidth: 2

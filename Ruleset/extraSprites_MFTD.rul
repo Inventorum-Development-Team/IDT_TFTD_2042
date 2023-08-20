@@ -18,6 +18,48 @@ extraSprites:
 # [====] Units/Armors [====]  [====] Units/Armors [====] [====] Units/Armors [====] [====] Units/Armors [====]
 # [====] Units/Armors [====]  [====] Units/Armors [====] [====] Units/Armors [====] [====] Units/Armors [====]
 
+  - type: MILITARY_FEMALE_INV
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Military/MILITARY_FEMALE_INV.png
+
+  - type: MILITARY_MALE_INV
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Military/MILITARY_MALE_INV.png
+
+  - type: HEAVY_MILITARY_FEMALE_INV
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_HeavyMilitary/HEAVY_MILITARY_FEMALE_INV.png
+
+  - type: Inventory_Policeman
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Police/Inventory_Policeman.png
+
+  - type: Inventory_Policewoman
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Police/Inventory_Policewoman.png
+
+  - type: Inventory_SWAT
+    height: 200
+    width: 320
+    singleImage: true
+    files:
+      0: Resources/Units/Civilian_Police/Inventory_SWAT.png
+
 # [=] Unit - Civ Military [=] <Civilian>
   - type: MFTD_CIV_MILITARY.PCK
     width: 512
@@ -27,6 +69,14 @@ extraSprites:
     files:
       0: Resources/Units/Civilian_Military/Unit_Military.png
 
+# [=] Unit - Civ Heavy Military [=] <Civilian>
+  - type: MFTD_CIV_HEAVY_MILITARY.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian_HeavyMilitary/Unit_HeavyMilitary.png
 
 # [=] Unit - Civ Diver [=] <Civilian>
   - type: MFTD_CIV_DIVER.PCK
@@ -36,6 +86,51 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Units/Civilian_Diver/Unit_Civilian_Diver.png
+
+# [=] Unit - Civ Male Police [=] <Civilian>
+  - type: POLICE_MALE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/Civilian_Police/POLICE_MALE.png
+
+# [=] Unit - Civ Female Police [=] <Civilian>
+  - type: POLICE_FEMALE.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1360
+    files:
+      0: Resources/Units/Civilian_Police/POLICE_FEMALE.png
+
+# [=] Unit - Civ SWAT [=] <Civilian>
+  - type: SWAT.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Units/Civilian_Police/SWAT.png
+
+# [=] Unit - Civ Paramedic [=] <Civilian>
+  - type: PARAMEDIC.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Units/Civilian_Emergency/PARAMEDIC.png
+
+# [=] Unit - Civ Firefighter [=] <Civilian>
+  - type: FIREFIGHTER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 720
+    files:
+      0: Resources/Units/Civilian_Emergency/FIREFIGHTER.png
 
 # [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====]
 # [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====] [====] Items [====]
@@ -54,9 +149,18 @@ extraSprites:
 # [=] BigOb - Civilian Corpses [=]
       71: Resources/Units/Civilian_Military/BigOb_Military.png
       72: Resources/Units/Civilian_Diver/BigOb_Civilian_Diver.png
+      74: Resources/Units/Civilian_HeavyMilitary/BigOb_HeavyMilitary.png
 # [=] BigOb - Diving Drill [=]
       73: Resources/Items/Diving_Drill/BigOb_Diving_Drill.png
-
+# [=] BigOb - First Responder Corpses [=]
+      80: Resources/Units/Civilian_Police/BIGOB_POLICE_MALE_CORPSE.png
+      81: Resources/Units/Civilian_Police/BIGOB_POLICE_FEMALE_CORPSE.png
+      82: Resources/Units/Civilian_Police/BIGOB_HUMAN_SOLDIER_CORPSE.png
+      83: Resources/Units/Civilian_Emergency/BIGOB_PARAMEDIC_CORPSE.png
+      84: Resources/Units/Civilian_Emergency/BIGOB_FIREFIGHTER_CORPSE.png
+# [=] BigOb - Firefighter Equipment [=]
+      85: Resources/Items/Fire_Extinguisher/bigOb_Fire_Extinguisher.png
+      86: Resources/Items/Fire_Axe/bigOb_FireAxe.png
 
 
 # [=] FloorOb [=]
@@ -71,9 +175,18 @@ extraSprites:
 # [=] FloorOb - Civilian Corpses [=]
       86: Resources/Units/Civilian_Military/FloorOb_Military.png
       87: Resources/Units/Civilian_Diver/FloorOb_Civilian_Diver.png
+      89: Resources/Units/Civilian_HeavyMilitary/FloorOb_HeavyMilitary.png
 # [=] FloorOb - Diving Drill [=]
       88: Resources/Items/Diving_Drill/FloorOb_Diving_Drill.png
-
+# [=] FloorOb - First Responder Corpses [=]
+      90: Resources/Units/Civilian_Police/FLOOROB_POLICE_MALE_CORPSE.png
+      91: Resources/Units/Civilian_Police/FLOOROB_POLICE_FEMALE_CORPSE.png
+      92: Resources/Units/Civilian_Police/FLOOROB_HUMAN_SOLDIER_CORPSE.png
+      93: Resources/Units/Civilian_Emergency/FLOOROB_PARAMEDIC_CORPSE.png
+      94: Resources/Units/Civilian_Emergency/FLOOROB_FIREFIGHTER_CORPSE.png
+# [=] FloorOb - Firefighter Equipment [=]
+      95: Resources/Items/Fire_Extinguisher/floorOb_Fire_Extinguisher.png
+      96: Resources/Items/Fire_Axe/floorOb_FireAxe.png
 
 # [=] HandOb [=]
   - type: HANDOB.PCK
@@ -90,8 +203,17 @@ extraSprites:
       464: Resources/Items/Rifle/Ammo/HandOb_Civ_Rifle_Ammo.png
 # [=] HandOb - Diving Drill [=]
       472: Resources/Items/Diving_Drill/HandOb_Diving_Drill.png
+# [=] HandOb - Firefighter Equipment [=]
+      480: Resources/Items/Fire_Extinguisher/handOb_Fire_Extinguisher.png
+      488: Resources/Items/Fire_Axe/handOb_FireAxe.png
 
-
+  - type: X1.PCK
+    width: 1024
+    height: 768
+    subX: 128
+    subY: 64
+    files:
+      80: Resources/Items/Fire_Extinguisher/SMOKE/X1_DIO.png
 
 # [====] Interception [====] [====] Interception [====] [====] Interception [====] [====] Interception [====]
 # [====] Interception [====] [====] Interception [====] [====] Interception [====] [====] Interception [====]
@@ -484,6 +606,13 @@ extraSprites:
     files:
       0: Resources/Ufopaedia/UFOpaedia_Civilian_Weapons.png
 
+# [=] Emergency Items [=] 
+  - type: UFOpaedia_Emergency_Items.png
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/UFOpaedia_Emergency_Items.png
 
 # <--- Alien Craft (The Martian)
 

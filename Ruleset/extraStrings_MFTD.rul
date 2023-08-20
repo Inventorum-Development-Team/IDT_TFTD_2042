@@ -12,6 +12,22 @@ extraStrings:
       MFTD_CIV_DIVER_ARMED: "Civilian Diver"
       MFTD_CIV_MILITARY_MALE: "Soldier"
       MFTD_CIV_MILITARY_FEMALE: "Soldier"
+      MFTD_CIV_HEAVY_MILITARY_MALE: "Heavy Soldier"
+      MFTD_CIV_HEAVY_MILITARY_FEMALE: "Heavy Soldier"
+      
+      STR_POLICE_MALE: "Police Officer"
+      STR_POLICE_FEMALE: "Police Officer"
+      STR_HUMAN_SOLDIER: "SWAT"
+      STR_PARAMEDIC: "Paramedic"
+      STR_FIREFIGHTER: "Firefighter"
+      STR_POLICE_MALE_CORPSE: "Corpse"
+      STR_POLICE_FEMALE_CORPSE: "Corpse"
+      STR_HUMAN_SOLDIER_CORPSE: "Corpse"
+      STR_PARAMEDIC_CORPSE: "Corpse"
+      STR_FIREFIGHTER_CORPSE: "Corpse"
+      STR_FIRE_EXT: "Fire Extinguisher"
+      STR_FIRE_EXT_UFOPEDIA: "A fire extinguisher is an active fire protection device used to extinguish or control small fires, often in emergency situations. It is not intended for use on an out-of-control fire, such as one which has reached the ceiling, endangers the user (i.e. no escape route, smoke, explosion hazard, etc.), or otherwise requires the expertise of a fire brigade."
+      STR_FIRE_AXE: "Firefighter Axe"
 
 
 # [=] Items [=]
@@ -82,6 +98,8 @@ extraStrings:
       MAP_LINERVARIANT: "Cruise Ship P2 Layout 2"
       MAP_CARGO2: "Cargo Ship Layout 2"
       MAP_LPIPES: "Abandoned Research Facility"
+      MAP_SEABED2: "Seabed Mud"
+      MAP_SEAMOUNT: "Seabed Mountain"
 
 
 # Murkhach@centrum.cz
@@ -171,6 +189,8 @@ extraStrings:
       MAP_MFTD_TRENCHUPPERBASE: "Trench Base"
       MAP_MFTD_TRENCHUPPERBASEBURIED: "Buried Trench Base"
 
+# Inventorum Development Team 
+      MAP_MFTD_AIRCRAFT_CARRIER: "Aircraft Carrier"
 
 # [=] Mission Names [=]
       STR_MFTD_ALIEN_TERROR_MISSION_SURFACE_BASE: "Offshore Base Attack"
@@ -191,6 +211,9 @@ extraStrings:
 
       STR_MFTD_CIVILIAN_WEAPONS_UFOPAEDIA: "X-Com soldiers may encounter armed civilian or military personnel in the field. X-Com's own equipment provides greater firepower than these nonspecialized weapons however if used in an emergency situation they may be found to be comparable with our dart weapons.{NEWLINE}{NEWLINE}X-Com will not recover this equipment and will instead return it to its owner at the end of a mission."
 
+      STR_MFTD_EMERGENCY_ITEMS: "Emergency Items"
+
+      STR_MFTD_EMERGENCY_ITEMS_UFOPAEDIA: "Emergency first responding teams are often scrambled to attend disaster zones, which also include alien incursions. Relief units, such paramedics and firefighters are deployed alongside law enforcement officers to organize and carry on evacuation efforts. {NEWLINE}{NEWLINE}Their tools are not necessary for our needs, X-Com will not recover this equipment and will instead return it to its owner at the end of a mission."
 
       STR_MFTD_EXCAVATION_UFOPEDIA: "The Aliens conduct excavation missions to unearth structures that have been buried by time. The ancient nature of these facilities suggests that these Aliens have been active on Earth long before we previously speculated.{NEWLINE}{NEWLINE}Once a building is excavated it is not restored to working order, instead the contents are extracted and moved to another location. It is unclear what the Aliens are obtaining from these sites or the location that these objects are then being taken to."
 
@@ -210,7 +233,7 @@ extraStrings:
 
       STR_MFTD_OIL_RAID_UFOPEDIA: "The Aliens are not just sinking Oil Tankers and destroying Oil Rigs, instead they first send their soldiers to secure the site and then move the stored chemicals onto their own craft before destroying the ship or offshore platform.{NEWLINE}{NEWLINE}Altough it was initially believed the destruction of these ships and structures was solely to deny humanity the resources it appears the Aliens also have some as yet unknown use for them."
 
-
+      
 
 
 

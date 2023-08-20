@@ -3,15 +3,25 @@
 
 Additional Units:
 . "Civilian Diver" Unit by Wolwerin.
+. "Heavy Soldier" Units by efrenespartano (spritesheet) & SuperCaffeineDude (inventory) 
+. "Paramedic" Unit by Hobbes
+. "Firefighter" Unit by Hobbes
+. "Police Man and Police Woman", Unit code by Hobbes, sprites by Solarius Scorch
+. "SWAT" Unit code by Hobbes, sprites by robin & Solarius Scorch (modified)
 
 Additional Items:
 . "Civilian Diving Drill" BigOb by RSSwizard, FloorOb & HandOb by pWWWa.
+. "Fire Extinguisher" code by Hobbes, sprites by Solarius Scorch
+. "Fire Axe", sprites by NeoWorm
 
 Maps created by New_Civilian:
 . "Cruise Ship Variants"
 . "Cruise Ship Part 2 Variant"
-. "Abandonded Research Facility"
+. "Abandoned Research Facility"
+. "Abandoned Research Facility"
 . "Cargo Ship with USO Variant"
+. "Seabed Mud"
+. "Seabed Mountain"
 . Survey Ship <B-Variant
 . Escort <B-Variant>
 . Cruiser <B-Variant>
@@ -103,5 +113,7 @@ Maps created by The Martian:
 . Ocean Trench Upper Base (ABYSS_SMOKE terrain uses images by New_Civilian)
 . Ocean Trench Upper Base <Buried Version> (ABYSS_SMOKE terrain uses images by New_Civilian)
 
+Maps created by Inventorum Development Team:
+. Aircraft Carrier (BD_PLANE_TFTD_LITE terrain created by bulletdesigner)
 
 And thanks to KevL, Solarius Scorch, Psavola, Nord, Warboy, SupSuper and Hellrazor for the help, this map pack would have been dead in the water without your assistance.

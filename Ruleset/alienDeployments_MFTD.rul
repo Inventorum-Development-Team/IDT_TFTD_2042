@@ -148,6 +148,12 @@ alienDeployments:
     length: 50
     height: 4
     civilians: 16
+    civiliansByType:
+      STR_POLICE_MALE: 4
+      STR_POLICE_FEMALE: 4
+      STR_HUMAN_SOLDIER: 2
+      STR_PARAMEDIC: 4
+      STR_FIREFIGHTER: 4
     terrains:
       - PORT
       - URBAN
@@ -7783,7 +7789,7 @@ alienDeployments:
     despawnPenalty: 1000
 
 
-# [=] Other Ships (Warship & Oil Tanker) [=] (Terror Mission)
+# [=] Other Ships (Warship, Oil Tanker & Aircraft Carrier) [=] (Terror Mission)
   - type: STR_MFTD_OTHER_SHIPS_TERROR
     data:
       - alienRank: 5
@@ -7921,12 +7927,13 @@ alienDeployments:
             []
     width: 30
     length: 70
-    height: 4
+    height: 7
     civilians: 16
     script: SHIP_P1
     terrains:
       - MFTD_WARSHIP
       - MFTD_OILTANKER
+      - MFTD_AIRCRAFT_CARRIER
     briefing:
       title: STR_SHIP_RESCUE_MISSION
       desc: STR_MFTD_OTHER_SHIPS_BRIEFING
