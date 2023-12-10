@@ -29,7 +29,7 @@ items:
     listOrder: 3505
 
   - type: STR_TFTD_BCANNON_CLIP_AP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_AFRICA_CORP
     requiresBuy:
@@ -41,9 +41,16 @@ items:
     floorSprite: 205
     handSprite: 624
     hitSound: 21
-    hitAnimation: 26
+    hitAnimation: 700
     power: 70
     damageType: 1
+    damageAlter:
+      RandomType: 7
+      ToArmor: 0.1
+      ToHealth: 0.8
+      IgnoreOverKill: true
+      ToWound: 0.8
+      FixRadius: 2
     clipSize: 8
     battleType: 2
     invWidth: 2
@@ -54,7 +61,7 @@ items:
     listOrder: 3506
 
   - type: STR_TFTD_BCANNON_CLIP_HE
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_AFRICA_CORP
     requiresBuy:
@@ -100,11 +107,16 @@ items:
     tuAuto: 35
     tuSnap: 25
     tuAimed: 40
+    confSnap:
+      shots: 4
+      name: STR_BURST
+    confAuto:
+      shots: 6
+      name: STR_AUTO
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    autoShots: 4
     landOnly: true  
     listOrder: 3503  
 
@@ -120,7 +132,7 @@ items:
     bigSprite: 192
     floorSprite: 204
     handSprite: 632
-    hitSound: 81
+    hitSound: [301, 302, 81, 303, 304]
     hitAnimation: 26
     power: 45
     damageType: 1
@@ -156,7 +168,7 @@ items:
     listOrder: 3501    
 
   - type: STR_TFTD_BPISTOL_CLIP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_EU_SYNDICATE
     requiresBuy:
@@ -167,7 +179,7 @@ items:
     bigSprite: 193
     floorSprite: 203
     handSprite: 640
-    hitSound: 81
+    hitSound: [301, 302, 81, 303, 304]
     hitAnimation: 26
     power: 25
     damageType: 1
@@ -204,7 +216,7 @@ items:
     listOrder: 3510
 
   - type: STR_TFTD_RECOIL_CLIP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO_CAT]
     size: 0.2
     requiresBuyCountry: STR_EU_SYNDICATE
     requiresBuy:
@@ -257,7 +269,7 @@ items:
     listOrder: 3508
 
   - type: STR_TFTD_MINIGUN_CLIP
-    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO_CAT]
     size: 0.1
     requiresBuyCountry: STR_USA
     requiresBuy:
@@ -268,12 +280,12 @@ items:
     bigSprite: 198
     floorSprite: 210
     handSprite: 680
-    hitSound: 81
+    hitSound: [301, 302, 81, 303, 304]
     hitAnimation: 26
     hitAnimFrames: 5
     power: 28
     damageType: 1
-    clipSize: 40
+    clipSize: 60
     battleType: 2
     invWidth: 2
     invHeight: 1
@@ -307,7 +319,7 @@ items:
     listOrder: 4101
 
   - type: STR_TFTD_ACCEL_CLIP
-    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_HEAVY_WEAPONS, STR_AMMO]
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_HEAVY_WEAPONS, STR_AMMO_CAT]
     size: 0.2
     costSell: 17028
     weight: 4
@@ -354,7 +366,7 @@ items:
     listOrder: 3901
 
   - type: STR_TFTD_VOLLEY_CLIP
-    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO]
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_LAUNCHERS, STR_AMMO_CAT]
     size: 0.2
     costSell: 1950
     weight: 3
@@ -464,7 +476,7 @@ items:
     listOrder: 4193
 
   - type: STR_ION_CANNON_CLIP
-    categories: [STR_ION, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO]
+    categories: [STR_ION, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO_CAT]
     requires:
       - STR_ION_CANNON_CLIP
     size: 0.3
@@ -520,7 +532,7 @@ items:
     listOrder: 4191
 
   - type: STR_ION_PISTOL_CLIP
-    categories: [STR_ION, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_ION, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO_CAT]
     requires:
       - STR_ION_PISTOL_CLIP
     size: 0.1
@@ -551,7 +563,9 @@ items:
     floorSprite: 224
     handSprite: 784
     bulletSprite: 12
-    fireSound: 88
+    bulletSpeed: 20
+    explosionSpeed: 30
+    fireSound: [132, 133, 134]
     hitSound: 89
     hitAnimation: 610
     power: 90
@@ -579,7 +593,9 @@ items:
     floorSprite: 223
     handSprite: 776
     bulletSprite: 12
-    fireSound: 88
+    bulletSpeed: 20
+    explosionSpeed: 30
+    fireSound: [132, 133, 134]
     hitSound: 89
     hitAnimation: 610
     power: 70
@@ -590,7 +606,12 @@ items:
     tuSnap: 25
     tuAuto: 55
     tuAimed: 45
-    autoShots: 4
+    confSnap:
+      shots: 3
+      name: STR_BURST
+    confAuto:
+      shots: 6
+      name: STR_AUTO
     clipSize: -1
     battleType: 1
     twoHanded: true
@@ -610,7 +631,9 @@ items:
     floorSprite: 222
     handSprite: 768
     bulletSprite: 12
-    fireSound: 88
+    bulletSpeed: 20
+    explosionSpeed: 30
+    fireSound: [132, 133, 134]
     hitSound: 89
     hitAnimation: 610
     power: 55
@@ -621,7 +644,12 @@ items:
     tuSnap: 15
     tuAuto: 25
     tuAimed: 35
-    autoShots: 5
+    confSnap:
+      shots: 2
+      name: STR_BURST
+    confAuto:
+      shots: 5
+      name: STR_AUTO
     clipSize: -1
     battleType: 1
     invWidth: 1
@@ -632,6 +660,7 @@ items:
       RandomType: 2
 
   - type: STR_WRECKED_PLASTIC_ARMOR
+    categories: [STR_ARMOR_CAT]
     listOrder: 10605
     size: 0.8
     costSell: 12000
@@ -640,6 +669,7 @@ items:
     recover: true
 
   - type: STR_WRECKED_ION_ARMOR
+    categories: [STR_ARMOR_CAT]
     listOrder: 10705
     size: 0.8
     costSell: 51500
@@ -648,6 +678,7 @@ items:
     recover: true
 
   - type: STR_WRECKED_MAG_ARMOR
+    categories: [STR_ARMOR_CAT]
     listOrder: 10805
     size: 0.8
     costSell: 60125
@@ -656,10 +687,12 @@ items:
     recover: true
 
   - type: STR_CORPSE_ARMOR
+    categories: [STR_ARMOR_CAT]
     battleType: 11
     recover: true
     
   - type: STR_CORPSE_ION
+    categories: [STR_ARMOR_CAT]
     battleType: 11
     recover: true
     
@@ -694,8 +727,8 @@ items:
     bigSprite: 389
     floorSprite: 312
     handSprite: 816
-    bulletSprite: 8
-    fireSound: 38
+    bulletSprite: 18
+    fireSound: [126, 127, 128]
     compatibleAmmo:
       - STR_TFTD_HSONIC_PISTOL_CLIP
     accuracySnap: 65
@@ -712,7 +745,7 @@ items:
     listOrder: 4181
 
   - type: STR_TFTD_HSONIC_PISTOL_CLIP
-    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO]
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO_CAT]
     requires:
       - STR_PISTOL_POWER_CLIP
     size: 0.1
@@ -745,8 +778,8 @@ items:
     bigSprite: 388
     floorSprite: 311
     handSprite: 808
-    bulletSprite: 8
-    fireSound: 36
+    bulletSprite: 18
+    fireSound: [126, 127, 128]
     compatibleAmmo:
       - STR_TFTD_HSONIC_RIFLE_CLIP
     accuracySnap: 75
@@ -763,7 +796,7 @@ items:
     listOrder: 4183
 
   - type: STR_TFTD_HSONIC_RIFLE_CLIP
-    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO_CAT]
     requires:
       - STR_RSH_HSONIC_RIFLE
     size: 0.1
@@ -795,8 +828,8 @@ items:
     bigSprite: 387
     floorSprite: 310
     handSprite: 800
-    bulletSprite: 8
-    fireSound: 37
+    bulletSprite: 18
+    fireSound: [129, 130, 131]
     compatibleAmmo:
       - STR_TFTD_HSONIC_CANNON_CLIP
     accuracySnap: 80
@@ -813,7 +846,7 @@ items:
     listOrder: 4185
 
   - type: STR_TFTD_HSONIC_CANNON_CLIP
-    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO]
+    categories: [STR_SONIC, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO_CAT]
     requires:
       - STR_RSH_HSONIC_CANNON
     size: 0.3
@@ -858,12 +891,14 @@ items:
 # [=] Add Dependicies for Sonic + Nerf [=]
   - type: STR_SONIC_CANNON
     categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS]
+    bulletSprite: 18
+    fireSound: [129, 130, 131]
     requires:
      - STR_ALIENS_ONLY
     costSell: 85800  
 
   - type: STR_CANNON_POWER_CLIP
-    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO]
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_HEAVY_WEAPONS, STR_AMMO_CAT]
     requires:
      - STR_ALIENS_ONLY
     costSell: 4795
@@ -872,10 +907,12 @@ items:
     categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES]
     requires:
      - STR_ALIENS_ONLY
+    bulletSprite: 18
+    fireSound: [126, 127, 128]
     costSell: 63250
 
   - type: STR_BLASTA_POWER_CLIP
-    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
+    categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO_CAT]
     requires:
      - STR_ALIENS_ONLY
     costSell: 3145  
@@ -884,6 +921,8 @@ items:
     categories: [STR_SONIC, STR_ALIEN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS]
     requires:
        - STR_ALIENS_ONLY     
+    bulletSprite: 18
+    fireSound: [126, 127, 128]
     costSell: 42000 
 
   - type: STR_PISTOL_POWER_CLIP
