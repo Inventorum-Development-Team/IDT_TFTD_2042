@@ -1,4 +1,91 @@
-units: #done
+units: 
+
+# Civilians
+
+  - type: SCIENTIST_CIVILIAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_SCIENTIST_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+  - type: CIVILIAN_GREY_SUIT
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_GREY_SUIT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+  - type: CIVILIAN_WHITE_SUIT
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_WHITE_SUIT_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+  - type: CIVILIAN_STRONG_WOMAN
+    race: STR_CIVILIAN
+    stats:
+      tu: 35
+      stamina: 65
+      health: 30
+      bravery: 80
+      reactions: 30
+      firing: 30
+      throwing: 50
+      strength: 20
+      psiStrength: 5
+      psiSkill: 0
+      melee: 50
+    armor: CIVILIAN_STRONG_WOMAN_ARMOR
+    standHeight: 22
+    kneelHeight: 14
+    value: 30
+    intelligence: 1
+    deathSound: 48
+
+
+
+#done
   - type: STR_AQUATOID_SOLDIER
     race: STR_AQUATOID
     rank: STR_LIVE_SOLDIER
@@ -429,9 +516,9 @@ units: #done
     intelligence: 3
     aggression: 2
     livingWeapon: true
-    builtInWeapons:
-      - STR_TRISCENE_MELEE_WEAPON
-      - STR_TRIBIO_SONIC_WEAPON
+    builtInWeaponSets:
+      - - STR_TRISCENE_MELEE_WEAPON
+        - STR_TRIBIO_SONIC_WEAPON
     moveSound: 62
   - type: STR_XARQUID_TERRORIST
     race: STR_XARQUID
@@ -557,9 +644,9 @@ units: #done
     aggression: 2
     specab: 3
     livingWeapon: true
-    builtInWeapons:
-      - STR_BIODRONE_MELEE_WEAPON
-      - STR_TRIBIO_SONIC_WEAPON
+    builtInWeaponSets:
+      - - STR_BIODRONE_MELEE_WEAPON
+        - STR_TRIBIO_SONIC_WEAPON
     moveSound: 66
   - type: STR_ZOMBIE
     race: STR_ZOMBIE

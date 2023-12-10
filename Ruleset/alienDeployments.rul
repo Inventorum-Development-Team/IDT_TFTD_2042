@@ -1,6 +1,7 @@
 alienDeployments:
   - delete: STR_ALIEN_COLONY_P2
   - type: STR_POLAR_ISLAND_INVESTIGATION
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
     data:
       - alienRank: 5
         lowQty: 4
@@ -144,21 +145,138 @@ alienDeployments:
 
 #New artefact sites
   - type: STR_ARTIFACT_SITE_P1
+    data:
+      - alienRank: 5
+        lowQty: 4
+        highQty: 6
+        dQty: 1
+        percentageOutsideUfo: 70
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+      - alienRank: 4
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+            - STR_SONIC_PULSER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_MC_READER
+      - alienRank: 3
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+          -
+            - STR_SONIC_CANNON
+            - STR_CANNON_POWER_CLIP
+            - STR_CANNON_POWER_CLIP
+            - STR_SONIC_PULSER
+            - STR_MC_READER
+          -
+            - STR_THERMAL_SHOK_LAUNCHER
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_THERMAL_SHOK_BOMB
+            - STR_SONIC_PULSER
+      - alienRank: 2
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 20
+        itemSets: 
+          -
+            - STR_SONIC_PISTOL
+            - STR_PISTOL_POWER_CLIP
+            - STR_PISTOL_POWER_CLIP
+          -
+            - STR_SONIC_BLASTA_RIFLE
+            - STR_BLASTA_POWER_CLIP
+            - STR_BLASTA_POWER_CLIP
+            - STR_THERMIC_LANCE
+          -
+            - STR_HEAVY_THERMIC_LANCE
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+            - STR_SONIC_PULSER
+      - alienRank: 1
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 6
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 1
+        highQty: 3
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets: 
+          -
+            []
+          -
+            []
+          -
+            []
     terrains:
       - ALART
       - MU_ARTIF
       - AT_ARTIF
 
-#New cruise ship mapscripts
-  - type: STR_CRUISE_SHIP_P1
-    terrains:
-      - LINERT
-      - LINERT2
-      - LINERT4
-      - LINERT5
-
-
   - type: STR_POLAR_ISLAND_ARTIFACT
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
     data:
       - alienRank: 5
         lowQty: 4
@@ -310,12 +428,8 @@ alienDeployments:
 #    siteDepth: [1, 3]
     objectiveFailed: [STR_ALIEN_SYNOMIUM_DEVICE_FAILED, -750]
 
-  - type: STR_PORT_TERROR
-    terrains:
-      - INDUSTRIALPORT
-      - PORT
-
   - type: STR_POLAR_ISLAND_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_BROWN
     data: &TERROR_MISSION_ALIENRANKS
       - alienRank: 5
         lowQty: 4
@@ -458,6 +572,7 @@ alienDeployments:
     despawnPenalty: 1000
 
   - type: STR_SEAFRONT_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     data: *TERROR_MISSION_ALIENRANKS
     width: 50
     length: 50

@@ -1,6 +1,19 @@
 extraSounds:
   - type: BATTLE.CAT
     files:
+
+      80: Resources/Sounds/ads.wav
+      81: Resources/Sounds/HumanBulletHit.wav
+      82: Resources/Sounds/XRifleFire.wav
+      83: Resources/Sounds/Launch.wav
+      84: Resources/Sounds/ion_cannon.wav
+      85: Resources/Sounds/hitsound_jc.wav
+      86: Resources/Sounds/ion_pistol.wav
+      87: Resources/Sounds/melee.wav
+      88: Resources/Sounds/laserrifle_shot.wav
+      89: Resources/Sounds/laserrifle_hit.wav
+      90: Resources/Sounds/blast.wav
+
       100: Resources/Sounds/acrshoot.ogg
       101: Resources/Sounds/acrreload.ogg
       102: Resources/Sounds/cm901shoot.ogg
@@ -48,15 +61,36 @@ extraSounds:
       144: Resources/Sounds/LaserHeavy2_fire.ogg
       145: Resources/Sounds/LaserHeavy3_fire.ogg
 
+      255: Resources/Sounds/Ded.wav
+      256: Resources/Sounds/Step2.wav
+      257: Resources/Sounds/Ded1.wav
+
       301: Resources/Sounds/BallisticHitSound0.ogg
       302: Resources/Sounds/BallisticHitSound1.ogg
       303: Resources/Sounds/BallisticHitSound2.ogg
       304: Resources/Sounds/BallisticHitSound3.ogg
       #305: Resources/Sounds/PlasmaHit.ogg
       306: Resources/Sounds/LaserHit.wav
+
+      440: Resources/Sounds/MeleeHit.wav
+      441: Resources/Sounds/MeleeMiss.wav
+      442: Resources/Sounds/Donk.wav
 
   - type: BATTLE2.CAT
     files:
+
+      80: Resources/Sounds/ads.wav
+      81: Resources/Sounds/HumanBulletHit.wav
+      82: Resources/Sounds/XRifleFire.wav
+      83: Resources/Sounds/Launch.wav
+      84: Resources/Sounds/ion_cannon_uw.wav
+      85: Resources/Sounds/hitsound_jc_uw.wav
+      86: Resources/Sounds/ion_pistol_uw.wav
+      87: Resources/Sounds/melee.wav
+      88: Resources/Sounds/laserrifle_shot.wav
+      89: Resources/Sounds/laserrifle_hit.wav
+      90: Resources/Sounds/blast_uw.wav
+
       100: Resources/Sounds/acrshoot.ogg
       101: Resources/Sounds/acrreload.ogg
       102: Resources/Sounds/cm901shoot.ogg
@@ -104,9 +138,17 @@ extraSounds:
       144: Resources/Sounds/LaserHeavy2_fire.ogg
       145: Resources/Sounds/LaserHeavy3_fire.ogg
 
+      255: Resources/Sounds/Ded.wav
+      256: Resources/Sounds/Step2.wav
+      257: Resources/Sounds/Ded1.wav
+
       301: Resources/Sounds/BallisticHitSound0.ogg
       302: Resources/Sounds/BallisticHitSound1.ogg
       303: Resources/Sounds/BallisticHitSound2.ogg
       304: Resources/Sounds/BallisticHitSound3.ogg
       #305: Resources/Sounds/PlasmaHit.ogg
       306: Resources/Sounds/LaserHit.wav
+
+      440: Resources/Sounds/MeleeHit.wav
+      441: Resources/Sounds/MeleeMiss.wav
+      442: Resources/Sounds/Donk.wav

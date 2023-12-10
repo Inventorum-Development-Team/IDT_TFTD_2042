@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 items:
 
 #########################
@@ -1753,4 +1754,1701 @@ items:
     invHeight: 3
     armor: 0
     battleType: 11
+=======
+items:
+
+#########################
+####### SURFACE ########
+#######################
+
+# Rifles #
+
+# Variable Combat Rifle
+  - type: STR_VARIABLE_RIFLE
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    size: 0.2
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    requiresBuyCountry: STR_USA
+    costBuy: 4650
+    costSell: 3250
+    weight: 8
+    bigSprite: 1000
+    floorSprite: 1000
+    handSprite: 1000
+    fireSound: 100
+    reloadSound: 101
+    compatibleAmmo:
+      - STR_VARIABLE_RIFLE_MAG
+      - STR_VARIABLE_RIFLE_CQB_MAG
+      - STR_VARIABLE_RIFLE_HIGH_POWER_MAG
+    accuracyAuto: 35
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 5
+    landOnly: true  
+    listOrder: 3520 
+    tags:
+      MuzzleFlash: 1 
+
+  - type: STR_VARIABLE_RIFLE_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1016
+    floorSprite: 1016
+   # handSprite: 1016
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 670
+    power: 45
+    damageType: 1
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+    clipSize: 30
+    battleType: 2
+    landOnly: true   
+    listOrder: 3521  
+
+  - type: STR_VARIABLE_RIFLE_HIGH_POWER_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1024
+    floorSprite: 1024
+    #handSprite: 1024
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 670
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    power: 50
+    damageType: 1
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true 
+      ToTile: 0.4
+      ToStun: 0.2
+      ToArmorPre: 0.1
+      ToHealth: 0.4
+      RandomWound: false
+    clipSize: 20
+    battleType: 2
+    landOnly: true   
+    listOrder: 3522  
+
+  - type: STR_VARIABLE_RIFLE_CQB_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1032
+    floorSprite: 1032
+    #handSprite: 1032
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 670
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    power: 30
+    damageType: 1
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToWound: 0.2
+      RandomWound: true
+    clipSize: 40
+    battleType: 2
+    landOnly: true   
+    listOrder: 3523  
+
+# Hybrid Battle Rifle
+  - type: STR_SCAR 
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    size: 0.2
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 4650
+    costSell: 3250
+    weight: 8
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
+    fireSound: 104
+    reloadSound: 105
+    compatibleAmmo:
+      - STR_SCAR_MAG
+    accuracyAuto: 35
+    accuracySnap: 55
+    accuracyAimed: 80
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 5
+    landOnly: true  
+    listOrder: 3524 
+
+  - type: STR_SCAR_MAG 
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1056
+    floorSprite: 1056
+    handSprite: 1056
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 690
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
+    power: 35
+    damageType: 1
+    clipSize: 30
+    battleType: 2
+    landOnly: true   
+    listOrder: 3525  
+
+# Printer Rifle
+  - type: STR_PRINTER_RIFLE
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    size: 0.2
+    requiresBuyCountry: STR_NEO_JAPAN
+    requiresBuy:
+      - STR_ASIAN_MARKET
+    costBuy: 4650
+    costSell: 3250
+    weight: 8
+    bigSprite: 1064
+    floorSprite: 1064
+    handSprite: 1064
+    bulletSprite: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    fireSound: 102
+    accuracyAuto: 65
+    accuracySnap: 85
+    accuracyAimed: 100
+    tuAuto: 35
+    tuSnap: 25
+    tuAimed: 40
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    autoShots: 5
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 690
+    power: 35
+    damageType: 1
+    clipSize: -1
+    landOnly: true  
+    listOrder: 3526  
+
+# Laser Sniper
+  - type: STR_LASER_SNIPER
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES]
+    size: 0.3
+    requiresBuyCountry: STR_ASIAN_COALITION
+    requiresBuy:
+      - STR_ASIAN_MARKET
+    costBuy: 72000
+    costSell: 61000
+    weight: 18
+    bigSprite: 1080
+    floorSprite: 1080
+    handSprite: 1080
+    fireSound: [143, 144, 145]
+    reloadSound: 125
+    power: 85
+    damageType: 11
+    accuracySnap: 65
+    accuracyAimed: 105
+    tuSnap: 30
+    tuAimed: 60
+    compatibleAmmo:
+      - STR_LASER_SNIPER_BATTERY
+    battleType: 1
+    twoHanded: true 
+    landOnly: true
+    invWidth: 1
+    invHeight: 3
+    listOrder: 3527
+
+  - type: STR_LASER_SNIPER_BATTERY
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_ASIAN_COALITION
+    requiresBuy:
+      - STR_ASIAN_MARKET
+    costBuy: 8000
+    costSell: 6000
+    weight: 3
+    bigSprite: 1096
+    floorSprite: 1096
+    bulletSprite: 20
+    hitSound: 306
+    hitAnimation: 640
+    power: 60
+    damageType: 11
+    clipSize: 24
+    battleType: 2
+    invWidth: 1
+    invHeight: 1 
+    landOnly: true
+    armor: 70
+    listOrder: 3528
+
+# Old Plasma Rifle Mk.1
+  - type: STR_OLD_PLASMA_RIFLE
+    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    size: 0.2
+    costSell: 126500
+    weight: 5
+    bigSprite: 1176
+    floorSprite: 1176
+    handSprite: 1176
+    fireSound: 114
+    compatibleAmmo:
+      - STR_OLD_PLASMA_RIFLE_CLIP
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true 
+    landOnly: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    listOrder: 3529
+  - type: STR_OLD_PLASMA_RIFLE_CLIP
+    categories: [STR_PLASMA, STR_ALIEN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    costSell: 62900
+    weight: 3
+    bigSprite: 1192
+    floorSprite: 1192
+    hitSound: 306
+    hitAnimation: 650
+    bulletSprite: 8
+    power: 80
+    damageType: 12
+    clipSize: 28
+    landOnly: true
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 3530
+
+# New Plasma Rifle Mk.2
+  - type: STR_NEW_PLASMA_RIFLE
+    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES]
+    requires:
+      - STR_NEW_PLASMA_RIFLE
+    size: 0.2
+    costSell: 226500
+    weight: 5
+    bigSprite: 1200
+    floorSprite: 1200
+    handSprite: 1200
+    fireSound: 115
+    compatibleAmmo:
+      - STR_NEW_PLASMA_RIFLE_CLIP
+    accuracyAuto: 55
+    accuracySnap: 86
+    accuracyAimed: 100
+    tuAuto: 36
+    tuSnap: 30
+    tuAimed: 60
+    battleType: 1
+    twoHanded: true 
+    landOnly: true
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 4
+    armor: 50
+    listOrder: 3531
+  - type: STR_NEW_PLASMA_RIFLE_CLIP
+    categories: [STR_PLASMA, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_RIFLES, STR_AMMO]
+    requires:
+      - STR_NEW_PLASMA_RIFLE
+    size: 0.1
+    costSell: 6290
+    weight: 3
+    bigSprite: 1216
+    floorSprite: 1216
+    hitSound: 306
+    hitAnimation: 650
+    bulletSprite: 8
+    power: 70
+    damageType: 12 
+    landOnly: true
+    clipSize: 30
+    battleType: 2
+    recoveryPoints: 1
+    listOrder: 3532
+
+# Sidearms #
+
+# Combat Pistol
+  - type: STR_COMBAT_HANDGUN
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
+    size: 0.1
+    requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 1250
+    costSell: 950
+    weight: 5
+    bigSprite: 1128
+    floorSprite: 1128
+    handSprite: 1128
+    fireSound: 108
+    reloadSound: 109
+    compatibleAmmo:
+      - STR_COMBAT_HANDGUN_MAG
+    accuracySnap: 40
+    accuracyAimed: 65
+    tuSnap: 15
+    tuAimed: 35
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    landOnly: true   
+    listOrder: 3540
+
+  - type: STR_COMBAT_HANDGUN_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 285
+    costSell: 120
+    weight: 2
+    bigSprite: 1144
+    floorSprite: 1144
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 620
+    bulletSprite: 15
+    bulletSpeed: 20
+    power: 45
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    landOnly: true   
+    listOrder: 3541
+
+# Street Sweeper SMG
+  - type: STR_STREET_SWEEPER
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
+    size: 0.1
+    requiresBuyCountry: STR_NEW_MEXICO
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 1250
+    costSell: 950
+    weight: 5
+    bigSprite: 1152
+    floorSprite: 1152
+    handSprite: 1152
+    fireSound: 106
+    reloadSound: 107
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_STREET_SWEEPER_MAG
+    accuracySnap: 40
+    accuracyAimed: 65
+    tuSnap: 15
+    tuAimed: 35
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 2
+    landOnly: true   
+    listOrder: 3542    
+
+  - type: STR_STREET_SWEEPER_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
+    size: 0.1
+    requiresBuyCountry: STR_NEW_MEXICO
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 285
+    costSell: 120
+    weight: 2
+    bigSprite: 1168
+    floorSprite: 1168
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 620
+    power: 25
+    damageType: 1
+    bulletSprite: 15
+    explosionSpeed: 50
+    bulletSpeed: 30
+    clipSize: 25
+    battleType: 2
+    landOnly: true   
+    listOrder: 3543 
+
+# Shotgun #
+
+# Black Mamba Auto Shotgun
+  - type: STR_AUTO_SHOTGUN
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS]
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    size: 0.3
+    costBuy: 12000
+    costSell: 11200
+    weight: 6
+    bigSprite: 1384
+    floorSprite: 1384
+    handSprite: 1384
+    fireSound: 110
+    reloadSound: 111
+    ammo:
+      0:
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_AUTO_SHOTGUN_SHELLS, STR_AUTO_SHOTGUN_SLUGS]
+    confSnap:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
+    accuracySnap: 70
+    accuracyAuto: 60
+    tuSnap: 30
+    tuAuto: 45
+    maxRange: 60
+    snapRange: 8
+    autoRange: 6
+    dropoff: 1
+    invHeight: 3
+    invWidth: 2
+    battleType: 1
+    twoHanded: true 
+    landOnly: true
+    armor: 250
+    listOrder: 3550
+
+  - type: STR_AUTO_SHOTGUN_SHELLS
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 3000
+    costSell: 2500
+    weight: 2
+    bigSprite: 1400
+    floorSprite: 1400
+    hitAnimation: 700
+    power: 35
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.5
+      RandomType: 7
+      ToArmor: 0.1
+      ToHealth: 1.3
+      IgnoreOverKill: true
+      ToWound: 0.8
+      RandomWound: true
+    hitSound: [301, 302, 303, 304]
+    clipSize: 12
+    invHeight: 1
+    invWidth: 2
+    shotgunBehavior: 1
+    shotgunPellets: 10
+    shotgunSpread: 50 
+    landOnly: true
+    battleType: 2
+    armor: 250
+    listOrder: 3551
+
+  - type: STR_AUTO_SHOTGUN_SLUGS
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 3500
+    costSell: 3000
+    weight: 2
+    bigSprite: 1408
+    floorSprite: 1408
+    power: 40
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 1.5
+      RandomType: 7
+      ToArmor: 0.1
+      ToStun: 1.2
+      IgnoreOverKill: true
+      ToHealth: 0.4
+      RandomWound: false
+    hitSound: 22
+    hitAnimation: 670
+    clipSize: 12
+    invHeight: 1
+    invWidth: 2
+    battleType: 2
+    landOnly: true
+    armor: 250
+    listOrder: 3552
+
+  - type: STR_LASER_SHOTGUN
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SHOTGUNS, STR_AMMO]
+    requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    size: 0.3
+    costBuy: 38000
+    costSell: 32000
+    weight: 7
+    bigSprite: 1416
+    floorSprite: 1416
+    handSprite: 1416
+    fireSound: [132, 133, 134]
+    reloadSound: 125
+    accuracySnap: 60
+    accuracyAimed: 75
+    compatibleAmmo:
+      - STR_LASER_SHOTGUN_FOCUSED_BATTERY
+      - STR_LASER_SHOTGUN_DISPERSION_BATTERY
+    costSnap:
+      time: 40
+    costAimed:
+      time: 60
+    maxRange: 60
+    snapRange: 12
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    landOnly: true
+    armor: 250
+    listOrder: 3553
+
+  - type: STR_LASER_SHOTGUN_FOCUSED_BATTERY
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 8000
+    costSell: 6000
+    weight: 3
+    bigSprite: 1432
+    floorSprite: 1432
+    bulletSprite: 20
+    hitAnimation: 680
+    hitSound: 306
+    #explosionSpeed: 50
+    bulletSpeed: 30
+    power: 50
+    damageType: 11
+    damageAlter:
+      RandomType: 6
+    clipSize: 20
+    battleType: 2
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 20
+    landOnly: true
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    listOrder: 3554
+
+  - type: STR_LASER_SHOTGUN_DISPERSION_BATTERY
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_SCANDINAVIA
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 7000
+    costSell: 5000
+    weight: 3
+    bigSprite: 1440
+    floorSprite: 1440
+    bulletSprite: 20
+    hitAnimation: 680
+    hitSound: 306
+    #explosionSpeed: 50
+    bulletSpeed: 30
+    power: 50
+    damageType: 11
+    damageAlter:
+      RandomType: 6
+    clipSize: 20
+    battleType: 2
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 75
+    landOnly: true
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    listOrder: 3555
+
+# Machine Guns #
+
+# Tactical LMG
+  - type: STR_TACTICAL_LMG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS]
+    size: 0.3
+    requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
+    costBuy: 23500
+    costSell: 20125
+    weight: 19
+    bigSprite: 1224
+    floorSprite: 1224
+    handSprite: 1224
+    fireSound: 118
+    reloadSound: 119
+    compatibleAmmo:
+      - STR_TACTICAL_LMG_AP
+      - STR_TACTICAL_LMG_INC
+      - STR_TACTICAL_LMG_HE
+    confSnap:
+      shots: 10
+      name: STR_BURST
+    confAuto:
+      shots: 30
+      name: STR_AUTO
+    accuracyAuto: 32
+    accuracySnap: 56
+    accuracyAimed: 82
+    tuAuto: 40
+    tuSnap: 33
+    tuAimed: 80
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3559
+  - type: STR_TACTICAL_LMG_AP
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
+    costBuy: 5000
+    costSell: 4000
+    weight: 5
+    bigSprite: 1240
+    floorSprite: 1240
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 670
+    power: 42
+    damageType: 1
+    clipSize: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
+    battleType: 2
+    landOnly: true
+    invWidth: 2
+    invHeight: 1
+    listOrder: 3560
+  - type: STR_TACTICAL_LMG_HE
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
+    costBuy: 7000
+    costSell: 5600
+    weight: 5
+    bigSprite: 1256
+    floorSprite: 1256
+    hitSound: 0
+    hitAnimation: 0
+    power: 44
+    damageType: 3
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
+    clipSize: 14
+    battleType: 2
+    landOnly: true 
+    invWidth: 2
+    invHeight: 1
+    listOrder: 3561
+  - type: STR_TACTICAL_LMG_INC
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_EU_SYNDICATE
+    requiresBuy:
+      - STR_EUROPEAN_MARKET
+    costBuy: 6500
+    costSell: 5200
+    weight: 5
+    bigSprite: 1248
+    floorSprite: 1248
+    hitSound: 0
+    hitAnimation: 0
+    power: 48
+    damageType: 2
+    clipSize: 14
+    explosionSpeed: 50
+    bulletSpeed: 30
+    bulletSprite: 14
+    battleType: 2
+    landOnly: true
+    invWidth: 2
+    invHeight: 1
+    listOrder: 3562
+
+  - type: STR_AUTO_LASER
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS]
+    size: 0.3
+    requiresBuyCountry: STR_AUSTRALASIA
+    requiresBuy:
+      - STR_PACIFIC_MARKET
+    costBuy: 50000
+    costSell: 40000
+    weight: 15
+    bigSprite: 1104
+    floorSprite: 1104
+    handSprite: 1104
+    fireSound: [143, 144, 145]
+    hitSound: 306
+    compatibleAmmo:
+      - STR_AUTO_LASER_BATTERY
+    accuracyAuto: 40
+    accuracySnap: 45
+    confSnap:
+      shots: 10
+      name: STR_BURST
+    confAuto:
+      shots: 30
+      name: STR_AUTO
+    costSnap:
+      time: 28
+    costAuto:
+      time: 34
+    twoHanded: true
+    battleType: 1
+    landOnly: true
+    maxRange: 60
+    snapRange: 35
+    autoRange: 30
+    minRange: 3
+    dropoff: 1
+    sprayWaypoints: 2
+    invWidth: 2
+    invHeight: 3
+    listOrder: 3563
+
+  - type: STR_AUTO_LASER_BATTERY
+    categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_AUSTRALASIA
+    requiresBuy:
+      - STR_PACIFIC_MARKET
+    costBuy: 8000
+    costSell: 6000
+    weight: 3
+    bigSprite: 1120
+    floorSprite: 1120
+    bulletSprite: 20
+    hitAnimation: 640
+    explosionSpeed: 50
+    bulletSpeed: 30
+    power: 60
+    damageType: 11
+    damageAlter:
+      RandomType: 6
+    clipSize: 45
+    battleType: 2
+    landOnly: true
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    listOrder: 3564
+
+#########################
+####### AQUATIC ########
+#######################
+
+# Sniper Rifles #
+
+  - type: STR_MILITARY_HARPOON
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES]
+    size: 0.2
+    costBuy: 2600
+    costSell: 1000
+    weight: 8
+    bigSprite: 1448
+    floorSprite: 1448
+    handSprite: 1448
+    bulletSprite: 17
+    fireSound: 19
+    bulletSpeed: 10
+    ammo:
+      0: 
+        compatibleAmmo: [ STR_HARPOON_AP, STR_HARPOON_HE, STR_HARPOON_INC, STR_HARPOON_ACID ]
+    accuracyCloseQuarters: 40
+    accuracySnap: 50
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 50
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 30
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 7
+    maxRange: 22
+    dropoff: 3
+    powerRangeReduction: 3
+    listOrder: 2310
+
+  - type: STR_HEAVY_HARPOON
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES]
+    requires:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
+    size: 0.2
+    costBuy: 4200
+    costSell: 4000
+    weight: 15
+    bigSprite: 1456
+    floorSprite: 1456
+    handSprite: 1456
+    bulletSprite: 17
+    fireSound: 24
+    bulletSpeed: 20
+    ammo:
+      0: 
+        compatibleAmmo: [ STR_HARPOON_AP, STR_HARPOON_HE, STR_HARPOON_INC, STR_HARPOON_ACID ]
+    accuracyCloseQuarters: 40
+    accuracySnap: 80
+    accuracyAimed: 135
+    tuSnap: 40
+    tuAimed: 60
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 30
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    attraction: 7
+    maxRange: 30
+    dropoff: 3
+    powerRangeReduction: 2
+    listOrder: 2311
+
+  - type: STR_HARPOON_AP
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    size: 0.1
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1472
+    floorSprite: 1472
+    hitSound: 16
+    hitAnimation: 26
+    power: 30
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmor: 1.5
+      ToArmorPre: 0.8
+    damageType: 1
+    clipSize: 1
+    invHeight: 2
+    invWidth: 1
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2315
+
+  - type: STR_HARPOON_HE
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    size: 0.1
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1480
+    floorSprite: 1480
+    hitSound: 0
+    hitAnimation: 8
+    power: 50
+    damageType: 3
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.40
+      ToTile: 1.2
+      ToArmor: 0.3
+      RadiusReduction: 40
+    clipSize: 1
+    invHeight: 2
+    invWidth: 1
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2316
+
+  - type: STR_HARPOON_INC
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO] 
+    size: 0.1
+    costBuy: 1500
+    costSell: 1000
+    weight: 2
+    bigSprite: 1488
+    floorSprite: 1488
+    handSprite: 248
+    hitSound: 0
+    hitAnimation: 8
+    power: 70
+    damageType: 2
+    clipSize: 1
+    invHeight: 2
+    invWidth: 1
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2317
+
+  - type: STR_HARPOON_ACID
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SNIPER_RIFLES, STR_AMMO]
+    size: 0.1
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1464
+    floorSprite: 1464
+    hitSound: 16
+    hitAnimation: 26
+    power: 30
+    damageType: 8
+    damageAlter:
+      ToStun: 0.5
+      ToWound: 0.2
+      ToEnergy: 0.8
+      ToArmor: 0.4
+    clipSize: 1
+    invHeight: 2
+    invWidth: 1
+    battleType: 2
+    vaporColor: 4
+    vaporDensity: 10
+    listOrder: 2318
+
+# Rifles #
+
+  - type: STR_UNDERWATER_RIFLE
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_RIFLES]
+    requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    size: 0.2
+    costBuy: 3200
+    costSell: 2000
+    weight: 7
+    bigSprite: 1264
+    floorSprite: 1264
+    handSprite: 1264
+    fireSound: [135, 136, 137]
+    reloadSound: 103
+    ammo:
+      0: 
+        tuLoad: 10
+        tuUnload: 20
+        compatibleAmmo: [ STR_UNDERWATER_RIFLE_MAG ]
+    confAimed:
+      shots: 3
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
+    accuracyCloseQuarters: 120
+    accuracyAuto: 50
+    accuracySnap: 72
+    accuracyAimed: 65
+    bulletSpeed: 10
+    tuAuto: 32
+    tuSnap: 24
+    tuAimed: 48
+    costThrow:
+      energy: 16
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 60
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    maxRange: 25
+    dropoff: 4
+    powerRangeReduction: 3
+    underwaterOnly: true
+    attraction: 8
+    vaporColor: 4
+    vaporDensity: 10
+    listOrder: 2150
+
+
+  - type: STR_UNDERWATER_RIFLE_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_RIFLES, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 550
+    costSell: 450
+    weight: 2
+    bigSprite: 1272
+    floorSprite: 1272
+    hitSound: 16
+    hitAnimation: 670
+    power: 46
+    damageType: 1
+    explosionSpeed: 50
+    bulletSpeed: 30
+    clipSize: 26
+    invWidth: 1
+    invHeight: 1
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2151
+
+# Sidearms #
+
+  - type: STR_UNDERWATER_AUTOPISTOL
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS]
+    size: 0.1
+    requiresBuyCountry: STR_ICELANDIC_UNION
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 700
+    costSell: 580
+    weight: 4
+    bigSprite: 1280
+    floorSprite: 1280
+    handSprite: 1280
+    fireSound: [135, 136, 137]
+    reloadSound: 109
+    accuracyCloseQuarters: 100
+    ammo:
+      0:
+        compatibleAmmo: [ STR_UNDERWATER_AUTOPISTOL_MAG ]
+    confAuto:
+      shots: 5
+      name: STR_AUTO
+    accuracySnap: 80
+    accuracyAimed: 80
+    accuracyAuto: 60
+    tuAuto: 22
+    tuSnap: 16
+    tuAimed: 24
+    tuLoad: 15
+    kneelBonus: 105
+    costThrow:
+      energy: 8
+    battleType: 1
+    invWidth: 1
+    invHeight: 1
+    underwaterOnly: true
+    armor: 35
+    attraction: 10
+    listOrder: 2110
+
+  - type: STR_UNDERWATER_AUTOPISTOL_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_ICELANDIC_UNION
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 450
+    costSell: 250
+    weight: 2
+    bigSprite: 1288
+    floorSprite: 1288
+    hitSound: 16
+    hitAnimation: 620
+    power: 35
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    vaporColor: 2
+    vaporDensity: 2
+    underwaterOnly: true
+    maxRange: 15
+    dropoff: 3
+    powerRangeReduction: 3
+    listOrder: 2111
+
+  - type: STR_UNDERWATER_REVOLVER
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS]
+    size: 0.1
+    requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 1296
+    floorSprite: 1296
+    handSprite: 1296
+    fireSound: [135, 136, 137]
+    reloadSound: 103
+    ammo:
+      0:
+        compatibleAmmo: [ STR_UNDERWATER_REVOLVER_CLIP ]
+    accuracySnap: 45
+    accuracyAimed: 65
+    accuracyCloseQuarters: 100
+    kneelBonus: 115
+    tuSnap: 20
+    tuAimed: 35
+    maxRange: 12
+    dropoff: 4
+    powerRangeReduction: 3
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2120
+
+  - type: STR_UNDERWATER_REVOLVER_CLIP
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_SIDEARMS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_USA
+    requiresBuy:
+      - STR_NORTH_AMERICAN_MARKET
+    costBuy: 600
+    costSell: 750
+    weight: 2
+    bigSprite: 1304
+    floorSprite: 1304
+    hitSound: 16
+    hitAnimation: 620
+    power: 50
+    damageType: 1
+    invHeight: 1
+    invWidth: 1
+    clipSize: 6
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 2
+    underwaterOnly: true
+    listOrder: 2122
+
+# Machine Guns #
+
+  - type: STR_UNDERWATER_LMG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_MACHINE_GUNS]
+    size: 0.3
+    requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 9000
+    costSell: 8000
+    weight: 12
+    bigSprite: 1312
+    floorSprite: 1312
+    handSprite: 1312
+    fireSound: [135, 136, 137]
+    reloadSound: 119
+    ammo:
+      0: 
+        compatibleAmmo: [ STR_UNDERWATER_LMG_MAG ]
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_AUTO
+      ammoSlot: 0
+      arcing: false
+    accuracyCloseQuarters: 35
+    accuracySnap: 70
+    accuracyAuto: 50
+    tuSnap: 25
+    tuAuto: 50
+    tuLoad: 25
+    snapRange: 20
+    autoRange: 20
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    sprayWaypoints: 2
+    maxRange: 22
+    dropoff: 5
+    powerRangeReduction: 3
+    underwaterOnly: true
+    attraction: 9
+    vaporColor: 5
+    vaporDensity: 10
+    listOrder: 2160
+
+  - type: STR_UNDERWATER_LMG_MAG
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_MACHINE_GUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_EURASIA_UC
+    requiresBuy:
+      - STR_NORTH_EUROPEAN_MARKET
+    costBuy: 1450
+    costSell: 1250
+    weight: 5
+    bigSprite: 1320
+    floorSprite: 1320
+    hitSound: 16
+    hitAnimation: 670
+    explosionSpeed: 50
+    bulletSpeed: 30
+    underwaterOnly: true
+    power: 50
+    damageType: 1
+    clipSize: 40
+    invWidth: 2
+    invHeight: 1
+    battleType: 2
+    vaporColor: 0
+    vaporDensity: 10
+    listOrder: 2161
+
+# Launchers #
+
+  - type: STR_NEPTUNE_TORPEDO
+    categories: [STR_EXPLOSIVE, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS]
+    size: 0.4
+    costBuy: 12500
+    requiresBuy:
+      - STR_PACIFIC_MARKET
+    costSell: 13050
+    weight: 6
+    bigSprite: 1360
+    floorSprite: 1360
+    handSprite: 1360
+    bulletSprite: 22
+    fireSound: 143
+    power: 140
+    accuracySnap: 55
+    accuracyAimed: 100
+    accuracyCloseQuarters: 65
+    oneHandedPenalty: 80
+    tuSnap: 40
+    tuAimed: 66
+    maxRange: 200 # 0
+    aimRange: 80 # 0
+    snapRange: 15 # 0
+    minRange: 8
+    #dropoff: 2
+    clipSize: 1
+    battleType: 1
+    twoHanded: false
+    blockBothHands: false
+    underwaterOnly: true
+    invWidth: 1
+    invHeight: 3
+    armor: 20
+    damageType: 3
+    waypoints: 5
+    blastRadius: 2
+    hitSound: 64
+    listOrder: 3150
+
+  - type: STR_MATADOR_TORPEDO_LAUNCHER
+    categories: [STR_EXPLOSIVE, STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_SHOTGUNS]
+    size: 0.4
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 26000
+    costSell: 30000
+    weight: 15
+    bigSprite: 1328
+    floorSprite: 1328
+    handSprite: 1328
+    fireSound: 0
+    compatibleAmmo:
+      - STR_MATADOR_AP_TORPEDO
+      - STR_MATADOR_HE_TORPEDO
+      - STR_MATADOR_SWARM_TORPEDO
+    accuracyCloseQuarters: 25
+    accuracySnap: 80
+    accuracyAimed: 125
+    tuSnap: 45
+    tuAimed: 70
+    tuLoad: 20
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    invWidth: 2
+    invHeight: 3
+    attraction: 8
+    maxRange: 25
+    underwaterOnly: true
+    vaporColor: 0
+    vaporDensity: 10
+    waypoints: 3
+    dropoff: 3
+    listOrder: 3151
+
+  - type: STR_MATADOR_AP_TORPEDO
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 8600
+    costSell: 9200
+    weight: 6
+    bigSprite: 1336
+    floorSprite: 1336
+    hitSound: 0
+    hitAnimation: 630
+    power: 75
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmor: 1.3
+      ToArmorPre: 1.5
+    damageType: 1
+    clipSize: 1
+    bulletSpeed: 10
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    attraction: 9
+    vaporColor: 5
+    vaporDensity: 10
+    listOrder: 3152
+
+  - type: STR_MATADOR_HE_TORPEDO
+    categories: [STR_EXPLOSIVE, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_AMMO]
+    size: 0.2
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 7200
+    costSell: 8000
+    weight: 6
+    bigSprite: 1344
+    floorSprite: 1344
+    hitSound: 0
+    hitAnimation: 8
+    power: 95
+    damageAlter:
+      IgnoreOverKill: false
+      ArmorEffectiveness: 0.50
+      ToArmorPre: 0.3
+      ToArmor: 0.1
+      RadiusReduction: 40
+    damageType: 3
+    clipSize: 1
+    blastRadius: 3
+    battleType: 2
+    bulletSpeed: 5
+    invWidth: 1
+    invHeight: 3
+    attraction: 9
+    vaporColor: 6
+    vaporDensity: 10
+    listOrder: 3153
+
+  - type: STR_MATADOR_SWARM_TORPEDO
+    categories: [STR_KINETIC, STR_HUMAN_TECH, STR_UNDERWATER_ONLY, STR_LAUNCHERS, STR_SHOTGUNS, STR_AMMO]
+    size: 0.1
+    requiresBuyCountry: STR_BRAZILIAN_UNION
+    requiresBuy:
+      - STR_SOUTH_AMERICAN_MARKET
+    costBuy: 9000
+    costSell: 11500
+    weight: 3
+    bigSprite: 1352
+    floorSprite: 1352
+    powerRangeThreshold: 10
+    power: 50
+    damageType: 1
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: false
+      ToWound: 1.1
+      RandomWound: true
+      ToArmor: 0.1
+    hitSound: 21
+    hitAnimation: 700
+    clipSize: 1
+    invHeight: 3
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 10
+    shotgunSpread: 25
+    battleType: 2
+    armor: 250
+    vaporColor: 7
+    vaporDensity: 10
+    powerRangeReduction: 5
+    listOrder: 3154
+
+########################
+####### GAUSS #########
+######################
+
+  - type: STR_GAUSS_PISTOL
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS]
+    size: 0.1
+    costSell: 20000
+    weight: 7
+    bigSprite: 5
+    floorSprite: 5
+    handSprite: 128
+    bulletSprite: 19
+    fireSound: [121, 122, 123]
+    reloadSound: 124
+    accuracySnap: 40
+    accuracyAimed: 70
+    tuSnap: 25
+    tuAimed: 50
+    compatibleAmmo:
+      - STR_GAUSS_PISTOL_CLIP
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 70
+  - type: STR_GAUSS_PISTOL_CLIP
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_SIDEARMS, STR_AMMO]
+    size: 0.2
+    costSell: 1050
+    weight: 2
+    bigSprite: 57
+    floorSprite: 78
+    handSprite: 216
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 660
+    power: 45
+    damageType: 4
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.5
+      RandomWound: false
+    clipSize: 20
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 5
+
+  - type: STR_GAUSS_RIFLE
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES]
+    size: 0.2
+    costSell: 36900
+    weight: 8
+    bigSprite: 0
+    floorSprite: 0
+    handSprite: 8
+    bulletSprite: 19
+    fireSound: [121, 122, 123]
+    reloadSound: 124
+    accuracySnap: 65
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 60
+    compatibleAmmo:
+      - STR_GAUSS_RIFLE_CLIP
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 70
+  - type: STR_GAUSS_RIFLE_CLIP
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_AMMO]
+    size: 0.2
+    costSell: 1950
+    weight: 3
+    bigSprite: 61
+    floorSprite: 78
+    handSprite: 224
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 660
+    power: 70
+    damageType: 4
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.5
+      RandomWound: false
+    clipSize: 15
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 10
+
+  - type: STR_HEAVY_GAUSS
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_HEAVY_WEAPONS, STR_SNIPER_RIFLES]
+    size: 0.3
+    costSell: 61000
+    weight: 18
+    bigSprite: 6
+    floorSprite: 6
+    handSprite: 16
+    bulletSprite: 19
+    fireSound: [121, 122, 123]
+    reloadSound: 124
+    accuracySnap: 50
+    accuracyAimed: 90
+    tuSnap: 40
+    tuAimed: 80
+    compatibleAmmo:
+      - STR_HEAVY_GAUSS_CLIP
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+  - type: STR_HEAVY_GAUSS_CLIP
+    categories: [STR_GAUSS, STR_HUMAN_TECH, STR_AMPHIBIOUS_EQUIPMENT, STR_RIFLES, STR_HEAVY_WEAPONS, STR_SNIPER_RIFLES, STR_AMMO]
+    size: 0.2
+    costSell: 3220
+    weight: 4
+    bigSprite: 62
+    floorSprite: 78
+    handSprite: 232
+    hitSound: [301, 302, 303, 304]
+    hitAnimation: 660
+    power: 100
+    damageType: 4
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.7
+      RandomWound: false
+    clipSize: 10
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 70
+    vaporColor: 2
+    vaporDensity: 15
+
+#################
+
+#########################
+####### ARMORS ########
+#######################
+
+  - type: STR_EXOSUIT_ARMOR
+    size: 0.8
+    costBuy: 100000
+    costSell: 80000
+  - type: STR_WRECKED_EXOSUIT_ARMOR
+    size: 0.8
+    costSell: 65000
+  - type: STR_EXOSUIT_ARMOR_CORPSE
+    weight: 35
+    bigSprite: 300
+    floorSprite: 300
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+    recover: false
+
+  - type: STR_PERSONAL_ARMOR_BROWN_CORPSE
+    weight: 35
+    bigSprite: 301
+    floorSprite: 301
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+    recover: false
+  - type: STR_PERSONAL_ARMOR_GREEN_CORPSE
+    weight: 35
+    bigSprite: 302
+    floorSprite: 302
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+    recover: false
+  - type: STR_PERSONAL_ARMOR_GRAY_CORPSE
+    weight: 35
+    bigSprite: 303
+    floorSprite: 303
+    invWidth: 2
+    invHeight: 3
+    armor: 0
+    battleType: 11
+>>>>>>> Stashed changes
     recover: false

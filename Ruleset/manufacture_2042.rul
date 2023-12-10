@@ -1,4 +1,62 @@
 manufacture:
+#VEST
+  - name: STR_SHARKVEST_M
+    category: STR_PERSONAL_ARMOR
+    requires: 
+    - STR_SHARKVEST
+    space: 10
+    time: 500
+    cost: 10000
+    requiredItems:
+      STR_AQUA_PLASTICS: 2
+    producedItems: 
+     STR_SHARKVEST: 1
+#ARMOUR
+  - name: STR_SHARK_ARMOUR_M
+    category: STR_PERSONAL_ARMOR
+    requires: 
+    - STR_SHARK_ARMOUR
+    space: 15
+    time: 750
+    cost: 25000
+    requiredItems:
+      STR_AQUA_PLASTICS: 6
+    producedItems: 
+     STR_SHARK_ARMOUR: 1
+#POWERED
+  - name: STR_POWERSHARK_M
+    category: STR_PERSONAL_ARMOR
+    requires: 
+    - STR_POWERSHARK
+    space: 15
+    time: 2500
+    cost: 75000
+    requiredItems:
+      STR_AQUA_PLASTICS: 20
+      STR_ZRBITE: 10
+      STR_MAGNETIC_NAVIGATION: 1
+    producedItems: 
+     STR_POWERSHARK: 1
+
+#WEAPONS    
+  - name: STR_NEW_PLASMA_RIFLE
+    category: STR_WEAPON
+    requires:
+     - STR_NEW_PLASMA_RIFLE
+    space: 4
+    time: 750
+    cost: 64000
+    requiredItems:
+      STR_AQUA_PLASTICS: 10
+    listOrder: 1510  
+  - name: STR_NEW_PLASMA_RIFLE_CLIP
+    category: STR_AMMUNITION
+    requires:
+     - STR_NEW_PLASMA_RIFLE
+    space: 2
+    time: 150
+    cost: 20000
+
 
   - name: STR_TFTD_ACCEL
     category: STR_WEAPON

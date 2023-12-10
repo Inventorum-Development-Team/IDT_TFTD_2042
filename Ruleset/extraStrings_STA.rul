@@ -149,8 +149,8 @@ extraStrings:
       STR_BURST_SHORT: "Burst (x{0})"
       STR_AUTO: "Full Auto"
 
-      STR_DAMAGE_11: "LASER"
-      STR_DAMAGE_12: "PLASMA"
+      STR_DAMAGE_11: "Laser"
+      STR_DAMAGE_12: "Plasma"
 
 ############################
 # Armors

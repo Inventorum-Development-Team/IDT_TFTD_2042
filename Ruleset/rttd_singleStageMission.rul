@@ -1,27 +1,5 @@
-alienDeployments:
-  - type: STR_CARGO_SHIP_P1
-    enviroEffects: STR_SURFACE_ENVIRO_GRAY
-    nextStage: ""
-  - type: STR_CRUISE_SHIP_P1
-    enviroEffects: STR_SURFACE_ENVIRO_GREEN
-    nextStage: ""
 
-  - type: STR_CARGO_SHIP_P2
-    enviroEffects: STR_SURFACE_ENVIRO_GRAY
-    shade: 8
-    alert: STR_ALIENS_ATTACK_SHIPPING_ROUTE
-    alertBackground: BACK03.SCR
-    markerName: STR_TERROR_SITE
-    duration: [4, 10]
-    despawnPenalty: 1000
 
-globe:
-  textures:
-    - id: -4
-      deployments:
-        STR_CARGO_SHIP_P1: 40
-        STR_CARGO_SHIP_P2: 30		
-        STR_CRUISE_SHIP_P1: 30
 
 extraStrings:
   - type: en-US

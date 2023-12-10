@@ -692,7 +692,7 @@ items:
     costSell: 84000
     weight: 3
     bigSprite: 389
-    floorSprite: 302
+    floorSprite: 312
     handSprite: 816
     bulletSprite: 8
     fireSound: 38
@@ -719,7 +719,7 @@ items:
     costSell: 4440
     weight: 3
     bigSprite: 393
-    floorSprite: 303
+    floorSprite: 313
     handSprite: 840
     hitSound: 31
     hitAnimation: 46
@@ -743,7 +743,7 @@ items:
     costSell: 126500
     weight: 5
     bigSprite: 388
-    floorSprite: 302
+    floorSprite: 311
     handSprite: 808
     bulletSprite: 8
     fireSound: 36
@@ -793,7 +793,7 @@ items:
     costSell: 171600
     weight: 8
     bigSprite: 387
-    floorSprite: 300
+    floorSprite: 310
     handSprite: 800
     bulletSprite: 8
     fireSound: 37

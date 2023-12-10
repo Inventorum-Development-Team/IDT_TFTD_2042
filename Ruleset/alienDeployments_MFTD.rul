@@ -10,7 +10,7 @@ alienDeployments:
   - delete: STR_CRUISE_SHIP_P1
   - delete: STR_CRUISE_SHIP_P2
   - delete: STR_CARGO_SHIP_P1
-
+  - delete: STR_CARGO_SHIP_P2
 
 # [====] Civilian, Hellrazor and Luke83's maps [====] [====] Civilian, Hellrazor and Luke83's maps [====]
 # [====] Civilian, Hellrazor and Luke83's maps [====] [====] Civilian, Hellrazor and Luke83's maps [====]
@@ -19,6 +19,7 @@ alienDeployments:
 
 # [=] XCOM-UFO City Terror Terrain [=] (Terror Mission)
   - type: STR_PORT_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_BROWN
     data:
       - alienRank: 5
         lowQty: 4
@@ -155,6 +156,7 @@ alienDeployments:
       STR_PARAMEDIC: 4
       STR_FIREFIGHTER: 4
     terrains:
+      - INDUSTRIALPORT
       - PORT
       - URBAN
     script: PORT_TERROR
@@ -174,6 +176,7 @@ alienDeployments:
 
 # [=] Cruise Ship Variants [=] (Terror Mission) (Part 1 of 2)
   - type: STR_CRUISE_SHIP_P1
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     data:
       - alienRank: 5
         lowQty: 4
@@ -329,7 +332,7 @@ alienDeployments:
       - LINERT2
       - LINERT4
       - LINERT5
-    nextStage: STR_CRUISE_SHIP_P2
+    #nextStage: STR_CRUISE_SHIP_P2
     briefing:
       title: STR_SHIP_RESCUE_MISSION
       desc: STR_SHIP_RESCUE_P1_BRIEFING
@@ -345,6 +348,7 @@ alienDeployments:
 
 # [=] Cruise Ship Interior Alternative [=] (Terror Mission)
   - type: STR_CRUISE_SHIP_P2
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     data:
       - alienRank: 5
         lowQty: 4
@@ -490,7 +494,8 @@ alienDeployments:
 
 # [=] Cargo Ship Variant [=] (Terror Mission)
   - type: STR_CARGO_SHIP_P1
-    data:
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
+    data: &CargoShipData
       - alienRank: 5
         lowQty: 4
         highQty: 6
@@ -623,7 +628,7 @@ alienDeployments:
     terrains:
       - CARGO
       - CARGO2
-    nextStage: STR_CARGO_SHIP_P2
+    #nextStage: ""
     briefing:
       title: STR_SHIP_RESCUE_MISSION
       desc: STR_SHIP_RESCUE_P1_BRIEFING
@@ -635,9 +640,19 @@ alienDeployments:
     duration: [4, 10]
     despawnPenalty: 1000
 
+  - type: STR_CARGO_SHIP_P2
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
+    data: *CargoShipData
+    shade: 8
+    alert: STR_ALIENS_ATTACK_SHIPPING_ROUTE
+    alertBackground: BACK03.SCR
+    markerName: STR_TERROR_SITE
+    duration: [4, 10]
+    despawnPenalty: 1000
 
 # [=] Abandonded Research Facility [=] (Terror Mission)
   - type: STR_ISLAND_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     data:
       - alienRank: 5
         lowQty: 4
@@ -7309,10 +7324,12 @@ alienDeployments:
       music: GMISPOSH
 
 
-
+  - type: STR_BASE_DEFENSE
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
 
 # [=] Surface Base [=] (Terror Mission - Part 1 of 2)
   - type: STR_MFTD_SURFACEBASE
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
     data:
       - alienRank: 5
         lowQty: 4
@@ -7621,21 +7638,9 @@ alienDeployments:
       background: BACK01.SCR
     markerName: STR_TERROR_SITE
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # [=] Offshore Rig [=] (Terror Mission)
   - type: STR_MFTD_OFFSHORE
+    enviroEffects: STR_SURFACE_ENVIRO_GRAY
     data:
       - alienRank: 5
         lowQty: 4
@@ -7791,6 +7796,7 @@ alienDeployments:
 
 # [=] Other Ships (Warship, Oil Tanker & Aircraft Carrier) [=] (Terror Mission)
   - type: STR_MFTD_OTHER_SHIPS_TERROR
+    enviroEffects: STR_SURFACE_ENVIRO_GREEN
     data:
       - alienRank: 5
         lowQty: 4

@@ -1,8 +1,0 @@
-ufopaedia:
-  - id: STR_LUNG
-    type_id: 15
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LUNG_UFOPEDIA
-    image_id: UPLUNG
-    listOrder: 1740
-

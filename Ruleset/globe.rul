@@ -28,7 +28,7 @@ globe: #done
   textures:
     - id: 0
       terrain:
-        - name: SEABED
+        - name: SEABED2
           weight: 75
         - name: CORAL
           weight: 25
@@ -62,7 +62,7 @@ globe: #done
       terrain:
         - name: PLANE
           weight: 50
-        - name: SEABED
+        - name: SEABED2
           weight: 25
         - name: CORAL
           weight: 25
@@ -78,7 +78,7 @@ globe: #done
       terrain:
         - name: ATLAN
           weight: 50
-        - name: SEABED
+        - name: SEABED2
           weight: 25
         - name: CORAL
           weight: 25
@@ -114,7 +114,7 @@ globe: #done
       terrain:
         - name: GAL
           weight: 50
-        - name: SEABED
+        - name: SEABED2
           weight: 25
         - name: CORAL
           weight: 25
@@ -180,7 +180,7 @@ globe: #done
       terrain:
         - name: VOLC
           weight: 50
-        - name: SEABED
+        - name: SEABED2
           weight: 25
         - name: CORAL
           weight: 25
@@ -255,8 +255,9 @@ globe: #done
         STR_ARTIFACT_SITE_P1: 100
     - id: -4
       deployments:
-        STR_CARGO_SHIP_P1: 50
-        STR_CRUISE_SHIP_P1: 50
+        STR_CARGO_SHIP_P1: 40
+        STR_CARGO_SHIP_P2: 30		
+        STR_CRUISE_SHIP_P1: 30
     - id: -5
       deployments:
         STR_POLAR_ISLAND_TERROR: 100
