@@ -81,14 +81,14 @@ units:
         - STR_MFTD_CIV_RIFLE_CLIP
         - STR_MFTD_CIV_RIFLE_CLIP
         - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+      - - STR_TFTD_BRIFLE
+        - STR_TFTD_BRIFLE_CLIP
+        - STR_TFTD_BRIFLE_CLIP
+        - STR_TFTD_BRIFLE_CLIP
+      - - STR_SCAR
+        - STR_SCAR_MAG
+        - STR_SCAR_MAG
+        - STR_MAGNA_BLAST_GRENADE
 
 # [=] CIV Military Female [=]
   - type: MFTD_CIV_MILITARY_FEMALE
@@ -117,14 +117,14 @@ units:
         - STR_MFTD_CIV_PISTOL_CLIP
         - STR_MFTD_CIV_PISTOL_CLIP
         - STR_MFTD_CIV_PISTOL_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
+      - - STR_TFTD_BPISTOL
+        - STR_TFTD_BPISTOL_CLIP
+        - STR_TFTD_BPISTOL_CLIP
+        - STR_TFTD_BPISTOL_CLIP
+      - - STR_COMBAT_HANDGUN
+        - STR_COMBAT_HANDGUN_MAG
+        - STR_COMBAT_HANDGUN_MAG
+        - STR_COMBAT_HANDGUN_MAG
 
 # [=] CIV Military Male [=]
   - type: MFTD_CIV_HEAVY_MILITARY_MALE
@@ -149,18 +149,18 @@ units:
     deathSound: 48
     liveAlien: "" # NO RECOVERABLE LIVE ALIEN
     builtInWeaponSets:
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+      - - STR_LASER_RIFLE
+        - STR_LASER_RIFLE_CLIP
+        - STR_LASER_RIFLE_CLIP
+        - STR_MEDI_KIT
+      - - STR_TACTICAL_LMG
+        - STR_TACTICAL_LMG_AP
+        - STR_TACTICAL_LMG_AP
+        - STR_MEDI_KIT
+      - - STR_AUTO_LASER
+        - STR_AUTO_LASER_BATTERY
+        - STR_AUTO_LASER_BATTERY
+        - STR_MEDI_KIT
 
 # [=] CIV Military Female [=]
   - type: MFTD_CIV_HEAVY_MILITARY_FEMALE
@@ -185,18 +185,18 @@ units:
     deathSound: 48
     liveAlien: "" # NO RECOVERABLE LIVE ALIEN
     builtInWeaponSets:
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-      - - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
-      - - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
+      - - STR_LASER_PISTOL
+        - STR_LASER_PISTOL_CLIP
+        - STR_LASER_PISTOL_CLIP
+        - STR_MEDI_KIT
+      - - STR_LASER_RIFLE
+        - STR_LASER_RIFLE_CLIP
+        - STR_LASER_RIFLE_CLIP
+        - STR_LASER_RIFLE_CLIP
+      - - STR_PRINTER_RIFLE
+        - STR_MAGNA_BLAST_GRENADE
+        - STR_MAGNA_BLAST_GRENADE
+        - STR_MEDI_KIT
 
 # [=] CIV Police Male [=]
   - type: STR_POLICE_MALE
@@ -223,19 +223,18 @@ units:
     energyRecovery: 20
     builtInWeaponSets:
       - 
-        - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_LASER_PISTOL
+        - STR_LASER_PISTOL_CLIP
+        - STR_LASER_PISTOL_CLIP
         - STR_DYE_GRENADE
       - 
-        - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_STREET_SWEEPER
+        - STR_STREET_SWEEPER_MAG
+        - STR_STREET_SWEEPER_MAG
         - STR_DYE_GRENADE
       - 
-        - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_PRINTER_RIFLE
+        - STR_DYE_GRENADE
         - STR_DYE_GRENADE
 
 # [=] CIV Police Female [=]
@@ -268,14 +267,14 @@ units:
         - STR_MFTD_CIV_PISTOL_CLIP
         - STR_DYE_GRENADE
       - 
-        - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_STREET_SWEEPER
+        - STR_STREET_SWEEPER_MAG
+        - STR_STREET_SWEEPER_MAG
         - STR_DYE_GRENADE
       - 
-        - STR_MFTD_CIV_PISTOL
-        - STR_MFTD_CIV_PISTOL_CLIP
-        - STR_MFTD_CIV_PISTOL_CLIP
+        - STR_LASER_PISTOL
+        - STR_LASER_PISTOL_CLIP
+        - STR_LASER_PISTOL_CLIP
         - STR_DYE_GRENADE
 
 # [=] CIV Police SWAT [=]
@@ -304,19 +303,21 @@ units:
     aggression: 1
     builtInWeaponSets:
       - 
-        - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
+        - STR_AUTO_SHOTGUN
+        - STR_AUTO_SHOTGUN_SLUGS
+        - STR_AUTO_SHOTGUN_SLUGS
+        - STR_AUTO_SHOTGUN_SHELLS
+        - STR_MAGNA_BLAST_GRENADE       
+      - 
+        - STR_AUTO_SHOTGUN
+        - STR_AUTO_SHOTGUN_SLUGS
+        - STR_AUTO_SHOTGUN_SLUGS
+        - STR_AUTO_SHOTGUN_SHELLS
         - STR_MAGNA_BLAST_GRENADE
       - 
-        - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MAGNA_BLAST_GRENADE
-      - 
-        - STR_MFTD_CIV_RIFLE
-        - STR_MFTD_CIV_RIFLE_CLIP
-        - STR_MFTD_CIV_RIFLE_CLIP
+        - STR_LASER_SHOTGUN
+        - STR_LASER_SHOTGUN_FOCUSED_BATTERY
+        - STR_LASER_SHOTGUN_DISPERSION_BATTERY
         - STR_MAGNA_BLAST_GRENADE
 
 # [=] CIV Female Paramedic [=]
