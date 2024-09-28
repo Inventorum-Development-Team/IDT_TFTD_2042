@@ -201,23 +201,3 @@ missionRatings:
   -99999: STR_MT_RATING_ABOMINABLE
 defeatScore: -1600
 defeatFunds: -1000000
-
-enviroEffects:
-  - type: STR_SURFACE_ENVIRO_BROWN
-    armorTransformations: 
-      STR_NONE_UC: STR_PERSONAL_ARMOR_BROWN_UC
-
-  - type: STR_SURFACE_ENVIRO_GREEN
-    armorTransformations: 
-      STR_NONE_UC: STR_PERSONAL_ARMOR_GREEN_UC
-
-  - type: STR_SURFACE_ENVIRO_GRAY
-    armorTransformations: 
-      STR_NONE_UC: STR_PERSONAL_ARMOR_GRAY_UC
-
-startingConditions:
-  - type: STR_SURFACE_CONDITION
-    #craftTransformations:
-     # STR_SPARROW: STR_SPARROW_SURFACE
-    allowedItemCategories:
-      - STR_SURFACE_ONLY

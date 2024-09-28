@@ -1,0 +1,329 @@
+mapScripts:
+
+
+
+  - type: ISLAND_TERROR
+    commands:
+    - type: addBlock
+      size: 2
+      groups: 2
+      rects:
+        - [0,3,5,2]
+    - type: addBlock
+      size: 2
+      groups: 3
+      rects:
+        - [0,3,5,2]
+    - type: addBlock
+      groups: 4
+      rects:
+        - [0,4,5,1]
+    - type: addCraft
+    - type: addBlock
+      terrain: HARVEST_ISLAND
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+
+  - type: PORT_TERROR
+    commands:
+    - type: addBlock
+      rects:
+        - [0,0,4,2]
+      blocks: 20
+    - type: addBlock
+      rects:
+        - [4,0,1,5]
+      executions: 5
+      blocks: [2, 3, 4, 5, 6, 7, 8, 9]
+      maxUses: [1, 1, 1, 1, 1, 1, 1, 1]
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: addBlock
+      terrain: HARVEST_PORT
+    - type: fillArea
+
+  - type: URBAN
+    commands:
+    - type: resize
+      size: [0, 0, 6]
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      blocks: [3, 4, 10, 11, 12, 13, 14, 15, 17, 18]
+      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [-1, -1, -1, -1, -1, 2, 2, 2, 2, -1]
+      
+  - type: URBAN_TERROR
+    commands:
+    - type: resize
+      size: [0, 0, 6]
+    - type: addBlock
+      terrain: HARVEST
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 4
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      blocks: [3, 4, 10, 11, 12, 13, 14, 15, 17, 18]
+      freqs: [3, 3, 2, 2, 2, 2, 2, 2, 2, 2]
+      maxUses: [-1, -1, -1, -1, -1, 2, 2, 2, 2, -1]
+
+  - type: CITY
+    commands:
+    - type: resize
+      size: [0, 0, 10]
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      terrain: URBAN
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      terrain: URBAN
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      terrain: URBAN
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      blocks: [8]
+      executionChances: 50
+    - type: addBlock
+      blocks: [9]
+      executionChances: 35
+    - type: addBlock
+      terrain: URBAN
+      size: 2
+      executions: 2
+      blocks: [5, 6, 9]
+    - type: addBlock
+      terrain: URBAN
+      size: 1
+      executions: 3
+      blocks: [13, 14, 15, 17]
+    - type: addBlock
+      blocks: [5, 6, 7]
+      freqs: [2, 1, 2]
+      maxUses: [2, 2, 2]
+      executions: 3
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4]
+
+  - type: CITY_TERROR
+    commands:
+    - type: resize
+      size: [0, 0, 10]
+    - type: addCraft
+    - type: addLine
+      terrain: URBAN
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      terrain: URBAN
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      terrain: URBAN
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      terrain: HARVEST
+    - type: addBlock
+      blocks: [8]
+      executionChances: 50
+    - type: addBlock
+      blocks: [9]
+      executionChances: 35
+    - type: addBlock
+      terrain: URBAN
+      size: 2
+      executions: 2
+      blocks: [5, 6, 9]
+    - type: addBlock
+      terrain: URBAN
+      size: 1
+      executions: 3
+      blocks: [13, 14, 15, 17]
+    - type: addBlock
+      blocks: [5, 6, 7]
+      freqs: [2, 1, 2]
+      maxUses: [2, 2, 2]
+      executions: 3
+    - type: fillArea
+      blocks: [0, 1, 2, 3, 4]
+
+
+
+  - type: FARM
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: fillArea
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+
+
+  - type: ALIEN_COLONY_SMALL
+    commands:
+    - type: addBlock
+      #size: 2
+      groups: 1
+    - type: addBlock
+      #size: 2
+      groups: 2
+    - type: addBlock
+      executions: 1
+      size: [1, 2]
+      groups: 5
+    - type: fillArea
+      groups: [3, 4]
+      freqs: [3, 3]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+
+  - type: ALIEN_COLONY_MEDIUM
+    commands:
+    - type: addBlock
+      groups: 1
+    - type: addBlock
+      groups: 2
+    - type: addBlock
+      executions: 1
+      size: 2
+      groups: 5
+    - type: addBlock
+      executions: 2
+      size: [1, 2]
+      groups: 5
+    - type: addBlock
+      executions: 1
+      size: [2, 1]
+      groups: 5
+    - type: fillArea
+      groups: [3, 4]
+      freqs: [3, 3]
+    - type: digTunnel
+      direction: both
+      tunnelData:
+        level: 0
+
+# [=] Ocean Trench Base [=] (Terror Site - Part 1 of 2)
+  - type: STR_MFTD_TRENCHUPPERBASE
+    commands:
+    - type: addCraft
+      rects:
+        - [2,2,1,1]
+      label: 1
+    - type: addCraft
+      rects:
+        - [2,2,1,2]
+      conditionals: [-1]
+    - type: addBlock
+      size: [3,4]
+
+
+# [=] Warehouse (Arms & Volatile) [=] (Terror Mission)
+  - type: STR_MFTD_WAREHOUSE
+    commands:
+    - type: addCraft
+      rects:
+        - [1,1,1,1]
+      label: 1
+    - type: addCraft
+      rects:
+        - [1,1,1,2]
+      conditionals: [-1]
+    - type: addBlock
+      size: [3,4]
+
+# [=] Offshore Rig [=] (Terror Mission)
+  - type: STR_MFTD_OFFSHORE_MAPSCRIPT
+    commands:
+    - type: addCraft
+      rects:
+        - [1,0,1,1]
+      label: 1
+    - type: addCraft
+      rects:
+        - [1,0,1,2]
+      conditionals: [-1]
+    - type: addBlock
+      size: 6
+
+
+# [=] Ocean Labs [=] (Terror Mission)
+  - type: STR_MFTD_OCEANLABS_MAPSCRIPT
+    commands:
+    - type: addBlock
+      size: 4
+
+
+

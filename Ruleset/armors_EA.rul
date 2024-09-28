@@ -1,0 +1,1843 @@
+armors:
+  - type: STR_DISPLACER_ARMOR_UC
+    spriteSheet: DISPLACER_ARMOR.PCK
+    spriteInv: DISPLACER.SPK
+    corpseBattle:
+      - STR_DISPLACER_ARMOR_CORPSE
+    corpseGeo: STR_WRECKED_DISPLACER_ARMOR
+    storeItem: STR_DISPLACER_ARMOR
+    frontArmor: 145
+    sideArmor: 100
+    rearArmor: 100
+    underArmor: 75
+    drawingRoutine: 0
+    forcedTorso: 1
+    damageModifier:
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.7
+      - 0.7
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.25
+    movementType: 1
+    spriteFaceGroup: 0
+    spriteHairGroup: 0
+    drawBubbles: true
+    loftemps: 3
+    customArmorPreviewIndex: 6
+    visibilityAtDark: 15
+    stats:
+      tu: 20
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 5
+      firing: 5
+      throwing: 5
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 5
+      mana: 0
+
+  - delete: STR_NONE_UC
+
+  - &STR_DIVINGSUIT
+    type: STR_DIVINGSUIT
+    spriteSheet: DIV.PCK
+    spriteInv: MAN_0
+    storeItem: STR_NONE
+    corpseItem: STR_CORPSE
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 0
+
+  - type: STR_DIVINGSUIT_LAND
+    refNode: *STR_DIVINGSUIT
+    ufopediaType: STR_DIVINGSUIT
+    spriteSheet: DIV_LAND.PCK
+    storeItem: STR_TEST
+    isHidden: true
+
+  - &STR_HVYDIV_UC
+    type: STR_HVYDIV_UC
+    spriteSheet: HVYDIV_ARMOR.PCK
+    spriteInv: HVYDIVMAN
+    corpseBattle:
+      - STR_HVYDIV_CORPSE
+    storeItem: STR_HVYDIV
+    frontArmor: 32
+    sideArmor: 24
+    rearArmor: 16
+    underArmor: 14
+    damageModifier:
+      - 1.0
+      - 1.0 # AP
+      - 1.0 # Fire
+      - 1.0 # HE
+      - 1.0 # Gauss
+      - 1.0 # Sonic
+      - 1.0 # Stun
+      - 1.6 # Melee
+      - 1.5 # Acid
+      - 1.0 # Smoke
+      - 1.0 # laser
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    customArmorPreviewIndex: 1
+    weight: 10
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      health: 5
+      bravery: 5
+      reactions: -5
+      firing: -5
+      throwing: -5
+
+  - type: STR_HVYDIV_LAND
+    refNode: *STR_HVYDIV_UC
+    ufopediaType: STR_HVYDIV_UC
+    spriteSheet: HVYDIV_LAND.PCK
+    storeItem: STR_TEST
+    isHidden: true
+
+  - &STR_HVYARM_UC
+    type: STR_HVYARM_UC
+    spriteSheet: HVYARM_ARMOR.PCK
+    spriteInv: HVYARMMAN
+    storeItem: STR_HVYARM
+    corpseBattle:    
+      - STR_HVYARM_CORPSE
+    corpseGeo: STR_WRECKED_HVYARM
+    frontArmor: 85
+    sideArmor: 55
+    rearArmor: 40
+    underArmor: 40
+    damageModifier:
+      - 1.0
+      - 0.9 # AP
+      - 0.8 # Fire
+      - 1.0 # HE
+      - 0.8 # Gauss
+      - 0.95 # Sonic
+      - 1.1 # Stun
+      - 1.2 # Melee
+      - 1.1 # Acid
+      - 1.0 # Smoke
+      - 0.8 # Laser
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    customArmorPreviewIndex: 3
+    weight: 7
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      health: 8
+      bravery: 5
+      reactions: -5
+
+  - type: STR_HVYARM_LAND
+    refNode: *STR_HVYARM_UC
+    ufopediaType: STR_HVYARM_UC
+    spriteSheet: HVYARM_LAND.PCK
+    storeItem: STR_TEST
+
+  - delete: STR_PLASTIC_AQUA_ARMOR_UC
+
+  - &STR_PLASTIC_AQUA_ARMOR_UC
+    type: STR_PLASTIC_AQUA_ARMOR_UC
+    spriteSheet: ARM_ARMOR.PCK
+    spriteInv: MAN_1
+    corpseBattle:    
+      - STR_CORPSE_ARMOR
+    corpseGeo: STR_WRECKED_PLASTIC_ARMOR
+    storeItem: STR_PLASTIC_AQUA_ARMOR
+    frontArmor: 60
+    sideArmor: 35
+    rearArmor: 30
+    underArmor: 25
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.8
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.1
+      - 1.0
+      - 0.9
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    customArmorPreviewIndex: 2
+
+  - type: STR_PLASTIC_AQUA_ARMOR_LAND
+    refNode: *STR_PLASTIC_AQUA_ARMOR_UC
+    ufopediaType: STR_PLASTIC_AQUA_ARMOR_UC
+    spriteSheet: ARM_LAND.PCK
+    storeItem: STR_TEST
+    isHidden: true
+
+  - &STR_ION_ARMOR_UC
+    type: STR_ION_ARMOR_UC
+    spriteSheet: ION_ARMOR.PCK
+    spriteInv: MAN_2
+    storeItem: STR_ION_ARMOR
+    frontArmor: 140
+    sideArmor: 80
+    rearArmor: 70
+    underArmor: 60
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.0
+      - 0.8
+      - 0.7
+      - 0.85
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.0
+      - 0.8
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    forcedTorso: 1
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ION
+    corpseGeo: STR_WRECKED_ION_ARMOR
+    customArmorPreviewIndex: 4
+
+  - type: STR_ION_ARMOR_LAND
+    refNode: *STR_ION_ARMOR_UC
+    ufopediaType: STR_ION_ARMOR_UC
+    spriteSheet: ION_WATER.PCK  
+    isHidden: true   
+    storeItem: STR_TEST
+
+  - type: STR_MAGNETIC_ION_ARMOR_UC
+    spriteSheet: MAGION.PCK
+    spriteInv: MAN_3
+    storeItem: STR_MAGNETIC_ION_ARMOR
+    frontArmor: 130
+    sideArmor: 70
+    rearArmor: 100
+    underArmor: 55
+    movementType: 3
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.0
+      - 0.85
+      - 0.75
+      - 0.95
+      - 1.0
+      - 1.1
+      - 1.0
+      - 0.0
+      - 0.8
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    forcedTorso: 2
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_CORPSE_ION
+    corpseGeo: STR_WRECKED_MAG_ARMOR
+    customArmorPreviewIndex: 5
+
+  - &BIO_ARM
+    type: BIO_ARM
+    spriteSheet: BIOARMOR.PCK
+    spriteInv: BIOMAN
+    corpseBattle:
+      - STR_BIOARM_CORPSE
+    storeItem: STR_BIOARM
+    frontArmor: 65
+    sideArmor: 38
+    rearArmor: 32
+    underArmor: 28
+    damageModifier:
+      - 1.0
+      - 0.75 # AP
+      - 1.25 # Fire
+      - 0.25 # HE
+      - 0.8 # Gauss
+      - 0.9 # Sonic
+      - 0.5 # Stun
+      - 0.5 # Melee
+      - 2.0 # Acid
+      - 0.5 # Smoke
+      - 1.5 # laser
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    customArmorPreviewIndex: 7
+    movementType: 3
+    spriteFaceGroup: 10
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 20
+      stamina: 0
+      health: 5
+      bravery: 0
+      reactions: 8
+      firing: 5
+      throwing: 0
+      strength: 8
+      psiStrength: 0
+      psiSkill: -40
+      melee: 5
+      mana: 0
+
+  - type: BIO_ARM_LAND
+    refNode: *BIO_ARM
+    ufopediaType: BIO_ARM
+    spriteSheet: BIOARMOR_LAND.PCK  
+    isHidden: true   
+    storeItem: STR_TEST
+
+  - &HVYBIO_ARM
+    type: HVYBIO_ARM
+    spriteSheet: BIOARMORHVY.PCK
+    spriteInv: HVYBIOMAN
+    corpseBattle:
+      - STR_HVYBIOARM_CORPSE
+    storeItem: STR_HVYBIOARM
+    frontArmor: 128
+    sideArmor: 64
+    rearArmor: 48
+    underArmor: 14
+    damageModifier:
+      - 1.0
+      - 0.8 # AP
+      - 1.0 # Fire
+      - 0.5 # HE
+      - 0.8 # Gauss
+      - 0.9 # Sonic
+      - 0.5 # Stun
+      - 1.0 # Melee
+      - 2.0 # Acid
+      - 1.0 # Smoke
+      - 1.2 # laser
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    customArmorPreviewIndex: 8
+    spriteFaceGroup: 10
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 0
+      stamina: 0
+      health: 20
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 10
+      psiStrength: 0
+      psiSkill: -40
+      melee: 20
+      mana: 0
+
+  - type: HVYBIO_ARM_LAND
+    refNode: *HVYBIO_ARM
+    ufopediaType: HVYBIO_ARM
+    spriteSheet: BIOARMORHVY_LAND.PCK  
+    isHidden: true   
+    storeItem: STR_TEST
+
+  - type: STR_BIOWEAPON_ARM
+    spriteInv: XC_BW
+    ufopediaType: STR_BIOWEAP
+    damageModifier:
+      - 1.0
+      - 0.25 # AP
+      - 0.25 # Fire
+      - 0.25 # HE
+      - 0.25 # Gauss
+      - 0.25 # Sonic
+      - 1.0 # Stun
+      - 0.5 # Melee
+      - 1.0 # Acid
+      - 1.0 # Smoke
+      - 0.25 # laser
+    recovery:
+      health:
+        flatOne: 15
+    spriteSheet: BIOWEAPON.PCK
+    allowInv: false
+    corpseGeo: STR_TRISCENE_CORPSE
+    corpseBattle:
+      - BIOWEAP_CORPSE_1
+      - BIOWEAP_CORPSE_2
+      - BIOWEAP_CORPSE_3
+      - BIOWEAP_CORPSE_4
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 100
+    size: 2
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 20
+
+
+  - &EXOSUIT_ARM
+    type: EXOSUIT_ARM
+    spriteSheet: EXOSUIT.PCK
+    spriteInv: EXOSUIT
+    storeItem: STR_EXOSUIT
+    frontArmor: 125
+    sideArmor: 70
+    rearArmor: 90
+    underArmor: 60
+    damageModifier:
+      - 1.0
+      - 0.5
+      - 0.0
+      - 0.5
+      - 0.5
+      - 0.75
+      - 0.3
+      - 1.0
+      - 0.0
+      - 0.0
+      - 1.5
+    loftemps: 3
+    drawingRoutine: 0
+    drawBubbles: true
+    forcedTorso: 0
+    spriteFaceGroup: 14
+    spriteFaceColor: [160, 160, 64, 160, 160, 64, 160, 160] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 4
+    spriteHairColor: [130, 160, 201, 130, 64, 198, 160, 64] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_EXOSUIT_CORPSE
+    corpseGeo: STR_EXOSUIT_WRECKED
+    customArmorPreviewIndex: 9
+    movementType: 4
+    allowsKneeling: false
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: -20
+      firing: 25
+      throwing: 25
+      strength: 40
+      psiStrength: 0
+      psiSkill: -40
+      melee: 0
+      mana: 0
+
+  - type: EXOSUIT_ARM_LAND
+    refNode: *EXOSUIT_ARM
+    ufopediaType: EXOSUIT_ARM
+    spriteSheet: EXOSUIT_LAND.PCK  
+    isHidden: true   
+    storeItem: STR_TEST
+
+  - type: GORGON_ARMOR
+    spriteSheet: GORGON.PCK
+    spriteInv: XC_GR
+    allowInv: false
+    corpseBattle:
+      - STR_GORGON_CORPSE_4
+      - STR_GORGON_CORPSE_3
+      - STR_GORGON_CORPSE_2
+      - COELACANTH_CORPSE_1
+    corpseGeo: STR_GORGON_WRECKED
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 5
+
+  - type: STR_DEFENSE_AP_TURRET_ARMOR
+    spriteSheet: DEFENSE_TURRET_AP.PCK
+    allowInv: false
+    corpseGeo: STR_DEFENSE_AP_TURRET_CORPSE
+    corpseBattle:
+      - STR_DEFENSE_AP_TURRET_CORPSE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
+    size: 1
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 FIRE
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.0 # 6 STUN
+      - 0.8 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+    overKill: 2
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+    fearImmune: true
+    loftempsSet: [ 6 ]
+    drawingRoutine: 19
+    allowsKneeling: false
+    allowsMoving: false
+
+  - type: STR_DEFENSE_GS_TURRET_ARMOR
+    spriteSheet: DEFENSE_TURRET_GS.PCK
+    allowInv: false
+    corpseGeo: STR_DEFENSE_GS_TURRET_CORPSE
+    corpseBattle:
+      - STR_DEFENSE_GS_TURRET_CORPSE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
+    size: 1
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 FIRE
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.0 # 6 STUN
+      - 0.8 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+    overKill: 2
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+    fearImmune: true
+    loftempsSet: [ 6 ]
+    drawingRoutine: 19
+    allowsKneeling: false
+    allowsMoving: false
+
+  - type: STR_DEFENSE_SN_TURRET_ARMOR
+    spriteSheet: DEFENSE_TURRET_SN.PCK
+    allowInv: false
+    corpseGeo: STR_DEFENSE_SN_TURRET_CORPSE
+    corpseBattle:
+      - STR_DEFENSE_SN_TURRET_CORPSE
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
+    size: 1
+    damageModifier:
+      - 1.0 # 0 NONE
+      - 1.0 # 1 ARMOR PIERCING
+      - 0.5 # 2 FIRE
+      - 1.0 # 3 HIGH EXPLOSIVE
+      - 1.0 # 4 LASER
+      - 1.0 # 5 PLASMA
+      - 0.0 # 6 STUN
+      - 0.8 # 7 MELEE
+      - 1.0 # 8 ACID
+      - 0.0 # 9 SMOKE
+    overKill: 2
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+    fearImmune: true
+    loftempsSet: [ 6 ]
+    drawingRoutine: 19
+    allowsKneeling: false
+    allowsMoving: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+  - &AQUATOID_ARMOR0
+    type: AQUATOID_ARMOR0
+    spriteInv: AL_AQ
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+      - 1.0
+    spriteSheet: AQUA.PCK
+    corpseItem: STR_AQUATOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    loftemps: 2
+    drawingRoutine: 15
+
+  - type: AQUATOID_ARMOR_NAV
+    refNode: *AQUATOID_ARMOR0
+    spriteSheet: AQUA_NAV.PCK
+    corpseBattle:
+      - STR_AQUATOID_CORPSE_NAV
+    corpseGeo: STR_AQUATOID_CORPSE
+
+  - type: AQUATOID_ARMOR_CMD
+    refNode: *AQUATOID_ARMOR0
+    spriteSheet: AQUA_CMD.PCK
+    corpseBattle:
+      - STR_AQUATOID_CORPSE_CMD
+    corpseGeo: STR_AQUATOID_CORPSE
+
+  - type: AQUATOID_ARMOR_SQD
+    refNode: *AQUATOID_ARMOR0
+    spriteSheet: AQUA_SQD.PCK
+    corpseBattle:
+      - STR_AQUATOID_CORPSE_SQD
+    corpseGeo: STR_AQUATOID_CORPSE
+
+  - type: AQUATOID_ARMOR_MED
+    refNode: *AQUATOID_ARMOR0
+    spriteSheet: AQUA_MED.PCK
+    corpseBattle:
+      - STR_AQUATOID_CORPSE_MED
+    corpseGeo: STR_AQUATOID_CORPSE
+
+  - type: AQUATOID_ARMOR_TEC
+    refNode: *AQUATOID_ARMOR0
+    spriteSheet: AQUA_TEC.PCK
+    corpseBattle:
+      - STR_AQUATOID_CORPSE_TEC
+    corpseGeo: STR_AQUATOID_CORPSE
+
+
+
+  - type: DEEP_ONE_ARMOR0
+    spriteInv: AL_DP
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.8
+      - 0.9
+      - 1.1
+      - 1.0
+      - 1.2
+      - 0.0
+      - 1.0
+      - 1.2
+    spriteSheet: DEEPONE.PCK
+    allowInv: false
+    corpseItem: STR_DEEP_ONE_CORPSE
+    frontArmor: 8
+    sideArmor: 6
+    rearArmor: 4
+    underArmor: 12
+    loftemps: 3
+    drawingRoutine: 14
+    drawBubbles: true
+
+  - &GILLMAN_ARMOR0
+    type: GILLMAN_ARMOR0
+    spriteInv: AL_GM
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.1
+      - 1.0
+      - 1.2
+      - 0.0
+      - 1.0
+      - 1.2
+    spriteSheet: GILLMAN.PCK
+    corpseItem: STR_GILLMAN_CORPSE
+    frontArmor: 15
+    sideArmor: 12
+    rearArmor: 14
+    underArmor: 12
+    loftemps: 3
+    drawingRoutine: 14
+    drawBubbles: true
+
+  - type: GILLMAN_ARMOR_NAV
+    refNode: *GILLMAN_ARMOR0
+    spriteSheet: GILLMAN_NAV.PCK
+    corpseBattle:
+      - STR_GILLMAN_CORPSE_NAV
+    corpseGeo: STR_GILLMAN_CORPSE
+
+  - type: GILLMAN_ARMOR_CMD
+    refNode: *GILLMAN_ARMOR0
+    spriteSheet: GILLMAN_CMD.PCK
+    corpseBattle:
+      - STR_GILLMAN_CORPSE_CMD
+    corpseGeo: STR_GILLMAN_CORPSE
+
+  - type: GILLMAN_ARMOR_SQD
+    refNode: *GILLMAN_ARMOR0
+    spriteSheet: GILLMAN_SQD.PCK
+    corpseBattle:
+      - STR_GILLMAN_CORPSE_SQD
+    corpseGeo: STR_GILLMAN_CORPSE
+
+  - type: GILLMAN_ARMOR_MED
+    refNode: *GILLMAN_ARMOR0
+    spriteSheet: GILLMAN_MED.PCK
+    corpseBattle:
+      - STR_GILLMAN_CORPSE_MED
+    corpseGeo: STR_GILLMAN_CORPSE
+
+  - type: GILLMAN_ARMOR_TEC
+    refNode: *GILLMAN_ARMOR0
+    spriteSheet: GILLMAN_TEC.PCK
+    corpseBattle:
+      - STR_GILLMAN_CORPSE_TEC
+    corpseGeo: STR_GILLMAN_CORPSE
+
+  - &TASOTH_ARMOR0
+    type: TASOTH_ARMOR0
+    spriteInv: AL_TA
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 0.4
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.1
+      - 0.9
+      - 0.0
+      - 0.85
+    spriteSheet: TASOTHS.PCK
+    corpseItem: STR_TASOTH_CORPSE
+    frontArmor: 20
+    sideArmor: 20
+    rearArmor: 20
+    underArmor: 10
+    loftemps: 3
+    drawingRoutine: 14
+    drawBubbles: true
+
+  - type: TASOTH_ARMOR_SQD
+    refNode: *TASOTH_ARMOR0
+    spriteSheet: TASOTH_SQD.PCK
+    corpseBattle:
+      - STR_TASOTH_CORPSE_SQD
+    corpseGeo: STR_TASOTH_CORPSE
+
+
+  - type: CALCINITE_ARMOR0
+    spriteInv: AL_CAL
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 0.0
+      - 1.0
+      - 0.75
+    spriteSheet: CALCIN.PCK
+    allowInv: false
+    corpseItem: STR_CALCINITE_CORPSE
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 10
+    loftemps: 3
+    drawingRoutine: 14
+    drawBubbles: true
+
+  - type: TENTACULAT_ARMOR0
+    spriteInv: AL_TEN
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.5
+      - 1.0
+      - 1.1
+      - 1.1
+      - 1.1
+      - 0.0
+      - 1.1
+      - 1.0
+    spriteSheet: TENTAC.PCK
+    allowInv: false
+    corpseItem: STR_TENTACULAT_CORPSE
+    frontArmor: 35
+    sideArmor: 25
+    rearArmor: 15
+    underArmor: 5
+    movementType: 1
+    loftemps: 2
+    drawingRoutine: 19
+
+  - &LOBSTERMAN_ARMOR0
+    type: LOBSTERMAN_ARMOR0
+    spriteInv: AL_LOB
+    frontArmor: 5
+    sideArmor: 13
+    rearArmor: 18
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 0.2
+      - 0.3
+      - 0.4
+      - 0.3
+      - 0.5
+      - 1.1
+      - 2.0
+      - 0.0
+      - 1.1
+      - 0.5
+    spriteSheet: LOBSTER.PCK
+    corpseItem: STR_LOBSTERMAN_CORPSE
+    damageModifier:
+    loftemps: 4
+    drawingRoutine: 14
+    drawBubbles: true
+
+  - type: LOBSTERMAN_ARMOR_NAV
+    refNode: *LOBSTERMAN_ARMOR0
+    spriteSheet: Lobsterman_NAV.PCK
+    corpseBattle:
+      - STR_LOBSTERMAN_CORPSE_NAV
+    corpseGeo: STR_LOBSTERMAN_CORPSE
+
+  - type: LOBSTERMAN_ARMOR_TEC
+    refNode: *LOBSTERMAN_ARMOR0
+    spriteSheet: Lobsterman_TEC.PCK
+    corpseBattle:
+      - STR_LOBSTERMAN_CORPSE_TEC
+    corpseGeo: STR_LOBSTERMAN_CORPSE
+
+  - type: LOBSTERMAN_ARMOR_SQD
+    refNode: *LOBSTERMAN_ARMOR0
+    spriteSheet: Lobsterman_SQD.PCK
+    corpseBattle:
+      - STR_LOBSTERMAN_CORPSE_SQD
+    corpseGeo: STR_LOBSTERMAN_CORPSE
+
+  - type: LOBSTERMAN_ARMOR_CMD
+    refNode: *LOBSTERMAN_ARMOR0
+    spriteSheet: Lobsterman_CMD.PCK
+    corpseBattle:
+      - STR_LOBSTERMAN_CORPSE_CMD
+    corpseGeo: STR_LOBSTERMAN_CORPSE
+
+  - type: LOBSTERMAN_ARMOR_MED
+    refNode: *LOBSTERMAN_ARMOR0
+    spriteSheet: Lobsterman_MED.PCK
+    corpseBattle:
+      - STR_LOBSTERMAN_CORPSE_MED
+    corpseGeo: STR_LOBSTERMAN_CORPSE
+
+
+
+#UNUSED
+  - type: LOBSTERMAN_ARMOR1
+    spriteInv: AL_LOB
+    ufopediaType: LOBSTERMAN_ARMOR0
+    frontArmor: 7
+    sideArmor: 15
+    rearArmor: 20
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 0.2
+      - 0.3
+      - 0.4
+      - 0.3
+      - 0.5
+      - 1.1
+      - 2.0
+      - 0.0
+      - 1.1
+      - 0.5
+    spriteSheet: LOBSTER.PCK
+    corpseItem: STR_LOBSTERMAN_CORPSE
+    loftemps: 4
+    drawingRoutine: 14
+    drawBubbles: true
+#UNUSED
+  - type: LOBSTERMAN_ARMOR2
+    spriteInv: AL_LOB
+    ufopediaType: LOBSTERMAN_ARMOR0
+    frontArmor: 9
+    sideArmor: 17
+    rearArmor: 22
+    underArmor: 10
+    damageModifier:
+      - 1.0
+      - 0.2
+      - 0.3
+      - 0.4
+      - 0.3
+      - 0.5
+      - 1.1
+      - 2.0
+      - 0.0
+      - 1.1
+      - 0.5
+    spriteSheet: LOBSTER.PCK
+    corpseItem: STR_LOBSTERMAN_CORPSE
+    loftemps: 4
+    drawingRoutine: 14
+    drawBubbles: 
+
+
+
+
+
+
+  - type: XARQUID_ARMOR0
+    spriteInv: AL_XR
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.6
+      - 1.2
+      - 0.7
+      - 0.9
+      - 1.45
+      - 0.0
+      - 0.9
+      - 1.0
+    spriteSheet: XARQUID.PCK
+    allowInv: false
+    corpseGeo: STR_XARQUID_CORPSE
+    corpseBattle:
+      - XARQUID_CORPSE_1
+      - XARQUID_CORPSE_2
+      - XARQUID_CORPSE_3
+      - XARQUID_CORPSE_4
+    frontArmor: 50
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 5
+    movementType: 1
+    size: 2
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 21
+    constantAnimation: true
+  - type: BIODRONE_ARMOR0
+    spriteInv: AL_BIO
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 0.6
+      - 0.6
+      - 0.7
+      - 0.9
+      - 0.9
+      - 1.45
+      - 0.0
+      - 0.9
+      - 0.8
+    spriteSheet: BIODRON.PCK
+    allowInv: false
+    corpseItem: STR_BIODRONE_CORPSE
+    movementType: 1
+    loftemps: 2
+    drawingRoutine: 16
+    constantAnimation: true
+  - type: HALLUCINOID_ARMOR0
+    spriteInv: AL_HAL
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 1.7
+      - 0.7
+      - 1.0
+      - 0.8
+      - 1.0
+      - 0.6
+      - 0.0
+      - 1.0
+      - 1.0
+    spriteSheet: HALLUCIN.PCK
+    allowInv: false
+    corpseGeo: STR_HALLUCINOID_CORPSE
+    corpseBattle:
+      - HALLUCINOID_CORPSE_1
+      - HALLUCINOID_CORPSE_2
+      - HALLUCINOID_CORPSE_3
+      - HALLUCINOID_CORPSE_4
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 25
+    size: 2
+    movementType: 1
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 12
+    constantAnimation: true
+  - type: TRISCENE_ARMOR0
+    spriteInv: AL_TRI
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.9
+      - 1.1
+      - 0.0
+      - 0.9
+      - 1.0
+    spriteSheet: TRISCEN.PCK
+    allowInv: false
+    corpseGeo: STR_TRISCENE_CORPSE
+    corpseBattle:
+      - TRISCENE_CORPSE_1
+      - TRISCENE_CORPSE_2
+      - TRISCENE_CORPSE_3
+      - TRISCENE_CORPSE_4
+    frontArmor: 120
+    sideArmor: 110
+    rearArmor: 110
+    underArmor: 8
+    size: 2
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 20
+
+
+
+#Alien Armors
+
+
+
+  - &SLUGMAN_SLD
+    type: SLUGMAN_SLD
+    spriteSheet: SLUGMAN_SLD.PCK
+    spriteInv: AL_SLG
+    ufopediaType: SLUGMAN_SLD
+    corpseBattle:
+      - STR_SLUGMAN_CORPSE
+    corpseGeo: STR_SLUGMAN_CORPSE
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+    drawingRoutine: 6
+    damageModifier:
+      - 1.0
+      - 0.75
+      - 0.5
+      - 0.5
+      - 0.75
+      - 0.5
+      - 1.5
+      - 0.5
+      - 0.0
+      - 1.1
+      - 0.4
+    drawBubbles: true
+    loftemps: 3
+
+  - type: SLUGMAN_CMD
+    refNode: *SLUGMAN_SLD
+    spriteSheet: SLUGMAN_CMD.PCK
+    corpseBattle:
+      - STR_SLUGMAN_CORPSE_CMD
+    corpseGeo: STR_SLUGMAN_CORPSE
+
+  - type: SLUGMAN_SQD
+    refNode: *SLUGMAN_SLD
+    spriteSheet: SLUGMAN_SQD.PCK
+    corpseBattle:
+      - STR_SLUGMAN_CORPSE_SQD
+    corpseGeo: STR_SLUGMAN_CORPSE
+
+  - type: SLUGMAN_TEC
+    refNode: *SLUGMAN_SLD
+    spriteSheet: SLUGMAN_TEC.PCK
+    corpseBattle:
+      - STR_SLUGMAN_CORPSE_TEC
+    corpseGeo: STR_SLUGMAN_CORPSE
+
+  - type: SLUGMAN_NAV
+    refNode: *SLUGMAN_SLD
+    spriteSheet: SLUGMAN_NAV.PCK
+    corpseBattle:
+      - STR_SLUGMAN_CORPSE_NAV
+    corpseGeo: STR_SLUGMAN_CORPSE
+
+  - type: SLUGMAN_MED
+    refNode: *SLUGMAN_SLD
+    spriteSheet: SLUGMAN_MED.PCK
+    corpseBattle:
+      - STR_SLUGMAN_CORPSE_MED
+    corpseGeo: STR_SLUGMAN_CORPSE
+
+  - type: MOLLUSCOID_ARM
+    spriteSheet: Molluscoid.PCK
+    spriteInv: AL_MSC
+    corpseBattle:
+      - STR_MOLLUSCOID_CORPSE
+    corpseGeo: STR_MOLLUSCOID_CORPSE
+    frontArmor: 10
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 10
+    drawingRoutine: 4
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.5
+      - 0.9
+      - 1.1
+      - 1.1
+      - 1.1
+      - 0.0
+      - 1.1
+      - 0.25
+    drawBubbles: true
+    loftemps: 3
+  - type: WILD_TRISCENE_ARM
+    spriteSheet: WILD_TRISCENE.PCK
+    corpseBattle:
+      - TRISCENE_CORPSE_1
+      - TRISCENE_CORPSE_2
+      - TRISCENE_CORPSE_3
+      - TRISCENE_CORPSE_4
+    corpseGeo: STR_TRISCENE_CORPSE
+    frontArmor: 40
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 20
+    drawingRoutine: 20
+    size: 2
+    loftempsSet: [92, 89, 90, 91]
+    damageModifier:
+      - 1.0
+      - 1.5
+      - 0.9
+      - 0.9
+      - 0.9
+      - 1.1
+      - 0.9
+      - 1.1
+      - 0.0
+      - 0.9
+      - 1.0
+    allowInv: false
+  - type: TERRORPOD_ARM
+    spriteSheet: TERRORPOD.PCK
+    spriteInv: AL_TRR
+    corpseBattle:
+      - TERRORPOD_CORPSE_1
+      - TERRORPOD_CORPSE_2
+      - TERRORPOD_CORPSE_3
+      - TERRORPOD_CORPSE_4
+    corpseGeo: STR_TERRORPOD_CORPSE
+    frontArmor: 90
+    sideArmor: 90
+    rearArmor: 90
+    underArmor: 20
+    drawingRoutine: 20
+    size: 2
+    loftempsSet: [92, 89, 90, 91]
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.9
+      - 2.0
+      - 0.5
+      - 0.9
+      - 0.5
+      - 0.0
+      - 0.9
+      - 0.25
+    allowInv: false
+  - type: KRAKEN_ARM
+    spriteSheet: KRAKEN.PCK
+    spriteInv: AL_KRN
+    corpseBattle:
+      - STR_KRAKEN_CORPSE_1
+      - STR_KRAKEN_CORPSE_2
+      - STR_KRAKEN_CORPSE_3
+      - STR_KRAKEN_CORPSE_4
+    corpseGeo: STR_KRAKEN_CORPSE
+    frontArmor: 25
+    sideArmor: 25
+    rearArmor: 25
+    underArmor: 25
+    drawingRoutine: 12
+    size: 2
+    loftempsSet: [92, 89, 90, 91]
+    constantAnimation: true
+    damageModifier:
+      - 1.0
+      - 0.6
+      - 0.6
+      - 0.6
+      - 1.1
+      - 1.2
+      - 1.1
+      - 1.1
+      - 0.0
+      - 1.0
+      - 1.0
+    movementType: 1
+    allowInv: false
+
+  - type: MUTANT_ARM
+    spriteSheet: MUTANT.PCK
+    spriteInv: AL_MUT
+    allowInv: true
+    corpseBattle:
+      - STR_MUTANT_CORPSE
+    corpseGeo: STR_MUTANT_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 5
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.8
+      - 1.3
+      - 1.0 #laser
+    recovery:
+      health:
+        stunNormalized: -0.165
+    loftempsSet: [3]
+    drawingRoutine: 18
+    allowInv: false
+
+  - type: POLYP_ARM
+    spriteSheet: POLYP.PCK
+    spriteInv: AL_PLY
+    allowInv: false
+    corpseBattle:
+      - STR_POLYP_CORPSE
+    corpseGeo: STR_POLYP_CORPSE
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    drawingRoutine: 8
+    movementType: 1
+    constantAnimation: true
+    damageModifier:
+      - 1.0
+      - 1.0 # AP
+      - 1.5 # Fire
+      - 1.5 # HE
+      - 1.0 # Gauss
+      - 1.2 # Sonic
+      - 0.7 # Stun
+      - 0.8 # Melee
+      - 0.2 # Acid
+      - 1.0 # Smoke
+      - 1.3 # laser
+    loftempsSet: [3]
+
+  - type: PROBE_ARM
+    spriteSheet: PROBE.PCK
+    spriteInv: AL_PRB
+    allowInv: false
+    corpseItem: STR_PROBE_CORPSE
+    frontArmor: 12
+    sideArmor: 12
+    rearArmor: 12
+    underArmor: 0
+    movementType: 2
+    damageModifier:
+      - 1.0
+      - 0.85 # AP
+      - 0.5 # Fire
+      - 1.2 # HE
+      - 1.2 # Gauss
+      - 1.2 # Sonic
+      - 1.5 # Stun
+      - 0.8 # Melee
+      - 1.2 # Acid
+      - 1.2 # Smoke
+      - 0.5 # laser
+    loftemps: 2
+    drawingRoutine: 0
+    scripts:
+      selectUnitSprite: |
+        var int reg0;
+        var int reg1;
+        var int reg2;
+        var int reg3;
+        var int in0 sprite_index; #init `in0` with value from `sprite_index`
+        var int in1 sprite_offset;
+       
+        if eq blit_part BODYPART_TORSO;
+          set reg0 anim_frame;
+          unit.getId reg1;
+          add reg0 reg1;
+          div reg0 4;
+          mod reg0 2;
+          offset reg0 8 272;
+          add reg0 in1;
+          return reg0;
+        end;
+        add in0 in1;
+        return in0;
+    
+
+  - type: COELACANTH_ARMOR_PLASTIC
+    spriteSheet: COELGAUSS.PCK
+    spriteInv: XC_CGU
+    corpseBattle:
+      - STR_COELGAUSS_CORPSE_1
+      - STR_COELGAUSS_CORPSE_2
+      - STR_COELGAUSS_CORPSE_3
+      - STR_COELGAUSS_CORPSE_4
+    frontArmor: 160
+    sideArmor: 100
+    rearArmor: 80
+    underArmor: 80
+    drawingRoutine: 11
+    size: 2
+    loftempsSet: [92, 89, 90, 91]
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.75
+      - 1.2
+      - 0.0
+      - 1.5
+    allowInv: false
+    visibilityAtDark: 12
+    heatVision: 75
+
+
+
+
+#NEW CIV AMORS
+
+# [=] CIV Diver [=]
+  - type: STR_MFTD_CIV_DIVER_ARMOR
+    spriteSheet: MFTD_CIV_DIVER.PCK
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    spriteInv: MFTD_CIV_DIVER_INVENTORY.SPK
+    corpseBattle:
+      - STR_MFTD_CIV_DIVER_CORPSE
+    overKill: 100000.0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+
+
+
+# [=] CIV Military Male [=]
+  - type: STR_MFTD_CIV_MILITARY_MALE_ARMOR
+    spriteSheet: MFTD_CIV_MILITARY.PCK
+    spriteInv: MILITARY_MALE_INV
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    corpseBattle:
+      - STR_MFTD_CIV_MILITARY_CORPSE
+    overKill: 100000.0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+
+
+
+# [=] CIV Military Female [=]
+  - type: STR_MFTD_CIV_MILITARY_FEMALE_ARMOR
+    spriteSheet: MFTD_CIV_MILITARY.PCK
+    spriteInv: MILITARY_FEMALE_INV
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    corpseBattle:
+      - STR_MFTD_CIV_MILITARY_CORPSE
+    overKill: 100000.0
+    frontArmor: 12
+    sideArmor: 8
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 2 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+
+# [=] CIV Heavy Military Male [=]
+  - type: STR_MFTD_CIV_HEAVY_MILITARY_MALE_ARMOR
+    spriteSheet: MFTD_CIV_HEAVY_MILITARY.PCK
+    spriteInv: HEAVY_MILITARY_MALE_INV
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    corpseBattle:
+      - STR_MFTD_CIV_HEAVY_MILITARY_CORPSE
+    overKill: 100000.0
+    frontArmor: 35
+    sideArmor: 20
+    rearArmor: 30
+    underArmor: 5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 1 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+
+
+
+# [=] CIV Heavy Military Female [=]
+  - type: STR_MFTD_CIV_HEAVY_MILITARY_FEMALE_ARMOR
+    spriteSheet: MFTD_CIV_HEAVY_MILITARY.PCK
+    spriteInv: HEAVY_MILITARY_MALE_INV
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    allowInv: true
+    corpseBattle:
+      - STR_MFTD_CIV_HEAVY_MILITARY_CORPSE
+    overKill: 100000.0
+    frontArmor: 35
+    sideArmor: 20
+    rearArmor: 30
+    underArmor: 5
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+    forcedTorso: 2 #     0 = use gender-specific torso 1 = use male torso 2 = use female torso
+
+  - type: POLICE_MALE_ARMOR
+    spriteSheet: POLICE_MALE.PCK
+    corpseBattle:
+      - STR_POLICE_MALE_CORPSE
+    corpseGeo: CIVM_CORPSE
+    allowInv: true
+    spriteInv: Inventory_Policeman
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: POLICE_FEMALE_ARMOR
+    spriteSheet: POLICE_FEMALE.PCK
+    corpseBattle:
+      - STR_POLICE_FEMALE_CORPSE
+    corpseGeo: CIVF_CORPSE
+    allowInv: true
+    spriteInv: Inventory_Policewoman
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: HUMAN_SOLDIER_ARMOR
+    spriteSheet: SWAT.PCK
+    corpseBattle:
+      - STR_HUMAN_SOLDIER_CORPSE
+    corpseGeo: CIVM_CORPSE
+    allowInv: true
+    spriteInv: Inventory_SWAT
+    overKill: 100000.0
+    frontArmor: 35
+    sideArmor: 20
+    rearArmor: 30
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 0.8
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.9
+      - 0.9
+      - 1.1
+      - 2.0
+    loftempsSet: [ 3 ]
+  - type: PARAMEDIC_ARMOR
+    spriteSheet: PARAMEDIC.PCK
+    corpseBattle:
+      - STR_PARAMEDIC_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+  - type: FIREFIGHTER_ARMOR
+    spriteSheet: FIREFIGHTER.PCK
+    corpseBattle:
+      - STR_FIREFIGHTER_CORPSE
+    corpseGeo: CIVM_CORPSE
+    frontArmor: 5
+    sideArmor: 5
+    rearArmor: 5
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 1.0
+    loftempsSet: [ 3 ]
+
+
+
+  - type: COELACANTH_ARMOR
+    spriteInv: XC_CAJ
+    spriteSheet: TANK01.PCK
+    allowInv: false
+    corpseBattle:
+      - COELACANTH_CORPSE_1
+      - COELACANTH_CORPSE_2
+      - COELACANTH_CORPSE_3
+      - COELACANTH_CORPSE_4
+    frontArmor: 90
+    sideArmor: 75
+    rearArmor: 60
+    underArmor: 60
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    visibilityAtDark: 12
+    heatVision: 75
+  - type: DISPLACER_ARMOR
+    spriteInv: XC_DS.SPK
+    spriteSheet: TANK01.PCK
+    allowInv: false
+    corpseBattle:
+      - DISPLACER_CORPSE_1
+      - DISPLACER_CORPSE_2
+      - DISPLACER_CORPSE_3
+      - DISPLACER_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 100
+    movementType: 1
+    size: 2
+    damageModifier:
+      - 1.0
+      - 0.95
+      - 0.4
+      - 0.8
+      - 0.6
+      - 1.0
+      - 0.0
+      - 0.8
+      - 1.2
+      - 0.0
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    constantAnimation: true
+    visibilityAtDark: 14
+    heatVision: 85
+
+  - type: DOCKER_ARMOR
+    spriteSheet: CIVIL_1.PCK
+    corpseItem: CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 3
+    drawingRoutine: 17
+  - type: SURFER_ARMOR
+    spriteSheet: CIVIL_1.PCK
+    corpseItem: CIVF_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 3
+    drawingRoutine: 18
+  - type: SAILOR_ARMOR
+    spriteSheet: CIVIL_2.PCK
+    corpseItem: CIVM_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 3
+    drawingRoutine: 17
+  - type: BIKINI_GIRL_ARMOR
+    spriteSheet: CIVIL_2.PCK
+    corpseItem: CIVF_CORPSE
+    frontArmor: 0
+    sideArmor: 0
+    rearArmor: 0
+    underArmor: 0
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.6
+      - 1.5
+      - 1.0
+    loftemps: 3
+    drawingRoutine: 18
+  - type: ZOMBIE_ARMOR
+    spriteSheet: ZOMBIE.PCK
+    allowInv: false
+    corpseItem: STR_TENTACULAT_CORPSE
+    frontArmor: 4
+    sideArmor: 4
+    rearArmor: 4
+    underArmor: 4
+    damageModifier:
+      - 1.0
+      - 0.9
+      - 0.9
+      - 0.9
+      - 0.8
+      - 0.9
+      - 0.9
+      - 1.1
+      - 0.0
+      - 0.9
+    loftemps: 2
+    drawingRoutine: 17

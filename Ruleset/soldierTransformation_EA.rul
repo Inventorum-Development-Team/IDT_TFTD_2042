@@ -1,0 +1,427 @@
+soldierTransformation:
+
+#BIO WEAPON
+
+#GENE MODS
+  - name: STR_BIOWEAP_TRANSFORMATION
+    requires:
+      - STR_LIVING_EQUIPMENT
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: True
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 250000
+    requiredItems:
+      STR_ALIEN_CLONING: 5
+    producedItem: STR_BIOWEAP
+    forbiddenPreviousTransformations:
+      - STR_GENE_CORNIA
+      - STR_GENE_GILLS
+      - STR_GENE_MEMBRANE
+      - STR_GENE_MUSCLE
+      - STR_GENE_GLANDS
+      - STR_GENE_LAMBENT
+      
+#GENE MODS
+  - name: STR_GENE_CORNIA
+    requires:
+      - STR_AQUATOID_CORPSE
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 25000
+    recoveryTime: 4 
+    requiredItems:
+      STR_AQUATOID_CORPSE: 1
+    soldierBonusType: STR_GENE_CORNIA_BONUS
+    forbiddenPreviousTransformations:
+      - STR_GENE_CORNIA
+
+  - name: STR_GENE_GILLS
+    requires:
+      - STR_GILLMAN_CORPSE
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 15000
+    recoveryTime: 2 
+    requiredItems:
+      STR_GILLMAN_CORPSE: 1
+    soldierBonusType: STR_GENE_GILLS_BONUS
+    forbiddenPreviousTransformations:
+      - STR_GENE_GILLS
+
+  - name: STR_GENE_MEMBRANE
+    requires:
+      - STR_LOBSTERMAN_CORPSE
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 75000
+    recoveryTime: 6 
+    requiredItems:
+      STR_LOBSTERMAN_CORPSE: 2    
+    soldierBonusType: STR_GENE_MEMBRANE_BONUS
+    forbiddenPreviousTransformations:
+      - STR_GENE_MEMBRANE
+
+  - name: STR_GENE_MUSCLE
+    requires:
+      - STR_TASOTH_CORPSE
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 45000
+    recoveryTime: 5 
+    requiredItems:
+      STR_TASOTH_CORPSE: 2  
+    soldierBonusType: STR_GENE_MUSCLE_BONUS
+    forbiddenPreviousTransformations:
+      - STR_GENE_MUSCLE
+
+  - name: STR_GENE_GLANDS
+    requires:
+      - STR_SLUGMAN_CORPSE
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 50000
+    recoveryTime: 6
+    requiredItems:
+      STR_SLUGMAN_CORPSE: 2  
+    soldierBonusType: STR_GENE_CORNIA_BONUS
+    forbiddenPreviousTransformations:
+      - STR_GENE_GLANDS
+
+  - name: STR_GENE_LAMBENT
+    requires:
+      - STR_ALIEN_IMPLANTER
+    requiresBaseFunc:
+      - GENE_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 35000
+    recoveryTime: 4 
+    requiredItems:
+      STR_ALIEN_CLONING: 2 
+    soldierBonusType: STR_GENE_LAMBENT_BONUS
+    forbiddenPreviousTransformations:
+      - STR_GENE_LAMBENT
+
+#CYBER MODS
+
+  - name: STR_CYBER_SYNAPTIC
+    requires:
+      - STR_AQUATOID_CORPSE
+    requiresBaseFunc:
+      - CYBER_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 25000
+    recoveryTime: 1 
+    requiredItems:
+      STR_AQUATOID_CORPSE: 1 
+    soldierBonusType: STR_CYBER_SYNAPTIC_BONUS
+    forbiddenPreviousTransformations:
+      - STR_CYBER_SYNAPTIC
+
+  - name: STR_CYBER_PUMP
+    requires:
+      - STR_GILLMAN_CORPSE
+    requiresBaseFunc:
+      - CYBER_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 25000
+    recoveryTime: 1 
+    requiredItems:
+      STR_GILLMAN_CORPSE: 1 
+    soldierBonusType: STR_CYBER_PUMP_BONUS
+    forbiddenPreviousTransformations:
+      - STR_CYBER_PUMP
+
+  - name: STR_CYBER_OCULAR
+    requires:
+      - STR_LOBSTERMAN_CORPSE
+    requiresBaseFunc:
+      - CYBER_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 45000
+    recoveryTime: 2 
+    requiredItems:
+      STR_ALIEN_IMPLANTER: 1 
+    soldierBonusType: STR_CYBER_OCULAR_BONUS
+    forbiddenPreviousTransformations:
+      - STR_CYBER_OCULAR
+
+  - name: STR_CYBER_MCNET
+    requires:
+      - STR_TASOTH_CORPSE
+    requiresBaseFunc:
+      - CYBER_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 35000
+    recoveryTime:  
+    requiredItems:
+      STR_TASOTH_CORPSE: 1 
+    soldierBonusType: STR_CYBER_MCNET_BONUS
+    forbiddenPreviousTransformations:
+      - STR_CYBER_MCNET
+
+  - name: STR_CYBER_FEAR
+    requires:
+      - STR_SLUGMAN_CORPSE
+    requiresBaseFunc:
+      - CYBER_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 25000
+    recoveryTime: 1
+    requiredItems:
+      STR_SLUGMAN_CORPSE: 1 
+    soldierBonusType: STR_CYBER_FEAR_BONUS
+    forbiddenPreviousTransformations:
+      - STR_CYBER_FEAR
+
+  - name: STR_CYBER_RAGE
+    requires:
+      - STR_ALIEN_IMPLANTER
+    requiresBaseFunc:
+      - CYBER_MOD
+    allowsLiveSoldiers: True
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+     - STR_SOLDIER
+    cost: 25000
+    recoveryTime: 1
+    requiredItems:
+      STR_ALIEN_IMPLANTER: 1 
+    soldierBonusType: STR_CYBER_RAGE_BONUS
+    forbiddenPreviousTransformations:
+      - STR_CYBER_RAGE
+
+soldierBonuses:
+
+#GENE MODS
+  - name: STR_GENE_CORNIA_BONUS
+    visibilityAtDark: 2
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 5
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+  - name: STR_GENE_GILLS_BONUS
+    stats:
+      tu: 10
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    recovery:
+      time:
+        flatOne: 0
+      energy:
+        flatOne: 10
+      morale:
+        flatOne: 0
+      health:
+        flatOne: 0
+      mana:
+        flatOne: 0
+      stun:
+        flatOne: 0
+  - name: STR_GENE_MEMBRANE_BONUS
+    frontArmor: 15
+    sideArmor: 15
+    rearArmor: 15
+    underArmor: 15
+  - name: STR_GENE_MUSCLE_BONUS
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+  - name: STR_GENE_GLANDS_BONUS
+    frontArmor: 10
+    stats:
+      tu: 0
+      stamina: 0
+      health: 20
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+  - name: STR_GENE_LAMBENT_BONUS
+    visibilityAtDark: 7
+
+#CYBER MODS
+  - name: STR_CYBER_SYNAPTIC_BONUS
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 10
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    recovery:
+      time:
+        flatOne: 0
+      energy:
+        flatOne: 0
+      morale:
+        flatOne: 0
+      health:
+        flatOne: 0
+      mana:
+        flatOne: 0
+      stun:
+        flatOne: 0
+  - name: STR_CYBER_PUMP_BONUS
+    stats:
+      tu: 0
+      stamina: 0
+      health: 10
+      bravery: 0
+      reactions: 8
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+      mana: 0
+    recovery:
+      time:
+        flatOne: 0
+      energy:
+        flatOne: 10
+      morale:
+        flatOne: 0
+      health:
+        flatOne: 0
+      mana:
+        flatOne: 0
+      stun:
+        flatOne: 0
+  - name: STR_CYBER_OCULAR_BONUS
+    visibilityAtDark: 4
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 8
+      firing: 15
+      throwing: 15
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 15
+      mana: 0
+  - name: STR_CYBER_MCNET_BONUS
+    visibilityAtDark: 4
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 15
+      reactions: 5
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 20
+      psiSkill: 0
+      melee: 0
+      mana: 0
+  - name: STR_CYBER_FEAR_BONUS
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 35
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 5
+      psiSkill: 0
+      melee: 0
+      mana: 0
+  - name: STR_CYBER_RAGE_BONUS
+    stats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 35
+      mana: 0

@@ -1,0 +1,177 @@
+extraSprites:
+
+  - type: DIV.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/DIV/DIV.png
+
+
+  - type: DIV_LAND.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/DIV/DIV_LAND.png
+
+  - type: HVYDIV_ARMOR.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/ARMOR/HVYDIV/HVYDIV.png
+
+  - type: HVYDIV_LAND.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/ARMOR/HVYDIV/HVYDIV_LAND.png
+
+  - type: ARM_ARMOR.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/ARMOR/ARM/ARM.png
+
+  - type: ARM_LAND.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/ARMOR/ARM/ARM_LAND.png
+
+  - type: HVYARM_ARMOR.PCK
+    width: 512
+    height: 760
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Sprites/ARMOR/HVYARM/HVYARM.png
+
+  - type: HVYARM_LAND.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/HVYARM/HVYARM_LAND.png
+      
+  - type: ION_ARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/ION/ION.png
+
+  - type: ION_WATER.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/ION/ION_LAND.png
+      
+  - type: MAGION.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/MAGION/MAGION.png
+      
+  - type: BIOARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Sprites/ARMOR/BIO/BIO.png
+
+  - type: BIOARMOR_LAND.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Sprites/ARMOR/BIO/BIO_LAND.png
+
+  - type: BIOARMORHVY.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Sprites/ARMOR/HVYBIO/HVYBIO.png
+
+  - type: BIOARMORHVY_LAND.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Sprites/ARMOR/HVYBIO/HVYBIO_LAND.png
+
+  - type: EXOSUIT.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Sprites/ARMOR/EXO/EXOSUIT.png
+
+  - type: EXOSUIT_LAND.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1440
+    files:
+      0: Resources/Sprites/ARMOR/EXO/EXOSUIT_LAND.png
+
+  - type: DISPLACER_ARMOR.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 760
+    files:
+      0: Resources/Sprites/ARMOR/DIS/Displacer_armor.png
+
+# [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] 
+# [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] 
+# [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] [====] Battle Enviro Effects [====] 
+
+enviroEffects:
+  - type: STR_LAND_MISSION_HELMETS_OFF
+    armorTransformations:
+      STR_DIVINGSUIT: STR_DIVINGSUIT_LAND
+      STR_HVYDIV_UC: STR_HVYDIV_LAND
+      STR_PLASTIC_AQUA_ARMOR_UC: STR_PLASTIC_AQUA_ARMOR_LAND
+      STR_HVYARM_UC: STR_HVYARM_LAND
+      STR_ION_ARMOR_UC: STR_ION_ARMOR_LAND
+      EXOSUIT_ARM: EXOSUIT_ARM_LAND
+      BIO_ARM: BIO_ARM_LAND
+      HVYBIO_ARM: HVYBIO_ARM_LAND
+      #STR_MAGNETIC_ION_ARMOR_UC: STR_MAGNETIC_ION_ARMOR_UC_LAND
+  - type: STR_CRAFT_TOOBIG
+    craftTransformations:
+      STR_POSEIDON: STR_POSEIDON_TOOBIG
+      STR_SWORDFISH: STR_SWORDFISH_TOOBIG
+      STR_TYPHON: STR_TYPHON_TOOBIG
+    armorTransformations:
+      STR_DIVINGSUIT: STR_DIVINGSUIT_LAND
+      STR_HVYDIV_UC: STR_HVYDIV_LAND
+      STR_PLASTIC_AQUA_ARMOR_UC: STR_PLASTIC_AQUA_ARMOR_LAND
+      STR_HVYARM_UC: STR_HVYARM_LAND
+      STR_ION_ARMOR_UC: STR_ION_ARMOR_LAND
+      EXOSUIT_ARM: EXOSUIT_ARM_LAND
+      BIO_ARM: BIO_ARM_LAND
+      HVYBIO_ARM: HVYBIO_ARM_LAND

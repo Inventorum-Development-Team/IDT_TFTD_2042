@@ -1,0 +1,748 @@
+facilities:
+
+
+  - type: STR_EMPTY_ROOM
+    listOrder: 120
+    spriteShape: 1
+    spriteFacility: 1
+    buildCost: 50000
+    buildTime: 8
+    monthlyCost: 2000
+    mapName: XBASEN00
+    canBeBuiltOver: true
+    refundValue: 40000
+  - type: STR_LIVING_QUARTERS_LARGE
+    spriteShape: 350
+    spriteFacility: 350
+    size: 2
+    buildCost: 2000000
+    buildTime: 24
+    refundValue: 1500000
+    monthlyCost: 50000
+    personnel: 225
+    storage: 25
+    mapName: XBASEB02
+    storageTiles:
+      - [5, 7, 0]
+      - [5, 8, 0]
+      - [5, 9, 0]
+      - [5, 10, 0]
+      - [5, 11, 0]
+      - [5, 12, 0]
+      - [5, 13, 0]
+      - [5, 14, 0]
+      - [5, 15, 0]
+      - [5, 16, 0]
+      - [8, 7, 0]
+      - [8, 8, 0]
+      - [8, 9, 0]
+      - [8, 10, 0]
+      - [8, 11, 0]
+      - [8, 12, 0]
+      - [8, 13, 0]
+      - [8, 14, 0]
+      - [8, 15, 0]
+      - [8, 16, 0]
+      - [11, 7, 0]
+      - [11, 8, 0]
+      - [11, 9, 0]
+      - [11, 10, 0]
+      - [11, 11, 0]
+      - [11, 12, 0]
+      - [11, 13, 0]
+      - [11, 14, 0]
+      - [11, 15, 0]
+      - [11, 16, 0]
+      - [14, 7, 0]
+      - [14, 8, 0]
+      - [14, 9, 0]
+      - [14, 10, 0]
+      - [14, 11, 0]
+      - [14, 12, 0]
+      - [14, 13, 0]
+      - [14, 14, 0]
+      - [14, 15, 0]
+      - [14, 16, 0]
+    listOrder: 220
+    rightClickActionType: 6
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_LIVING_QUARTERS
+      - STR_SUB_PEN
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 3
+  - type: STR_GENERAL_STORES_LARGE
+    spriteShape: 363
+    spriteFacility: 363
+    size: 2
+    buildCost: 750000
+    buildTime: 18
+    monthlyCost: 2500
+    storage: 425
+    rightClickActionType: 7
+    mapName: XBASEB10
+    storageTiles:
+      - [6, 1, 0]
+      - [7, 1, 0]
+      - [8, 1, 0]
+      - [7, 1, 1]
+      - [7, 2, 1]
+      - [7, 3, 1]
+      - [7, 4, 1]
+    listOrder: 820
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_GENERAL_STORES
+      - STR_SUB_PEN
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 3
+  - type: STR_CORRIDOR_NS
+    spriteShape: 358
+    spriteFacility: 360
+    buildCost: 75000
+    buildTime: 6
+    monthlyCost: 1000
+    refundValue: 50000
+    mapName: XBASEB00
+    canBeBuiltOver: true
+    listOrder: 6150
+  - type: STR_CORRIDOR_EW
+    spriteShape: 359
+    spriteFacility: 360
+    buildCost: 75000
+    buildTime: 6
+    monthlyCost: 1000
+    refundValue: 50000
+    mapName: XBASEB01
+    canBeBuiltOver: true
+    listOrder: 6151
+  - type: STR_CORRIDOR_PROXY
+    spriteShape: 358
+    spriteFacility: 360
+    buildCost: 75000
+    buildTime: 6
+    monthlyCost: 1000
+    refundValue: 50000
+    mapName: XBASEB00
+    listOrder: 6160
+    requires:
+      - STR_PROXY
+  - type: STR_POOL
+    requires:
+      - STR_TRAINING_METHODS
+    spriteShape: 1
+    spriteFacility: 371
+    buildCost: 350000
+    buildTime: 20
+    monthlyCost: 15000
+    trainingRooms: 10
+    mapName: XBASET00
+    listOrder: 850
+    missileAttraction: 1
+    canBeBuiltOver: true
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    refundValue: 35000
+
+  - type: STR_VRTRN
+    requires:
+      - STR_ALIEN_LEARNING_ARRAYS
+    buildCostItems:
+     STR_ALIEN_LEARNING_ARRAYS:
+        build: 4
+        refund: 2
+    spriteShape: 1
+    spriteFacility: 372
+    buildCost: 1275000
+    buildTime: 28
+    monthlyCost: 58000
+    trainingRooms: 45
+    mapName: XBASEN01
+    listOrder: 851
+    missileAttraction: 1
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_POOL
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    refundValue: 127500
+  - type: STR_MEDBAY
+    requires:
+      - STR_MEDBAY
+    spriteShape: 1
+    spriteFacility: 203
+    buildCost: 450000
+    buildTime: 23
+    monthlyCost: 32000
+    sickBayAbsoluteBonus: 0.5
+    sickBayRelativeBonus: 1
+    mapName: XBASET03
+    listOrder: 855
+    missileAttraction: 0
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    refundValue: 45000
+    canBeBuiltOver: true
+  - type: STR_CRYO
+    requires:
+      - STR_ALIEN_CRYOGENICS
+      - STR_MEDBAY
+    buildCostItems:
+     STR_ALIEN_CRYOGENICS:
+        build: 4
+        refund: 2
+    requiredItem:
+    spriteShape: 1
+    spriteFacility: 373
+    buildCost: 1650000
+    buildTime: 28
+    monthlyCost: 120000
+    sickBayAbsoluteBonus: 2
+    sickBayRelativeBonus: 3
+    mapName: XBASEN02
+    listOrder: 856
+    missileAttraction: 0
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_MEDBAY
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    refundValue: 165000
+  - type: STR_WORKSHOP_LARGE
+    listOrder: 410
+    spriteShape: 374
+    spriteFacility: 374
+    size: 2
+    buildCost: 4000000
+    refundValue: 3200000
+    buildTime: 33
+    monthlyCost: 350000
+    workshops: 225
+    rightClickActionType: 2
+    mapName: XBASEN03
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_WORKSHOP
+      - STR_SUB_PEN
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 4
+  - type: STR_LABORATORY_LARGE
+    listOrder: 310
+    spriteShape: 382
+    spriteFacility: 382
+    size: 2
+    buildCost: 3750000
+    refundValue: 3000000
+    buildTime: 39
+    monthlyCost: 300000
+    labs: 225
+    rightClickActionType: 3
+    mapName: XBASEN07
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_LABORATORY
+      - STR_SUB_PEN
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 4
+
+  - type: STR_SECURITY_ROOM_AP
+    spriteShape: 2
+    spriteFacility: 501
+    buildCost: 250000
+    buildTime: 12
+    monthlyCost: 125000
+    mapName: XBASEN13
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    refundValue: 200000
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    listOrder: 415
+
+  - type: STR_SECURITY_ROOM_GS
+    spriteShape: 2
+    spriteFacility: 502
+    buildCost: 350000
+    buildTime: 15
+    monthlyCost: 175000
+    mapName: XBASEN14
+    requires:
+      - STR_GAUSSWEAP
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_SECURITY_ROOM_AP
+    refundValue: 280000
+    buildCostItems:
+     STR_MAGNETIC_NAVIGATION:
+        build: 2
+        refund: 1
+     STR_AQUA_PLASTICS:
+        build: 10
+        refund: 5
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    listOrder: 416
+
+  - type: STR_SECURITY_ROOM_SNC
+    spriteShape: 2
+    spriteFacility: 503
+    buildCost: 500000
+    buildTime: 18
+    monthlyCost: 250000
+    mapName: XBASEN15
+    requires:
+      - STR_SONICWEAP
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_SECURITY_ROOM_GS
+      - STR_SECURITY_ROOM_AP
+    refundValue: 400000
+    buildCostItems:
+     STR_SONIC_CANNON:
+        build: 4
+        refund: 2
+     STR_AQUA_PLASTICS:
+        build: 22
+        refund: 15
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    listOrder: 417
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Vanilla Facilites
+  - type: STR_AIR_LOCK
+    spriteShape: 2
+    spriteFacility: 17
+    lift: true
+    buildCost: 300000
+    buildTime: 1
+    monthlyCost: 4000
+    mapName: XBASES00
+    
+  - type: STR_LIVING_QUARTERS
+    spriteShape: 1
+    spriteFacility: 18
+    buildCost: 400000
+    refundValue: 40000
+    buildTime: 16
+    monthlyCost: 10000
+    personnel: 50
+    mapName: XBASES01
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+  - type: STR_LABORATORY
+    spriteShape: 1
+    spriteFacility: 19
+    buildCost: 750000
+    refundValue: 75000
+    buildTime: 26
+    monthlyCost: 30000
+    labs: 50
+    mapName: XBASES02
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+  - type: STR_WORKSHOP
+    spriteShape: 1
+    spriteFacility: 20
+    buildCost: 800000
+    refundValue: 80000
+    buildTime: 32
+    monthlyCost: 35000
+    workshops: 50
+    mapName: XBASES03
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+  - type: STR_STANDARD_SONAR
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    refundValue: 50000
+    buildTime: 12
+    monthlyCost: 10000
+    radarRange: 1695
+    radarChance: 40
+    mapName: XBASES04
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+  - type: STR_WIDE_ARRAY_SONAR
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 800000
+    refundValue: 80000
+    buildTime: 25
+    monthlyCost: 15000
+    radarRange: 2577
+    radarChance: 40
+    mapName: XBASES05
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_STANDARD_SONAR
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+  - type: STR_TORPEDO_DEFENSES
+    spriteShape: 2
+    spriteFacility: 23
+    buildCost: 200000
+    refundValue: 20000
+    buildTime: 12
+    monthlyCost: 5000
+    defense: 500
+    hitRatio: 80
+    fireSound: 12
+    hitSound: 10
+    mapName: XBASES06
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+
+  - type: STR_GENERAL_STORES
+    spriteShape: 1
+    spriteFacility: 24
+    buildCost: 150000
+    refundValue: 15000
+    buildTime: 10
+    monthlyCost: 5000
+    storage: 100
+    mapName: XBASES07
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    canBeBuiltOver: true
+
+  - type: STR_ALIEN_CONTAINMENT
+    spriteShape: 1
+    spriteFacility: 25
+    requires:
+      - STR_ALIEN_CONTAINMENT
+    buildCost: 400000
+    refundValue: 40000
+    buildTime: 18
+    monthlyCost: 15000
+    aliens: 10
+    mapName: XBASES08
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_GAUSS_DEFENSES
+    requires:
+      - STR_GAUSS_DEFENSES
+    spriteShape: 3
+    spriteFacility: 26
+    buildCost: 400000
+    refundValue: 40000
+    buildTime: 18
+    monthlyCost: 10000
+    defense: 600
+    hitRatio: 90
+    fireSound: 13
+    hitSound: 10
+    mapName: XBASES09
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_SONIC_DEFENSES
+    requires:
+      - STR_SONICWEAPADV
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 600000
+    refundValue: 60000
+    buildTime: 24
+    monthlyCost: 12000
+    defense: 1000
+    hitRatio: 70
+    fireSound: 14
+    hitSound: 10
+    mapName: XBASES10
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_PWT_DEFENSES
+    requires:
+      - STR_PWT_DEFENSES
+    spriteShape: 3
+    spriteFacility: 28
+    buildCost: 800000
+    refundValue: 80000
+    buildTime: 28
+    monthlyCost: 14000
+    defense: 1200
+    hitRatio: 80
+    fireSound: 15
+    hitSound: 10
+    mapName: XBASES11
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_BOMBARDMENT_SHIELD
+    requires:
+      - STR_BOMBARDMENT_SHIELD
+    grav: true
+    spriteShape: 2
+    spriteFacility: 29
+    buildCost: 1200000
+    refundValue: 120000
+    buildTime: 30
+    monthlyCost: 15000
+    mapName: XBASES12
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_MC_GENERATOR
+    requires:
+      - STR_MCONT
+    mind: true
+    spriteShape: 2
+    spriteFacility: 30
+    buildCost: 1300000
+    refundValue: 130000
+    buildTime: 32
+    monthlyCost: 5000
+    buildCostItems:
+     STR_ALIEN_IMPLANTER:
+        build: 6
+        refund: 3
+    mapName: XBASES13
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_MC_LAB
+    requires:
+      - STR_MCONT
+    spriteShape: 1
+    spriteFacility: 31
+    buildCost: 750000
+    refundValue: 75000
+    buildTime: 24
+    monthlyCost: 16000
+    psiLabs: 10
+    mapName: XBASES14
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    buildCostItems:
+     STR_ALIEN_IMPLANTER:
+        build: 8
+        refund: 4
+     STR_ALIEN_LEARNING_ARRAYS:
+        build: 8
+        refund: 4
+  - type: STR_TRANSMISSION_RESOLVER
+    requires:
+      - STR_TRANSMISSION_RESOLVER
+    hyper: true
+    spriteShape: 2
+    spriteFacility: 32
+    buildCost: 1400000
+    refundValue: 140000
+    buildTime: 26
+    monthlyCost: 30000
+    radarRange: 2759
+    radarChance: 100
+    mapName: XBASES15
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+      - STR_STANDARD_SONAR
+      - STR_WIDE_ARRAY_SONAR
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+  - type: STR_SUB_PEN
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    refundValue: 20000
+    buildTime: 25
+    monthlyCost: 25000
+    crafts: 1
+    storage: 5 #OXCE bonus because of change in handling craft storage
+    storageTiles: [[-1, -1, -1]]
+    mapName: XBASES16
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 3
+    canBeBuiltOver: true
+
+  - type: STR_GENE_LAB
+    requires:
+      - STR_GENE_MODS
+    spriteShape: 1
+    spriteFacility: 391
+    buildCost: 800000
+    refundValue: 80000
+    buildTime: 32
+    monthlyCost: 16000
+    sickBayAbsoluteBonus: 0.5
+    sickBayRelativeBonus: 1
+    labs: 10
+    mapName: XBASEN11
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    provideBaseFunc:
+      - GENE_MOD
+    buildCostItems:
+     STR_ALIEN_CRYOGENICS:
+        build: 5
+        refund: 2
+     STR_ALIEN_CLONING:
+        build: 5
+        refund: 2
+
+
+  - type: STR_CYBER_LAB
+    requires:
+      - STR_CYBER_MODS
+    spriteShape: 1
+    spriteFacility: 390
+    buildCost: 800000
+    refundValue: 80000
+    buildTime: 32
+    monthlyCost: 16000
+    trainingRooms: 15
+    workshops: 10
+    mapName: XBASEN12
+    buildOverFacilities:
+      - STR_CORRIDOR_NS
+      - STR_CORRIDOR_EW
+      - STR_EMPTY_ROOM
+    leavesBehindOnSell:
+      - STR_EMPTY_ROOM
+    removalTime: 1
+    provideBaseFunc:
+      - CYBER_MOD
+    buildCostItems:
+     STR_ALIEN_IMPLANTER:
+        build: 5
+        refund: 2
+     STR_ALIEN_LEARNING_ARRAYS:
+        build: 5
+        refund: 2

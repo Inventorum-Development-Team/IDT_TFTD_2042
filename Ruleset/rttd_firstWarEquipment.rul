@@ -1,7 +1,7 @@
 # data for new gear:
 
 items:
-  - type: STR_LASER_PISTOL
+  - type: STR_POLICE_LASER_PISTOL
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS]
     size: 0.1
     costBuy: 10000
@@ -24,14 +24,14 @@ items:
     tuSnap: 20
     tuAimed: 55
     compatibleAmmo:
-      - STR_LASER_PISTOL_CLIP
+      - STR_POLICE_LASER_PISTOL_CLIP
     battleType: 1
     invWidth: 1
     invHeight: 2
     landOnly: true 
     listOrder: 3515
 
-  - type: STR_LASER_PISTOL_CLIP
+  - type: STR_POLICE_LASER_PISTOL_CLIP
     categories: [STR_LASER, STR_HUMAN_TECH, STR_SURFACE_ONLY, STR_SIDEARMS, STR_AMMO]
     size: 0.2
     costBuy: 400
@@ -319,9 +319,9 @@ extraStrings:
       STR_DIVING_ARMOR_UFOPEDIA: "Each X-COM recruit is equipped with the top-quality depth suit, reinforced with additional layers of armor, based on the technology of alien alloys known from the First War."
       STR_DUMMY_DIVING_ARMOR: DIVING ARMOR
       STR_LASER_RIFLE: Laser Service Rifle
-      STR_LASER_PISTOL: Laser Police Pistol
+      STR_POLICE_LASER_PISTOL: Laser Police Pistol
       STR_LASER_RIFLE_CLIP: Laser Rifle Battery
-      STR_LASER_PISTOL_CLIP: Laser Pistol Battery
+      STR_POLICE_LASER_PISTOL_CLIP: Laser Pistol Battery
       STR_LASER_WEAPONRY: Laser Weaponry
       STR_LASER_UFOPEDIA: "The laser weapons invented during the First Alien War by X-COM quickly gained immense popularity due to its high firepower and low ammo consumption. Despite high manufacture price, today it serves as basic military and police equipment in many countries of the world. However, X-COM operatives must be careful and keep in mind that laser weapons do not work underwater."
       STR_ALIEN_ALLOYS: "Martian Alloys"

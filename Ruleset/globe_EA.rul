@@ -1,0 +1,316 @@
+globe: 
+  lineColor: 160 #was 168
+  oceanShading: false
+  oceanPalette: 10
+  countryColor: 1
+  baseColor: 145
+  textures:
+    - id: 0
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 75
+        - name: CULTA
+          weight: 25
+    - id: 1
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: CULTA
+          weight: 15
+    - id: 2
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: CULTA
+          weight: 15
+    - id: 3
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: CULTA
+          weight: 15
+    - id: 4
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: CULTA
+          weight: 15
+    - id: 5
+      fakeUnderwater: true
+      terrain:
+        - name: MOUNT
+          weight: 50
+        - name: MOUNT
+          weight: 25
+        - name: MOUNT
+          weight: 25
+    - id: 6
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 7
+      fakeUnderwater: true
+      terrain:
+        - name: DESERT
+          weight: 50
+        - name: DESERT
+          weight: 25
+        - name: DESERT
+          weight: 25
+    - id: 8
+      fakeUnderwater: true
+      terrain:
+        - name: DESERT
+          weight: 75
+        - name: DESERT
+          weight: 25
+    - id: 9
+      fakeUnderwater: true
+      terrain:
+        - name: POLAR
+          weight: 50
+        - name: POLAR
+          weight: 25
+        - name: POLAR
+          weight: 25
+    - id: 10
+      fakeUnderwater: true
+      terrain:
+        - name: JUNGLE
+          weight: 50
+        - name: JUNGLE
+          weight: 25
+        - name: JUNGLE
+          weight: 25
+    - id: 11
+      fakeUnderwater: true
+      terrain:
+        - name: FOREST
+          weight: 50
+        - name: FOREST
+          weight: 25
+        - name: FOREST
+          weight: 25
+    - id: 12
+      fakeUnderwater: true
+      terrain:
+        - name: POLAR
+          weight: 50
+        - name: POLAR
+          weight: 25
+        - name: POLAR
+          weight: 25
+    - id: 13 #Shallow
+      terrain:
+        - name: SEABED
+          weight: 50
+        - name: CORAL
+          weight: 50
+        - name: SEAMOUNT
+          weight: 15
+        - name: SEABED2
+          weight: 10
+        - name: PLANE
+          weight: 5
+        - name: PIPES
+          weight: 15
+        - name: GAL
+          weight: 15
+        - name: MSUNK
+          weight: 25
+    - id: 14 #Deep
+      terrain:
+        - name: PIPES
+          weight: 25
+        - name: SEABED
+          weight: 50
+        - name: CORAL
+          weight: 50
+        - name: SEAMOUNT
+          weight: 15
+        - name: PLANE
+          weight: 5
+        - name: GAL
+          weight: 5
+        - name: VOLC
+          weight: 5
+        - name: MSUNK
+          weight: 5
+    - id: 15 #VeryDeep
+      terrain:
+        - name: PLANE
+          weight: 15
+        - name: VOLC
+          weight: 25
+        - name: CORAL
+          weight: 50
+        - name: SEAMOUNT
+          weight: 15
+        - name: PIPES
+          weight: 15
+        - name: GAL
+          weight: 15
+        - name: MSUNK
+          weight: 5
+    - id: 16 #Deep/2
+      terrain:
+        - name: MSUNK
+          weight: 25
+        - name: SEABED
+          weight: 50
+        - name: CORAL
+          weight: 75
+        - name: SEAMOUNT
+          weight: 15
+        - name: PLANE
+          weight: 5
+        - name: VOLC
+          weight: 5
+        - name: PIPES
+          weight: 5
+        - name: GAL
+          weight: 5
+    - id: 17 #Shallow/2
+      terrain:
+        - name: ATLAN
+          weight: 25
+        - name: SEABED
+          weight: 25
+        - name: CORAL
+          weight: 25
+        - name: SEAMOUNT
+          weight: 25
+        - name: PLANE
+          weight: 5
+        - name: PIPES
+          weight: 5
+        - name: GAL
+          weight: 5
+        - name: MSUNK
+          weight: 5
+    - id: 18 #City/Heavy
+      fakeUnderwater: true
+      terrain:
+        - name: CITY
+          weight: 50
+        - name: URBAN
+          weight: 35
+    - id: 19 #City/Light
+      fakeUnderwater: true
+      terrain:
+        - name: URBAN
+          weight: 75
+        - name: CULTA
+          weight: 25
+    - id: 20 #Island/Jungle
+      fakeUnderwater: true
+      terrain:
+        - name: JUNGLE
+          weight: 50
+    - id: 21 #City/Light - Jungle
+      fakeUnderwater: true
+      terrain:
+        - name: URBAN
+          weight: 75
+        - name: CULTA
+          weight: 25       
+    - id: -1
+      deployments:
+        STR_PORT_TERROR: 70
+        STR_URBAN_TERROR: 40
+        STR_CITY_TERROR: 30
+    - id: -2
+      deployments:
+        STR_ISLAND_TERROR: 70
+        STR_ISLAND_TERROR_PIPES: 40
+    - id: -3
+      deployments:
+        STR_ARTIFACT_SITE_P1: 100
+    - id: -4
+      deployments:
+        STR_CARGO_SHIP_P1: 25
+        STR_CARGO_SHIP_P2: 25
+        STR_CRUISE_SHIP_P1: 25
+        STR_CRUISE_SHIP_P2: 25
+    - id: -5
+      deployments:
+        STR_POLAR_ISLAND_TERROR: 100
+    - id: -6
+      deployments:
+        STR_SEAFRONT_TERROR: 100
+
+customPalettes:
+  - type: PALETTE_HYBRID_GEOSCAPE
+    target: PAL_GEOSCAPE
+    palette: &newGlobeColors
+      154: [252, 252, 120]
+      16: [152, 176, 176] #Grey Mountain Colors
+      17: [144, 168, 168]
+      18: [136, 160, 160]
+      19: [128, 148, 148]
+      20: [128, 140, 140]
+      21: [112, 128, 128]
+      22: [104, 120, 120]
+      23: [96, 108, 108]
+      24: [84, 100, 100]
+      25: [76, 88, 88]
+      26: [68, 80, 80]
+      27: [60, 68, 68]
+      28: [52, 60, 60]
+      29: [44, 52, 52]
+      30: [36, 40, 40]
+      31: [28, 32, 32]
+      32: [176, 148, 68] #Desert Brown/yellow colors
+      33: [168, 140, 68]
+      34: [160, 132, 68]
+      35: [148, 124, 68]
+      36: [140, 116, 68]
+      37: [128, 108, 64]
+      38: [120, 100, 64]
+      39: [108, 92, 60]
+      40: [100, 84, 56]
+      41: [88, 76, 52]
+      42: [80, 68, 48]
+      43: [68, 60, 44]
+      44: [60, 52, 40]
+      45: [52, 44, 36]
+      46: [40, 36, 28]
+      47: [32, 28, 24]
+      224: [116, 156, 44] # Better green shades from UFO Geoscape palette
+      225: [100, 148, 36]
+      226: [88, 140, 32]
+      227: [76, 132, 28]
+      228: [60, 124, 24]
+      229: [52, 116, 20]
+      230: [40, 108, 32] # 
+      231: [28, 104, 12]
+      232: [20, 96, 8]
+      233: [12, 88, 4]
+      234: [4, 80, 4]
+      235: [4, 72, 4] # 
+      236: [0, 64, 8]
+      237: [0, 56, 8] # 
+      238: [0, 48, 8]
+      239: [0, 44, 12]
+
+   
+
+
