@@ -1,0 +1,916 @@
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+
+      300: Resources/Armor/Exosuit/EXO_CORPSE_BIGOB.png
+      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_BIGOB.png
+
+      1000: Resources/SurfaceWeapons/BigVariableRifle.png
+      1008: Resources/SurfaceWeapons/BigVariableRifle.png
+      1016: Resources/SurfaceWeapons/BigVariableRifleMag.png
+      1024: Resources/SurfaceWeapons/BigVariableRifleHiPowMag.png
+      1032: Resources/SurfaceWeapons/BigVariableRifleShredderMag.png
+      1040: Resources/SurfaceWeapons/BigSCAR.png
+      1048: Resources/SurfaceWeapons/BigSCAR.png
+      1056: Resources/SurfaceWeapons/BigSCARMag.png
+      1064: Resources/SurfaceWeapons/BigPrinterRifle.png
+      1072: Resources/SurfaceWeapons/BigPrinterRifle.png
+      1080: Resources/SurfaceWeapons/BigLaserSniper.png
+      1088: Resources/SurfaceWeapons/BigLaserSniper.png
+      1096: Resources/SurfaceWeapons/BigLaserSniperBattery.png
+      1104: Resources/SurfaceWeapons/BigAutoLaser.png
+      1112: Resources/SurfaceWeapons/BigAutoLaser.png
+      1120: Resources/SurfaceWeapons/BigAutoLaserBattery.png
+      1128: Resources/SurfaceWeapons/BigCombatHandgun.png
+      1136: Resources/SurfaceWeapons/BigCombatHandgun.png
+      1144: Resources/SurfaceWeapons/BigCombatHandgunMag.png
+      1152: Resources/SurfaceWeapons/BigStreetSweeper.png
+      1160: Resources/SurfaceWeapons/BigStreetSweeper.png
+      1168: Resources/SurfaceWeapons/BigStreetSweeperDrum.png
+      1176: Resources/SurfaceWeapons/BigOldPlasmaRifle.png
+      1184: Resources/SurfaceWeapons/BigOldPlasmaRifle.png
+      1192: Resources/SurfaceWeapons/BigOldPlasmaRifleAmmo.png
+      1200: Resources/SurfaceWeapons/BigNewPlasmaRifle.png
+      1208: Resources/SurfaceWeapons/BigNewPlasmaRifle.png
+      1216: Resources/SurfaceWeapons/BigNewPlasmaRifleAmmo.png
+      1224: Resources/SurfaceWeapons/BigTacticalLMG.png
+      1232: Resources/SurfaceWeapons/BigTacticalLMG.png
+      1240: Resources/SurfaceWeapons/BigTacticalLMGAPBox.png
+      1248: Resources/SurfaceWeapons/BigTacticalLMGIncBox.png
+      1256: Resources/SurfaceWeapons/BigTacticalLMGHEBox.png
+      1264: Resources/AquaticWeapons/BigUnderwaterRifle.png
+      1272: Resources/AquaticWeapons/BigUnderwaterRifleMag.png
+      1280: Resources/AquaticWeapons/BigUnderwaterPistol.png
+      1288: Resources/AquaticWeapons/BigUnderwaterPistolMag.png
+      1296: Resources/AquaticWeapons/BigUnderwaterRevolver.png
+      1304: Resources/AquaticWeapons/BigUnderwaterRevolverMag.png
+      1312: Resources/AquaticWeapons/BigUnderwaterLMG.png
+      1320: Resources/AquaticWeapons/BigUnderwaterLMGMag.png
+      1328: Resources/AquaticWeapons/BigMatadorTorpedoLauncher.png
+      1336: Resources/AquaticWeapons/BigMatadorAPTorpedo.png
+      1344: Resources/AquaticWeapons/BigMatadorHETorpedo.png
+      1352: Resources/AquaticWeapons/BigMatadorSwarmTorpedo.png
+      1360: Resources/AquaticWeapons/BigNeptuneTorpedo.png
+      #1368: Resources/AquaticWeapons/BigUnderwaterAntitankRifle.png
+      #1376: Resources/AquaticWeapons/BigUnderwaterAntitankRifleMag.png
+      1384: Resources/SurfaceWeapons/BigAutoShotty.png
+      1392: Resources/SurfaceWeapons/BigAutoShotty.png
+      1400: Resources/SurfaceWeapons/BigAutoShottyShell.png
+      1408: Resources/SurfaceWeapons/BigAutoShottySlug.png
+      1416: Resources/SurfaceWeapons/BigLaserShotgun.png
+      1424: Resources/SurfaceWeapons/BigLaserShotgun.png
+      1432: Resources/SurfaceWeapons/BigLaserShotgunFocusedBattery.png
+      1440: Resources/SurfaceWeapons/BigLaserShotgunDispersionBattery.png
+      1448: Resources/AquaticWeapons/BigHarpoon.png
+      1456: Resources/AquaticWeapons/BigHeavyHarpoon.png
+      1464: Resources/AquaticWeapons/BigHarpoonAcid.png
+      1472: Resources/AquaticWeapons/BigHarpoonAP.png
+      1480: Resources/AquaticWeapons/BigHarpoonHE.png
+      1488: Resources/AquaticWeapons/BigHarpoonINC.png
+      1486: Resources/SurfaceWeapons/BigBullpupSMG.png
+      1504: Resources/SurfaceWeapons/BigBullpupSMGMag.png
+      
+  - type: FLOOROB.PCK
+    files:
+
+      300: Resources/Armor/Exosuit/EXO_CORPSE_FLOOROB.png
+      301: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      302: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      303: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+
+      1000: Resources/SurfaceWeapons/FloorVariableRifle.png
+      1008: Resources/SurfaceWeapons/FloorVariableRifle.png
+      1016: Resources/SurfaceWeapons/FloorVariableRifleMag.png
+      1024: Resources/SurfaceWeapons/FloorVariableRifleHiPowMag.png
+      1032: Resources/SurfaceWeapons/FloorVariableRifleShredderMag.png
+      1040: Resources/SurfaceWeapons/FloorSCAR.png
+      1048: Resources/SurfaceWeapons/FloorSCAR.png
+      1056: Resources/SurfaceWeapons/FloorSCARMag.png
+      1064: Resources/SurfaceWeapons/FloorPrinterRifle.png
+      1072: Resources/SurfaceWeapons/FloorPrinterRifle.png
+      1080: Resources/SurfaceWeapons/FloorLaserSniper.png
+      1088: Resources/SurfaceWeapons/FloorLaserSniper.png
+      1096: Resources/SurfaceWeapons/FloorLaserSniperBattery.png
+      1104: Resources/SurfaceWeapons/FloorAutoLaser.png
+      1112: Resources/SurfaceWeapons/FloorAutoLaser.png
+      1120: Resources/SurfaceWeapons/FloorAutoLaserBattery.png
+      1128: Resources/SurfaceWeapons/FloorCombatHandgun.png
+      1136: Resources/SurfaceWeapons/FloorCombatHandgun.png
+      1144: Resources/SurfaceWeapons/FloorCombatHandgunMag.png
+      1152: Resources/SurfaceWeapons/FloorStreetSweeper.png
+      1160: Resources/SurfaceWeapons/FloorStreetSweeper.png
+      1168: Resources/SurfaceWeapons/FloorStreetSweeperDrum.png
+      1176: Resources/SurfaceWeapons/FloorOldPlasmaRifle.png
+      1184: Resources/SurfaceWeapons/FloorOldPlasmaRifle.png
+      1192: Resources/SurfaceWeapons/FloorOldPlasmaRifleAmmo.png
+      1200: Resources/SurfaceWeapons/FloorNewPlasmaRifle.png
+      1208: Resources/SurfaceWeapons/FloorNewPlasmaRifle.png
+      1216: Resources/SurfaceWeapons/FloorNewPlasmaRifleAmmo.png
+      1224: Resources/SurfaceWeapons/FloorTacticalLMG.png
+      1232: Resources/SurfaceWeapons/FloorTacticalLMG.png
+      1240: Resources/SurfaceWeapons/FloorTacticalLMGAPBox.png
+      1248: Resources/SurfaceWeapons/FloorTacticalLMGIncBox.png
+      1256: Resources/SurfaceWeapons/FloorTacticalLMGHEBox.png
+      1264: Resources/AquaticWeapons/FloorUnderwaterRifle.png
+      1272: Resources/AquaticWeapons/FloorUnderwaterRifleMag.png
+      1280: Resources/AquaticWeapons/FloorUnderwaterPistol.png
+      1288: Resources/AquaticWeapons/FloorUnderwaterPistolMag.png
+      1296: Resources/AquaticWeapons/FloorUnderwaterRevolver.png
+      1304: Resources/AquaticWeapons/FloorUnderwaterRevolverMag.png
+      1312: Resources/AquaticWeapons/FloorUnderwaterLMG.png
+      1320: Resources/AquaticWeapons/FloorUnderwaterLMGMag.png
+      1328: Resources/AquaticWeapons/FloorMatadorTorpedoLauncher.png
+      1336: Resources/AquaticWeapons/FloorMatadorAPTorpedo.png
+      1344: Resources/AquaticWeapons/FloorMatadorHETorpedo.png
+      1352: Resources/AquaticWeapons/FloorMatadorSwarmTorpedo.png
+      1360: Resources/AquaticWeapons/FloorNeptuneTorpedo.png
+      #1368: Resources/AquaticWeapons/FloorUnderwaterAntitankRifle.png
+      #1376: Resources/AquaticWeapons/FloorUnderwaterAntitankRifleMag.png
+      1384: Resources/SurfaceWeapons/FloorAutoShotty.png
+      1392: Resources/SurfaceWeapons/FloorAutoShotty.png
+      1400: Resources/SurfaceWeapons/FloorAutoShottyShell.png
+      1408: Resources/SurfaceWeapons/FloorAutoShottySlug.png
+      1416: Resources/SurfaceWeapons/FloorLaserShotgun.png
+      1424: Resources/SurfaceWeapons/FloorLaserShotgun.png
+      1432: Resources/SurfaceWeapons/FloorLaserShotgunFocusedBattery.png
+      1440: Resources/SurfaceWeapons/FloorLaserShotgunDispersionBattery.png
+      1448: Resources/AquaticWeapons/FloorHarpoon.png
+      1456: Resources/AquaticWeapons/FloorHeavyHarpoon.png
+      1464: Resources/AquaticWeapons/FloorHarpoonAcid.png
+      1472: Resources/AquaticWeapons/FloorHarpoonAP.png
+      1480: Resources/AquaticWeapons/FloorHarpoonHE.png
+      1488: Resources/AquaticWeapons/FloorHarpoonINC.png
+      1486: Resources/SurfaceWeapons/FloorBullpupSMG.png
+      1504: Resources/SurfaceWeapons/FloorBullpupSMGMag.png      
+
+
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      1000: Resources/SurfaceWeapons/HandVariableRifle.png
+      1008: Resources/SurfaceWeapons/HandVariableRifle_fire.png
+      #1016: Resources/SurfaceWeapons/HandVariableRifleMag.png
+      #1024: Resources/SurfaceWeapons/HandVariableRifleHiPowMag.png
+      #1032: Resources/SurfaceWeapons/HandVariableRifleShredderMag.png
+      1040: Resources/SurfaceWeapons/HandSCAR.png
+      1048: Resources/SurfaceWeapons/HandSCAR_fire.png
+      #1056: Resources/SurfaceWeapons/HandSCARMag.png
+      1064: Resources/SurfaceWeapons/HandPrinterRifle.png
+      1072: Resources/SurfaceWeapons/HandPrinterRifle_fire.png
+      1080: Resources/SurfaceWeapons/HandLaserSniper.png
+      1088: Resources/SurfaceWeapons/HandLaserSniper_fire.png
+      #1096: Resources/SurfaceWeapons/HandLaserSniperBattery.png
+      1104: Resources/SurfaceWeapons/HandAutoLaser.png
+      1112: Resources/SurfaceWeapons/HandAutoLaser_fire.png
+      #1120: Resources/SurfaceWeapons/HandAutoLaserBattery.png
+      1128: Resources/SurfaceWeapons/HandCombatHandgun.png
+      1136: Resources/SurfaceWeapons/HandCombatHandgun_fire.png
+      #1144: Resources/SurfaceWeapons/HandCombatHandgunMag.png
+      1152: Resources/SurfaceWeapons/HandStreetSweeper.png
+      1160: Resources/SurfaceWeapons/HandStreetSweeper_fire.png
+      #1168: Resources/SurfaceWeapons/HandStreetSweeperDrum.png
+      1176: Resources/SurfaceWeapons/HandOldPlasmaRifle.png
+      1184: Resources/SurfaceWeapons/HandOldPlasmaRifle_fire.png
+      #1192: Resources/SurfaceWeapons/HandOldPlasmaRifleAmmo.png
+      1200: Resources/SurfaceWeapons/HandNewPlasmaRifle.png
+      1208: Resources/SurfaceWeapons/HandNewPlasmaRifle_fire.png
+      #1216: Resources/SurfaceWeapons/HandNewPlasmaRifleAmmo.png
+      1224: Resources/SurfaceWeapons/HandTacticalLMG.png
+      1232: Resources/SurfaceWeapons/HandTacticalLMG_fire.png
+      #1240: Resources/SurfaceWeapons/HandTacticalLMGAPBox.png
+      #1248: Resources/SurfaceWeapons/HandTacticalLMGIncBox.png
+      #1256: Resources/SurfaceWeapons/HandTacticalLMGHEBox.png
+      1264: Resources/AquaticWeapons/HandUnderwaterRifle.png
+      #1272: Resources/AquaticWeapons/HandUnderwaterRifleMag.png
+      1280: Resources/AquaticWeapons/HandUnderwaterPistol.png
+      #1288: Resources/AquaticWeapons/HandUnderwaterPistolMag.png
+      1296: Resources/AquaticWeapons/HandUnderwaterRevolver.png
+      #1304: Resources/AquaticWeapons/HandUnderwaterRevolverMag.png
+      1312: Resources/AquaticWeapons/HandUnderwaterLMG.png
+      #1320: Resources/AquaticWeapons/HandUnderwaterLMGMag.png
+      1328: Resources/AquaticWeapons/HandMatadorTorpedoLauncher.png
+      1336: Resources/AquaticWeapons/HandMatadorAPTorpedo.png
+      1344: Resources/AquaticWeapons/HandMatadorHETorpedo.png
+      1352: Resources/AquaticWeapons/HandMatadorSwarmTorpedo.png
+      1360: Resources/AquaticWeapons/HandNeptuneTorpedo.png
+      #1368: Resources/AquaticWeapons/HandUnderwaterAntitankRifle.png
+      #1376: Resources/AquaticWeapons/HandUnderwaterAntitankRifleMag.png
+      1384: Resources/SurfaceWeapons/HandAutoShotty.png
+      1392: Resources/SurfaceWeapons/HandAutoShotty.png
+      #1400: Resources/AquaticWeapons/HandAutoShottyShell.png
+      #1408: Resources/AquaticWeapons/HandAutoShottySlug.png   
+      1416: Resources/SurfaceWeapons/HandLaserShotgun.png
+      1424: Resources/SurfaceWeapons/HandLaserShotgun_fire.png
+      #1432: Resources/SurfaceWeapons/HandLaserShotgunBattery.png
+      1448: Resources/AquaticWeapons/HandHarpoon.png
+      1456: Resources/AquaticWeapons/HandHeavyHarpoon.png
+      #1464: Resources/AquaticWeapons/BigHarpoonAcid.png
+      #1472: Resources/AquaticWeapons/BigHarpoonAP.png
+      #1480: Resources/AquaticWeapons/BigHarpoonHE.png
+      #1488: Resources/AquaticWeapons/BigHarpoonINC.png
+      1486: Resources/SurfaceWeapons/HandBullpupSMG.png
+      #1504: Resources/SurfaceWeapons/FloorBullpupSMGMag.png 
+
+# "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
+# INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33
+# Craft Weapons: file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
+  - type: BASEBITS.PCK
+    files:
+      133: Resources/Crafts/Osprey_base.png
+      134: Resources/Crafts/Lightning_base.png
+  - type: INTICON.PCK
+    files:
+      100: Resources/Crafts/Osprey_minimised.png
+      101: Resources/Crafts/Lightning_minimised.png
+
+########################################################
+      111: Resources/Crafts/Osprey_dogfight.png
+      112: Resources/Crafts/Lightning_dogfight.png
+###############
+
+# Exo Suit      
+  - type: EXO_PAPERDOLL
+    singleImage: true
+    files:
+      0: Resources/Armor/Exosuit/Inventory/EXO_PAPERDOLL.png
+  - type: EXO_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/Exosuit/EXO_SPRITESHEET.png
+
+# Personal Armor - Brown Variant
+  - type: PAB_PAPERDOLLF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F0.png
+  - type: PAB_PAPERDOLLF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F1.png
+  - type: PAB_PAPERDOLLF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F2.png
+  - type: PAB_PAPERDOLLF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_F3.png
+  - type: PAB_PAPERDOLLM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M0.png
+  - type: PAB_PAPERDOLLM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M1.png
+  - type: PAB_PAPERDOLLM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M2.png
+  - type: PAB_PAPERDOLLM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/Inventory/PERSONAL_ARMOR_M3.png
+
+# Personal Armor - Green Variant
+  - type: PAG_PAPERDOLLF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F0.png
+  - type: PAG_PAPERDOLLF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F1.png
+  - type: PAG_PAPERDOLLF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F2.png
+  - type: PAG_PAPERDOLLF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_F3.png
+  - type: PAG_PAPERDOLLM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M0.png
+  - type: PAG_PAPERDOLLM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M1.png
+  - type: PAG_PAPERDOLLM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M2.png
+  - type: PAG_PAPERDOLLM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Green/Inventory/PERSONAL_ARMOR_M3.png
+
+# Personal Armor - Gray Variant
+  - type: PAGR_PAPERDOLLF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F0.png
+  - type: PAGR_PAPERDOLLF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F1.png
+  - type: PAGR_PAPERDOLLF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F2.png
+  - type: PAGR_PAPERDOLLF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_F3.png
+  - type: PAGR_PAPERDOLLM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M0.png
+  - type: PAGR_PAPERDOLLM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M1.png
+  - type: PAGR_PAPERDOLLM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M2.png
+  - type: PAGR_PAPERDOLLM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/Inventory/PERSONAL_ARMOR_M3.png
+
+  - type: PERSONAL_ARMOR_BROWN_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/PersonalArmor/Brown/PERSONAL_ARMOR_SPRITESHEET.png
+
+  - type: PERSONAL_ARMOR_GREEN_SPRITESHEET
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/PersonalArmor/Green/PERSONAL_ARMOR_SPRITESHEET.png
+
+  - type: PERSONAL_ARMOR_GRAY_SPRITESHEET
+    width: 256
+    height: 1400
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Armor/PersonalArmor/Gray/PERSONAL_ARMOR_SPRITESHEET.png
+
+#
+# AQUALUNG
+
+  - type: LUNGSHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 1520
+    files:
+      0: Resources/Armor/lung_sheet.png
+
+  - type: LMANF0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.gif
+  - type: LMANF1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.gif
+  - type: LMANF2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f1.gif
+  - type: LMANF3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1f0.gif
+  - type: LMANM0.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.gif
+  - type: LMANM1.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m1.gif
+  - type: LMANM2.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.gif
+  - type: LMANM3.SPK
+    singleImage: true
+    files:
+      0: Resources/armor/lung_1m0.gif
+
+  - type: UPLUNG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Ufopaedia/Lung_UP.gif
+
+  - type: BIGOBS.PCK
+    files:
+      128: Resources/armor/inv_corpse.png
+  - type: FLOOROB.PCK
+    files:
+      129: Resources/armor/floor_corpse.png
+
+
+#############
+      
+  - type: SMOKE.PCK
+    width: 320
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      620: Resources/Hits/HansBallistic_Hit.png
+      630: Resources/Hits/HansFire_Hit.png
+      660: Resources/Hits/Gauss_Hit.png
+      670: Resources/Hits/Ballistic_Hit.png
+      680: Resources/Hits/YellowLaser_Hit.png
+      690: Resources/Hits/AlloyBallistic_Hit.png
+      700: Resources/Hits/FragBallistic_Hit.png
+
+  - type: SMOKE.PCK
+    width: 160
+    height: 80
+    subX: 32
+    subY: 40
+    files: 
+      640: Resources/Hits/RedLaser_Hit.png
+      650: Resources/Hits/GreenPlasma_Hit.png
+
+  # 35 x [index] = files name
+  - type: Projectiles 
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      490: Resources/Projectiles/RifleBallistic_Bullet.png # 14
+      525: Resources/Projectiles/PistolBallistic_Bullet.png # 15
+      560: Resources/Projectiles/AdvancedBallistic_Bullet.png # 16
+      595: Resources/Projectiles/Harpoon_bullet.png # 17
+      630: Resources/Projectiles/Sonic_Bullet.png # 18
+      665: Resources/Projectiles/Gauss_Bullet.png # 19
+      700: Resources/Projectiles/RedLaser_Bullet.png # 20
+      735: Resources/Projectiles/NeptuneTorpedo_Bullet.png # 20
+      
+  - type: UnderwaterProjectiles
+    width: 105
+    height: 3
+    subX: 3
+    subY: 3
+    files:
+      490: Resources/Projectiles/RifleBallistic_Bullet.png # 14
+      525: Resources/Projectiles/PistolBallistic_Bullet.png # 15
+      560: Resources/Projectiles/AdvancedBallistic_Bullet.png # 16
+      595: Resources/Projectiles/Harpoon_bullet.png # 17
+      630: Resources/Projectiles/Sonic_Bullet.png # 18
+      665: Resources/Projectiles/Gauss_Bullet.png # 19
+      700: Resources/Projectiles/RedLaser_Bullet.png # 20
+      735: Resources/Projectiles/NeptuneTorpedo_Bullet.png # 20
+
+##############
+
+  - type: PERSONAL_ARMOR_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/PERSONAL_ARMOR_UFOPEDIA.png
+  - type: EXOSUITS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/EXOSUITS_UFOPEDIA.png
+
+  - type: DESPERATE_MEASURES_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/DESPERATE_MEASURES_UFOPEDIA.png
+  - type: NEW_WORLD_ORDER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/NEW_WORLD_ORDER_UFOPEDIA.png
+  - type: RISING_TIDES_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/RISING_TIDES_UFOPEDIA.png
+  - type: EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA.png
+  - type: UNDERWATER_WEAPONS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_WEAPONS_UFOPEDIA.png
+  - type: SURFACE_WEAPONS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SURFACE_WEAPONS_UFOPEDIA.png
+
+
+
+  - type: VARIABLE_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/VARIABLE_RIFLE_UFOPEDIA.png
+  - type: VARIABLE_RIFLE_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/VARIABLE_RIFLE_MAG_UFOPEDIA.png
+  - type: VARIABLE_RIFLE_HIPOW_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/VARIABLE_RIFLE_HIPOW_MAG_UFOPEDIA.png
+  - type: VARIABLE_RIFLE_CQB_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/VARIABLE_RIFLE_CQB_MAG_UFOPEDIA.png
+  - type: PRINTER_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/PRINTER_RIFLE_UFOPEDIA.png
+  - type: SCAR_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SCAR_UFOPEDIA.png
+  - type: SCAR_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SCAR_MAG_UFOPEDIA.png
+
+  - type: LASER_SNIPER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SNIPER_UFOPEDIA.png
+  - type: LASER_SNIPER_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SNIPER_BATTERY_UFOPEDIA.png
+
+
+  - type: LASER_RIFLE_CLIP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_RIFLE_CLIP_UFOPEDIA.png
+  - type: LASER_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_RIFLE_UFOPEDIA.png
+
+  - type: LASER_PISTOL_CLIP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_PISTOL_CLIP_UFOPEDIA.png
+  - type: LASER_PISTOL_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_PISTOL_UFOPEDIA.png
+
+
+  - type: BULLPUP_SMG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BULLPUP_SMG_UFOPEDIA.png
+  - type: BULLPUP_SMG_AMMO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/BULLPUP_SMG_AMMO_UFOPEDIA.png
+
+  - type: STREET_SWEEPER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/STREET_SWEEPER_UFOPEDIA.png
+  - type: STREET_SWEEPER_DRUM_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/STREET_SWEEPER_DRUM_UFOPEDIA.png
+  - type: COMBAT_HANDGUN_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/COMBAT_HANDGUN_UFOPEDIA.png
+  - type: COMBAT_HANDGUN_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/COMBAT_HANDGUN_MAG_UFOPEDIA.png
+
+  - type: AUTO_SHOTGUN_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/AUTO_SHOTGUN_UFOPEDIA.png
+  - type: AUTO_SHOTGUN_SLUG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/AUTO_SHOTGUN_SLUG_UFOPEDIA.png
+  - type: AUTO_SHOTGUN_SHELLS_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/AUTO_SHOTGUN_SHELLS_UFOPEDIA.png
+  - type: OLD_PLASMA_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/OLD_PLASMA_RIFLE_UFOPEDIA.png
+
+  - type: LASER_SHOTGUN_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_UFOPEDIA.png
+  - type: LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA.png
+  - type: LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/LASER_SHOTGUN_DISPERSION_BATTERY_UFOPEDIA.png
+
+  - type: OLD_PLASMA_RIFLE_CLIP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/OLD_PLASMA_RIFLE_CLIP_UFOPEDIA.png
+
+  - type: NEW_PLASMA_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/NEW_PLASMA_RIFLE_UFOPEDIA.png
+  - type: NEW_PLASMA_RIFLE_CLIP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/NEW_PLASMA_RIFLE_CLIP_UFOPEDIA.png
+
+  - type: TACTICAL_LMG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/TACTICAL_LMG_UFOPEDIA.png
+  - type: TACTICAL_LMG_AP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/TACTICAL_LMG_AP_UFOPEDIA.png
+  - type: TACTICAL_LMG_INC_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/TACTICAL_LMG_INC_UFOPEDIA.png
+  - type: TACTICAL_LMG_HE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/TACTICAL_LMG_HE_UFOPEDIA.png
+  - type: AUTO_LASER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/AUTO_LASER_UFOPEDIA.png
+  - type: AUTO_LASER_BATTERY_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/AUTO_LASER_BATTERY_UFOPEDIA.png
+
+###############################33
+
+
+  - type: MILITARY_HARPOON_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MILITARY_HARPOON_UFOPEDIA.png
+
+  - type: HEAVY_HARPOON_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HEAVY_HARPOON_UFOPEDIA.png
+
+  - type: HARPOON_ACID_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_ACID_UFOPEDIA.png
+  - type: HARPOON_AP_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_AP_UFOPEDIA.png
+  - type: HARPOON_INC_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_INC_UFOPEDIA.png
+  - type: HARPOON_HE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HARPOON_HE_UFOPEDIA.png
+
+
+
+  - type: UNDERWATER_AUTOPISTOL_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_UFOPEDIA.png
+
+  - type: UNDERWATER_REVOLVER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_REVOLVER_UFOPEDIA.png
+  - type: UNDERWATER_REVOLVER_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_REVOLVER_MAG_UFOPEDIA.png
+
+  - type: UNDERWATER_RIFLE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_RIFLE_UFOPEDIA.png
+  - type: UNDERWATER_RIFLE_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_RIFLE_MAG_UFOPEDIA.png
+
+
+  - type: UNDERWATER_AUTOPISTOL_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_UFOPEDIA.png
+
+  - type: UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_AUTOPISTOL_MAG_UFOPEDIA.png 
+  - type: UNDERWATER_LMG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_LMG_UFOPEDIA.png
+  - type: UNDERWATER_LMG_MAG_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/UNDERWATER_LMG_MAG_UFOPEDIA.png
+
+  - type: NEPTUNE_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/NEPTUNE_TORPEDO_UFOPEDIA.png
+
+  - type: MATADOR_TORPEDO_LAUNCHER_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_TORPEDO_LAUNCHER_UFOPEDIA.png
+  - type: MATADOR_AP_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_AP_TORPEDO_UFOPEDIA.png
+  - type: MATADOR_HE_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_HE_TORPEDO_UFOPEDIA.png
+  - type: MATADOR_SWARM_TORPEDO_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/MATADOR_SWARM_TORPEDO_UFOPEDIA.png
+
+################################
+
+  - type: HURRICANE_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/HURRICANE_UFOPEDIA.png
+  - type: SPARROW_UFOPEDIA
+    width: 320
+    height: 200
+    singleImage: true
+    files:
+      0: Resources/UFOPAEDIA/SPARROW_UFOPEDIA.png

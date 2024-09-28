@@ -1,5 +1,19 @@
 ufopaedia:
 
+  - id: STR_SPARROW
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: SPARROW_UFOPEDIA
+    text: STR_SPARROW_UFOPEDIA
+    listOrder: 99
+
+  - id: STR_HURRICANE
+    type_id: 11
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: HURRICANE_UFOPEDIA
+    text: STR_HURRICANE_UFOPEDIA
+    listOrder: 399
+
 # [=] Exosuit Armor [=]
   - id: STR_EXOSUIT_UC
     type_id: 15
@@ -22,12 +36,13 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LUNG_UFOPEDIA
     image_id: UPLUNG
-    listOrder: 1740
-
+    listOrder: 1670
 
 # [=] Arms Trade Pedia [=]
   - id: STR_EXTERNAL_EQUIPMENT_ACQUISITION
-    type_id: 15
+    type_id: 10
+    requires:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
     image_id: EXTERNAL_EQUIPMENT_ACQUISITION_UFOPEDIA
@@ -35,7 +50,7 @@ ufopaedia:
 
 # [=] Surface Weapons Pedia [=]
   - id: STR_SURFACE_WEAPONS
-    type_id: 15
+    type_id: 10
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SURFACE_WEAPONS_UFOPEDIA
     image_id: SURFACE_WEAPONS_UFOPEDIA
@@ -154,7 +169,7 @@ ufopaedia:
     listOrder: 3532
 
 # [=] Weapon - Combat Handgun [=]
-  - id: STR_COMBAT_HANDGUN_UFOPEDIA
+  - id: STR_COMBAT_HANDGUN
     type_id: 14
     requires:
       - STR_NORTH_EUROPEAN_MARKET
@@ -188,7 +203,25 @@ ufopaedia:
     text: STR_STREET_SWEEPER_MAG_UFOPEDIA
     image_id: STREET_SWEEPER_DRUM_UFOPEDIA
     listOrder: 3543 
- 
+
+# [=] Weapon - Riebeling Bullpup SMG [=]
+  - id: STR_BULLPUP_SMG
+    type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLPUP_SMG_UFOPEDIA
+    image_id: BULLPUP_SMG_UFOPEDIA
+    listOrder: 3544
+  - id: STR_BULLPUP_SMG_MAG
+    type_id: 14
+    requires:
+      - STR_SOUTH_AMERICAN_MARKET
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_BULLPUP_SMG_MAG_UFOPEDIA
+    image_id: BULLPUP_SMG_AMMO_UFOPEDIA
+    listOrder: 3545 
+
 # [=] Weapon - Black Mamba Auto Shotgun [=]
   - id: STR_AUTO_SHOTGUN
     type_id: 14
@@ -206,7 +239,7 @@ ufopaedia:
     text: STR_AUTO_SHOTGUN_SHELLS_UFOPEDIA
     image_id: AUTO_SHOTGUN_SHELLS_UFOPEDIA
     listOrder: 3551
-  - id: STR_AUTO_SHOTGUN_SLUGS_UFOPEDIA
+  - id: STR_AUTO_SHOTGUN_SLUGS
     type_id: 14
     requires:
       - STR_SOUTH_AMERICAN_MARKET
@@ -230,7 +263,7 @@ ufopaedia:
       - STR_NORTH_EUROPEAN_MARKET
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
-    image_id: LASER_SHOTGUN_BATTERY_FOCUSED_UFOPEDIA
+    image_id: LASER_SHOTGUN_FOCUSED_BATTERY_UFOPEDIA
     listOrder: 3554
   - id: STR_LASER_SHOTGUN_DISPERSION_BATTERY
     type_id: 14
@@ -295,7 +328,7 @@ ufopaedia:
 
 # [=] Underwater Weapons Pedia [=]
   - id: STR_UNDERWATER_WEAPONS
-    type_id: 15
+    type_id: 10
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_UNDERWATER_WEAPONS_UFOPEDIA
     image_id: UNDERWATER_WEAPONS_UFOPEDIA
@@ -311,6 +344,8 @@ ufopaedia:
 
   - id: STR_HEAVY_HARPOON
     type_id: 14
+    requires:
+      - STR_EXTERNAL_EQUIPMENT_ACQUISITION
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_HARPOON_UFOPEDIA
     image_id: HEAVY_HARPOON_UFOPEDIA
@@ -463,13 +498,26 @@ ufopaedia:
     image_id: MATADOR_SWARM_TORPEDO_UFOPEDIA
     listOrder: 3154
 
-# GAUSS
-
-  - id: STR_GAUSS_TECH
+# [=] Extended Lore Pedia [=]
+  - id: STR_DESPERATE_MATTERS
     type_id: 10
-    image_id: GAUSS_UFOPEDIA.SPK
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GAUSS_UFOPEDIA
-    requires:
-      - STR_GAUSS_TECH
-    listOrder: 3599
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_DESPERATE_MATTERS_UFOPEDIA
+    image_id: DESPERATE_MEASURES_UFOPEDIA
+    #listOrder: 3519
+
+# [=] Extended Lore Pedia [=]
+  - id: STR_RISING_TIDES
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_RISING_TIDES_UFOPEDIA
+    image_id: RISING_TIDES_UFOPEDIA
+    #listOrder: 3519
+
+# [=] Extended Lore Pedia [=]
+  - id: STR_NEW_WORLD_ORDER
+    type_id: 10
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_NEW_WORLD_ORDER_UFOPEDIA
+    image_id: NEW_WORLD_ORDER_UFOPEDIA
+    #listOrder: 3519
